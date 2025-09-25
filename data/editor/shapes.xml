@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Shapes>
+	<Shape name="Ластик" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="GameObject" 	model="Breakable_Dub3"	amount="0 0.5" 	scale="0.75 1.00" 	radius="4"/>
+	</Shape>
+
+	<Shape name="Сухая Трава" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\dry_grass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+	<Shape name="Трава_1" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\sedge_grass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+	<Shape name="Трава_2" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\sedge_grass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Сухая Трава Густая" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\dry_grass.gam"	amount="26 32" scale="0.75 1.00" radius="4"/>
+	</Shape>
+	<Shape name="Трава_1 Густая" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\sedge_grass.gam"	amount="26 32" scale="0.75 1.00" radius="4"/>
+	</Shape>
+	<Shape name="Трава_2 Густая" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\sedge_grass.gam"	amount="26 32" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Томаты" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\tomato_grass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Картошка" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\spud_grass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+	<Shape name="кустарник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\kust_grass.gam"	amount="2 5" scale="0.50 1.75" radius="4"/>
+	</Shape>
+<Shape name="болотный папоротник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\swampfern.gam"	amount="1 5" scale="0.75 1.00" radius="4"/>
+	</Shape>
+<Shape name="болотный лопух" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region1\swampburdock.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<!-- Region3 -->
+
+	<Shape name="Тропики_Трава" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region3\t_sedgegrass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Тропики_Трава_2" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region3\t_sedgegrass2.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Тропики_папоротник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region3\t_ferngrass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Тропики_Лианы" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region3\t_liangrass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Тропики_болотный папоротник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region3\t_swampfern.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Тропики_болотная лопух" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region3\t_swampgrass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Тропики_Техно1" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region3\t_tech_dribs_1.gam"	amount="5 25" scale="0.65 1.25" radius="4"/>
+	</Shape>
+
+<!-- Region4 -->
+
+	<Shape name="Пустыня_СухойКустарник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_sand_kust.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Пустыня_СухаяТрава_1" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_grasssand_1.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Пустыня_СухаяТрава_2" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_grasssand_2.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Пустыня_СухаяТрава_3" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_grasssand_3.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+
+	<Shape name="Пустыня_Трава_1" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_grass_1.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Пустыня_Трава_2" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_grass_2.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+	
+ 	<Shape name="Пустыня_Кустарник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_kust.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Пустыня_Папоротник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_fgrass.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+
+	<Shape name="Пустыня_СерыйКустарник" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_tech_kust.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+	<Shape name="Пустыня_ТехМусор" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<object class="Grass" 	model="data\models\grass\region4\d_ruins.gam"	amount="16 26" scale="0.75 1.00" radius="4"/>
+	</Shape>
+
+
+<!-- ///////////////////////////////////////////////////////////////// -->
+
+	<Shape name="Подлесок" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\Grass_fall.dds"	prob="1" />
+
+		<object class="SgAnimatedModelNode" 	model="r1_Dub_Kust1"		amount="0 1" 	scale="0.75 1.50" 	radius="4"/>
+		<object class="SgAnimatedModelNode" 	model="r1_Dub_Kust2"		amount="0 1" 	scale="0.75 1.50" 	radius="4"/>
+		<object class="GameObject" 	model="Breakable_Listvenoe3" amount="0 1" 	scale="0.75 1.00"  radius="15"/>
+
+	</Shape>
+
+	<Shape name="Дубовый Густой лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\Grass_fall_leaf.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Dub1"	amount="1 2" 		scale="0.75 1.00" 	radius="7"/>
+		<object class="GameObject" 		model="Breakable_Dub2"	amount="1 1" 		scale="0.75 1.00" 	radius="7"/>
+		<object class="GameObject" 		model="Breakable_Dub3"	amount="1 2" 		scale="0.75 1.00" 	radius="7"/>
+	</Shape>
+
+	<Shape name="Дубовый Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\Grass_fall_leaf.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Dub1"	amount="0 1" 		scale="0.75 1.00" 	radius="5"/>
+		<object class="GameObject" 		model="Breakable_Dub2"	amount="0 1" 		scale="0.75 1.00" 	radius="5"/>
+		<object class="GameObject" 		model="Breakable_Dub3"	amount="0 1" 		scale="0.75 1.00" 	radius="5"/>
+
+
+	</Shape>
+
+	<Shape name="Тропики" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region3\TGrass_1.dds"	prob="1" />
+		<object class="Grass" 	model="data\models\grass\region3\t_sedgegrass2.gam"	amount="25 28" scale="0.75 1.00" radius="4"/>
+		<object class="SgAnimatedModelNode" 	model="t_greattree1"		amount="0 1" 	scale="0.75 1.50" 	radius="4"/>
+		<object class="SgAnimatedModelNode" 	model="t_greattree2"		amount="0 1" 	scale="0.75 1.50" 	radius="4"/>
+		<object class="SgAnimatedModelNode"     model="t_greattree3" 		amount="0 1" 	scale="0.75 1.00"       radius="15"/>
+
+
+	</Shape>
+
+
+	<Shape name="Лиственный Густой лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\Grass_fall_leaf.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Dub3"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+
+		<object class="GameObject" 		model="Breakable_Listvenoe1"	amount="1 2" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Listvenoe2"	amount="1 2" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Listvenoe3"	amount="1 2" 	scale="0.75 1.00" 	radius="15"/>
+	</Shape>
+
+	<Shape name="Лиственный Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\Grass_fall_leaf.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Listvenoe2"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Listvenoe3"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+	</Shape>
+
+	<Shape name="Смешанный Густой лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\Grass_fall_leaf.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Dub1"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Dub2"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Dub3"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+
+		<object class="GameObject" 		model="Breakable_Listvenoe1"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Listvenoe2"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Listvenoe3"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+
+		<object class="GameObject" 		model="Breakable_Elka2"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+		<object class="GameObject" 		model="Breakable_Elka3"	amount="0 1" 	scale="0.75 1.00" 	radius="15"/>
+	</Shape>
+
+	<Shape name="Смешанный Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\Grass_fall_leaf.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Listvenoe1"	amount="0 1" 	scale="0.75 1.00" 	radius="20"/>
+		<object class="GameObject" 		model="Breakable_Listvenoe2"	amount="0 1" 	scale="0.75 1.00" 	radius="20"/>
+		<object class="GameObject" 		model="Breakable_Listvenoe3"	amount="0 1" 	scale="0.75 1.00" 	radius="20"/>
+
+		<object class="GameObject" 		model="Breakable_Elka1"	amount="0 2" 	scale="0.75 1.00" 	radius="15"/>
+
+	</Shape>
+
+	<Shape name="Хвойный Густой лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="GameObject" 		model="Breakable_Elka2"	amount="1 3" 	scale="0.75 1.00" 	radius="10"/>
+		<object class="GameObject" 		model="Breakable_Elka3"	amount="1 3" 	scale="0.75 1.00" 	radius="10"/>
+
+	</Shape>
+
+	<Shape name="Хвойный Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="GameObject" 		model="Breakable_Elka1"	amount="1 2" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="GameObject" 		model="Breakable_Elka2"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
+
+	</Shape>
+
+	<Shape name="Валуны сплошные" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="SgAnimatedModelNode" 	model="Big_crag_6"		amount="0 2" 	scale="0.75 1.50" 	radius="15"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_12"		amount="0 2" 	scale="0.75 1.50" 	radius="15"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_5"		amount="0 2" 	scale="0.75 1.50" 	radius="15"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_4"		amount="0 2" 	scale="0.75 1.50" 	radius="15"/>
+	</Shape>
+
+	<Shape name="Валуны частые" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="SgAnimatedModelNode" 	model="Big_crag_6"		amount="0 1" 	scale="0.75 1.50" 	radius="20"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_12"		amount="0 1" 	scale="0.75 1.50" 	radius="20"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_5"		amount="0 1" 	scale="0.75 1.50" 	radius="20"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_4"		amount="0 1" 	scale="0.75 1.50" 	radius="20"/>
+	</Shape>
+
+	<Shape name="Валуны редкие" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="SgAnimatedModelNode" 	model="Big_crag_6"		amount="0 1" 	scale="0.5 1.50" 	radius="40"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_12"		amount="0 1" 	scale="0.5 1.50" 	radius="40"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_5"		amount="0 1" 	scale="0.5 1.50" 	radius="40"/>
+		<object class="SgAnimatedModelNode" 	model="Big_crag_4"		amount="0 1" 	scale="0.5 1.50" 	radius="40"/>
+	</Shape>
+
+	<Shape name="Много камней" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="SgAnimatedModelNode" 	model="Big_stone1"		amount="0 2" 	scale="0.75 1.20" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone2"		amount="0 2" 	scale="0.75 1.20" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone3"		amount="0 2" 	scale="0.75 1.20" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone4"		amount="0 2" 	scale="0.75 1.20" 	radius="5"/>
+	</Shape>
+
+	<Shape name="Мало камней" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="SgAnimatedModelNode" 	model="Big_stone1"		amount="0 1" 	scale="0.75 1.20" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone2"		amount="0 1" 	scale="0.75 1.20" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone3"		amount="0 1" 	scale="0.75 1.20" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone4"		amount="0 1" 	scale="0.75 1.20" 	radius="5"/>
+	</Shape>
+
+	<Shape name="Сосновый Густой лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GRASS_FALL_LEAF_BROWN.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Sosna1"	amount="1 3" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="GameObject" 		model="Breakable_Sosna2"	amount="1 3" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="GameObject" 		model="Breakable_Sosna3"	amount="1 3" 	scale="0.75 1.00" 	radius="3"/>
+		</Shape>
+
+	<Shape name="грибы" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="SgAnimatedModelNode" 	model="grib1"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib2"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib3"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib4"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib5"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib6"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib7"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib8"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="grib9"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
+	</Shape>
+
+	<Shape name="Сосновый Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GRASS_FALL_LEAF_BROWN.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Sosna1"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="GameObject" 		model="Breakable_Sosna2"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="GameObject" 		model="Breakable_Sosna3"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
+
+	</Shape>
+
+	<Shape name="Кусты Густые" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GRASS_CRK.dds"	prob="1" />
+
+		<object class="SgAnimatedModelNode" 	model="kustarnik1"		amount="2 4" 	scale="0.75 1.00" 	radius="7"/>
+		<object class="SgAnimatedModelNode" 	model="kustarnik2"		amount="2 4" 	scale="0.75 1.00" 	radius="7"/>
+		<object class="SgAnimatedModelNode" 	model="kustarnik3"		amount="2 4" 	scale="0.75 1.00" 	radius="7"/>
+	</Shape>
+
+	<Shape name="Кусты Редкие" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GROUND_FALL_DRIED.dds"	prob="1" />
+
+		<object class="SgAnimatedModelNode" 	model="maze"			amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+
+		<object class="SgAnimatedModelNode" 	model="kustarnik1"		amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+		<object class="SgAnimatedModelNode" 	model="kustarnik2"		amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+		<object class="SgAnimatedModelNode" 	model="kustarnik3"		amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+	</Shape>
+
+	<Shape name="Мертвый Каменистый лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GROUND_WASTE.dds"		prob="1" />
+
+		<object class="GameObject" 		model="Breakable_DeadTree1"	amount="0 1" 		scale="0.75 1.00" 	radius="7"/>
+		<object class="GameObject" 		model="Breakable_DeadTree2"	amount="0 1" 		scale="0.75 1.00" 	radius="7"/>
+		<object class="GameObject" 		model="Breakable_DeadTree4"	amount="0 1" 		scale="0.75 1.00" 	radius="7"/>
+
+		<object class="SgAnimatedModelNode" 	model="Big_stone1"		amount="0 0.6" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone2"		amount="0 0.6" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone3"		amount="0 0.6" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone4"		amount="0 0.6" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="Big_stone5"		amount="0 0.6" 	scale="0.75 1.00" 	radius="5"/>
+
+	</Shape>
+
+	<Shape name="Мертвый Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GROUND_WASTE.dds"		prob="1" />
+
+		<object class="GameObject" 		model="Breakable_DeadTree2"	amount="0 1" 		scale="0.75 1.00" 	radius="7"/>
+		<object class="GameObject" 		model="Breakable_DeadTree4"	amount="0 1" 		scale="0.75 1.00" 	radius="7"/>
+
+	</Shape>
+
+	<Shape name="Промышленный мусор" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\grass_fall_leaf_brown.dds"		prob="1" />
+
+		<object class="GameObject" 		model="Breakable_TankEg"	amount="0 1" 		scale="0.75 1.00" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="sack_debris"		amount="0 5" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="wood_debris1"		amount="0 5" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="wood_debris2"		amount="0 5" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="brick_debris1"		amount="0 5" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="brick_debris2"		amount="0 5" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="GameObject" 		model="Breakable_Stolb2"	amount="0 1" 		scale="0.75 1.00" 	radius="10"/>
+		<object class="SgAnimatedModelNode" 	model="brick_wall2_dyn"	amount="0 3" 		scale="0.5 1.00" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="brokvehicle1"		amount="0 0.5" 		scale="0.75 1.00" 	radius="20"/>
+	</Shape>
+
+	<Shape name="Промышленный Заросший мусор" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\grass_crk.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_DeadTree4"	amount="0 2" 		scale="0.5 1.00" 	radius="3"/>
+
+		<object class="GameObject" 		model="Breakable_TankEg"	amount="0 1" 		scale="0.75 1.00" 	radius="5"/>
+		<object class="SgAnimatedModelNode" 	model="sack_debris"		amount="0 3" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="wood_debris1"		amount="0 3" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="wood_debris2"		amount="0 3" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="brick_debris1"		amount="0 3" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="SgAnimatedModelNode" 	model="brick_debris2"		amount="0 3" 		scale="0.75 1.00" 	radius="3"/>
+		<object class="GameObject" 		model="Breakable_Stolb2"	amount="0 1" 		scale="0.75 1.00" 	radius="10"/>
+		<object class="SgAnimatedModelNode" 	model="brick_wall2_dyn"	amount="0 3" 		scale="0.5 1.00" 	radius="5"/>
+	</Shape>
+</Shapes>

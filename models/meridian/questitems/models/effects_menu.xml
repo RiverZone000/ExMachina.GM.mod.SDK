@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!-- $Id: effects.xml,v 1.6 2004/11/25 10:51:16 den Exp $  -->
+<Prefabs>
+	<Node name="ET_PS_FLAGSHTOK" class="SgNode">
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_FLAGSHTOK" looped="1"/>
+	</Node>
+	<Node name="ET_PS_WHEEL_HIT" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_CARJUMP" looped="0"/>
+	</Node>
+	<Node name="ET_PS_VEHICLESPARKLE_SLOW" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_VEHICLESPARKLE_SLOW" looped="0"/>
+	</Node>
+	<Node name="ET_PS_STATICSSPARKLE_SLOW" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_STATICSSPARKLE_SLOW" looped="0"/>
+	</Node>
+	<Node name="ET_PS_STATICSSPARKLE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_STATICSSPARKLE" looped="0"/>
+	</Node>
+	<Node name="ET_PS_GROUNDSPARKLE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_VEHICLEONGROUND" looped="0"/>
+	</Node>
+	<Node name="ET_LS_LIGHT_YELLOW_LENS" class="SgNode">
+		<Node name="Object1" class="SgPointLightSourceNode" id="LS_LIGHT_YELLOW" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_LENS_S4" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_LIGHT_WEATHER1" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_LIGHT_WEATHER" psNumEmitterMesh="-1" />
+ 		<Node name="Sound3" class="SgSoundSourceNode" id="S_THUNDER" looped="0" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_SCOUT_CAB02" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_FIGHTER_CAB02" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_HUNTER_CAB02" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_CRUISER_CAB01" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_BUG_CAB03" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_MOLOKOVOZ_CAB01" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_MOLOKOVOZ_CAB02" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_URAL_CAB01" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_URAL_CAB05" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_BELAZ_CAB01" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_BELAZ_CAB02" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_PROJECTOR_BELAZ_CAB04" class="SgNode">
+		<Node name="Object1" class="SgProjectorNode" id="PS_PROJECTOR" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_S_OIL_FIELD" class="SgNode">
+		<Node name="noise" class="SgSoundSourceNode" id="S_OIL_FIELD" looped="1" /> 
+	</Node>
+	<Node name="ET_PS_GLOW" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_GLOW" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_GLOW_QUAD" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_GLOW_QUAD" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_GLOW" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_EXHAUST_SMOKE1" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_EXHAUST_POW_SMOKE1" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_POW_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_EXHAUST_SMOKE1_SMALL" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_SMOKE1_SMALL" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_EXHAUST_POW_SMOKE1_SMALL" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_EXHAUST_POW_SMOKE1_SMALL" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_PART_JADED_SMOKE" class="SgNode">
+		<Node name="Object3" class="SgParticlesNode" id="PS_VEN_PART_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_PART_JADED_SPARKLE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object11" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object111" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object1111" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object11111" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object111111" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object1111111" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object11111111" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object111111111" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE1" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE2" psNumEmitterMesh="-1" />
+		<Node name="Object22" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE2" psNumEmitterMesh="-1" />
+		<Node name="Object222" class="SgParticlesNode" id="PS_VEN_PART_SPARKLE2" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_PART_BROKEN" class="SgNode">
+	</Node>
+	<Node name="ET_PS_HLIGHT" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_HLIGHT_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_HLIGHT_VOL" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_HLIGHT_SM" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_HLIGHT_SM_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_HLIGHT_SM_VOL" psNumEmitterMesh="-1" />
+
+	</Node>
+	<Node name="ET_PS_VEH_EXP_WHEEL_SMALL" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN2" psNumEmitterMesh="-1" />
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/>
+	</Node>
+	<Node name="ET_PS_VEH_EXP_WHEEL1_SMALL" class="SgNode">
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL1_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/>
+	</Node>
+	<Node name="ET_PS_VEH_EXP_WHEEL_MED" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_SMALL_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED_MAIN2" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING_SMALL" looped="1"/>
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_EXP_WHEEL1_MED" class="SgNode">
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_MED1_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/>
+	</Node>
+	<Node name="ET_PS_VEH_EXP_WHEEL_BIG" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_MAIN2" psNumEmitterMesh="-1" />
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_CAR_BURNING" looped="1"/>
+	</Node>
+	<Node name="ET_PS_VEH_EXP_WHEEL1_BIG" class="SgNode">
+		<Node name="15" class="SgParticlesNode" id="PS_WHEEL_FIRE_BIG1_SMOKE1" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_EXP_SHASSIS_SMALL" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" /> 
+		<Node name="Object33" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object333" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object3333" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" />
+		<Node name="14" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="15" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_SMOKE2" psNumEmitterMesh="-1" />
+		<Node name="151" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_SMOKE2" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_EXP_SHASSIS1_SMALL" class="SgNode">
+		<Node name="15" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL1_SMOKE2" psNumEmitterMesh="-1" />
+		<Node name="151" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL1_SMOKE2" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_EXP_SHASSIS_BIG" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" /> 
+		<Node name="Object33" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object333" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object3333" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_MAIN" psNumEmitterMesh="-1" />
+		<Node name="14" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_SMOKE1" psNumEmitterMesh="-1" />
+		<Node name="15" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_SMOKE2" psNumEmitterMesh="-1" />
+		<Node name="151" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL_SMOKE2" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_VEH_EXP_SHASSIS1_BIG" class="SgNode">
+		<Node name="15" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL1_SMOKE2" psNumEmitterMesh="-1" />
+		<Node name="151" class="SgParticlesNode" id="PS_CHASSIS_FIRE_SMALL1_SMOKE2" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_WATERSPLASH" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_VEN_WSPLASH_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesOpaqueNode" id="PS_VEN_WSPLASH_RING" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SMALLWHEELGRASSSPLASH" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_SMALLGRASSSPLASH_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_SMALLGRASSSPLASH_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_DRIFT01" looped="0" />
+	</Node>
+	<Node name="ET_PS_SMALLWHEELROADSMOKE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_ROADSMOKE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_DRIFT01" looped="0" />
+	</Node>
+	<Node name="ET_PS_SMALLWHEELGRASSSPLASH_BRAKE" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_SMALLGRASSSPLASH_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_SMALLGRASSSPLASH_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_BRAKE" looped="0" />
+	</Node>
+	<Node name="ET_PS_SMALLWHEELROADSMOKE_BRAKE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_ROADSMOKE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_BRAKE" looped="0" />
+	</Node>
+	<Node name="ET_PS_BIGWHEELGRASSSPLASH" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_DRIFT01" looped="0" />
+	</Node>
+	<Node name="ET_PS_BIGWHEELROADSMOKE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_ROADSMOKE1_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_ROADSMOKE1_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_DRIFT01" looped="0" />
+	</Node>
+	<Node name="ET_PS_BIGWHEELGRASSSPLASH_BRAKE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Object4" class="SgParticlesNode" id="PS_BIGGRASSSPLASH_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_BRAKE" looped="0" />
+	</Node>
+	<Node name="ET_PS_BIGWHEELROADSMOKE_BRAKE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_ROADSMOKE1_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_ROADSMOKE1_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Sound1" class="SgSoundSourceNode" id="S_BRAKE" looped="0" />
+	</Node>
+	<Node name="ET_PS_SHELL_SML_MGUN" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_SML_MGUN_1" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_SML_MGUN_1" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_SHELL_BIG_CANNON" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_SHELL_BIG_CANNON" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_TRACER1" class="SgNode">
+		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_KORD_FIRE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_HORNET01_FIRE_X" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_HORNET01_FIRE_Y" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_KORD" looped="1"  />
+	</Node>
+	<Node name="ET_PS_SPECTER_FIRE" class="SgNode">
+		<Node name="Object0" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_HORNET01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_HORNET01_FIRE_X" psNumEmitterMesh="-1" />
+		<Node name="Object3" class="SgParticlesNode" id="PS_HORNET01_FIRE_Y" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_SPECTER" looped="1" />
+	</Node>
+	<Node name="ET_PS_VULCAN01_FIRE" class="SgNode">
+		<Node name="Object0" class="SgParticlesNode" id="PS_VULCAN01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_VULCAN01_FIRE_MAIN1" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_VULCAN" looped="1" />
+	</Node>
+	<Node name="ET_PS_MACHINEGUN_STAND" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_VULCAN01_STAND_SMOKE" psNumEmitterMesh="-1" />
+	</Node>
+	<Node name="ET_PS_MACHINEGUNSTATICSEXPLOSION" class="SgNode">
+		<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+		<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+            <Node name="Sound3" class="SgSoundSourceNode" id="S_STATIC07" looped="0" />
+	
+	</Node>
+	<Node name="ET_PS_MACHINEGUNROADEXPLOSION" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_ASP_MACHINEGUN_DUST_SMALL" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_ASP_MACHINEGUN_TRAIL_BIG" psNumEmitterMesh="-1" />
+
+	      <Node name="Sound3" class="SgSoundSourceNode" id="S_ROAD04" looped="0" />
+	
+	</Node>
+	<Node name="ET_PS_MACHINEGUNGRASSEXPLOSION" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_GRASS_MACHINEGUN_DUST" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_GRASS_MACHINEGUN_TRAIL_BIG" psNumEmitterMesh="-1" />
+	      <Node name="Sound3" class="SgSoundSourceNode" id="S_GRASS01" looped="0" />
+	</Node>
+	<Node name="ET_PS_KPVT_FIRE" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAIN" psNumEmitterMesh="-1" />
+		<Node name="Object11" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINX" psNumEmitterMesh="-1" />
+		<Node name="Object111" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_MAINY" psNumEmitterMesh="-1" />
+		<Node name="Object2" class="SgParticlesNode" id="PS_OCTOPUS01_FIRE_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Sound3" class="SgSoundSourceNode" id="S_SHOOTING_KPVT" looped="1"/>
+	</Node>
+	<Node name="ET_PS_AUTOCANNON_STAND" class="SgNode">
+		<Node name="Object1" class="SgParticlesNode" id="PS_VULCAN01_STAND_SMOKE" psNumEmitterMesh="-1" />
+	</Node>
+		<Node name="ET_S_HORN03"		class="SgSoundSourceNode" id="S_HORN03" looped="1"  /> 
+		<Node name="ET_S_HORN06"		class="SgSoundSourceNode" id="S_HORN06" looped="1"  /> 
+		<Node name="ET_S_ENGINE_BEETLE_3_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_BEETLE_3_HIGH" /> 
+		<Node name="ET_S_ENGINE_MOLOKO_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_MOLOKO_1_HIGH" /> 
+		<Node name="ET_S_ENGINE_MOLOKO_2_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_MOLOKO_2_HIGH" /> 
+		<Node name="ET_S_ENGINE_URAL_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_URAL_1_HIGH" /> 
+		<Node name="ET_S_ENGINE_URAL_5_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_URAL_5_HIGH" /> 
+		<Node name="ET_S_ENGINE_BELAZ_2_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_BELAZ_2_HIGH" /> 
+		<Node name="ET_S_ENGINE_BELAZ_4_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_BELAZ_4_HIGH" /> 
+		<Node name="ET_S_ENGINE_MIR_2_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_MIR_2_HIGH" /> 
+		<Node name="ET_S_ENGINE_SCOUT_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_SCOUT_1_HIGH" /> 
+		<Node name="ET_S_ENGINE_FIGHTER_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_FIGHTER_1_HIGH" /> 
+		<Node name="ET_S_ENGINE_HUNTER_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_HUNTER_1_HIGH" /> 
+		<Node name="ET_S_ENGINE_CRUISER_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_CRUISER_1_HIGH" /> 
+
+<!-- Hand-made below -->
+
+	<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION" multi="true">
+
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION1" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET01" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION2" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET02" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION3" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET03" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION4" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET04" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION5" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET05" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION6" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET06" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION7" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET07" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION8" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET08" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION9" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET09" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION10" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET10" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION11" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET11" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION12" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET12" looped="0" />	
+		</Node>
+		<Node name="ET_PS_MACHINEGUNVEHICLEEXPLOSION13" class="SgNode">
+			<Node name="Object2" class="SgParticlesNode" id="PS_FIRE_MACHINRGUN_EXP" psNumEmitterMesh="-1" />
+			<Node name="Object1" class="SgParticlesNode" id="PS_SPARKLE_SMALL_MAIN" psNumEmitterMesh="-1" />
+	            <Node name="Sound3" class="SgSoundSourceNode" id="S_VEH_HIT_BULLET13" looped="0" />	
+		</Node>
+	</Node>
+</Prefabs>

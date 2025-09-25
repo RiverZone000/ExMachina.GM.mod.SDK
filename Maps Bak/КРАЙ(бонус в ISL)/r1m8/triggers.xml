@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+	<trigger Name="CreateGloohoe" active="1">
+		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			SetGameTime( 9, 0 )
+			
+			SetWeather(0)
+						
+			local town1 = GetEntityByName("TheTown_enter")
+			if town1 then town1:SetProperty("Active",0) end
+			local town2 = GetEntityByName("TheGloohoe_enter")
+			if town2 then town2:SetProperty("Active",0) end
+			local town3 = GetEntityByName("TheOilVillage_enter")
+			if town3 then town3:SetProperty("Active",0) end
+			local town4 = GetEntityByName("TheContraVillage_enter")
+			if town4 then town4:SetProperty("Active",0) end
+			local town5 = GetEntityByName("TheFreedom_enter")
+			if town5 then town5:SetProperty("Active",0) end
+			local town6 = GetEntityByName("PetrolStationTown86_enter")
+			if town6 then town6:SetProperty("Active",0) end
+			local town7 = GetEntityByName("PetrolStationTown18_enter")
+			if town7 then town7:SetProperty("Active",0) end
+			local town8 = GetEntityByName("PetrolStationTown45_enter")
+			if town8 then town8:SetProperty("Active",0) end
+
+			CreateNewDummyObject( "workshop2", "hs01", -1, -1, CVector(3355.214,  368, 3322.013), Quaternion(0.0000, -0.9998, 0.0000, -0.0196),1 )
+			CreateNewDummyObject( "house1",	"hs02", -1, -1, CVector(3396.989,  370, 3311.444), Quaternion(0.0000, -0.7880, 0.0000, 0.6157),1 )
+			CreateNewDummyObject( "house2",	"hs03", -1, -1, CVector(3391.955,  368, 3280.512), Quaternion(0.0000, -0.5682, 0.0000, 0.8229),1 )
+			CreateNewDummyObject( "townhall", "hs04", -1, -1, CVector(3333.442, 368, 3299.207), Quaternion(0.0000, 0.6820, 0.0000, 0.7314),1 )
+			CreateNewDummyObject( "house3",	"hs05", -1, -1, CVector(3339.008, 368, 3288.451), Quaternion(0.0000, 0.6478, 0.0000, 0.7618),1 )
+			CreateNewDummyObject( "house2",	"hs06", -1, -1, CVector(3337.264, 368, 3311.947), Quaternion(0.0000, 0.0000, 0.0000, 1.0000),1 )
+			CreateNewDummyObject( "house3",	"hs07", -1, -1, CVector(3390.944, 371, 3329.290), Quaternion(0.0000, 0.928, 0.0000, -0.3726),1 )
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:AddModifier("hp", "+ 3500")
+				vehPlayer:AddModifier("fuel", "+ 1500")
+			end
+			
+			TActivate("StartSpecEnd")
+
+			RemoveQuestItem("Lisa_P")
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="DestroyGloohoe" active="0">
+		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local town = GetEntityByName ("TheGloohoe")
+			if town then
+				town:SetOpenGateToPlayer(false)
+			end
+
+			local hs = GetEntityByName ("hs01")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("hs02")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("hs03")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("hs04")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("hs05")	
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("hs06")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("hs07")
+			if hs then hs:Remove() end
+
+			CreateNewDummyObject( "ruins1", "hs01", -1, -1, CVector(3355.214,  368, 3322.013), Quaternion(0.0000, -0.9998, 0.0000, -0.0196) )
+			CreateNewDummyObject( "ruins2", "hs02", -1, -1, CVector(3396.989,  370, 3311.444), Quaternion(0.0000, -0.7880, 0.0000, 0.6157) )
+			CreateNewDummyObject( "ruins3", "hs03", -1, -1, CVector(3391.955,  368, 3280.512), Quaternion(0.0000, -0.5682, 0.0000, 0.8229) )
+			CreateNewDummyObject( "ruins1", "hs04", -1, -1, CVector(3333.442, 368, 3299.207), Quaternion(0.0000, 0.6820, 0.0000, 0.7314) )
+			CreateNewDummyObject( "ruins2", "hs05", -1, -1, CVector(3339.008, 368, 3288.451), Quaternion(0.0000, 0.6478, 0.0000, 0.7618) )
+			CreateNewDummyObject( "ruins3", "hs06", -1, -1, CVector(3337.264, 368, 3311.947), Quaternion(0.0000, 0.0000, 0.0000, 1.0000) )
+			CreateNewDummyObject( "ruins3", "hs07", -1, -1, CVector(3390.944, 371, 3329.290), Quaternion(0.0000, 0.928, 0.0000, -0.3726) )
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="BurnGloohoe" active="0">
+		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE01", -1, -1, CVector(3336, 360, 3305), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE02", -1, -1, CVector(3309, 360, 3233), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE03", -1, -1, CVector(3321, 360, 3363), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE04", -1, -1, CVector(3393, 360, 3278), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE05", -1, -1, CVector(3337, 360, 3235), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FIRE06", -1, -1, CVector(3338, 360, 3290), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="StartSpecEnd" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="SpecEndingBegin" />		
+		<script>
+		
+		TActivate("SpecEnd_begin")
+
+		local vehPlayer = GetPlayerVehicle()
+		if vehPlayer then
+			vehPlayer:SetCustomControlEnabled( true )
+			vehPlayer:SetCustomLinearVelocity( 0 )
+			vehPlayer:SetThrottle( 0 )
+			vehPlayer:SetCustomControlEnabled( false )
+		end
+		
+		CompleteQuest("FollowMrShlyapa")
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+</triggers>

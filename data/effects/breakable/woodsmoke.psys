@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="main"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="2.000"
+			ParticleAgeMax="4.000"
+			MaxParticles="200"
+			EmitAtPeriod="6.000"
+			Phase="0.000"
+			EmitLength="0.100"
+			RepeatPeriod="1000000000.000"
+			ResetTime="9999999980506447900.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="-4.000 0.000 0.000"
+			Max="4.000 1.500 0.000"
+			Type="box"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="0"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="1638698877"
+				k:1="-1"
+				k:2="-1"
+				k:3="-4479593"
+				k:4="-1"
+				k:5="-1"
+				k:6="-4875380"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="11967378" />
+
+			<Size
+				k:0="0.000"
+				k:1="0.842"
+				k:2="1.485"
+				k:3="1.485"
+				k:4="1.733"
+				k:5="1.832"
+				k:6="1.733"
+				k:7="1.683"
+				k:8="1.832"
+				k:9="1.881"
+				k:10="2.079"
+				k:11="2.426"
+				k:12="2.475"
+				k:13="2.525"
+				k:14="2.673"
+				k:15="2.228"
+				k:16="1.584"
+				k:17="0.990"
+				k:18="0.743"
+				k:19="0.644" />
+</Keys>
+
+		<Render
+			TrailLen="14"
+			ScaleParts="1.000"
+			BlendMode="1"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\smoke\smoke5.tga"
+			Weather="0"
+			TexTiling="0.000" />
+
+		<Attr
+			Name="SA_1"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="vel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="-2.000 1.000 1.000"
+				Max="2.000 0.500 -1.000" />
+</Attr>
+</PS>
+</PSEditor>

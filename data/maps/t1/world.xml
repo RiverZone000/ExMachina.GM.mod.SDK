@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<World
+	name="Object31"
+	class="SgNode"
+	LastId="74373026">
+	<Node
+		name="Object5"
+		class="SgAnimatedModelNode"
+		org="97.474 0.000 107.148"
+		orgRel="1"
+		id="townhall"
+		ndmAction="0" />
+
+	<Node
+		name="Object25"
+		class="SgAnimatedModelNode"
+		org="206.981 0.000 85.636"
+		orgRel="1"
+		id="crag_copped_1"
+		ndmAction="0" />
+</World>

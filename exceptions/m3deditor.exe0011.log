@@ -1,0 +1,45 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x005CC317
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 01/27/23 15:49:49
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1072 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1239 MB
+1: Page file available            = 2036 MB
+
+1: Data from MemoryManager:
+1: mem used:           232822128
+1: mem allocated:      253446291
+1: mem overhead:        10695232
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   2
+1:     Mod:  M3DEditor, base: 00400000h
+
+
+Registers:
+	CS:EIP 0x001B:005CC317
+	SS:ESP 0x0023:0012EFAC
+	DS:EDI 0x0023:089AE9BC
+	ES:ESI 0x0023:2C99B714
+	   EAX        00000000
+	   EBX        00000000
+	   ECX        00000000
+	   EDX        00000000
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<triggers>
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetWeather(0)
+
+			SetRadarUpgrade(1)
+
+			GameFiltersUse()
+		    trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

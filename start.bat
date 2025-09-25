@@ -1,0 +1,1 @@
+start /affinity 1 hta.exe -console

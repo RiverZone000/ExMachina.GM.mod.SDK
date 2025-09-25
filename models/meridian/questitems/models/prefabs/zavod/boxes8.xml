@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="boxes8"
+		class="SgNode">
+		<Node
+			name="Object171"
+			class="SgAnimatedModelNode"
+			org="5.272 0.033 -6.327"
+			orgRel="0"
+			rot="-0.0022 0.0000 0.0000 1.0000"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="0"
+			ndmAction="0" />
+
+		<Node
+			name="Object183"
+			class="SgAnimatedModelNode"
+			org="-1.699 0.033 -3.916"
+			orgRel="0"
+			rot="-0.0022 0.0000 0.0000 1.0000"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="1"
+			ndmAction="0" />
+
+		<Node
+			name="Object162"
+			class="SgAnimatedModelNode"
+			org="5.289 -0.019 5.481"
+			orgRel="0"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="1"
+			ndmAction="0" />
+
+		<Node
+			name="Object184"
+			class="SgAnimatedModelNode"
+			org="-3.231 0.008 5.097"
+			orgRel="0"
+			rot="0.0000 0.7056 0.0000 0.7086"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="0"
+			ndmAction="0" />
+
+		<Node
+			name="Object164"
+			class="SgAnimatedModelNode"
+			org="4.763 5.675 5.054"
+			orgRel="0"
+			rot="0.0000 0.0393 0.0000 0.9992"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="1"
+			ndmAction="0" />
+
+		<Node
+			name="Object163"
+			class="SgAnimatedModelNode"
+			org="-4.032 5.542 3.430"
+			orgRel="0"
+			rot="0.0000 -0.1887 0.0000 0.9820"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="0"
+			ndmAction="0" />
+
+		<Node
+			name="Object153"
+			class="SgAnimatedModelNode"
+			org="-9.188 1.980 -2.614"
+			orgRel="0"
+			rot="-0.1077 -0.2097 0.3465 0.9080"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="0"
+			ndmAction="0" />
+
+		<Node
+			name="Object179"
+			class="SgAnimatedModelNode"
+			org="-0.946 5.411 -7.189"
+			orgRel="0"
+			rot="0.0000 -0.7224 0.0000 0.6915"
+			id="factory_conteiner2"
+			ndmAction="0" />
+
+		<Node
+			name="Object182"
+			class="SgAnimatedModelNode"
+			org="3.770 11.314 0.981"
+			orgRel="0"
+			rot="-0.0022 0.0545 -0.0001 0.9985"
+			scale="1.350 1.350 1.350"
+			id="factory_conteiner"
+			skin="2"
+			ndmAction="0" />
+	</Node>
+</Prefabs>

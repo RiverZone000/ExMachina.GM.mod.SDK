@@ -1,0 +1,5668 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="4890">
+	<TargetNamesForDestroy
+		Names="u1 u2 u3 u4 u5 u6 u7 u8 u9" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player" />
+
+	<Object
+		Name="heavy_dot2_rainmetal4378"
+		Belong="1080"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="2245.515 449.853 3865.955"
+		Rot="0.000 -0.933 0.000 0.359">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot2_rainmetal4379"
+		Belong="1080"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="2283.287 451.496 3836.881"
+		Rot="0.000 -0.931 0.000 0.364">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot2_rainmetal4380"
+		Belong="1080"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="2380.145 453.043 3761.323"
+		Rot="0.000 -0.996 0.000 0.089">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot2_rainmetal4381"
+		Belong="1080"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="2428.268 451.624 3767.035"
+		Rot="0.015 0.996 -0.001 0.093">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot2_rainmetal4382"
+		Belong="1080"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="2464.583 451.759 3775.512"
+		Rot="0.000 -0.995 0.000 -0.102">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot2_rainmetal4383"
+		Belong="1080"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="2319.907 454.250 3807.314"
+		Rot="0.000 -0.954 0.000 0.301">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot2_rainmetal4384"
+		Belong="1080"
+		Prototype="heavy_dot2_rainmetal"
+		Pos="2351.093 455.081 3781.394"
+		Rot="0.000 0.334 0.000 0.943">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="PetrolStationTown4392"
+		Belong="1080"
+		Prototype="PetrolStationTown"
+		Pos="2795.858 432.131 3093.856"
+		Rot="0.000 0.517 0.000 0.856"
+		PointOfViewInInterface="5.000 20.000 5.000"
+		CaravansDest="">
+		<Object
+			Name="PetrolStationTown4392_caravan"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="2857.806 433.201 3126.450"
+			Rot="0.000 0.517 0.000 0.856"
+			Radius="50.000" />
+
+		<Object
+			Name="PetrolStationTown4392_enter"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="2795.858 431.802 3093.856"
+			Rot="0.000 0.517 0.000 0.856"
+			Radius="50.000" />
+
+		<Object
+			Name="PetrolStationTown4392_deploy"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="2795.858 431.802 3093.856"
+			Rot="0.000 0.517 0.000 0.856"
+			Radius="50.000" />
+
+		<Object
+			Name="PetrolStationTown4392_defend"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="2840.107 432.241 3117.137"
+			Rot="0.000 0.517 0.000 0.856"
+			Radius="50.000"
+			Active="0" />
+
+		<Parts>
+			<AttackTeam
+				present="no" />
+
+			<DefendTeam
+				present="yes"
+				Name="PetrolStationTown4392_DefendTeam"
+				Belong="1080"
+				Prototype="settlementTeam">
+				<Formation
+					Belong="1080"
+					Prototype="caravanFormation"
+					DistBetweenVehicles="30.000"
+					Pos="0.000 0.000 0.000"
+					Direction="0.000 0.000 1.000"
+					LinearVelocity="100.000"
+					AngularVelocity="0.500"
+					NumPathPoint="-1" />
+			</DefendTeam>
+		</Parts>
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="PetrolStationTown4393"
+		Belong="1080"
+		Prototype="PetrolStationTown"
+		Pos="3680.562 632.211 3641.757"
+		PointOfViewInInterface="5.000 20.000 5.000"
+		CaravansDest="">
+		<Object
+			Name="PetrolStationTown4393_defend"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="3680.562 635.659 3691.757"
+			Radius="50.000"
+			Active="0" />
+
+		<Object
+			Name="PetrolStationTown4393_deploy"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="3680.562 631.687 3641.757"
+			Radius="50.000" />
+
+		<Object
+			Name="PetrolStationTown4393_enter"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="3680.562 631.687 3641.757"
+			Radius="50.000" />
+
+		<Object
+			Name="PetrolStationTown4393_caravan"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="3680.562 640.747 3711.757"
+			Radius="50.000" />
+
+		<Parts>
+			<AttackTeam
+				present="no" />
+
+			<DefendTeam
+				present="yes"
+				Name="PetrolStationTown4393_DefendTeam"
+				Belong="1080"
+				Prototype="settlementTeam">
+				<Formation
+					Belong="1080"
+					Prototype="caravanFormation"
+					DistBetweenVehicles="30.000"
+					Pos="0.000 0.000 0.000"
+					Direction="0.000 0.000 1.000"
+					LinearVelocity="100.000"
+					AngularVelocity="0.500"
+					NumPathPoint="-1" />
+			</DefendTeam>
+		</Parts>
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="Breakable_Elka1snow4394"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3713.991 639.188 3678.510"
+		Rot="0.000 0.968 0.000 -0.250" />
+
+	<Object
+		Name="Breakable_Elka1snow4395"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3731.239 637.176 3644.784"
+		Rot="0.000 0.994 0.000 -0.105" />
+
+	<Object
+		Name="Breakable_Elka1snow4396"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3755.269 640.125 3647.967"
+		Rot="0.000 0.454 0.000 0.891" />
+
+	<Object
+		Name="Breakable_Elka1snow4397"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3760.192 638.999 3620.168"
+		Rot="0.000 -0.866 0.000 0.500" />
+
+	<Object
+		Name="Breakable_Elka1snow4398"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3793.379 641.939 3630.825"
+		Rot="0.000 0.839 0.000 0.545" />
+
+	<Object
+		Name="Breakable_Elka1snow4399"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3779.986 640.475 3609.979"
+		Rot="0.000 0.438 0.000 0.899" />
+
+	<Object
+		Name="Breakable_Elka1snow4400"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3688.628 633.409 3668.693"
+		Rot="0.000 0.777 0.000 0.629" />
+
+	<Object
+		Name="Breakable_Elka1snow4401"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3682.001 637.449 3698.465"
+		Rot="0.000 -0.061 0.000 0.998" />
+
+	<Object
+		Name="Breakable_Elka1snow4402"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3660.608 635.126 3707.350"
+		Rot="0.000 0.772 0.000 0.636" />
+
+	<Object
+		Name="Breakable_Elka1snow4403"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3645.404 629.873 3694.959"
+		Rot="0.000 0.991 0.000 -0.131" />
+
+	<Object
+		Name="Breakable_Elka1snow4404"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3624.891 632.036 3719.261"
+		Rot="0.000 0.399 0.000 0.917" />
+
+	<Object
+		Name="Breakable_Elka1snow4405"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3611.562 626.878 3697.975"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Name="Breakable_Elka1snow4406"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3583.626 629.520 3706.921"
+		Rot="0.000 0.968 0.000 -0.250" />
+
+	<Object
+		Name="Breakable_Elka1snow4407"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3555.313 629.703 3700.813"
+		Rot="0.000 -0.078 0.000 0.997" />
+
+	<Object
+		Name="Breakable_Elka1snow4408"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3571.213 624.195 3677.991"
+		Rot="0.000 0.968 0.000 0.250" />
+
+	<Object
+		Name="Breakable_Elka1snow4409"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3601.254 625.968 3682.619"
+		Rot="0.000 0.026 0.000 1.000" />
+
+	<Object
+		Name="Breakable_Elka1snow4410"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3598.881 630.051 3649.917"
+		Rot="0.000 -0.242 0.000 0.970" />
+
+	<Object
+		Name="Breakable_Elka1snow4411"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3586.007 626.906 3647.722"
+		Rot="0.000 0.961 0.000 0.276" />
+
+	<Object
+		Name="Breakable_Elka1snow4412"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3587.315 624.507 3626.836"
+		Rot="0.000 0.986 0.000 0.165" />
+
+	<Object
+		Name="Breakable_Elka1snow4413"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3572.452 619.009 3622.833"
+		Rot="0.000 -0.829 0.000 0.559" />
+
+	<Object
+		Name="Breakable_Elka1snow4414"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3555.122 619.854 3657.288"
+		Rot="0.000 -0.713 0.000 0.701" />
+
+	<Object
+		Name="Breakable_Elka1snow4415"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3533.344 624.485 3683.911"
+		Rot="0.000 0.945 0.000 0.326" />
+
+	<Object
+		Name="Breakable_Elka1snow4416"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3515.753 631.615 3702.691"
+		Rot="0.000 -0.309 0.000 0.951" />
+
+	<Object
+		Name="Breakable_Elka1snow4417"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3424.707 596.907 3667.890"
+		Rot="0.000 0.980 0.000 -0.199" />
+
+	<Object
+		Name="Breakable_Elka1snow4418"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3536.674 612.468 3634.352"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="Breakable_Elka3snow4419"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3558.910 617.471 3635.536"
+		Rot="0.000 0.970 0.000 0.242" />
+
+	<Object
+		Name="Breakable_Elka3snow4420"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3530.455 617.597 3660.431"
+		Rot="0.000 -0.819 0.000 0.574" />
+
+	<Object
+		Name="Breakable_Elka3snow4421"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3576.890 625.876 3657.533"
+		Rot="0.000 -0.113 0.000 0.994" />
+
+	<Object
+		Name="Breakable_Elka3snow4422"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3516.504 624.766 3686.401"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="Breakable_Elka3snow4423"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3571.155 630.616 3707.342"
+		Rot="0.000 -0.804 0.000 0.595" />
+
+	<Object
+		Name="Breakable_Elka2snow4424"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3548.756 623.596 3679.917"
+		Rot="0.000 0.948 0.000 -0.317" />
+
+	<Object
+		Name="Breakable_Elka2snow4425"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3613.115 632.146 3722.382"
+		Rot="0.000 0.182 0.000 0.983" />
+
+	<Object
+		Name="Breakable_Elka2snow4426"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3709.730 647.352 3708.334"
+		Rot="0.000 0.676 0.000 0.737" />
+
+	<Object
+		Name="Breakable_Elka2snow4427"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3653.604 654.277 3761.479"
+		Rot="0.000 0.431 0.000 0.902" />
+
+	<Object
+		Name="Breakable_Elka2snow4428"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3785.512 652.182 3674.046"
+		Rot="0.000 -0.087 0.000 0.996" />
+
+	<Object
+		Name="Breakable_Elka2snow4429"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3718.990 665.514 3736.572"
+		Rot="0.000 -0.078 0.000 0.997" />
+
+	<Object
+		Name="Breakable_Elka2snow4430"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3667.995 613.695 3511.114"
+		Rot="0.000 -0.537 0.000 0.843" />
+
+	<Object
+		Name="Breakable_Elka2snow4431"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3664.270 606.186 3429.736"
+		Rot="0.000 -0.250 0.000 0.968" />
+
+	<Object
+		Name="Breakable_Elka2snow4432"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3756.974 623.148 3470.651"
+		Rot="0.000 -0.225 0.000 0.974" />
+
+	<Object
+		Name="Breakable_Elka2snow4433"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3771.205 606.983 3361.695"
+		Rot="0.000 0.906 0.000 -0.423" />
+
+	<Object
+		Name="Breakable_Elka2snow4434"
+		Belong="1001"
+		Prototype="Breakable_Elka2snow"
+		Pos="3839.145 624.674 3413.122"
+		Rot="0.000 -0.688 0.000 0.725" />
+
+	<Object
+		Name="Breakable_Elka3snow4435"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3688.225 604.366 3393.789"
+		Rot="0.000 0.713 0.000 0.701" />
+
+	<Object
+		Name="Breakable_Elka3snow4436"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3628.055 609.536 3508.527"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="Breakable_Elka3snow4437"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3729.565 616.781 3462.018"
+		Rot="0.000 -0.737 0.000 0.676" />
+
+	<Object
+		Name="Breakable_Elka3snow4438"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3668.251 618.318 3551.171"
+		Rot="0.000 0.783 0.000 0.623" />
+
+	<Object
+		Name="Breakable_Elka3snow4439"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3760.342 635.408 3532.026"
+		Rot="0.000 0.883 0.000 -0.469" />
+
+	<Object
+		Name="Breakable_Elka3snow4440"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3796.321 631.821 3476.825"
+		Rot="0.000 0.937 0.000 -0.350" />
+
+	<Object
+		Name="Breakable_Elka3snow4441"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3766.969 611.433 3395.482"
+		Rot="0.000 0.242 0.000 0.970" />
+
+	<Object
+		Name="Breakable_Elka3snow4442"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3724.631 608.194 3396.409"
+		Rot="0.000 -0.725 0.000 0.688" />
+
+	<Object
+		Name="Breakable_Elka3snow4443"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3803.670 603.830 3325.874"
+		Rot="0.000 0.998 0.000 -0.070" />
+
+	<Object
+		Name="Breakable_Elka3snow4444"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3813.075 620.116 3419.204"
+		Rot="0.000 0.945 0.000 0.326" />
+
+	<Object
+		Name="Breakable_Elka3snow4445"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3868.636 623.134 3385.114"
+		Rot="0.000 0.920 0.000 0.391" />
+
+	<Object
+		Name="Breakable_Elka3snow4446"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3853.021 608.419 3326.729"
+		Rot="0.000 0.948 0.000 -0.317" />
+
+	<Object
+		Name="Breakable_Elka3snow4447"
+		Belong="1001"
+		Prototype="Breakable_Elka3snow"
+		Pos="3768.766 639.089 3555.286"
+		Rot="0.000 0.113 0.000 0.994" />
+
+	<Object
+		Name="Breakable_Elka1snow4448"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3540.471 609.986 3617.538"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="Breakable_Elka1snow4449"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3473.545 594.337 3613.996"
+		Rot="0.000 0.997 0.000 0.078" />
+
+	<Object
+		Name="Breakable_Elka1snow4450"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3516.618 605.901 3616.051"
+		Rot="0.000 0.910 0.000 0.415" />
+
+	<Object
+		Name="Breakable_Elka1snow4451"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3489.143 597.936 3608.583"
+		Rot="0.000 0.574 0.000 0.819" />
+
+	<Object
+		Name="Breakable_Elka1snow4452"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3462.205 586.232 3598.566"
+		Rot="0.000 -0.629 0.000 0.777" />
+
+	<Object
+		Name="Breakable_Elka1snow4453"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3421.110 576.263 3626.536"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="Breakable_Elka1snow4454"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3416.592 584.735 3650.098"
+		Rot="0.000 -0.663 0.000 0.749" />
+
+	<Object
+		Name="Breakable_Elka1snow4455"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3438.208 572.372 3588.816"
+		Rot="0.000 0.961 0.000 -0.276" />
+
+	<Object
+		Name="Breakable_Elka1snow4456"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3446.838 583.782 3614.144"
+		Rot="0.000 0.870 0.000 -0.492" />
+
+	<Object
+		Name="Breakable_Elka1snow4457"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3534.533 601.964 3567.692"
+		Rot="0.000 0.997 0.000 0.078" />
+
+	<Object
+		Name="Breakable_Elka1snow4458"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3513.171 595.890 3559.931"
+		Rot="0.000 -0.731 0.000 0.682" />
+
+	<Object
+		Name="Breakable_Elka1snow4459"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3543.685 599.015 3529.720"
+		Rot="0.000 -0.208 0.000 0.978" />
+
+	<Object
+		Name="Breakable_Elka1snow4460"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3570.279 599.483 3489.034"
+		Rot="0.000 0.994 0.000 -0.113" />
+
+	<Object
+		Name="Breakable_Elka1snow4461"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3586.682 597.657 3448.743"
+		Rot="0.000 0.959 0.000 -0.284" />
+
+	<Object
+		Name="Breakable_Elka1snow4462"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3606.124 597.386 3421.770"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="Breakable_Elka1snow4463"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3618.485 593.574 3385.964"
+		Rot="0.000 0.887 0.000 -0.462" />
+
+	<Object
+		Name="Breakable_Elka1snow4464"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3643.238 593.749 3364.537"
+		Rot="0.000 0.993 0.000 0.122" />
+
+	<Object
+		Name="Breakable_Elka1snow4465"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3655.253 587.449 3325.547"
+		Rot="0.000 0.976 0.000 -0.216" />
+
+	<Object
+		Name="Breakable_Elka1snow4466"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3709.261 591.152 3308.700"
+		Rot="0.000 0.972 0.000 0.233" />
+
+	<Object
+		Name="Breakable_Elka1snow4467"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3654.775 571.058 3269.161"
+		Rot="0.000 -0.208 0.000 0.978" />
+
+	<Object
+		Name="Breakable_Elka1snow4468"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3736.282 553.635 3202.175"
+		Rot="0.000 0.122 0.000 0.993" />
+
+	<Object
+		Name="Breakable_Elka1snow4469"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3728.918 576.348 3253.310"
+		Rot="0.000 -0.216 0.000 0.976" />
+
+	<Object
+		Name="Breakable_Elka1snow4470"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3826.564 574.837 3216.176"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="Breakable_Elka1snow4471"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3813.991 536.368 3158.125"
+		Rot="0.000 0.017 0.000 1.000" />
+
+	<Object
+		Name="Breakable_Elka1snow4472"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3774.913 558.092 3201.321"
+		Rot="0.000 0.994 0.000 0.113" />
+
+	<Object
+		Name="Breakable_Elka1snow4473"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3689.216 558.236 3223.973"
+		Rot="0.000 0.819 0.000 0.574" />
+
+	<Object
+		Name="Breakable_Elka1snow4474"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3766.316 576.256 3241.277"
+		Rot="0.000 -0.804 0.000 0.595" />
+
+	<Object
+		Name="Breakable_Elka1snow4475"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3852.400 574.464 3202.390"
+		Rot="0.000 0.964 0.000 -0.267" />
+
+	<Object
+		Name="Breakable_Elka1snow4476"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3866.326 533.028 3139.748"
+		Rot="0.000 0.035 0.000 0.999" />
+
+	<Object
+		Name="Breakable_Elka1snow4477"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3812.208 554.853 3185.961"
+		Rot="0.000 -0.777 0.000 0.629" />
+
+	<Object
+		Name="Breakable_Elka1snow4478"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3630.402 556.370 3245.019"
+		Rot="0.000 0.216 0.000 0.976" />
+
+	<Object
+		Name="Breakable_Elka1snow4479"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3633.415 531.668 3191.930"
+		Rot="0.000 -0.755 0.000 0.656" />
+
+	<Object
+		Name="Breakable_Elka1snow4480"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3712.612 537.008 3177.888"
+		Rot="0.000 -0.454 0.000 0.891" />
+
+	<Object
+		Name="Breakable_Elka1snow4481"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3668.495 540.050 3194.733"
+		Rot="0.000 0.317 0.000 0.948" />
+
+	<Object
+		Name="Breakable_Elka1snow4482"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3675.146 517.518 3153.253"
+		Rot="0.000 0.976 0.000 0.216" />
+
+	<Object
+		Name="Breakable_Elka1snow4483"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3746.270 524.289 3151.502"
+		Rot="0.000 0.191 0.000 0.982" />
+
+	<Object
+		Name="Breakable_Elka1snow4484"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3723.364 513.365 3137.708"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="Breakable_Elka1snow4485"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3769.730 489.951 3096.777"
+		Rot="0.000 0.814 0.000 0.581" />
+
+	<Object
+		Name="Breakable_Elka1snow4486"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3781.980 517.379 3136.712"
+		Rot="0.000 0.980 0.000 0.199" />
+
+	<Object
+		Name="Breakable_Elka1snow4487"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3823.962 513.131 3124.726"
+		Rot="0.000 0.990 0.000 0.139" />
+
+	<Object
+		Name="Breakable_Elka1snow4488"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3811.474 495.318 3101.331"
+		Rot="0.000 0.799 0.000 0.602" />
+
+	<Object
+		Name="Breakable_Elka1snow4489"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3774.257 544.012 3177.685"
+		Rot="0.000 0.772 0.000 0.636" />
+
+	<Object
+		Name="Breakable_Elka1snow4490"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3864.243 558.111 3170.927"
+		Rot="0.000 -0.009 0.000 1.000" />
+
+	<Object
+		Name="Breakable_Elka1snow4491"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3892.205 576.062 3178.461"
+		Rot="0.000 -0.017 0.000 1.000" />
+
+	<Object
+		Name="Breakable_Elka1snow4492"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3897.715 548.145 3138.196"
+		Rot="0.000 0.964 0.000 -0.267" />
+
+	<Object
+		Name="Breakable_Elka1snow4493"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3863.524 513.559 3109.113"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="Breakable_Elka1snow4494"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3893.799 531.096 3102.900"
+		Rot="0.000 1.000 0.000 -0.009" />
+
+	<Object
+		Name="Breakable_Elka1snow4495"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3868.413 504.414 3064.613"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Name="Breakable_Elka1snow4496"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3607.180 545.438 3233.576"
+		Rot="0.000 -0.438 0.000 0.899" />
+
+	<Object
+		Name="Breakable_Elka1snow4497"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3559.436 517.654 3207.182"
+		Rot="0.000 -0.446 0.000 0.895" />
+
+	<Object
+		Name="Breakable_Elka1snow4498"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3600.107 505.904 3158.733"
+		Rot="0.000 0.581 0.000 0.814" />
+
+	<Object
+		Name="Breakable_Elka1snow4499"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3596.297 517.042 3181.805"
+		Rot="0.000 0.995 0.000 -0.096" />
+
+	<Object
+		Name="Breakable_Elka1snow4500"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3654.173 500.069 3128.879"
+		Rot="0.000 0.974 0.000 -0.225" />
+
+	<Object
+		Name="Breakable_Elka1snow4501"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3611.963 492.700 3129.244"
+		Rot="0.000 0.760 0.000 0.649" />
+
+	<Object
+		Name="Breakable_Elka1snow4502"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3703.122 489.330 3100.927"
+		Rot="0.000 0.788 0.000 0.616" />
+
+	<Object
+		Name="Breakable_Elka1snow4503"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3655.763 484.473 3100.201"
+		Rot="0.000 -0.096 0.000 0.995" />
+
+	<Object
+		Name="Breakable_Elka1snow4504"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3708.105 477.995 3079.433"
+		Rot="0.000 -0.156 0.000 0.988" />
+
+	<Object
+		Name="Breakable_Elka1snow4505"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3761.808 474.760 3071.531"
+		Rot="0.000 0.945 0.000 0.326" />
+
+	<Object
+		Name="Breakable_Elka1snow4506"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3810.970 474.969 3068.749"
+		Rot="0.000 0.070 0.000 0.998" />
+
+	<Object
+		Name="Breakable_Elka1snow4507"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3804.433 465.290 3052.005"
+		Rot="0.000 0.139 0.000 0.990" />
+
+	<Object
+		Name="Breakable_Elka1snow4508"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3838.967 481.785 3063.692"
+		Rot="0.000 0.972 0.000 -0.233" />
+
+	<Object
+		Name="Breakable_Elka1snow4509"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3846.805 474.191 3014.591"
+		Rot="0.000 -0.522 0.000 0.853" />
+
+	<Object
+		Name="Breakable_Elka1snow4510"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3801.579 454.465 3028.989"
+		Rot="0.000 0.999 0.000 -0.052" />
+
+	<Object
+		Name="Breakable_Elka1snow4511"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3737.064 460.059 3041.034"
+		Rot="0.000 0.078 0.000 0.997" />
+
+	<Object
+		Name="Breakable_Elka1snow4512"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3664.691 468.469 3064.474"
+		Rot="0.000 0.317 0.000 0.948" />
+
+	<Object
+		Name="Breakable_Elka1snow4513"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3620.561 474.661 3090.305"
+		Rot="0.000 -0.070 0.000 0.998" />
+
+	<Object
+		Name="Breakable_Elka1snow4514"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3531.991 511.447 3217.736"
+		Rot="0.000 0.870 0.000 -0.492" />
+
+	<Object
+		Name="Breakable_Elka1snow4515"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3543.215 497.887 3178.255"
+		Rot="0.000 0.438 0.000 0.899" />
+
+	<Object
+		Name="Breakable_Elka1snow4516"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3576.952 488.336 3136.890"
+		Rot="0.000 0.982 0.000 -0.191" />
+
+	<Object
+		Name="Breakable_Elka1snow4517"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3597.151 484.758 3120.343"
+		Rot="0.000 0.656 0.000 0.755" />
+
+	<Object
+		Name="Breakable_Elka1snow4518"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3519.351 488.491 3174.173"
+		Rot="0.000 0.994 0.000 -0.113" />
+
+	<Object
+		Name="Breakable_Elka1snow4519"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3551.317 476.917 3128.385"
+		Rot="0.000 0.959 0.000 0.284" />
+
+	<Object
+		Name="Breakable_Elka1snow4520"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3583.658 467.804 3090.508"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="Breakable_Elka1snow4521"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3622.167 459.229 3049.929"
+		Rot="0.000 0.009 0.000 1.000" />
+
+	<Object
+		Name="Breakable_Elka1snow4522"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3656.744 453.721 3026.178"
+		Rot="0.000 0.695 0.000 0.719" />
+
+	<Object
+		Name="Breakable_Elka1snow4523"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3695.060 449.866 3012.115"
+		Rot="0.000 0.995 0.000 0.096" />
+
+	<Object
+		Name="Breakable_Elka1snow4524"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3749.453 444.158 2995.600"
+		Rot="0.000 -0.156 0.000 0.988" />
+
+	<Object
+		Name="Breakable_Elka1snow4525"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3783.334 444.765 2988.166"
+		Rot="0.000 0.991 0.000 -0.131" />
+
+	<Object
+		Name="Breakable_Elka1snow4526"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3826.383 458.599 2978.522"
+		Rot="0.000 0.070 0.000 0.998" />
+
+	<Object
+		Name="Breakable_Elka1snow4527"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3527.374 461.351 3108.413" />
+
+	<Object
+		Name="Breakable_Elka1snow4528"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3587.230 452.608 3040.994"
+		Rot="0.000 -0.566 0.000 0.824" />
+
+	<Object
+		Name="Breakable_Elka1snow4529"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3556.125 457.870 3077.884"
+		Rot="0.000 0.035 0.000 0.999" />
+
+	<Object
+		Name="Breakable_Elka1snow4530"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3628.619 448.443 3011.924"
+		Rot="0.000 -0.522 0.000 0.853" />
+
+	<Object
+		Name="Breakable_Elka1snow4531"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3682.639 440.978 2976.161"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="Breakable_Elka1snow4532"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3717.045 440.174 2959.241"
+		Rot="0.000 1.000 0.000 -0.026" />
+
+	<Object
+		Name="Breakable_Elka1snow4533"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3788.962 449.306 2935.673"
+		Rot="0.000 -0.391 0.000 0.920" />
+
+	<Object
+		Name="Breakable_Elka1snow4534"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3763.056 443.172 2946.741"
+		Rot="0.000 0.326 0.000 0.945" />
+
+	<Object
+		Name="Breakable_Elka1snow4535"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3834.007 472.692 2914.315"
+		Rot="0.000 0.996 0.000 -0.087" />
+
+	<Object
+		Name="Breakable_Elka1snow4536"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3849.851 480.570 2960.771"
+		Rot="0.000 0.383 0.000 0.924" />
+
+	<Object
+		Name="Breakable_Elka1snow4537"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3864.479 493.307 2987.354"
+		Rot="0.000 -0.749 0.000 0.663" />
+
+	<Object
+		Name="Breakable_Elka1snow4538"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3811.321 458.708 2908.164"
+		Rot="0.000 0.581 0.000 0.814" />
+
+	<Object
+		Name="Breakable_Elka1snow4539"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3839.584 473.205 2879.951"
+		Rot="0.000 -0.574 0.000 0.819" />
+
+	<Object
+		Name="Breakable_Elka1snow4540"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3811.920 455.651 2860.200"
+		Rot="0.000 0.701 0.000 0.713" />
+
+	<Object
+		Name="Breakable_Elka1snow4541"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3843.335 464.571 2815.324"
+		Rot="0.000 0.974 0.000 0.225" />
+
+	<Object
+		Name="Breakable_Elka1snow4542"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3836.362 465.461 2842.026"
+		Rot="0.000 -0.078 0.000 0.997" />
+
+	<Object
+		Name="Breakable_Elka1snow4543"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3814.912 452.616 2818.481"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="Breakable_Elka1snow4544"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3848.952 459.362 2774.204"
+		Rot="0.000 -0.588 0.000 0.809" />
+
+	<Object
+		Name="Breakable_Elka1snow4545"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3638.240 440.732 2975.422"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="Breakable_Elka1snow4546"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3673.813 435.230 2915.530"
+		Rot="0.000 -0.595 0.000 0.804" />
+
+	<Object
+		Name="Breakable_Elka1snow4547"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3686.114 437.438 2940.809"
+		Rot="0.000 0.643 0.000 0.766" />
+
+	<Object
+		Name="Breakable_Elka1snow4548"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3755.906 440.807 2903.339"
+		Rot="0.000 0.713 0.000 0.701" />
+
+	<Object
+		Name="Breakable_Elka1snow4549"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3686.807 434.082 2877.577"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="Breakable_Elka1snow4550"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3770.109 442.702 2870.225"
+		Rot="0.000 -0.061 0.000 0.998" />
+
+	<Object
+		Name="Breakable_Elka1snow4551"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3732.813 436.321 2843.264"
+		Rot="0.000 -0.284 0.000 0.959" />
+
+	<Object
+		Name="Breakable_Elka1snow4552"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3780.086 442.651 2815.896"
+		Rot="0.000 0.743 0.000 0.669" />
+
+	<Object
+		Name="Breakable_Elka1snow4553"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3715.896 434.417 2802.387"
+		Rot="0.000 0.927 0.000 -0.375" />
+
+	<Object
+		Name="Breakable_Elka1snow4554"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3757.859 437.926 2785.417"
+		Rot="0.000 0.976 0.000 -0.216" />
+
+	<Object
+		Name="Breakable_Elka1snow4555"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3794.742 443.235 2774.163"
+		Rot="0.000 0.989 0.000 0.148" />
+
+	<Object
+		Name="Breakable_Elka1snow4556"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3843.679 453.067 2744.537"
+		Rot="0.000 0.948 0.000 -0.317" />
+
+	<Object
+		Name="Breakable_Elka1snow4557"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3770.381 438.080 2744.777"
+		Rot="0.000 0.682 0.000 0.731" />
+
+	<Object
+		Name="Breakable_Elka1snow4558"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3457.127 505.861 3280.081"
+		Rot="0.000 0.951 0.000 0.309" />
+
+	<Object
+		Name="Breakable_Elka1snow4559"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3419.174 498.628 3302.692"
+		Rot="0.000 0.940 0.000 0.342" />
+
+	<Object
+		Name="Breakable_Elka1snow4560"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3390.200 504.463 3352.808"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="Breakable_Elka1snow4561"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3363.769 504.351 3388.636"
+		Rot="0.000 0.983 0.000 0.182" />
+
+	<Object
+		Name="Breakable_Elka1snow4562"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3323.420 478.644 3387.438"
+		Rot="0.000 -0.588 0.000 0.809" />
+
+	<Object
+		Name="Breakable_Elka1snow4563"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3342.872 482.394 3355.639"
+		Rot="0.000 0.999 0.000 0.035" />
+
+	<Object
+		Name="Breakable_Elka1snow4564"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3348.866 489.000 3370.440"
+		Rot="0.000 0.636 0.000 0.772" />
+
+	<Object
+		Name="Breakable_Elka1snow4565"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3371.096 487.718 3330.355"
+		Rot="0.000 -0.508 0.000 0.862" />
+
+	<Object
+		Name="Breakable_Elka1snow4566"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3385.501 482.568 3293.850"
+		Rot="0.000 0.834 0.000 0.552" />
+
+	<Object
+		Name="Breakable_Elka1snow4567"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3336.547 468.863 3302.527"
+		Rot="0.000 -0.292 0.000 0.956" />
+
+	<Object
+		Name="Breakable_Elka1snow4568"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3366.860 469.713 3264.090"
+		Rot="0.000 0.989 0.000 -0.148" />
+
+	<Object
+		Name="Breakable_Elka1snow4569"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3409.811 477.867 3251.613"
+		Rot="0.000 0.096 0.000 0.995" />
+
+	<Object
+		Name="Breakable_Elka1snow4570"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3391.357 465.250 3222.458"
+		Rot="0.000 0.233 0.000 0.972" />
+
+	<Object
+		Name="Breakable_Elka1snow4571"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3451.834 489.842 3249.901"
+		Rot="0.000 -0.853 0.000 0.522" />
+
+	<Object
+		Name="Breakable_Elka1snow4572"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3445.197 472.611 3210.506"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="Breakable_Elka1snow4573"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3410.925 461.505 3198.307"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="Breakable_Elka1snow4574"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3477.993 500.125 3245.920"
+		Rot="0.000 0.995 0.000 0.096" />
+
+	<Object
+		Name="Breakable_Elka1snow4575"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3467.078 478.542 3208.913"
+		Rot="0.000 0.924 0.000 -0.383" />
+
+	<Object
+		Name="Breakable_Elka1snow4576"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3455.092 464.485 3181.864"
+		Rot="0.000 -0.508 0.000 0.862" />
+
+	<Object
+		Name="Breakable_Elka1snow4577"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3428.989 454.101 3169.171"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="Breakable_Elka1snow4578"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3321.865 471.015 3344.796"
+		Rot="0.000 0.301 0.000 0.954" />
+
+	<Object
+		Name="Breakable_Elka1snow4579"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3346.923 494.963 3409.066"
+		Rot="0.000 0.998 0.000 -0.061" />
+
+	<Object
+		Name="Breakable_Elka1snow4580"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3314.183 480.411 3440.292"
+		Rot="0.000 0.990 0.000 0.139" />
+
+	<Object
+		Name="Breakable_Elka1snow4581"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3293.940 465.378 3426.866"
+		Rot="0.000 0.719 0.000 0.695" />
+
+	<Object
+		Name="Breakable_Elka1snow4582"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3291.860 462.230 3373.246"
+		Rot="0.000 0.676 0.000 0.737" />
+
+	<Object
+		Name="Breakable_Elka1snow4583"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3317.365 479.917 3416.355"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="Breakable_Elka1snow4584"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3276.722 456.747 3396.809"
+		Rot="0.000 -0.814 0.000 0.581" />
+
+	<Object
+		Name="Breakable_Elka1snow4585"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3289.884 460.090 3355.888"
+		Rot="0.000 -0.866 0.000 0.500" />
+
+	<Object
+		Name="Breakable_Elka1snow4586"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3281.676 455.602 3333.572"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="Breakable_Elka1snow4587"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3300.937 459.262 3310.122"
+		Rot="0.000 0.980 0.000 -0.199" />
+
+	<Object
+		Name="Breakable_Elka1snow4588"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3316.750 460.131 3282.178"
+		Rot="0.000 0.035 0.000 0.999" />
+
+	<Object
+		Name="Breakable_Elka1snow4589"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3296.085 455.935 3290.508"
+		Rot="0.000 0.602 0.000 0.799" />
+
+	<Object
+		Name="Breakable_Elka1snow4590"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3338.510 462.960 3265.644"
+		Rot="0.000 0.976 0.000 0.216" />
+
+	<Object
+		Name="Breakable_Elka1snow4591"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3364.693 460.194 3221.805"
+		Rot="0.000 -0.595 0.000 0.804" />
+
+	<Object
+		Name="Breakable_Elka1snow4592"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3323.770 456.783 3247.725"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="Breakable_Elka1snow4593"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3274.347 449.489 3272.996"
+		Rot="0.000 0.182 0.000 0.983" />
+
+	<Object
+		Name="Breakable_Elka1snow4594"
+		Belong="1001"
+		Prototype="Breakable_Elka1snow"
+		Pos="3291.889 449.772 3240.239"
+		Rot="0.000 0.358 0.000 0.934" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3012.731 433.322 1854.495"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3031.062 439.658 2026.449"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3000.614 433.322 1850.904"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3018.425 439.658 2026.339"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3009.493 439.040 1852.376"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3027.365 445.376 2025.306"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3003.917 439.040 1851.961"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3021.892 445.376 2026.444"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3031.062 439.658 2026.449"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3031.649 449.798 2265.452"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3018.425 439.658 2026.339"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3021.589 449.798 2257.802"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3027.365 445.376 2025.306"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3029.371 455.516 2262.324"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3987"
+			PostTiePos="3021.892 445.376 2026.444"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3024.304 455.516 2259.961"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3031.649 449.798 2265.452"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2932.590 467.298 2466.781"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3021.589 449.798 2257.802"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2923.162 467.298 2458.365"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3029.371 455.516 2262.324"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2930.565 473.016 2463.483"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3986"
+			PostTiePos="3024.304 455.516 2259.961"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2925.699 473.016 2460.730"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2740.095 469.979 2646.696"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2932.590 467.298 2466.781"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2736.296 469.979 2634.643"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2923.162 467.298 2458.365"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2740.041 475.698 2642.826"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2930.565 473.016 2463.483"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2737.267 475.698 2637.972"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3985"
+			PostTiePos="2925.699 473.016 2460.730"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2542.672 469.361 2735.918"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2740.095 469.979 2646.696"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2542.949 469.361 2723.284"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2736.296 469.979 2634.643"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2543.864 475.079 2732.237"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2740.041 475.698 2642.826"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2542.798 475.079 2726.749"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3984"
+			PostTiePos="2737.267 475.698 2637.972"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2341.964 469.361 2743.845"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2542.672 469.361 2735.918"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2346.595 469.361 2732.088"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2542.949 469.361 2723.284"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2344.356 475.079 2740.804"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2543.864 475.079 2732.237"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2345.255 475.079 2735.286"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3983"
+			PostTiePos="2542.798 475.079 2726.749"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2105.878 469.361 2749.947"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2341.964 469.361 2743.845"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2105.989 469.361 2737.309"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2346.595 469.361 2732.088"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2107.022 475.079 2746.250"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2344.356 475.079 2740.804"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2105.883 475.079 2740.776"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3982"
+			PostTiePos="2345.255 475.079 2735.286"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1892.355 469.361 2816.100"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2105.878 469.361 2749.947"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1890.434 469.361 2803.609"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2105.989 469.361 2737.309"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1892.890 475.079 2812.267"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2107.022 475.079 2746.250"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1890.887 475.079 2807.048"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3981"
+			PostTiePos="2105.883 475.079 2740.776"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1677.006 469.478 2934.906"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1892.355 469.361 2816.100"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1671.221 469.478 2923.669"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1890.434 469.361 2803.609"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1676.297 475.196 2931.101"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1892.890 475.079 2812.267"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1672.741 475.196 2926.787"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3980"
+			PostTiePos="1890.887 475.079 2807.048"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1677.006 469.478 2934.906"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1524.555 469.361 3069.738"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1671.221 469.478 2923.669"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1515.054 469.361 3061.404"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1676.297 475.196 2931.101"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1522.501 475.079 3066.458"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3979"
+			PostTiePos="1672.741 475.196 2926.787"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1517.611 475.079 3063.747"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1524.555 469.361 3069.738"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1343.670 468.794 3248.669"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1515.054 469.361 3061.404"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1339.195 468.794 3236.850"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1522.501 475.079 3066.458"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1343.397 474.512 3244.809"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3978"
+			PostTiePos="1517.611 475.079 3063.747"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1340.353 474.512 3240.120"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1343.670 468.794 3248.669"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1171.901 468.362 3367.835"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1339.195 468.794 3236.850"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1167.426 468.362 3356.016"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1343.397 474.512 3244.809"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1171.628 474.080 3363.975"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3977"
+			PostTiePos="1340.353 474.512 3240.120"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1168.583 474.080 3359.286"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1171.901 468.362 3367.835"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1003.429 469.490 3475.699"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1167.426 468.362 3356.016"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1000.965 469.490 3463.303"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1171.628 474.080 3363.975"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1003.797 475.208 3471.846"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3976"
+			PostTiePos="1168.583 474.080 3359.286"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1001.567 475.208 3466.719"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3088.363 411.845 1555.472"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3012.731 433.322 1854.495"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3075.800 411.845 1556.846"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3000.614 433.322 1850.904"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3084.558 417.564 1554.770"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3009.493 439.040 1852.376"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3079.255 417.564 1556.544"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3988"
+			PostTiePos="3003.917 439.040 1851.961"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4597"
+		Belong="1080"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="3156.930 386.782 1798.879"
+		Rot="0.000 0.156 0.000 0.988">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4598"
+		Belong="1080"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="3199.393 385.439 1785.200"
+		Rot="0.000 0.098 0.000 0.995">
+		<Parts />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3156.713 421.004 1380.783"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3088.363 411.845 1555.472"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3147.548 421.004 1372.082"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3075.800 411.845 1556.846"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3154.790 426.722 1377.425"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3084.558 417.564 1554.770"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3150.011 426.722 1374.524"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3989"
+			PostTiePos="3079.255 417.564 1556.544"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3156.713 421.004 1380.783"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3308.274 436.083 1278.224"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3147.548 421.004 1372.082"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3304.475 436.083 1266.171"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3154.790 426.722 1377.425"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3308.220 441.801 1274.354"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4641"
+			PostTiePos="3150.011 426.722 1374.524"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3305.446 441.801 1269.501"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3308.274 436.083 1278.224"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3446.286 458.690 1135.828"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3304.475 436.083 1266.171"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3436.571 458.690 1127.746"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3308.220 441.801 1274.354"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3444.147 464.408 1132.603"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4642"
+			PostTiePos="3305.446 441.801 1269.501"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3439.188 464.408 1130.021"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3483.558 500.878 991.210"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3446.286 458.690 1135.828"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3471.103 500.878 989.068"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3436.571 458.690 1127.746"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3480.093 506.597 989.487"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3444.147 464.408 1132.603"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3474.508 506.597 989.730"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4647"
+			PostTiePos="3439.188 464.408 1130.021"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3488.165 491.999 828.090"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3483.558 500.878 991.210"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3476.113 491.999 824.289"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3471.103 500.878 989.068"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3484.964 497.717 825.915"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3480.093 506.597 989.487"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3479.397 497.717 825.403"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4648"
+			PostTiePos="3474.508 506.597 989.730"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4599"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus"
+		Pos="2302.980 449.305 3792.337"
+		Rot="0.000 -0.948 0.000 0.317">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4600"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus"
+		Pos="2339.195 450.231 3763.557"
+		Rot="0.000 -0.950 0.000 0.313">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="BrokenModel4614"
+		Belong="1001"
+		Prototype="BrokenModel" />
+
+	<Object
+		Name="Smoke4626"
+		Belong="1001"
+		Prototype="Smoke" />
+
+	<Object
+		Name="minePusher4627"
+		Belong="1001"
+		Prototype="minePusher" />
+
+	<Object
+		Name="two4628"
+		Belong="1001"
+		Prototype="two"
+		Pos="525.643 390.076 3177.365">
+		<Object
+			Name="two4628_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="prefabTest4629"
+		Belong="1001"
+		Prototype="prefabTest"
+		Pos="535.729 389.340 3181.731">
+		<Object
+			Name="prefabTest4629_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="prefabTest14630"
+		Belong="1001"
+		Prototype="prefabTest1"
+		Pos="547.244 389.440 3201.263">
+		<Object
+			Name="prefabTest14630_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="barricadeTest4631"
+		Belong="1001"
+		Prototype="barricadeTest"
+		Pos="543.364 390.533 3210.180"
+		Probability="0.300">
+		<Object
+			Name="barricadeTest4631_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="barricade14632"
+		Belong="1001"
+		Prototype="barricade1"
+		Pos="533.477 392.434 3223.798"
+		Probability="0.300">
+		<Object
+			Name="barricade14632_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="barricade24633"
+		Belong="1001"
+		Prototype="barricade2"
+		Pos="540.466 391.111 3214.034"
+		Probability="0.300">
+		<Object
+			Name="barricade24633_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="barricade34634"
+		Belong="1001"
+		Prototype="barricade3"
+		Pos="543.366 389.180 3191.233"
+		Probability="0.300">
+		<Object
+			Name="barricade34634_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="barricade4_wGw4635"
+		Belong="1001"
+		Prototype="barricade4_wGw"
+		Pos="558.284 387.396 3194.567"
+		Probability="0.500">
+		<Object
+			Name="barricade4_wGw4635_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="barricade8_wwwC4636"
+		Belong="1001"
+		Prototype="barricade8_wwwC"
+		Pos="554.076 387.817 3191.478"
+		Probability="0.500">
+		<Object
+			Name="barricade8_wwwC4636_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="InFatherHause_014637"
+		Belong="1001"
+		Prototype="InFatherHause_01"
+		Pos="524.733 389.765 3171.536">
+		<Object
+			Name="InFatherHause_014637_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="js_3barrels4638"
+		Belong="1001"
+		Prototype="js_3barrels"
+		Pos="450.003 444.201 3003.977">
+		<Object
+			Name="js_3barrels4638_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="js_barrelbar4639"
+		Belong="1001"
+		Prototype="js_barrelbar"
+		Pos="453.751 443.627 2998.515">
+		<Object
+			Name="js_barrelbar4639_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="js_barricade14640"
+		Belong="1001"
+		Prototype="js_barricade1"
+		Pos="444.061 441.857 3019.491">
+		<Object
+			Name="js_barricade14640_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="js_brickbar4641"
+		Belong="1001"
+		Prototype="js_brickbar"
+		Pos="418.884 463.476 2999.162">
+		<Object
+			Name="js_brickbar4641_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="js_wallwithenemy14642"
+		Belong="1001"
+		Prototype="js_wallwithenemy1"
+		Pos="405.414 457.504 3018.648">
+		<Object
+			Name="js_wallwithenemy14642_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="js_wallwithenemy24643"
+		Belong="1001"
+		Prototype="js_wallwithenemy2"
+		Pos="379.174 477.607 3005.958">
+		<Object
+			Name="js_wallwithenemy24643_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="tankCab014678"
+		Belong="1001"
+		Prototype="tankCab01" />
+
+	<Object
+		Name="tankCab014679"
+		Belong="1001"
+		Prototype="tankCab01" />
+
+	<Object
+		Name="tankCab014680"
+		Belong="1001"
+		Prototype="tankCab01" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1003.429 469.490 3475.699"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4981"
+			PostTiePos="798.116 451.615 3604.375"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1000.965 469.490 3463.303"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4981"
+			PostTiePos="795.652 451.615 3591.979"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1003.797 475.208 3471.846"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4981"
+			PostTiePos="798.484 457.333 3600.522"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object3975"
+			PostTiePos="1001.567 475.208 3466.719"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4981"
+			PostTiePos="796.254 457.333 3595.395"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4682"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3226.416 386.499 1807.689" />
+
+	<Object
+		Name="Breakable_TankEg4683"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3214.658 387.603 1824.489" />
+
+	<Object
+		Name="Breakable_TankEg4684"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3230.001 387.377 1823.148" />
+
+	<Object
+		Name="Breakable_TankEg4685"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3233.857 385.682 1793.069" />
+
+	<Object
+		Name="Breakable_TankEg4686"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3164.569 389.318 1839.648" />
+
+	<Object
+		Name="Breakable_TankEg4687"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3146.130 389.384 1835.396" />
+
+	<Object
+		Name="Breakable_TankEg4688"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3131.161 388.886 1823.190" />
+
+	<Object
+		Name="Breakable_TankEg4689"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3125.759 390.244 1841.438" />
+
+	<Object
+		Name="Breakable_TankEg4690"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3152.274 390.735 1857.119" />
+
+	<Object
+		Name="Breakable_TankEg4691"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3244.116 387.045 1819.155" />
+
+	<Object
+		Name="Breakable_TankEg4692"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3228.366 388.400 1839.453" />
+
+	<Object
+		Name="Breakable_TankEg4693"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="3168.779 390.387 1856.548" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="501.526 441.492 3339.729"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5106"
+			PostTiePos="734.740 452.056 3550.453"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="489.473 441.492 3343.528"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5106"
+			PostTiePos="725.237 452.056 3558.785"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="497.657 447.211 3339.783"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5106"
+			PostTiePos="731.220 457.774 3552.062"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="492.802 447.211 3342.557"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5106"
+			PostTiePos="727.894 457.774 3556.556"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="415.989 463.379 3109.269"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="501.526 441.492 3339.729"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="405.301 463.379 3102.526"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="489.473 441.492 3343.528"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="413.447 469.097 3106.351"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="497.657 447.211 3339.783"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="408.193 469.097 3104.439"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5107"
+			PostTiePos="492.802 447.211 3342.557"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="519.009 420.474 1894.045"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="572.402 450.339 2051.444"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="506.473 420.474 1895.638"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="560.995 450.339 2056.884"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="515.192 426.192 1893.410"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="568.578 456.057 2052.037"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="509.922 426.192 1895.276"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="564.157 456.057 2055.459"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="538.620 466.851 2912.141"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="415.989 463.379 3109.269"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="529.684 466.851 2903.205"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="405.301 463.379 3102.526"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="536.785 472.569 2908.734"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="413.447 469.097 3106.351"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="532.082 472.569 2905.710"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5108"
+			PostTiePos="408.193 469.097 3104.439"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="668.353 466.755 2700.859"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="538.620 466.851 2912.141"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="659.417 466.755 2691.923"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="529.684 466.851 2903.205"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="666.518 472.473 2697.452"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="536.785 472.569 2908.734"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="661.815 472.473 2694.428"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5109"
+			PostTiePos="532.082 472.569 2905.710"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="767.932 466.851 2463.097"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="668.353 466.755 2700.859"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="756.321 466.851 2458.108"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="659.417 466.755 2691.923"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="764.966 472.569 2460.612"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="666.518 472.473 2697.452"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="759.477 472.569 2459.546"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5110"
+			PostTiePos="661.815 472.473 2694.428"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="723.056 466.851 2273.555"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="767.932 466.851 2463.097"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="710.694 466.851 2276.180"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="756.321 466.851 2458.108"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="719.199 472.569 2273.238"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="764.966 472.569 2460.612"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="714.101 472.569 2275.534"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5111"
+			PostTiePos="759.477 472.569 2459.546"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="572.402 450.339 2051.444"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="723.056 466.851 2273.555"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="560.995 450.339 2056.884"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="710.694 466.851 2276.180"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="568.578 456.057 2052.037"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="719.199 472.569 2273.238"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5113"
+			PostTiePos="564.157 456.057 2055.459"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5112"
+			PostTiePos="714.101 472.569 2275.534"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5115"
+			PostTiePos="413.150 405.446 1789.753"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="519.009 420.474 1894.045"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5115"
+			PostTiePos="402.924 405.446 1797.180"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="506.473 420.474 1895.638"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5115"
+			PostTiePos="409.497 411.164 1791.032"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="515.192 426.192 1893.410"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5115"
+			PostTiePos="405.774 411.164 1795.203"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5114"
+			PostTiePos="509.922 426.192 1895.276"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Name="Breakable_Stolb14705"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2441.581 462.127 3029.971" />
+
+	<Object
+		Name="Breakable_Stolb14706"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2450.659 459.596 2944.286" />
+
+	<Object
+		Name="Breakable_Stolb14708"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2380.297 431.908 2752.695"
+		Rot="0.000 0.307 0.000 0.952" />
+
+	<Object
+		Name="Breakable_Stolb14709"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2432.316 462.432 3086.988" />
+
+	<Object
+		Name="Breakable_Stolb14710"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2432.727 448.306 3162.829" />
+
+	<Object
+		Name="Breakable_Stolb14711"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2425.861 434.913 3318.472" />
+
+	<Object
+		Name="Breakable_Stolb14712"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2429.078 435.208 3246.699" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14706"
+			NodesNameHierarchy=""
+			PostTiePos="2451.382 466.004 2944.519"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14705"
+			NodesNameHierarchy=""
+			PostTiePos="2442.304 468.535 3030.204"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14706"
+			NodesNameHierarchy=""
+			PostTiePos="2450.119 465.661 2944.519"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14705"
+			NodesNameHierarchy=""
+			PostTiePos="2441.041 468.192 3030.204"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14705"
+			NodesNameHierarchy=""
+			PostTiePos="2442.304 468.535 3030.204"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14709"
+			NodesNameHierarchy=""
+			PostTiePos="2433.039 468.840 3087.221"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14705"
+			NodesNameHierarchy=""
+			PostTiePos="2441.041 468.192 3030.204"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14709"
+			NodesNameHierarchy=""
+			PostTiePos="2431.776 468.497 3087.221"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14709"
+			NodesNameHierarchy=""
+			PostTiePos="2433.039 468.840 3087.221"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14710"
+			NodesNameHierarchy=""
+			PostTiePos="2433.450 454.715 3163.062"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14709"
+			NodesNameHierarchy=""
+			PostTiePos="2431.776 468.497 3087.221"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14710"
+			NodesNameHierarchy=""
+			PostTiePos="2432.187 454.371 3163.062"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14710"
+			NodesNameHierarchy=""
+			PostTiePos="2433.450 454.715 3163.062"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14712"
+			NodesNameHierarchy=""
+			PostTiePos="2429.801 441.616 3246.932"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14710"
+			NodesNameHierarchy=""
+			PostTiePos="2432.187 454.371 3163.062"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14712"
+			NodesNameHierarchy=""
+			PostTiePos="2428.538 441.273 3246.932"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14712"
+			NodesNameHierarchy=""
+			PostTiePos="2429.801 441.616 3246.932"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14711"
+			NodesNameHierarchy=""
+			PostTiePos="2426.584 441.321 3318.705"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14712"
+			NodesNameHierarchy=""
+			PostTiePos="2428.538 441.273 3246.932"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14711"
+			NodesNameHierarchy=""
+			PostTiePos="2425.321 440.978 3318.705"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Name="Breakable_Stolb14713"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2374.922 432.040 3375.033"
+		Rot="0.000 -0.354 0.000 0.935" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14711"
+			NodesNameHierarchy=""
+			PostTiePos="2426.584 441.321 3318.705"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14713"
+			NodesNameHierarchy=""
+			PostTiePos="2375.309 438.449 3375.686"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14711"
+			NodesNameHierarchy=""
+			PostTiePos="2425.321 440.978 3318.705"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14713"
+			NodesNameHierarchy=""
+			PostTiePos="2374.363 438.105 3374.850"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Name="Breakable_Stolb14714"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2315.314 431.908 3436.711"
+		Rot="0.000 -0.419 0.000 0.908" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14713"
+			NodesNameHierarchy=""
+			PostTiePos="2375.309 438.449 3375.686"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14714"
+			NodesNameHierarchy=""
+			PostTiePos="2315.605 438.316 3437.412"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14713"
+			NodesNameHierarchy=""
+			PostTiePos="2374.363 438.105 3374.850"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14714"
+			NodesNameHierarchy=""
+			PostTiePos="2314.786 437.973 3436.451"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14708"
+			NodesNameHierarchy=""
+			PostTiePos="2381.020 438.316 2752.462"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14706"
+			NodesNameHierarchy=""
+			PostTiePos="2451.382 466.004 2944.519"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14708"
+			NodesNameHierarchy=""
+			PostTiePos="2379.995 437.973 2753.200"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14706"
+			NodesNameHierarchy=""
+			PostTiePos="2450.119 465.661 2944.519"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Name="Breakable_Stolb14717"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2355.267 431.908 2740.746"
+		Rot="0.000 0.605 0.000 0.796" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14717"
+			NodesNameHierarchy=""
+			PostTiePos="2355.685 438.316 2740.112"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14708"
+			NodesNameHierarchy=""
+			PostTiePos="2381.020 438.316 2752.462"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14717"
+			NodesNameHierarchy=""
+			PostTiePos="2355.347 437.973 2741.329"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14708"
+			NodesNameHierarchy=""
+			PostTiePos="2379.995 437.973 2753.200"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Name="Breakable_Stolb14719"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2245.583 431.886 3497.005"
+		Rot="0.000 -0.284 0.000 0.959" />
+
+	<Object
+		Name="Breakable_Stolb14720"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2202.113 431.905 3591.981" />
+
+	<Object
+		Name="Breakable_Stolb14721"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2210.786 431.908 3673.736" />
+
+	<Object
+		Name="Breakable_Stolb14722"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2271.872 438.640 3757.251"
+		Rot="0.000 0.356 0.000 0.934" />
+
+	<Object
+		Name="Breakable_Stolb14723"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="2292.202 449.933 3809.748" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14714"
+			NodesNameHierarchy=""
+			PostTiePos="2315.605 438.316 3437.412"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14719"
+			NodesNameHierarchy=""
+			PostTiePos="2246.062 438.295 3497.594"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14714"
+			NodesNameHierarchy=""
+			PostTiePos="2314.786 437.973 3436.451"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14719"
+			NodesNameHierarchy=""
+			PostTiePos="2245.003 437.951 3496.906"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14719"
+			NodesNameHierarchy=""
+			PostTiePos="2246.062 438.295 3497.594"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14720"
+			NodesNameHierarchy=""
+			PostTiePos="2202.836 438.313 3592.214"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14719"
+			NodesNameHierarchy=""
+			PostTiePos="2245.003 437.951 3496.906"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14720"
+			NodesNameHierarchy=""
+			PostTiePos="2201.573 437.970 3592.214"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14720"
+			NodesNameHierarchy=""
+			PostTiePos="2202.836 438.313 3592.214"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14721"
+			NodesNameHierarchy=""
+			PostTiePos="2211.509 438.316 3673.969"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14720"
+			NodesNameHierarchy=""
+			PostTiePos="2201.573 437.970 3592.214"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14721"
+			NodesNameHierarchy=""
+			PostTiePos="2210.246 437.973 3673.969"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14721"
+			NodesNameHierarchy=""
+			PostTiePos="2211.509 438.316 3673.969"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14722"
+			NodesNameHierarchy=""
+			PostTiePos="2272.567 445.048 3756.944"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14721"
+			NodesNameHierarchy=""
+			PostTiePos="2210.246 437.973 3673.969"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14722"
+			NodesNameHierarchy=""
+			PostTiePos="2271.625 444.705 3757.784"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14722"
+			NodesNameHierarchy=""
+			PostTiePos="2272.567 445.048 3756.944"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14723"
+			NodesNameHierarchy=""
+			PostTiePos="2292.925 456.341 3809.981"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName="Breakable_Stolb14722"
+			NodesNameHierarchy=""
+			PostTiePos="2271.625 444.705 3757.784"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName="Breakable_Stolb14723"
+			NodesNameHierarchy=""
+			PostTiePos="2291.662 455.998 3809.981"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4727"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus"
+		Pos="1119.940 431.852 3438.145"
+		Rot="0.000 0.887 0.000 0.462">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4728"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus"
+		Pos="1142.796 427.752 3474.256"
+		Rot="0.000 0.877 0.000 0.481">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4732"
+		Belong="1080"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="1115.833 428.952 3484.865"
+		Rot="0.000 0.894 0.000 0.448">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot3_rainmetal4734"
+		Belong="1080"
+		Prototype="heavy_dot3_rainmetal"
+		Pos="1100.415 431.030 3461.983"
+		Rot="0.000 0.886 0.000 0.464">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_big_swingfire4735"
+		Belong="1080"
+		Prototype="heavy_dot4_big_swingfire"
+		Pos="1104.761 431.252 3429.855"
+		Rot="0.000 0.881 0.000 0.473">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="sack_dot2_vulcan4741"
+		Belong="1080"
+		Prototype="sack_dot2_vulcan"
+		Pos="972.752 429.424 3418.919"
+		Rot="0.000 0.998 0.000 0.065">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_rapier4745"
+		Belong="1080"
+		Prototype="heavy_dot4_rapier"
+		Pos="891.023 423.923 3406.372"
+		Rot="0.000 0.998 0.000 0.063">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4747"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="898.734 422.593 3395.449" />
+
+	<Object
+		Name="Breakable_TankEg4748"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="886.285 421.490 3394.406" />
+
+	<Object
+		Name="Breakable_TankEg4749"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="893.312 421.277 3390.513" />
+
+	<Object
+		Name="Breakable_TankEg4750"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="970.607 428.237 3407.900" />
+
+	<Object
+		Name="Breakable_TankEg4751"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="975.924 428.672 3409.892" />
+
+	<Object
+		Name="heavy_dot4_vulcan4754"
+		Belong="1080"
+		Prototype="heavy_dot4_vulcan"
+		Pos="810.194 415.138 3392.044"
+		Rot="0.000 1.000 0.000 0.009">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4755"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="806.160 413.048 3382.992" />
+
+	<Object
+		Name="Breakable_TankEg4756"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="817.751 414.484 3385.630" />
+
+	<Object
+		Name="Breakable_TankEg4757"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="813.393 413.139 3380.829" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3427.219 479.525 732.096"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3488.165 491.999 828.090"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3414.712 479.525 733.907"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3476.113 491.999 824.289"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3423.391 485.244 731.527"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3484.964 497.717 825.915"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3418.154 485.244 733.485"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object4649"
+			PostTiePos="3479.397 497.717 825.403"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3286.297 469.117 556.537"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3427.219 479.525 732.096"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3276.510 469.117 564.531"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3414.712 479.525 733.907"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3282.724 474.835 558.021"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3423.391 485.244 731.527"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3279.243 474.835 562.396"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5502"
+			PostTiePos="3418.154 485.244 733.485"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5506"
+			PostTiePos="3155.047 470.565 474.235"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3286.297 469.117 556.537"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5506"
+			PostTiePos="3152.526 470.565 486.619"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3276.510 469.117 564.531"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5506"
+			PostTiePos="3153.219 476.283 477.645"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3282.724 474.835 558.021"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5506"
+			PostTiePos="3153.292 476.283 483.236"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object5505"
+			PostTiePos="3279.243 474.835 562.396"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4758"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus"
+		Pos="536.039 397.732 3269.198"
+		Rot="0.000 -0.974 0.000 -0.225">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="InFatherHause_014759"
+		Belong="1001"
+		Prototype="InFatherHause_01"
+		Pos="2081.854 431.764 725.729">
+		<Object
+			Name="InFatherHause_014759_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="InFatherHause_024760"
+		Belong="1001"
+		Prototype="InFatherHause_02"
+		Pos="2045.307 431.908 812.879">
+		<Object
+			Name="InFatherHause_024760_Team"
+			Belong="1001"
+			Prototype="settlementTeam">
+			<Formation
+				Belong="1001"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="100.000"
+				AngularVelocity="0.500"
+				NumPathPoint="-1" />
+		</Object>
+	</Object>
+
+	<Object
+		Name="heavy_dot4_big_hurricane4762"
+		Belong="1080"
+		Prototype="heavy_dot4_big_hurricane"
+		Pos="470.532 408.548 3278.326"
+		Rot="0.000 0.941 0.000 0.338">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4763"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="532.148 396.258 3261.699" />
+
+	<Object
+		Name="Breakable_TankEg4764"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="540.761 395.902 3260.484" />
+
+	<Object
+		Name="Breakable_TankEg4765"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="545.287 396.775 3266.915" />
+
+	<Object
+		Name="heavy_dot4_big_rainmetal4766"
+		Belong="1080"
+		Prototype="heavy_dot4_big_rainmetal"
+		Pos="513.194 395.351 3253.804"
+		Rot="0.000 -1.000 0.000 -0.017">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4767"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="510.446 394.835 3244.733" />
+
+	<Object
+		Name="Breakable_TankEg4768"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="517.966 394.667 3247.086" />
+
+	<Object
+		Name="Breakable_TankEg4769"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="524.903 395.113 3253.747" />
+
+	<Object
+		Name="Breakable_TankEg4770"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="484.726 402.705 3278.889" />
+
+	<Object
+		Name="Breakable_TankEg4771"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="502.925 396.944 3264.210" />
+
+	<Object
+		Name="sack_dot2_vulcan4772"
+		Belong="1080"
+		Prototype="sack_dot2_vulcan"
+		Pos="3212.521 387.079 1815.649"
+		Rot="0.000 0.074 0.000 0.997">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="sack_dot2_vulcan4774"
+		Belong="1080"
+		Prototype="sack_dot2_vulcan"
+		Pos="3159.628 388.583 1827.328"
+		Rot="0.000 0.096 0.000 0.995">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_big_swingfire4775"
+		Belong="1080"
+		Prototype="heavy_dot4_big_swingfire"
+		Pos="3118.005 389.991 1834.784">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus_spec4776"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus_spec"
+		Pos="3212.150 386.000 1797.216"
+		Rot="0.000 0.111 0.000 0.994">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus_spec4777"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus_spec"
+		Pos="3152.429 387.722 1812.285"
+		Rot="0.000 0.124 0.000 0.992">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Light_Yellow4779"
+		Belong="1001"
+		Prototype="Light_Yellow"
+		Pos="1862.680 434.336 816.495" />
+
+	<Object
+		Name="heavy_dot4_big_rainmetal4781"
+		Belong="1080"
+		Prototype="heavy_dot4_big_rainmetal"
+		Pos="1073.555 427.173 1764.948"
+		Rot="0.000 -0.031 0.000 1.000">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="sack_dot2_vulcan4794"
+		Belong="1080"
+		Prototype="sack_dot2_vulcan"
+		Pos="539.529 394.125 3247.866"
+		Rot="0.000 -0.996 0.000 -0.089">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4795"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="552.045 393.422 3247.952" />
+
+	<Object
+		Name="Breakable_TankEg4796"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="544.697 393.115 3240.878" />
+
+	<Object
+		Name="Breakable_TankEg4797"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="525.195 394.127 3241.881" />
+
+	<Object
+		Name="Breakable_TankEg4798"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="533.763 393.033 3232.034" />
+
+	<Object
+		Name="Breakable_TankEg4799"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1067.564 430.726 3436.945" />
+
+	<Object
+		Name="Breakable_TankEg4800"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1076.182 430.705 3427.323" />
+
+	<Object
+		Name="Breakable_TankEg4801"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1087.065 430.893 3422.274" />
+
+	<Object
+		Name="Breakable_TankEg4802"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1082.437 430.374 3443.299" />
+
+	<Object
+		Name="Breakable_TankEg4803"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1088.711 430.471 3434.250" />
+
+	<Object
+		Name="Breakable_TankEg4804"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1107.762 431.835 3419.469" />
+
+	<Object
+		Name="Breakable_TankEg4805"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1119.365 431.908 3420.925" />
+
+	<Object
+		Name="Breakable_TankEg4806"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1125.764 431.906 3427.001" />
+
+	<Object
+		Name="Breakable_TankEg4807"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1130.714 431.655 3436.118" />
+
+	<Object
+		Name="Breakable_TankEg4808"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1145.238 428.499 3463.246" />
+
+	<Object
+		Name="Breakable_TankEg4809"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1153.833 427.138 3470.001" />
+
+	<Object
+		Name="Breakable_TankEg4810"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1154.897 425.914 3482.497" />
+
+	<Object
+		Name="Breakable_TankEg4811"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1142.348 425.968 3496.361" />
+
+	<Object
+		Name="Breakable_TankEg4812"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1141.746 425.146 3508.106" />
+
+	<Object
+		Name="Breakable_TankEg4813"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1127.189 425.048 3519.060" />
+
+	<Object
+		Name="Breakable_TankEg4814"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1123.371 426.509 3505.286" />
+
+	<Object
+		Name="Breakable_TankEg4815"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1131.830 427.438 3489.492" />
+
+	<Object
+		Name="Breakable_TankEg4816"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1099.103 430.776 3443.427" />
+
+	<Object
+		Name="Breakable_TankEg4817"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1130.094 428.947 3472.956" />
+
+	<Object
+		Name="Breakable_TankEg4818"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1115.462 431.597 3448.261" />
+
+	<Object
+		Name="traffic_lights14821"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="906.554 432.532 2291.352"
+		Rot="0.000 0.479 0.000 0.878" />
+
+	<Object
+		Name="traffic_lights14822"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="929.604 432.334 2289.777"
+		Rot="0.000 -0.346 0.000 0.938" />
+
+	<Object
+		Name="traffic_lights14823"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="915.430 432.565 2281.047"
+		Rot="0.000 0.927 0.000 0.375" />
+
+	<Object
+		Name="traffic_lights14824"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="896.080 432.437 2307.208"
+		Rot="0.000 -0.864 0.000 0.504" />
+
+	<Object
+		Name="traffic_lights14825"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="2761.968 431.800 2983.899"
+		Rot="0.000 -0.867 0.000 0.498" />
+
+	<Object
+		Name="traffic_lights14826"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="2771.307 431.806 2968.378"
+		Rot="0.000 0.496 0.000 0.868" />
+
+	<Object
+		Name="traffic_lights14827"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="2792.543 431.802 2960.647"
+		Rot="0.000 -0.966 0.000 -0.259" />
+
+	<Object
+		Name="traffic_lights14828"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="2820.597 432.029 2977.115"
+		Rot="0.000 -0.233 0.000 0.972" />
+
+	<Object
+		Name="traffic_lights34834"
+		Belong="1001"
+		Prototype="traffic_lights3"
+		Pos="2312.457 431.894 2749.976"
+		Rot="0.000 0.663 0.000 0.749" />
+
+	<Object
+		Name="traffic_lights34836"
+		Belong="1001"
+		Prototype="traffic_lights3"
+		Pos="2289.573 431.843 2750.643"
+		Rot="0.000 -0.690 0.000 0.724" />
+
+	<Object
+		Name="brokvehicle1_breakable4837"
+		Belong="1001"
+		Prototype="brokvehicle1_breakable"
+		Pos="1107.847 418.342 1707.760"
+		Rot="0.000 -1.000 0.000 -0.002" />
+
+	<Object
+		Name="brokvehicle2_breakable4838"
+		Belong="1001"
+		Prototype="brokvehicle2_breakable"
+		Pos="1258.693 419.567 1658.971" />
+
+	<Object
+		Name="Breakable_TankEg4855"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="499.635 394.894 3234.111" />
+
+	<Object
+		Name="Breakable_TankEg4856"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="468.639 404.166 3246.633" />
+
+	<Object
+		Name="Breakable_TankEg4857"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="412.945 427.317 3213.032" />
+
+	<Object
+		Name="Breakable_TankEg4858"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="423.133 425.361 3217.869" />
+
+	<Object
+		Name="Breakable_TankEg4859"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="424.910 426.191 3235.143" />
+
+	<Object
+		Name="Breakable_TankEg4860"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="396.865 432.784 3226.431" />
+
+	<Object
+		Name="heavy_dot4_octopus4862"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus"
+		Pos="414.289 428.351 3226.283"
+		Rot="0.000 0.950 0.000 0.313">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="sack_dot2_vulcan4863"
+		Belong="1080"
+		Prototype="sack_dot2_vulcan"
+		Pos="1048.742 430.261 1776.479"
+		Rot="-0.041 -0.096 -0.004 0.995">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4864"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1050.149 430.616 1783.218"
+		Rot="0.000 0.799 0.000 0.602" />
+
+	<Object
+		Name="Breakable_TankEg4865"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1039.510 431.141 1773.694"
+		Rot="0.000 0.737 0.000 0.676" />
+
+	<Object
+		Name="Breakable_TankEg4866"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1041.813 431.344 1782.065"
+		Rot="0.000 0.485 0.000 0.875" />
+
+	<Object
+		Name="Breakable_TankEg4867"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1080.842 429.126 1780.528"
+		Rot="0.000 -0.342 0.000 0.940" />
+
+	<Object
+		Name="Breakable_TankEg4868"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1073.316 429.189 1780.181"
+		Rot="0.000 0.994 0.000 -0.113" />
+
+	<Object
+		Name="Breakable_TankEg4869"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1071.430 430.035 1788.246"
+		Rot="0.000 0.809 0.000 0.588" />
+
+	<Object
+		Name="Breakable_SackWall14873"
+		Belong="1001"
+		Prototype="Breakable_SackWall1"
+		Pos="1054.976 431.547 1797.353"
+		Rot="0.000 1.000 0.000 0.000" />
+
+	<Object
+		Name="Breakable_SackWall14874"
+		Belong="1001"
+		Prototype="Breakable_SackWall1"
+		Pos="1061.224 431.802 1813.994"
+		Rot="0.000 -0.044 0.000 0.999" />
+
+	<Object
+		Name="heavy_dot4_vulcan4877"
+		Belong="1080"
+		Prototype="heavy_dot4_vulcan"
+		Pos="1369.433 430.552 1470.868"
+		Rot="0.000 0.710 0.000 0.704">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_vulcan4878"
+		Belong="1080"
+		Prototype="heavy_dot4_vulcan"
+		Pos="1366.881 430.269 1571.337">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_vulcan4879"
+		Belong="1080"
+		Prototype="heavy_dot4_vulcan"
+		Pos="1363.871 431.030 1663.373">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_vulcan4880"
+		Belong="1080"
+		Prototype="heavy_dot4_vulcan"
+		Pos="1362.912 434.222 1741.191">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_octopus4881"
+		Belong="1080"
+		Prototype="heavy_dot4_octopus"
+		Pos="1090.584 431.640 1810.643">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="Breakable_TankEg4882"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1085.110 431.844 1822.400" />
+
+	<Object
+		Name="Breakable_TankEg4883"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1077.802 431.625 1815.460" />
+
+	<Object
+		Name="Breakable_TankEg4884"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1087.376 431.185 1800.929" />
+
+	<Object
+		Name="Breakable_TankEg4885"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1075.621 431.194 1804.758" />
+
+	<Object
+		Name="Breakable_TankEg4886"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1093.665 431.968 1826.248" />
+
+	<Object
+		Name="Breakable_TankEg4887"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1103.504 431.929 1817.660" />
+
+	<Object
+		Name="Breakable_TankEg4888"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1102.172 431.813 1802.672" />
+
+	<Object
+		Name="Breakable_TankEg4889"
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Pos="1097.485 431.452 1797.425" />
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="921.449 469.924 2344.277"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7866"
+			PostTiePos="788.031 469.834 2446.791"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="911.628 469.924 2336.324"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7866"
+			PostTiePos="783.400 469.834 2435.032"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="919.268 475.643 2341.081"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7866"
+			PostTiePos="787.707 475.552 2442.935"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="914.275 475.643 2338.565"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7866"
+			PostTiePos="784.601 475.552 2438.286"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1037.087 469.499 2144.841"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="921.449 469.924 2344.277"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1027.266 469.499 2136.888"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="911.628 469.924 2336.324"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1034.906 475.218 2141.645"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="919.268 475.643 2341.081"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1029.913 475.218 2139.129"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7867"
+			PostTiePos="914.275 475.643 2338.565"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1059.683 469.625 1989.567"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1037.087 469.499 2144.841"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1047.076 469.625 1988.683"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1027.266 469.499 2136.888"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1056.063 475.343 1988.199"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1034.906 475.218 2141.645"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1050.530 475.343 1989.001"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7868"
+			PostTiePos="1029.913 475.218 2139.129"
+			LpName="LP_PART04" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7870"
+			PostTiePos="1006.539 468.975 1707.915"
+			LpName="LP_PART01" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1059.683 469.625 1989.567"
+			LpName="LP_PART01" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7870"
+			PostTiePos="993.932 468.975 1707.031"
+			LpName="LP_PART02" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1047.076 469.625 1988.683"
+			LpName="LP_PART02" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7870"
+			PostTiePos="1002.919 474.693 1706.547"
+			LpName="LP_PART03" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1056.063 475.343 1988.199"
+			LpName="LP_PART03" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Cable">
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7870"
+			PostTiePos="997.386 474.693 1707.349"
+			LpName="LP_PART04" />
+
+		<Post
+			ServerObjName=""
+			NodesNameHierarchy="Object7869"
+			PostTiePos="1050.530 475.343 1989.001"
+			LpName="LP_PART04" />
+	</Object>
+</DynamicScene>

@@ -1,0 +1,6 @@
+{
+	"files.encoding": "windows1251",
+    "Lua.workspace.library": [
+        "${workspaceFolder}/.vscode\\symbols.lua"
+    ]
+}

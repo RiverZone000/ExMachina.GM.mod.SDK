@@ -1,0 +1,144 @@
+1: 02/18/23 19:46:28
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1267 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1029 MB
+1: Page file available            = 3045 MB
+
+1: Data from MemoryManager:
+1: mem used:           329385710
+1: mem allocated:      391933239
+1: mem overhead:        23685600
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x005A3042
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+2: 02/18/23 19:46:35
+lu: GlobalMemoryStatus(): GetLastError = 2
+
+2: Data from MemoryManager:
+2: mem used:           327008798
+2: mem allocated:      390686107
+2: mem overhead:        23093520
+2: last allocation:            0
+
+
+2:   0
+2:     Mod:  M3DEditor, base: 00400000h
+
+2:   1
+2:     Mod:  M3DEditor, base: 00400000h
+
+2:   2
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e0b0
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   3
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e14f
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   4
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e1b8
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   5
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e1f6
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   6     gapfnScSendMessage +455 bytes
+2:     Decl: gapfnScSendMessage
+2:     Mod:  USER32, base: 75b70000h
+
+2:   7     SetPropW +474 bytes
+2:     Decl: SetPropW
+2:     Mod:  USER32, base: 75b70000h
+
+2:   8     GetScrollBarInfo +253 bytes
+2:     Decl: GetScrollBarInfo
+2:     Mod:  USER32, base: 75b70000h
+
+2:   9     GetScrollBarInfo +364 bytes
+2:     Decl: GetScrollBarInfo
+2:     Mod:  USER32, base: 75b70000h
+
+2:  10     KiUserCallbackDispatcher +46 bytes
+2:     Decl: KiUserCallbackDispatcher
+2:     Mod:  ntdll, base: 773b0000h
+
+2:  11     DispatchMessageW +15 bytes
+2:     Decl: DispatchMessageW
+2:     Mod:  USER32, base: 75b70000h
+
+2:  12     DrawStateW +847 bytes
+2:     Decl: DrawStateW
+2:     Mod:  USER32, base: 75b70000h
+
+2:  13     DrawStateW +1439 bytes
+2:     Decl: DrawStateW
+2:     Mod:  USER32, base: 75b70000h
+
+2:  14     SoftModalMessageBox +1674 bytes
+2:     Decl: SoftModalMessageBox
+2:     Mod:  USER32, base: 75b70000h
+
+2:  15     SoftModalMessageBox +3086 bytes
+2:     Decl: SoftModalMessageBox
+2:     Mod:  USER32, base: 75b70000h
+
+2:  16     MessageBoxTimeoutW +127 bytes
+2:     Decl: MessageBoxTimeoutW
+2:     Mod:  USER32, base: 75b70000h
+
+2:  17     MessageBoxTimeoutA +161 bytes
+2:     Decl: MessageBoxTimeoutA
+2:     Mod:  USER32, base: 75b70000h
+
+2:  18     MessageBoxExA +27 bytes
+2:     Decl: MessageBoxExA
+2:     Mod:  USER32, base: 75b70000h
+
+2:  19     MessageBoxA +69 bytes
+2:     Decl: MessageBoxA
+2:     Mod:  USER32, base: 75b70000h
+
+2:  20     _assert +1248 bytes
+2:     Decl: _assert
+2:     Mod:  MSVCR71, base: 7c360000h
+
+2:  21     _assert +876 bytes
+2:     Decl: _assert
+2:     Mod:  MSVCR71, base: 7c360000h
+
+2:  22     RtlAllocateHeap +529 bytes
+2:     Decl: RtlAllocateHeap
+2:     Mod:  ntdll, base: 773b0000h
+
+
+Registers:
+	CS:EIP 0x001B:005A3042
+	SS:ESP 0x0023:0012EC38
+	DS:EDI 0x0023:022D0094
+	ES:ESI 0x0023:00000000
+	   EAX        0014A444
+	   EBX        00000000
+	   ECX        00000000
+	   EDX        0000002E
+

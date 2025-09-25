@@ -1,0 +1,685 @@
+---------------------------------------------- Log begins on Fri Jul 30 17:39:44 2021 ----------------------------------------------
+I           m3dapp.cpp[0088]30/07 17:39:44 Starting up...
+I           m3dapp.cpp[1498]30/07 17:39:44 ExMachina - release version release build v1.02 (Dec 21 2005 12:15:10)
+I      Stackwalker.cpp[0608]30/07 17:39:44 Stackwalker: log file name will be 'd:/games/ex machina games/ex machina/ex machina 1/exceptions/game.exe0002.log'
+I      Stackwalker.cpp[0609]30/07 17:39:44 Stackwalker: dump file name will be 'd:/games/ex machina games/ex machina/ex machina 1/exceptions/game.exe0002.dmp'
+I      Stackwalker.cpp[0610]30/07 17:39:44 Stackwalker: game log file name will be 'd:/games/ex machina games/ex machina/ex machina 1/exceptions/game.exe0002_game.log'
+I           m3dapp.cpp[1391]30/07 17:39:44 Path: D:\Games\EX Machina Games\Ex Machina\Ex Machina 1
+I           m3dapp.cpp[1392]30/07 17:39:44 Exe: D:\Games\EX Machina Games\Ex Machina\Ex Machina 1\game.exe
+I           m3dapp.cpp[1401]30/07 17:39:44 Windows version: 6.1.7601
+I           m3dapp.cpp[1410]30/07 17:39:44 Computer name: RIVER-PC
+I           m3dapp.cpp[1430]30/07 17:39:44 Cpu: GenuineIntel
+I           m3dapp.cpp[1434]30/07 17:39:44 Cpu clock: ~1596
+I           m3dapp.cpp[1459]30/07 17:39:44 Processor is mmx able
+I           m3dapp.cpp[1470]30/07 17:39:44 Physical memory: 1893 MB
+I           m3dapp.cpp[1471]30/07 17:39:44 Total memory:    3787 MB
+I           m3dapp.cpp[1472]30/07 17:39:44 Physical memory available: 1600 MB
+I           m3dapp.cpp[1473]30/07 17:39:44 Total memory available:    1914 MB
+I           m3dapp.cpp[2846]30/07 17:39:44 SetCodepage -- using codepage 1251 '1251  (ANSI - кириллица)'
+I           m3dapp.cpp[2154]30/07 17:39:45 NOTE! renderer is bind to dxrender9.dll
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Given device behavior: 80
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Confirmed device behavior: 80
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Description: Intel(R) HD Graphics
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Driver:      igdumd32.dll
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: VendorId:    0x8086
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: DeviceId:    0x106
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: SubSysId:    0x3672103c
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Revision:    9
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Driver version info:
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d:   Product:    9
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d:   Version:    17
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d:   SubVersion: 10
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d:   Build:      4229
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: WHQLLevel:    0
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Texture max size: 8192x8192
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Guard band: (-8192.000,-8192.000,8192.000,8192.000)
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxTextureBlendStages: 8
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxSimultaneousTextures: 8
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxActiveLights: 10
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxUserClipPlanes: 6
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: VertexShaderVersion: 0xfffe0300
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: PixelShaderVersion: 0xffff0300
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Geometry instancing: supported
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Depth bias supported: yes
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Slope-scale based depth bias supported: yes
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: HwRasterization: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: HwTnL: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: PureDevice: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: CubeMap: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: VolumeMap: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: TextureAddressCaps:
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: 	wrap: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: 	clamp: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: 	border: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Projective textures: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxPointSize: 256.000
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxPrimitiveCount: 1048575
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxVertexIndex: 16777215
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxStreams: 16
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxStreamsStride: 255
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxAnisotropy: 16
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxVertexBlendMatrices: 4
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxVertexBlendMatrixIndex: 8
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: FullScreenGamma: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: COLORWRITEENABLE: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MASKZ: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: BLENDOP: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: CLIPPLANESCALEDPOINTS: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: CLIPTLVERTS: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: TSSARGTEMP: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: DIRECTIONALLIGHTS: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: LOCALVIEWER: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: POSITIONALLIGHTS: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: TEXGEN:  true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: TWEENING:  true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Dp3: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Lerp: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: MaxNpatchTessellationLevel: 0.000
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query VCACHE support: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query EVENT support: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query OCCLUSION support: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query TIMESTAMP support: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query TIMESTAMPDISJOINT support: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query TIMESTAMPFREQ support: true
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query PIPELINETIMINGS support: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query INTERFACETIMINGS support: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query VERTEXTIMINGS support: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query PIXELTIMINGS support: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query BANDWIDTHTIMINGS support: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Query CACHEUTILIZATION support: false
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Stenciling: off
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]30/07 17:39:45 d3d: Rt depth format: D16
+I           m3dapp.cpp[2206]30/07 17:39:45 NOTE! input is bind to input_di8.dll
+I           m3dapp.cpp[1938]30/07 17:39:45 NOTE! sound is bind to sound.dll
+I           m3dapp.cpp[1350]30/07 17:39:45 input: Joystick not found
+I           m3dapp.cpp[1343]30/07 17:39:46 snd: Max sound channels available: 128
+I           m3dapp.cpp[1343]30/07 17:39:46 snd: Sound is inited successfully
+I             font.cpp[0976]30/07 17:39:47 FontManager: fonts are loaded successfully
+I      gameimpulse.cpp[0288]30/07 17:39:48 Key bindings: were inited successfully
+I           view32.cpp[0705]30/07 17:39:48 --- Init Media ---
+I    GameUiManager.cpp[0303]30/07 17:39:49 Interface: is initializing...
+I    GameUiManager.cpp[1580]30/07 17:39:49 Interface: clearing resource infos ...
+I    GameUiManager.cpp[1491]30/07 17:39:49 Interface: loading resource infos ...
+I    GameUiManager.cpp[1603]30/07 17:39:49 Interface: loading resources ...
+I           m3dapp.cpp[1343]30/07 17:39:49 snd: Error: Can't Open SoundFile: 
+I           m3dapp.cpp[1343]30/07 17:39:49 snd: Cannot open sound stream from file . Error: File not found, flags: 8272
+I    GameUiManager.cpp[0395]30/07 17:39:49 Interface: is inited successfully
+I        LevelInfo.cpp[0806]30/07 17:39:49 Level infos were loaded successfully from file data\if\diz\LevelInfo.xml
+I        LevelInfo.cpp[0747]30/07 17:39:50 LevelInfoManager was inited successfully
+I   TruxxUiManager.cpp[0191]30/07 17:39:50 TruxxUiManager: was inited successfully
+I      gameimpulse.cpp[0618]30/07 17:39:51 Key bindings: unbind all is done
+I      gameimpulse.cpp[0324]30/07 17:39:51 Key bindings: were loaded successfully from file data\scripts\DefaultKeyBindings.lua
+I      gameimpulse.cpp[1194]30/07 17:39:51 Key bindings: were bind from defaults
+I            video.cpp[0704]30/07 17:39:51 Could not load specified video file: data\video\logobuka.wmv (hr = 80070003)
+I     view32_video.cpp[0061]30/07 17:39:51 Error: couldn't load video 'data\video\logobuka.wmv'
+I            video.cpp[0704]30/07 17:39:51 Could not load specified video file: data\video\logotargem.wmv (hr = 80070003)
+I     view32_video.cpp[0061]30/07 17:39:51 Error: couldn't load video 'data\video\logotargem.wmv'
+I            video.cpp[0704]30/07 17:39:51 Could not load specified video file: data\video\INTRO_RUS_FIELD.wmv (hr = 80070003)
+I     view32_video.cpp[0061]30/07 17:39:51 Error: couldn't load video 'data\video\INTRO_RUS_FIELD.wmv'
+I           m3dapp.cpp[1808]30/07 17:39:51 ----------------------- Engine inited in: 0
+I          Profile.cpp[0602]30/07 17:39:51 Profile "RiverZone" set
+I   TruxxUiManager.cpp[1422]30/07 17:39:51 Game mode changed. Old mode = 3, new mode = 2
+I        SplashWnd.cpp[0244]30/07 17:39:51 Start splashing 11
+I           view32.cpp[1048]30/07 17:39:51 -- Loading Level: data\maps\mainmenu.ssl --
+I            world.cpp[0132]30/07 17:39:51 ----------------------- World Loading
+F        landscape.cpp[1674]30/07 17:39:52  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]30/07 17:39:52  |  ----------------------- Normal map loaded in: 11
+I        landscape.cpp[1920]30/07 17:39:52  |  ----------------------- Tiles loaded in: 40
+I        landscape.cpp[1944]30/07 17:39:52  |  ----------------------- ShoreLine loaded in: 20
+F        landscape.cpp[1944]30/07 17:39:52  +- Exit function: Landscape::Load()
+I            world.cpp[0169]30/07 17:39:52 ----------------------- Landscape loaded in: 259
+I       DataServer.cpp[0587]30/07 17:39:52 Loading Servers: data\maps\MainMenu\servers.xml
+I serverAnimatedModel.cpp[0630]30/07 17:39:57 ### Total time: 4914, GAM time: 3417
+I       DataServer.cpp[0587]30/07 17:40:00 Loading Servers: data\models\commonservers.xml
+I            world.cpp[0210]30/07 17:40:01 ----------------------- Servers loaded in: 8876
+I            world.cpp[0338]30/07 17:40:01 LoadWorld begin...
+I            world.cpp[0350]30/07 17:40:01 %%%% read/parse xml: 37
+I            world.cpp[0362]30/07 17:40:01 %%%% read from xml: 9
+E    PlayerPassMap.cpp[0139]30/07 17:40:01 Couldn't load player pass map from file data\maps\MainMenu\player_passmap.xml
+I            world.cpp[0444]30/07 17:40:01 %%%% link nodes: 33
+I            world.cpp[0220]30/07 17:40:01 ----------------------- Nodes loaded in: 81
+I            world.cpp[0228]30/07 17:40:01 ----------------------- Prefabs loaded in: 0
+I            world.cpp[0247]30/07 17:40:01 ----------------------- World loaded in: 9574
+I            world.cpp[0278]30/07 17:40:01 ----------------------- Roads loaded in: 269
+I           view32.cpp[1078]30/07 17:40:01 Load Server begin...
+I   TruxxUiManager.cpp[0974]30/07 17:40:01 Interface: is loaded successfully
+I           server.cpp[0789]30/07 17:40:01 AI: Loading Server...
+I           server.cpp[0796]30/07 17:40:01 	AI: Loading Relationship
+I     Relationship.cpp[0134]30/07 17:40:01 		 File readed
+I           server.cpp[0801]30/07 17:40:01 	AI: Loading SoilProps
+I           server.cpp[0804]30/07 17:40:01 	AI: Loading ExternalPaths
+I           server.cpp[0807]30/07 17:40:02 	AI: Loading PlayerPassMap
+E    PlayerPassMap.cpp[0139]30/07 17:40:02 Couldn't load player pass map from file data\maps\MainMenu\player_passmap.xml
+I           server.cpp[0813]30/07 17:40:02 	AI: Loading GameObjects
+I           server.cpp[0816]30/07 17:40:02 	AI: Initializing VehicleGeneratorInfoCache
+I           server.cpp[0820]30/07 17:40:02 	AI: Refreshing GameObjects
+I           server.cpp[0824]30/07 17:40:02 	AI: Loading QuestStates
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'FindGomerA_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'Human1_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'Human1_Quest2' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'q_PlaceWithSign' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r3m2_OracleMemory' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r3m1_LureMainDriud' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r3m1_ClearSanctuary' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r3m1_KnowAboutUluk' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r3m1_RescueUlukCivil' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'q_VisitDruid' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_Znaki2_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_HeadsHunterQuest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_OldDvigatel1_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_OldDvigatel2_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_FightFelix' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_ReturnToMarecciaFromCastle' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_FightWithAxelInArena_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_FindLisAfterAxelAndFatherDie_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m2_ToLisaToMonastir' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m1_ArtAntipod_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m1_TakeNarcotics_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r2m1_KillGodFather_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_GetSupportOneOfTheBands2_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_GetSupportOneOfTheBands1_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_FindVerbInAR_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_FindVerbInSNG_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_TakeGeneralOfBandits_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'FindGomerB_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'TraiderStorage_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'FreeExtremistLeader_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'KillExtremist_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m4_TalkWithOldTraderAboutSecondDisk' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'q_FindHusbent' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m3_BonnyAndKlideQuest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m3_ArchHelp' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m3_OldTownOutsiderCar_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m3_CrazyManQuest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_RideAcrossBase_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_GiveMoneyToBase_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_BombShahtsAtakBandits_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_GetBomb_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_IntrigaOfMerMinin_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_MoveFreelancersToOilMine_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_MoveCanistraToMinin_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_OpenTunel_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m3_TW_OralceAboutAlien' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_PayWorkersMoney_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'WhereSigns_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'CombatInKollizey_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'BuyKollizey_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'Kollizey_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'HelpRuins_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'DestroyRuins_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'Signs_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m2_TW_BanAboutAlien' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m3_DestroyOracle' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'WorkGiver_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_PunishBandits_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m1_Hospital_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m1_Botanik_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'r1m1_FindBotanik_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'Buyer_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'TalkWithFather_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_Lisa_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'FindBen_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:02 Quest 'd_SinFather_Quest' can be given now
+I           server.cpp[0826]30/07 17:40:02 	AI: QuestStates loaded
+I           server.cpp[0828]30/07 17:40:02 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]30/07 17:40:02 		 Scene loading begin
+E  SimplePhysicObj.cpp[0414]30/07 17:40:02 Error: mass is too low: 0.000 for ParticleSplinter id = 9 prototype = 'particleSplinter'
+E  SimplePhysicObj.cpp[0414]30/07 17:40:02 Error: mass is too low: 0.000 for ParticleSplinter id = 10 prototype = 'particleSplinter'
+I     DynamicScene.cpp[1472]30/07 17:40:02 		 Scene loading end
+I           server.cpp[0837]30/07 17:40:02 	AI: DynamicScene loaded
+I           server.cpp[0852]30/07 17:40:02 	AI: Loading Triggers
+E           server.cpp[1242]30/07 17:40:02 Error: cannot open data\maps\MainMenu\
+I           server.cpp[0855]30/07 17:40:02 	AI: Triggers loaded
+I           server.cpp[0857]30/07 17:40:02 	AI: Loading Object Names
+E     ObjContainer.cpp[1104]30/07 17:40:02 Error: cannot open data\maps\MainMenu\object_names.xml
+I           server.cpp[0868]30/07 17:40:02 	AI: Initing Player
+I           server.cpp[0888]30/07 17:40:02 		Before first Update
+E           client.cpp[0082]30/07 17:40:02 Error: Cant find server item for name: 'cub'
+I   TruxxUiManager.cpp[1422]30/07 17:40:02 Game mode changed. Old mode = 2, new mode = 1
+I           server.cpp[0909]30/07 17:40:02 		After first Update
+I           server.cpp[0911]30/07 17:40:02 AI: Finished Loading Server
+I           view32.cpp[1106]30/07 17:40:02 Load server end
+I        QuestInfo.cpp[0847]30/07 17:40:02 Quest infos were loaded successfully from file data\if\diz\QuestInfoGlobal.xml
+I        QuestInfo.cpp[0783]30/07 17:40:02 QuestInfo manager was inited successfully
+I       MsgManager.cpp[0391]30/07 17:40:02 Can't open file data\maps\MainMenu\strings.xml for read.
+I    GameUiManager.cpp[0303]30/07 17:40:02 Interface: is initializing...
+I    GameUiManager.cpp[0405]30/07 17:40:02 Interface: is clearing...
+I    GameUiManager.cpp[0495]30/07 17:40:02 Interface: is cleared successfully
+I    GameUiManager.cpp[0395]30/07 17:40:02 Interface: is inited successfully
+I blockMusicManager.cpp[0199]30/07 17:40:02 BlockMusicManager: resetting
+I      gameimpulse.cpp[0618]30/07 17:40:02 Key bindings: unbind all is done
+I      gameimpulse.cpp[0618]30/07 17:40:02 Key bindings: unbind all is done
+I      gameimpulse.cpp[0324]30/07 17:40:02 Key bindings: were loaded successfully from file data/profiles/riverzone\KeyBindings.lua
+I      gameimpulse.cpp[1222]30/07 17:40:02 Key bindings: were loaded from profile
+I  view32_loadsave.cpp[0047]30/07 17:40:08 Game loading: "data/profiles/riverzone\saves\00000175\maps" ...
+I        SplashWnd.cpp[0244]30/07 17:40:09 Start splashing 12
+I   TruxxUiManager.cpp[1422]30/07 17:40:09 Game mode changed. Old mode = 1, new mode = 0
+I    GameUiManager.cpp[0405]30/07 17:40:09 Interface: is clearing...
+I    GameUiManager.cpp[0495]30/07 17:40:09 Interface: is cleared successfully
+I           view32.cpp[1048]30/07 17:40:09 -- Loading Level: data\maps\r4m1.ssl --
+I            world.cpp[0132]30/07 17:40:09 ----------------------- World Loading
+F        landscape.cpp[1674]30/07 17:40:09  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]30/07 17:40:09  |  ----------------------- Normal map loaded in: 0
+I        landscape.cpp[1920]30/07 17:40:09  |  ----------------------- Tiles loaded in: 0
+I        landscape.cpp[1944]30/07 17:40:09  |  ----------------------- ShoreLine loaded in: 0
+F        landscape.cpp[1944]30/07 17:40:09  +- Exit function: Landscape::Load()
+I            world.cpp[0169]30/07 17:40:09 ----------------------- Landscape loaded in: 0
+I       DataServer.cpp[0587]30/07 17:40:09 Loading Servers: data\maps\r4m1\servers.xml
+I serverAnimatedModel.cpp[0630]30/07 17:40:17 ### Total time: 7753, GAM time: 6333
+E      serverSound.cpp[0293]30/07 17:40:18 MusicServer: cannot read file: data\sounds\sounds.xml id = 'S_WOODVEHICLEHIT'
+I       DataServer.cpp[0587]30/07 17:40:18 Loading Servers: data\models\commonservers.xml
+I            world.cpp[0210]30/07 17:40:18 ----------------------- Servers loaded in: 0
+I            world.cpp[0338]30/07 17:40:18 LoadWorld begin...
+I            world.cpp[0350]30/07 17:40:18 %%%% read/parse xml: 0
+I            world.cpp[0362]30/07 17:40:18 %%%% read from xml: 0
+I            world.cpp[0444]30/07 17:40:19 %%%% link nodes: 0
+I            world.cpp[0220]30/07 17:40:19 ----------------------- Nodes loaded in: 0
+I            world.cpp[0228]30/07 17:40:19 ----------------------- Prefabs loaded in: 0
+I            world.cpp[0247]30/07 17:40:19 ----------------------- World loaded in: 0
+I            world.cpp[0278]30/07 17:40:20 ----------------------- Roads loaded in: 0
+I           view32.cpp[1078]30/07 17:40:20 Load Server begin...
+I            Reply.cpp[0415]30/07 17:40:21 Replies were loaded successfully from file data\if\diz\DialogsGlobal.xml
+I            Reply.cpp[0415]30/07 17:40:21 Replies were loaded successfully from file data\if\diz\DynamicDialogsGlobal.xml
+I            Reply.cpp[0343]30/07 17:40:21 RepliesManager was inited successfully
+I    GameUiManager.cpp[1603]30/07 17:40:21 Interface: loading resources ...
+I     ObjectsIcons.cpp[0198]30/07 17:40:21 ObjectsIcons::AddIcon warning - ico with id SpeedPointer already exists and wiil be replaced
+I    GameUiManager.cpp[1603]30/07 17:40:22 Interface: loading resources ...
+I   TruxxUiManager.cpp[0974]30/07 17:40:22 Interface: is loaded successfully
+I           server.cpp[0789]30/07 17:40:22 AI: Loading Server...
+I           server.cpp[0796]30/07 17:40:22 	AI: Loading Relationship
+I     Relationship.cpp[0134]30/07 17:40:22 		 File readed
+I           server.cpp[0801]30/07 17:40:22 	AI: Loading SoilProps
+I           server.cpp[0804]30/07 17:40:22 	AI: Loading ExternalPaths
+I           server.cpp[0807]30/07 17:40:23 	AI: Loading PlayerPassMap
+I           server.cpp[0813]30/07 17:40:23 	AI: Loading GameObjects
+I           server.cpp[0816]30/07 17:40:23 	AI: Initializing VehicleGeneratorInfoCache
+I           server.cpp[0820]30/07 17:40:23 	AI: Refreshing GameObjects
+E      VehiclePart.cpp[0138]30/07 17:40:23 Error: collision geom in vehicle part name = 'heavy_dot1' is not BOX
+I           server.cpp[0824]30/07 17:40:23 	AI: Loading QuestStates
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'FindGomerA_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'Human1_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'Human1_Quest2' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'q_PlaceWithSign' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r3m2_OracleMemory' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r3m1_LureMainDriud' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r3m1_ClearSanctuary' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r3m1_KnowAboutUluk' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r3m1_RescueUlukCivil' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'q_VisitDruid' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_Znaki2_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_HeadsHunterQuest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_OldDvigatel1_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_OldDvigatel2_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_FightFelix' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_ReturnToMarecciaFromCastle' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_FightWithAxelInArena_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_FindLisAfterAxelAndFatherDie_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m2_ToLisaToMonastir' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m1_ArtAntipod_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m1_TakeNarcotics_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r2m1_KillGodFather_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_GetSupportOneOfTheBands2_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_GetSupportOneOfTheBands1_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_FindVerbInAR_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_FindVerbInSNG_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_TakeGeneralOfBandits_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'FindGomerB_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'TraiderStorage_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'FreeExtremistLeader_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'KillExtremist_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m4_TalkWithOldTraderAboutSecondDisk' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'q_FindHusbent' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m3_BonnyAndKlideQuest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m3_ArchHelp' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m3_OldTownOutsiderCar_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m3_CrazyManQuest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_RideAcrossBase_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_GiveMoneyToBase_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_BombShahtsAtakBandits_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_GetBomb_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_IntrigaOfMerMinin_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_MoveFreelancersToOilMine_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_MoveCanistraToMinin_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_OpenTunel_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m3_TW_OralceAboutAlien' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_PayWorkersMoney_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'WhereSigns_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'CombatInKollizey_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'BuyKollizey_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'Kollizey_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'HelpRuins_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'DestroyRuins_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'Signs_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m2_TW_BanAboutAlien' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m3_DestroyOracle' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'WorkGiver_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_PunishBandits_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m1_Hospital_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m1_Botanik_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'r1m1_FindBotanik_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'Buyer_Quest1' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'TalkWithFather_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_Lisa_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'FindBen_Quest' can be given now
+I       QuestState.cpp[0904]30/07 17:40:23 Quest 'd_SinFather_Quest' can be given now
+I           server.cpp[0826]30/07 17:40:23 	AI: QuestStates loaded
+I           server.cpp[0828]30/07 17:40:23 	AI: Loading DynamicScene
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object BASKET_SIDE_GUN_L of prototype hunter01L, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object BASKET_SIDE_GUN_R of prototype hunter01R, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object BASKET_SIDE_GUN_L of prototype hunter01L, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object BASKET_SIDE_GUN_R of prototype hunter01R, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object Wanderer of prototype r2m1_scout03, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object Wanderer of prototype r1m3_Fighter02, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object Wanderer of prototype r1m1_molokovoz02, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object Wanderer of prototype r2m2_Fighter01, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object Wanderer of prototype r2m1_Hunter01, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object Wanderer of prototype r1m1_molokovoz02, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_1 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_2 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_3 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_4 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_5 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_6 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_7 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_8 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_9 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_10 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_11 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object KefCaravan_Location_12 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_1 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_2 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_3 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_4 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_5 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_6 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_7 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:40:24 Attempting to load object GadadCaravan_Location_8 of prototype genericLocation, but an object with this name already exists!
+E              Gun.cpp[0866]30/07 17:40:24 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 7428 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+E              Gun.cpp[0866]30/07 17:40:24 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2774 prototype = 'mrak01L' name = 'BASKET_SIDE_GUN_L', modelName = mrak01L
+E              Gun.cpp[0866]30/07 17:40:24 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2775 prototype = 'mrak01R' name = 'BASKET_SIDE_GUN_R', modelName = mrak01R
+E              Gun.cpp[0866]30/07 17:40:25 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2427 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]30/07 17:40:25 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2428 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]30/07 17:40:25 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2451 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]30/07 17:40:25 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2452 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]30/07 17:40:25 Error: LoadPoint not found: LP_GUN for MinePusher id = 2434 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]30/07 17:40:25 Error: LoadPoint not found: LP_GUN for MinePusher id = 2438 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]30/07 17:40:25 Error: LoadPoint not found: LP_GUN for MinePusher id = 2463 prototype = 'minePusher_1', modelName = minoYkladchiK
+I           server.cpp[0837]30/07 17:40:26 	AI: DynamicScene loaded
+I           server.cpp[0852]30/07 17:40:26 	AI: Loading Triggers
+I           server.cpp[0855]30/07 17:40:26 	AI: Triggers loaded
+I           server.cpp[0857]30/07 17:40:26 	AI: Loading Object Names
+I           server.cpp[0868]30/07 17:40:26 	AI: Initing Player
+I           server.cpp[0888]30/07 17:40:26 		Before first Update
+I           server.cpp[0909]30/07 17:40:26 		After first Update
+I           server.cpp[0911]30/07 17:40:26 AI: Finished Loading Server
+I           view32.cpp[1106]30/07 17:40:26 Load server end
+I        QuestInfo.cpp[0847]30/07 17:40:26 Quest infos were loaded successfully from file data\if\diz\QuestInfoGlobal.xml
+I        QuestInfo.cpp[0783]30/07 17:40:26 QuestInfo manager was inited successfully
+I    GameUiManager.cpp[0303]30/07 17:40:26 Interface: is initializing...
+I    GameUiManager.cpp[0395]30/07 17:40:26 Interface: is inited successfully
+I     GlobalMapWnd.cpp[0157]30/07 17:40:26 Make control error: control mainmenu_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]30/07 17:40:26 Make control error: control t_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0203]30/07 17:40:26 GlobalMapWnd: error - fail to init because of a bad resource
+I    GameUiManager.cpp[1262]30/07 17:40:26 Interface: is loading
+I   TruxxUiManager.cpp[1198]30/07 17:40:26 TruxxUiManager loaded successfully
+I    GameUiManager.cpp[1315]30/07 17:40:27 Interface: was loaded successfully
+I   TruxxUiManager.cpp[1422]30/07 17:40:27 Game mode changed. Old mode = 0, new mode = 0
+I  view32_loadsave.cpp[0185]30/07 17:40:28 Game loaded: "data/profiles/riverzone\saves\00000175\maps"
+I        FadingMsg.cpp[0199]30/07 17:40:28 Fading message: 'Игра загружена: @fffed11b%1s'
+I blockMusicManager.cpp[0185]30/07 17:40:28 BlockMusicManager: start playing new music: blockNum = 8, musicType = 0, name = 'r4_2_driving'
+I             util.cpp[0423]30/07 17:40:35 Maximum joint count reached: 29
+I             util.cpp[0423]30/07 17:40:36 Maximum joint count reached: 32
+I             util.cpp[0423]30/07 17:40:36 Maximum joint count reached: 42
+I             util.cpp[0423]30/07 17:40:36 Maximum joint count reached: 45
+I   TruxxUiManager.cpp[1422]30/07 17:40:37 Game mode changed. Old mode = 0, new mode = 1
+I             util.cpp[0423]30/07 17:40:37 Maximum joint count reached: 48
+I   TruxxUiManager.cpp[1422]30/07 17:40:38 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:40:38 Game mode changed. Old mode = 0, new mode = 0
+I townMusicManager.cpp[0096]30/07 17:40:38 TownMusicManager: start playing new music: 'military_town1'
+I blockMusicManager.cpp[0199]30/07 17:40:42 BlockMusicManager: resetting
+I   TruxxUiManager.cpp[1422]30/07 17:40:42 Game mode changed. Old mode = 0, new mode = 1
+I blockMusicManager.cpp[0185]30/07 17:40:43 BlockMusicManager: start playing new music: blockNum = 7, musicType = 0, name = 'r4_1_driving'
+I   TruxxUiManager.cpp[1422]30/07 17:40:49 Game mode changed. Old mode = 1, new mode = 0
+I             util.cpp[0423]30/07 17:40:49 Maximum joint count reached: 49
+I             util.cpp[0423]30/07 17:40:49 Maximum joint count reached: 50
+I             util.cpp[0423]30/07 17:40:51 Maximum joint count reached: 51
+I             util.cpp[0423]30/07 17:40:55 Maximum joint count reached: 52
+E ComplexPhysicObj.cpp[1428]30/07 17:41:20 Error: LoadPoint not found! Model = 'cruiserCab01', lp = LP_BIG02 for Vehicle id = 34865 prototype = 'Cruiser02'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:20 Error: LoadPoint not found! Model = 'cruiserCab01', lp = LP_BIG02 for Vehicle id = 68176 prototype = 'Cruiser02'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:20 Error: LoadPoint not found! Model = 'cruiserCab01', lp = LP_BIG02 for Vehicle id = 51877 prototype = 'Cruiser02'
+E            Affix.cpp[0075]30/07 17:41:20 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 2742 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]30/07 17:41:20 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 2742 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]30/07 17:41:20 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 2742 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:20 Error: LoadPoint not found! Model = 'cruiserCab01', lp = LP_BIG02 for Vehicle id = 2747 prototype = 'Cruiser02'
+E            Affix.cpp[0075]30/07 17:41:20 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 2765 prototype = 'hunterLauncher'
+E          Vehicle.cpp[5160]30/07 17:41:20 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:20 Error: LoadPoint not found! Model = 'hunterCab02', lp = LP_GIANT01 for Vehicle id = 2877 prototype = 'Hunter01'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:20 Error: LoadPoint not found! Model = 'uralCab02', lp = LP_BIG02 for Vehicle id = 2894 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:20 Error: LoadPoint not found! Model = 'uralCab02', lp = LP_BIG02 for Vehicle id = 2915 prototype = 'Ural02'
+I        FadingMsg.cpp[0199]30/07 17:41:23 Fading message: 'Похоже, мы не одни.'
+I blockMusicManager.cpp[0185]30/07 17:41:23 BlockMusicManager: start playing new music: blockNum = 7, musicType = 1, name = 'r4_1_alarm'
+I        FadingMsg.cpp[0199]30/07 17:41:26 Fading message: 'Думаешь, ловкий, да?!'
+I blockMusicManager.cpp[0199]30/07 17:41:29 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]30/07 17:41:29 BlockMusicManager: start playing new music: blockNum = 7, musicType = 0, name = 'r4_1_driving'
+I        FadingMsg.cpp[0199]30/07 17:41:29 Fading message: 'Умри, пацак!'
+I blockMusicManager.cpp[0185]30/07 17:41:30 BlockMusicManager: start playing new music: blockNum = 7, musicType = 1, name = 'r4_1_alarm'
+I blockMusicManager.cpp[0185]30/07 17:41:33 BlockMusicManager: start playing new music: blockNum = 7, musicType = 2, name = 'r4_1_battle'
+E            Affix.cpp[0075]30/07 17:41:34 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 19167 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]30/07 17:41:34 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 19167 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]30/07 17:41:34 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 19167 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:34 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 19117 prototype = 'Ural01'
+E            Affix.cpp[0075]30/07 17:41:34 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 84575 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:34 Error: LoadPoint not found! Model = 'hunterCab02', lp = LP_GIANT01 for Vehicle id = 150079 prototype = 'Hunter01'
+E ComplexPhysicObj.cpp[1428]30/07 17:41:34 Error: LoadPoint not found! Model = 'uralCab02', lp = LP_BIG02 for Vehicle id = 19365 prototype = 'Ural02'
+E            Affix.cpp[0075]30/07 17:41:34 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of PlasmaBunchLauncher id = 19221 prototype = 'elephant01'
+E            Affix.cpp[0075]30/07 17:41:34 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of PlasmaBunchLauncher id = 19221 prototype = 'elephant01'
+E            Affix.cpp[0075]30/07 17:41:34 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of PlasmaBunchLauncher id = 19221 prototype = 'elephant01'
+I blockMusicManager.cpp[0199]30/07 17:41:43 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]30/07 17:41:43 BlockMusicManager: start playing new music: blockNum = 7, musicType = 0, name = 'r4_1_driving'
+I        FadingMsg.cpp[0199]30/07 17:42:05 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I WanderersManager.cpp[0641]30/07 17:42:07 Spawning caravan: WanderersManager id = 310 prototype = 'JSinxManager' name = 'GadadCaravan' spawns CaravanTeam id = 52099 prototype = 'jsCaravanTeam'
+I   TruxxUiManager.cpp[1422]30/07 17:42:07 Game mode changed. Old mode = 0, new mode = 1
+I   TruxxUiManager.cpp[1422]30/07 17:42:08 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:42:08 Game mode changed. Old mode = 0, new mode = 0
+I townMusicManager.cpp[0096]30/07 17:42:08 TownMusicManager: start playing new music: 'bar'
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object RandomGuns7293 of prototype hammer01, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object RandomGuns7395 of prototype mrakSideGun, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object BASKET_SIDE_GUN_L of prototype mrak01L, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object BASKET_SIDE_GUN_R of prototype mrak01R, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object RandomGuns1809 of prototype flag01, but an object with this name already exists!
+E              Gun.cpp[0866]30/07 17:42:14 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 166848 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+E              Gun.cpp[0866]30/07 17:42:14 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 35707 prototype = 'mrak01L' name = 'BASKET_SIDE_GUN_L', modelName = mrak01L
+E              Gun.cpp[0866]30/07 17:42:14 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 35717 prototype = 'mrak01R' name = 'BASKET_SIDE_GUN_R', modelName = mrak01R
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object RandomGuns7293 of prototype hammer01, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object RandomGuns7395 of prototype mrakSideGun, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object BASKET_SIDE_GUN_L of prototype mrak01L, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object BASKET_SIDE_GUN_R of prototype mrak01R, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:14 Attempting to load object RandomGuns1809 of prototype flag01, but an object with this name already exists!
+E              Gun.cpp[0866]30/07 17:42:14 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 35506 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+E              Gun.cpp[0866]30/07 17:42:14 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 35510 prototype = 'mrak01L' name = 'BASKET_SIDE_GUN_L', modelName = mrak01L
+E              Gun.cpp[0866]30/07 17:42:14 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 35498 prototype = 'mrak01R' name = 'BASKET_SIDE_GUN_R', modelName = mrak01R
+E              Gun.cpp[0866]30/07 17:42:52 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 51910 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+E              Gun.cpp[0866]30/07 17:42:52 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 199598 prototype = 'mrak01L' name = 'BASKET_SIDE_GUN_L', modelName = mrak01L
+E              Gun.cpp[0866]30/07 17:42:52 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 183232 prototype = 'mrak01R' name = 'BASKET_SIDE_GUN_R', modelName = mrak01R
+E     DynamicScene.cpp[1589]30/07 17:42:52 Attempting to load object RandomGuns7293 of prototype hammer01, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:52 Attempting to load object RandomGuns1809 of prototype flag01, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:52 Attempting to load object RandomGuns7395 of prototype mrakSideGun, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:52 Attempting to load object BASKET_SIDE_GUN_L of prototype mrak01L, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:42:52 Attempting to load object BASKET_SIDE_GUN_R of prototype mrak01R, but an object with this name already exists!
+E              Gun.cpp[0866]30/07 17:42:52 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 68277 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+E              Gun.cpp[0866]30/07 17:42:52 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 52101 prototype = 'mrak01L' name = 'BASKET_SIDE_GUN_L', modelName = mrak01L
+E              Gun.cpp[0866]30/07 17:42:52 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 52091 prototype = 'mrak01R' name = 'BASKET_SIDE_GUN_R', modelName = mrak01R
+I blockMusicManager.cpp[0199]30/07 17:43:55 BlockMusicManager: resetting
+I   TruxxUiManager.cpp[1422]30/07 17:43:55 Game mode changed. Old mode = 0, new mode = 1
+I blockMusicManager.cpp[0185]30/07 17:43:55 BlockMusicManager: start playing new music: blockNum = 8, musicType = 0, name = 'r4_2_driving'
+I   TruxxUiManager.cpp[1422]30/07 17:43:57 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:43:57 Game mode changed. Old mode = 0, new mode = 0
+I        SplashWnd.cpp[0244]30/07 17:44:06 Start splashing 1
+I  view32_loadsave.cpp[0223]30/07 17:44:06 Begin saving game 'data/profiles/riverzone\saves\00000176\maps'...
+I    GameUiManager.cpp[1191]30/07 17:44:06 Interface: saving...
+I   TruxxUiManager.cpp[1145]30/07 17:44:07 TruxxUiManager saved successfully
+I    GameUiManager.cpp[1235]30/07 17:44:07 Interface: was saved successfully
+I  view32_loadsave.cpp[0267]30/07 17:44:07 	Saving Dynamic scene...
+I  view32_loadsave.cpp[0269]30/07 17:44:07 	Dynamic scene saved.
+I  view32_loadsave.cpp[0277]30/07 17:44:07 	Saving quest states...
+I  view32_loadsave.cpp[0279]30/07 17:44:07 	Quest states saved.
+I  view32_loadsave.cpp[0294]30/07 17:44:07 	Saving Game Time...
+I  view32_loadsave.cpp[0296]30/07 17:44:07 	Game Time saved.
+I  view32_loadsave.cpp[0303]30/07 17:44:07 	Saving Weather State...
+I  view32_loadsave.cpp[0305]30/07 17:44:07 	Weather State saved.
+I  view32_loadsave.cpp[0313]30/07 17:44:07 	Saving ProcessManager...
+I  view32_loadsave.cpp[0315]30/07 17:44:07 	ProcessManager saved.
+I  view32_loadsave.cpp[0323]30/07 17:44:07 	Saving statistics...
+I  view32_loadsave.cpp[0325]30/07 17:44:07 	Statistics saved.
+I  view32_loadsave.cpp[0335]30/07 17:44:08 Game 'data/profiles/riverzone\saves\00000176\maps\currentmap.xml' saved.
+I        FadingMsg.cpp[0199]30/07 17:44:08 Fading message: 'Игра сохранена: @fffed11b%1s'
+I   TruxxUiManager.cpp[1422]30/07 17:44:11 Game mode changed. Old mode = 0, new mode = 1
+I   TruxxUiManager.cpp[1422]30/07 17:44:12 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:44:12 Game mode changed. Old mode = 0, new mode = 0
+I townMusicManager.cpp[0096]30/07 17:44:12 TownMusicManager: start playing new music: 'bar'
+I       QuestState.cpp[0931]30/07 17:44:22 Quest 'r4m1_FRP_GotoKef' is complete
+I        FadingMsg.cpp[0199]30/07 17:44:22 Fading message: 'Вы получили %1d монет!'
+I       QuestState.cpp[0956]30/07 17:44:22 	Recalc begin...
+I       QuestState.cpp[0904]30/07 17:44:22 Quest 'r4m1_FRP_HelpKef' can be given now
+I       QuestState.cpp[0881]30/07 17:44:22 Quest 'r4m1_FRP_HelpKef' is taken
+I       QuestState.cpp[0904]30/07 17:44:22 Quest 'r4m1_Kef_NeedOil' can be given now
+I       QuestState.cpp[1004]30/07 17:44:22 	Recalc end...
+I        FadingMsg.cpp[0199]30/07 17:44:22 Fading message: 'Вы выполнили задание.'
+I        FadingMsg.cpp[0199]30/07 17:44:23 Fading message: 'Появилась новая история в Журнале.'
+I       QuestState.cpp[0881]30/07 17:44:43 Quest 'r4m1_Kef_NeedOil' is taken
+I       QuestState.cpp[0956]30/07 17:44:43 	Recalc begin...
+I       QuestState.cpp[0904]30/07 17:44:43 Quest 'r4m1_KNO_GotoOiler' can be given now
+I       QuestState.cpp[0881]30/07 17:44:43 Quest 'r4m1_KNO_GotoOiler' is taken
+I       QuestState.cpp[1004]30/07 17:44:43 	Recalc end...
+I        FadingMsg.cpp[0199]30/07 17:44:43 Fading message: 'Вы получили новое задание.'
+I blockMusicManager.cpp[0199]30/07 17:44:45 BlockMusicManager: resetting
+I   TruxxUiManager.cpp[1422]30/07 17:44:45 Game mode changed. Old mode = 0, new mode = 1
+I blockMusicManager.cpp[0185]30/07 17:44:45 BlockMusicManager: start playing new music: blockNum = 8, musicType = 0, name = 'r4_2_driving'
+E          Trigger.cpp[0293]30/07 17:44:45 ***************** TRIGGER ERROR *******************
+E          Trigger.cpp[0294]30/07 17:44:45 Error: object PlayerVehicle_0_3 not found. Trigger trPlayerEndExitTown can't subscribe for GE_TARGET_REACHED
+I   TruxxUiManager.cpp[1422]30/07 17:44:50 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:44:57 Game mode changed. Old mode = 0, new mode = 1
+I   TruxxUiManager.cpp[1422]30/07 17:44:58 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:44:58 Game mode changed. Old mode = 0, new mode = 0
+I townMusicManager.cpp[0096]30/07 17:44:58 TownMusicManager: start playing new music: 'bar'
+I blockMusicManager.cpp[0199]30/07 17:45:07 BlockMusicManager: resetting
+I   TruxxUiManager.cpp[1422]30/07 17:45:07 Game mode changed. Old mode = 0, new mode = 1
+I blockMusicManager.cpp[0185]30/07 17:45:08 BlockMusicManager: start playing new music: blockNum = 8, musicType = 0, name = 'r4_2_driving'
+I   TruxxUiManager.cpp[1422]30/07 17:45:09 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:45:09 Game mode changed. Old mode = 0, new mode = 0
+I  view32_loadsave.cpp[0047]30/07 17:45:16 Game loading: "data/profiles/riverzone\saves\00000176\maps" ...
+I        SplashWnd.cpp[0244]30/07 17:45:17 Start splashing 1
+I    GameUiManager.cpp[0405]30/07 17:45:17 Interface: is clearing...
+I    GameUiManager.cpp[0495]30/07 17:45:17 Interface: is cleared successfully
+I    GameUiManager.cpp[1603]30/07 17:45:17 Interface: loading resources ...
+I   TruxxUiManager.cpp[0974]30/07 17:45:17 Interface: is loaded successfully
+I           server.cpp[0789]30/07 17:45:17 AI: Loading Server...
+I           server.cpp[0801]30/07 17:45:17 	AI: Loading SoilProps
+I           server.cpp[0804]30/07 17:45:17 	AI: Loading ExternalPaths
+I           server.cpp[0807]30/07 17:45:17 	AI: Loading PlayerPassMap
+I           server.cpp[0820]30/07 17:45:17 	AI: Refreshing GameObjects
+E      VehiclePart.cpp[0138]30/07 17:45:17 Error: collision geom in vehicle part name = 'heavy_dot1' is not BOX
+I           server.cpp[0824]30/07 17:45:17 	AI: Loading QuestStates
+I           server.cpp[0826]30/07 17:45:17 	AI: QuestStates loaded
+I           server.cpp[0828]30/07 17:45:17 	AI: Loading DynamicScene
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object BASKET_SIDE_GUN_L of prototype hunter01L, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object BASKET_SIDE_GUN_R of prototype hunter01R, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object BASKET_SIDE_GUN_L of prototype hunter01L, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object BASKET_SIDE_GUN_R of prototype hunter01R, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object Wanderer of prototype r2m1_scout03, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object Wanderer of prototype r1m3_Fighter02, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object Wanderer of prototype r1m1_molokovoz02, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object Wanderer of prototype r2m1_scout03, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object Wanderer of prototype r1m1_molokovoz02, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_1 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_2 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_3 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_4 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_5 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_6 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_7 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_8 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_9 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_10 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_11 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object KefCaravan_Location_12 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_1 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_2 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_3 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_4 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_5 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_6 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_7 of prototype genericLocation, but an object with this name already exists!
+E     DynamicScene.cpp[1589]30/07 17:45:17 Attempting to load object GadadCaravan_Location_8 of prototype genericLocation, but an object with this name already exists!
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2774 prototype = 'mrak01L' name = 'BASKET_SIDE_GUN_L', modelName = mrak01L
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2775 prototype = 'mrak01R' name = 'BASKET_SIDE_GUN_R', modelName = mrak01R
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2427 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2428 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2451 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 2452 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for MinePusher id = 2434 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for MinePusher id = 2438 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for MinePusher id = 2463 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]30/07 17:45:17 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 7428 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+I           server.cpp[0837]30/07 17:45:18 	AI: DynamicScene loaded
+I           server.cpp[0852]30/07 17:45:18 	AI: Loading Triggers
+I           server.cpp[0855]30/07 17:45:18 	AI: Triggers loaded
+I           server.cpp[0857]30/07 17:45:18 	AI: Loading Object Names
+I           server.cpp[0868]30/07 17:45:18 	AI: Initing Player
+I           server.cpp[0888]30/07 17:45:18 		Before first Update
+I           server.cpp[0909]30/07 17:45:18 		After first Update
+I           server.cpp[0911]30/07 17:45:18 AI: Finished Loading Server
+I        QuestInfo.cpp[0847]30/07 17:45:18 Quest infos were loaded successfully from file data\if\diz\QuestInfoGlobal.xml
+I        QuestInfo.cpp[0783]30/07 17:45:18 QuestInfo manager was inited successfully
+I    GameUiManager.cpp[1262]30/07 17:45:18 Interface: is loading
+I   TruxxUiManager.cpp[1198]30/07 17:45:18 TruxxUiManager loaded successfully
+I    GameUiManager.cpp[1315]30/07 17:45:19 Interface: was loaded successfully
+I   TruxxUiManager.cpp[1422]30/07 17:45:19 Game mode changed. Old mode = 0, new mode = 0
+I  view32_loadsave.cpp[0185]30/07 17:45:19 Game loaded: "data/profiles/riverzone\saves\00000176\maps"
+I        FadingMsg.cpp[0199]30/07 17:45:19 Fading message: 'Игра загружена: @fffed11b%1s'
+I   TruxxUiManager.cpp[1422]30/07 17:45:20 Game mode changed. Old mode = 0, new mode = 1
+I   TruxxUiManager.cpp[1422]30/07 17:45:21 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:45:21 Game mode changed. Old mode = 0, new mode = 0
+I townMusicManager.cpp[0096]30/07 17:45:21 TownMusicManager: start playing new music: 'bar'
+I       QuestState.cpp[0931]30/07 17:45:23 Quest 'r4m1_FRP_GotoKef' is complete
+I        FadingMsg.cpp[0199]30/07 17:45:23 Fading message: 'Вы получили %1d монет!'
+I       QuestState.cpp[0956]30/07 17:45:23 	Recalc begin...
+I       QuestState.cpp[0904]30/07 17:45:23 Quest 'r4m1_FRP_HelpKef' can be given now
+I       QuestState.cpp[0881]30/07 17:45:23 Quest 'r4m1_FRP_HelpKef' is taken
+I       QuestState.cpp[0904]30/07 17:45:23 Quest 'r4m1_Kef_NeedOil' can be given now
+I       QuestState.cpp[1004]30/07 17:45:23 	Recalc end...
+I        FadingMsg.cpp[0199]30/07 17:45:23 Fading message: 'Вы выполнили задание.'
+I        FadingMsg.cpp[0199]30/07 17:45:23 Fading message: 'Появилась новая история в Журнале.'
+I       QuestState.cpp[0881]30/07 17:45:28 Quest 'r4m1_Kef_NeedOil' is taken
+I       QuestState.cpp[0956]30/07 17:45:28 	Recalc begin...
+I       QuestState.cpp[0904]30/07 17:45:28 Quest 'r4m1_KNO_GotoOiler' can be given now
+I       QuestState.cpp[0881]30/07 17:45:28 Quest 'r4m1_KNO_GotoOiler' is taken
+I       QuestState.cpp[1004]30/07 17:45:28 	Recalc end...
+I        FadingMsg.cpp[0199]30/07 17:45:28 Fading message: 'Вы получили новое задание.'
+I blockMusicManager.cpp[0199]30/07 17:45:29 BlockMusicManager: resetting
+I   TruxxUiManager.cpp[1422]30/07 17:45:29 Game mode changed. Old mode = 0, new mode = 1
+I blockMusicManager.cpp[0185]30/07 17:45:29 BlockMusicManager: start playing new music: blockNum = 8, musicType = 0, name = 'r4_2_driving'
+I   TruxxUiManager.cpp[1422]30/07 17:45:32 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:45:32 Game mode changed. Old mode = 0, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:45:32 Game mode changed. Old mode = 0, new mode = 1
+I   TruxxUiManager.cpp[1422]30/07 17:45:43 Game mode changed. Old mode = 1, new mode = 0
+I      WeaponGroup.cpp[0994]30/07 17:45:43 Weapon groups were successfully saved
+I        FadingMsg.cpp[0199]30/07 17:46:14 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I   TruxxUiManager.cpp[1422]30/07 17:46:15 Game mode changed. Old mode = 0, new mode = 1
+I   TruxxUiManager.cpp[1422]30/07 17:46:16 Game mode changed. Old mode = 1, new mode = 0
+I   TruxxUiManager.cpp[1422]30/07 17:46:16 Game mode changed. Old mode = 0, new mode = 0
+I townMusicManager.cpp[0096]30/07 17:46:16 TownMusicManager: start playing new music: 'bar'
+E     DynamicScene.cpp[1589]30/07 17:46:24 Attempting to load object PlayerMolokovoz_Trailer of prototype MolokovozTrailer, but an object with this name already exists!
+E              Obj.cpp[0831]30/07 17:46:24 Error: Vehicle id = 215572 prototype = 'MolokovozTrailer' name = 'PlayerMolokovoz_Trailer' is already saved to XML
+I           m3dapp.cpp[2236]30/07 17:46:24 Assertion failed at e:\Builders\ExMachina\tmpBuildDir5084\truxx\Server\Objects\Base\Obj.cpp:832
+expression !"Critical error, see log"
+E     DynamicScene.cpp[1555]30/07 17:46:31 Error: unknown prototype in DynamicScene.xml: ''

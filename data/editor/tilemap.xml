@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<TileMap>
+	<object
+		color="0"
+		texName="data\tiles\region1\GROUND_WASTE.dds" />
+
+	<object
+		color="126985"
+		texName="data\tiles\region3\TGround_1.dds" />
+
+	<object
+		color="443222"
+		texName="data\tiles\region1\concrete_covering.dds" />
+
+	<object
+		color="508799"
+		texName="data\tiles\region1\grass_swamp.dds" />
+
+	<object
+		color="540717"
+		texName="data\tiles\region3\TGrass_3.dds" />
+
+	<object
+		color="704836"
+		texName="data\tiles\region1\grass_fall_leaf_brown.dds" />
+
+	<object
+		color="938570"
+		texName="data\tiles\region2\Grass_3.dds" />
+
+	<object
+		color="1168900"
+		texName="data\tiles\region1\pebble_ground.dds" />
+
+	<object
+		color="1211183"
+		texName="data\tiles\region3\TBoulderCrag_1.dds" />
+
+	<object
+		color="1610375"
+		texName="data\tiles\region2\Stone_2.dds" />
+
+	<object
+		color="1728359"
+		texName="data\tiles\region4\Sand3.dds" />
+
+	<object
+		color="1861637"
+		texName="data\tiles\region4\SandGrass1.dds" />
+
+	<object
+		color="1930090"
+		texName="data\tiles\region2\Ground_5.dds" />
+
+	<object
+		color="2100118"
+		texName="data\tiles\region1\pebble_ground_2.dds" />
+
+	<object
+		color="2129316"
+		texName="data\tiles\region1\ground_fall_dried.dds" />
+
+	<object
+		color="2208592"
+		texName="data\tiles\region2\Rcrag_2.dds" />
+
+	<object
+		color="2427565"
+		texName="data\tiles\region2\Ground_1.dds" />
+
+	<object
+		color="2905534"
+		texName="data\tiles\region2\Grass_4.dds" />
+
+	<object
+		color="3252256"
+		texName="data\tiles\region1\ground_waste.dds" />
+
+	<object
+		color="3305835"
+		texName="data\tiles\region2\Rcrag_1.dds" />
+
+	<object
+		color="3355443"
+		texName="data\tiles\region1\grass_fall_leaf.dds" />
+
+	<object
+		color="3535890"
+		texName="data\tiles\region3\TGrass_2.dds" />
+
+	<object
+		color="3576202"
+		texName="data\tiles\region1\grass_crk.dds" />
+
+	<object
+		color="3616436"
+		texName="data\tiles\region4\Sand2.dds" />
+
+	<object
+		color="3670613"
+		texName="data\tiles\region4\Sand6.dds" />
+
+	<object
+		color="3812210"
+		texName="data\tiles\region4\SandCrag2.dds" />
+
+	<object
+		color="3851926"
+		texName="data\tiles\region4\SandBlackCrag1.dds" />
+
+	<object
+		color="3953245"
+		texName="data\tiles\region1\grass_fall.dds" />
+
+	<object
+		color="4178137"
+		texName="data\tiles\region4\Sand4.dds" />
+
+	<object
+		color="4299054"
+		texName="data\tiles\region4\SandCrag1.dds" />
+
+	<object
+		color="4318872"
+		texName="data\tiles\region3\TStone_5.dds" />
+
+	<object
+		color="4421194"
+		texName="data\tiles\region4\SandGrass3.dds" />
+
+	<object
+		color="4501900"
+		texName="data\tiles\region1\stony_covering.dds" />
+
+	<object
+		color="4656674"
+		texName="data\tiles\region4\SandTech4.dds" />
+
+	<object
+		color="4680582"
+		texName="data\tiles\region2\Grass_2.dds" />
+
+	<object
+		color="4692107"
+		texName="data\tiles\region3\TSwamp_1.dds" />
+
+	<object
+		color="4896519"
+		texName="data\tiles\region3\TTech_3.dds" />
+
+	<object
+		color="4903782"
+		texName="data\tiles\region1\snow_crag1.dds" />
+
+	<object
+		color="5195877"
+		texName="data\tiles\region3\TStone_4.dds" />
+
+	<object
+		color="5295530"
+		texName="data\tiles\region4\SandStone1.dds" />
+
+	<object
+		color="5392695"
+		texName="data\tiles\region2\Stone_4.dds" />
+
+	<object
+		color="5424054"
+		texName="data\tiles\region1\rocks_grass_dark.dds" />
+
+	<object
+		color="5455904"
+		texName="data\tiles\region1\Water_ground.dds" />
+
+	<object
+		color="5550284"
+		texName="data\tiles\region4\SandTech3.dds" />
+
+	<object
+		color="5682386"
+		texName="data\tiles\region3\TGround_4.dds" />
+
+	<object
+		color="5819021"
+		texName="data\tiles\region2\Ground_2.dds" />
+
+	<object
+		color="6127212"
+		texName="data\tiles\region1\ground_swamp.dds" />
+
+	<object
+		color="6198293"
+		texName="data\tiles\region3\TBoulderCrag_2.dds" />
+
+	<object
+		color="6271800"
+		texName="data\tiles\region1\Techno_3.dds" />
+
+	<object
+		color="6378785"
+		texName="data\tiles\region3\TTech_5.dds" />
+
+	<object
+		color="6496910"
+		texName="data\tiles\region3\TGrass_1.dds" />
+
+	<object
+		color="6710886"
+		texName="data\tiles\region1\snow_marcescent_dark.dds" />
+
+	<object
+		color="6879686"
+		texName="data\tiles\region1\Techno_1.dds" />
+
+	<object
+		color="7066113"
+		texName="data\tiles\region4\SandGrass5.dds" />
+
+	<object
+		color="7088896"
+		texName="data\tiles\region4\SandBlackCrag3.dds" />
+
+	<object
+		color="7652389"
+		texName="data\tiles\region2\Tech_6.dds" />
+
+	<object
+		color="7731577"
+		texName="data\tiles\region4\Sand7.dds" />
+
+	<object
+		color="8032757"
+		texName="data\tiles\region2\Tech_3.dds" />
+
+	<object
+		color="8170156"
+		texName="data\tiles\region2\Stone_3.dds" />
+
+	<object
+		color="8421440"
+		texName="data\tiles\region1\m0_stony_covering.dds" />
+
+	<object
+		color="8928193"
+		texName="data\tiles\region3\TGround_3.dds" />
+
+	<object
+		color="8995032"
+		texName="data\tiles\region4\Sand5.dds" />
+
+	<object
+		color="9230387"
+		texName="data\tiles\region4\SandStone3.dds" />
+
+	<object
+		color="9380878"
+		texName="data\tiles\region1\ground_fall_dried_2.dds" />
+
+	<object
+		color="9452753"
+		texName="data\tiles\region4\SandStone2.dds" />
+
+	<object
+		color="9630564"
+		texName="data\tiles\region2\Ground_4.dds" />
+
+	<object
+		color="9687168"
+		texName="data\tiles\region1\ground_dried_2.dds" />
+
+	<object
+		color="10066329"
+		texName="data\tiles\region1\ground_dried.dds" />
+
+	<object
+		color="10363711"
+		texName="data\tiles\region4\SandTech2.dds" />
+
+	<object
+		color="10449452"
+		texName="data\tiles\1.tga" />
+
+	<object
+		color="10775516"
+		texName="data\tiles\region4\SandBlackCrag2.dds" />
+
+	<object
+		color="11053224"
+		texName="data\tiles\region1\crag_rock_2.dds" />
+
+	<object
+		color="11062627"
+		texName="data\tiles\region4\SandTech1.dds" />
+
+	<object
+		color="11070732"
+		texName="data\tiles\region3\TTech_2.dds" />
+
+	<object
+		color="11092094"
+		texName="data\tiles\region3\TSwamp_2.dds" />
+
+	<object
+		color="11437876"
+		texName="data\tiles\region3\TStone_2.dds" />
+
+	<object
+		color="11882202"
+		texName="data\tiles\region3\TTech_6.dds" />
+
+	<object
+		color="11940700"
+		texName="data\tiles\region1\Techno_2.dds" />
+
+	<object
+		color="12031082"
+		texName="data\tiles\region2\Tech_1.dds" />
+
+	<object
+		color="12115463"
+		texName="data\tiles\region3\TTech_1.dds" />
+
+	<object
+		color="12395299"
+		texName="data\tiles\region2\Tech_5.dds" />
+
+	<object
+		color="12636616"
+		texName="data\tiles\region3\TStone_1.dds" />
+
+	<object
+		color="13050674"
+		texName="data\tiles\region2\Gcrag_1.dds" />
+
+	<object
+		color="13203948"
+		texName="data\tiles\region2\Tech_2.dds" />
+
+	<object
+		color="13291221"
+		texName="data\tiles\region2\Stone_5.dds" />
+
+	<object
+		color="13308500"
+		texName="data\tiles\region3\TGrass_4.dds" />
+
+	<object
+		color="13313469"
+		texName="data\tiles\region4\SandTech6.dds" />
+
+	<object
+		color="13421772"
+		texName="data\tiles\region1\rocks.dds" />
+
+	<object
+		color="13750737"
+		texName="data\tiles\region1\crag_rock.dds" />
+
+	<object
+		color="13946631"
+		texName="data\tiles\region3\TTech_4.dds" />
+
+	<object
+		color="14269483"
+		texName="data\tiles\region4\Sand1.dds" />
+
+	<object
+		color="14438694"
+		texName="data\tiles\region1\snow_ground2.dds" />
+
+	<object
+		color="14632939"
+		texName="data\tiles\region2\Grass_1.dds" />
+
+	<object
+		color="14721988"
+		texName="data\tiles\region3\TStone_3.dds" />
+
+	<object
+		color="15553454"
+		texName="data\tiles\region2\Tech_4.dds" />
+
+	<object
+		color="15669792"
+		texName="data\tiles\region4\SandTech5.dds" />
+
+	<object
+		color="15689122"
+		texName="data\tiles\region2\Stone_1.dds" />
+
+	<object
+		color="15768834"
+		texName="data\tiles\region4\SandGrass4.dds" />
+
+	<object
+		color="15790959"
+		texName="data\tiles\region1\ground_fall.dds" />
+
+	<object
+		color="15885492"
+		texName="data\tiles\region1\snow_ground1.dds" />
+
+	<object
+		color="15888247"
+		texName="data\tiles\region2\Ground_3.dds" />
+
+	<object
+		color="15894598"
+		texName="data\tiles\region2\Gcrag_2.dds" />
+
+	<object
+		color="16130878"
+		texName="data\tiles\region4\SandGrass2.dds" />
+
+	<object
+		color="16402497"
+		texName="data\tiles\region1\swamp.dds" />
+
+	<object
+		color="16627926"
+		texName="data\tiles\region3\TGround_2.dds" />
+
+	<object
+		color="16777215"
+		texName="data\tiles\region1\rocks_ground.dds" />
+</TileMap>

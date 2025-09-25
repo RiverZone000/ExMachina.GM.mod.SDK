@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="cargo"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mrak01L"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mrak01Lgun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mrak01R"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="mrak01Rgun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_swingfire01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="big_swingfire01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kpvt01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="kpvt01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="vulcan01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="vulcan01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="belazChassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="belazSusp01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="belazWheel01L"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="belazWheel01R"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="belazCab05"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="belazCargo05"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<StaticModelsServer />
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer />
+
+	<MusicServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

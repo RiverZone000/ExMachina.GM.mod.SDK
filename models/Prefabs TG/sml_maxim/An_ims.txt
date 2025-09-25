@@ -1,0 +1,3 @@
+STAND1 sml_maxim01_export.mb 2
+MOVE1 sml_maxim01_export_anim.mb 50
+

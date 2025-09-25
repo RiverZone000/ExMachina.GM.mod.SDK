@@ -1,0 +1,44 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x00414D63
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 04/04/23 17:15:32
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1451 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1110 MB
+1: Page file available            = 3607 MB
+
+1: Data from MemoryManager:
+1: mem used:           266893143
+1: mem allocated:      291527039
+1: mem overhead:        10311344
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c15af0d
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+
+Registers:
+	CS:EIP 0x001B:00414D63
+	SS:ESP 0x0023:0012FAF4
+	DS:EDI 0x0023:033312C4
+	ES:ESI 0x0023:2DF9A384
+	   EAX        00000000
+	   EBX        00000000
+	   ECX        00A60578
+	   EDX        00000030
+

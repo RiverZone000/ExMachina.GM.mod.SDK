@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Settings>
+	<WeatherEditor
+		left="910"
+		top="186"
+		width="451"
+		height="524" />
+
+	<ExternalPathsEditor
+		left="560"
+		top="329"
+		width="160"
+		height="273" />
+
+	<ObstacleBoxesEditor
+		left="558"
+		top="340"
+		width="164"
+		height="250" />
+
+	<Hier
+		left="516"
+		top="264"
+		width="248"
+		height="403" />
+
+	<StaticModelsDlg
+		left="1039"
+		top="24"
+		width="481"
+		height="780" />
+
+	<LocationEditDlg
+		left="536"
+		top="294"
+		width="209"
+		height="343" />
+
+	<TownPathsEditor
+		left="498"
+		top="363"
+		width="284"
+		height="204" />
+
+	<PropsDlg
+		left="974"
+		top="216"
+		width="329"
+		height="430" />
+
+	<TileDlg
+		left="1036"
+		top="551"
+		width="816"
+		height="523" />
+
+	<RenderVariables
+		left="-485"
+		top="220"
+		width="247"
+		height="307" />
+
+	<RopeEditor
+		left="1033"
+		top="325"
+		width="207"
+		height="330" />
+
+	<TerrainDlg
+		left="1056"
+		top="430"
+		width="274"
+		height="273" />
+
+	<RoadsDlg
+		left="1031"
+		top="462"
+		width="358"
+		height="439" />
+
+	<ColorMapDlg
+		left="452"
+		top="181"
+		width="462"
+		height="367" />
+
+	<ZoneEditor
+		left="596"
+		top="213"
+		width="174"
+		height="302" />
+
+	<TimeEditor
+		left="500"
+		top="294"
+		width="366"
+		height="141" />
+
+	<Reformer
+		left="1166"
+		top="424"
+		width="138"
+		height="262" />
+
+	<ShapesEditDlg
+		left="1022"
+		top="519"
+		width="403"
+		height="512" />
+
+	<Pass3D_Dlg
+		left="958"
+		top="193"
+		width="360"
+		height="455" />
+</Settings>

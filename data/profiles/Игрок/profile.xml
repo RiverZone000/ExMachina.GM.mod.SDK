@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Profile
+	Name="Игрок">
+	<Params>
+		<Param
+			Id="PP_SAVE_SORT_ARG">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="1" />
+		</Param>
+
+		<Param
+			Id="PP_SAVE_SORT_DIR">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="1" />
+		</Param>
+
+		<Param
+			Id="PP_NEXT_SAVE_FOLDER_NUM">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_QUESTS_FILTER">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="7" />
+		</Param>
+
+		<Param
+			Id="PP_MOUSE_SENSITIVITY">
+			<Value
+				GAIParam_Type="AIPARAM_FLOAT"
+				GAIParam_Value="1.000" />
+		</Param>
+
+		<Param
+			Id="PP_MOUSE_YAXIS_FLIP">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_MOUSE_XAXIS_FLIP">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_WARELIST_MODE">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_INPUT_LANGUAGE">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_NUM_RADIO_REPLIES_COEFF">
+			<Value
+				GAIParam_Type="AIPARAM_FLOAT"
+				GAIParam_Value="1.000" />
+		</Param>
+
+		<Param
+			Id="PP_MINIMAP_ENABLE_OBJECT_NAMES">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="1" />
+		</Param>
+
+		<Param
+			Id="PP_MOTION_BLUR">
+			<Value
+				GAIParam_Type="AIPARAM_STRING"
+				GAIParam_Value="no" />
+		</Param>
+
+		<Param
+			Id="PP_MOTION_BLUR_ALPHA">
+			<Value
+				GAIParam_Type="AIPARAM_FLOAT"
+				GAIParam_Value="0.000" />
+		</Param>
+
+		<Param
+			Id="PP_BLOOM">
+			<Value
+				GAIParam_Type="AIPARAM_STRING"
+				GAIParam_Value="no" />
+		</Param>
+
+		<Param
+			Id="PP_AUTOHELP_ENABLED">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_DIFFICULTY_LEVEL">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="1" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_MAIN_GAME_INTERFACE">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_INVENTORY">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_VEHICLE_CHARACTERISTICS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_QUESTLOG_QUESTS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_QUESTLOG_QUEST_ITEMS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_LOCAL_MAP">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_GLOBAL_MAP">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_HISTORY">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_BOOKS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_RELATIONS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_STATS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_ENCYCLOPAEDIA">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_SHOP_GUNS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_SHOP_GOODS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="1" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP_CABINS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP_BASKETS">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP_VEHICLE">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP_SKIN">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP_REFUEL">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP_REPAIR">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_WORKSHOP_RECHARGE">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_BUY_CABIN">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_BUY_BASKET">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_BUY_VEHICLE">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_TOWN">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_BAR">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+
+		<Param
+			Id="PP_HELP_ID_TALK_WITH_NPC">
+			<Value
+				GAIParam_Type="AIPARAM_ID"
+				GAIParam_Value="0" />
+		</Param>
+	</Params>
+</Profile>

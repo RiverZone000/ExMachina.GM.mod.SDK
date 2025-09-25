@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="human01_path">
+		<Point
+			coord="1788.498 1189.019" />
+
+		<Point
+			coord="1778.380 1202.288" />
+
+		<Point
+			coord="1784.447 1206.183" />
+	</Path>
+
+	<Path
+		Name="human02_path">
+		<Point
+			coord="1796.669 1192.529" />
+
+		<Point
+			coord="1780.108 1194.439" />
+
+		<Point
+			coord="1768.983 1207.468" />
+	</Path>
+
+	<Path
+		Name="human03_path">
+		<Point
+			coord="1803.064 1171.107" />
+
+		<Point
+			coord="1788.556 1175.447" />
+
+		<Point
+			coord="1778.192 1181.802" />
+
+		<Point
+			coord="1777.723 1172.826" />
+
+		<Point
+			coord="1784.054 1162.236" />
+
+		<Point
+			coord="1789.413 1155.076" />
+
+		<Point
+			coord="1778.021 1152.132" />
+
+		<Point
+			coord="1760.471 1152.497" />
+
+		<Point
+			coord="1753.358 1158.107" />
+	</Path>
+
+	<Path
+		Name="human04_path">
+		<Point
+			coord="1779.737 1194.175" />
+
+		<Point
+			coord="1777.323 1208.474" />
+
+		<Point
+			coord="1776.336 1228.266" />
+
+		<Point
+			coord="1766.500 1249.969" />
+
+		<Point
+			coord="1750.143 1271.713" />
+
+		<Point
+			coord="1736.763 1293.258" />
+
+		<Point
+			coord="1720.989 1316.606" />
+
+		<Point
+			coord="1684.768 1355.525" />
+
+		<Point
+			coord="1659.061 1397.107" />
+
+		<Point
+			coord="1649.741 1425.802" />
+
+		<Point
+			coord="1615.731 1443.398" />
+	</Path>
+</Paths>

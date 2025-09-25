@@ -1,0 +1,5950 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="981">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player" />
+
+	<Object
+		Name="heavy_dot4_vulcan0"
+		Belong="1001"
+		Prototype="heavy_dot4_vulcan"
+		Pos="280.066 319.815 232.461">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_vulcan1"
+		Belong="1001"
+		Prototype="heavy_dot4_vulcan"
+		Pos="300.783 319.626 232.048">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_big_rainmetal2"
+		Belong="1001"
+		Prototype="heavy_dot4_big_rainmetal"
+		Pos="313.273 313.939 243.121">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="heavy_dot4_big_rainmetal3"
+		Belong="1001"
+		Prototype="heavy_dot4_big_rainmetal"
+		Pos="269.364 314.478 243.539">
+		<Parts />
+	</Object>
+
+	<Object
+		Name="r4_desert_palma_2_dyn66"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="101.525 368.130 3724.366"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn67"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="131.916 378.398 3821.665"
+		Rot="0.000 0.996 0.000 -0.087" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn68"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="74.070 384.586 3763.299"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn69"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="72.546 348.539 3661.022"
+		Rot="0.000 -0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn70"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="74.741 379.103 3704.592"
+		Rot="0.000 1.000 0.000 0.009" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn71"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="53.723 370.518 3676.600"
+		Rot="0.000 0.035 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn72"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="100.354 361.588 3702.954"
+		Rot="0.000 0.951 0.000 0.309" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn73"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="61.177 386.130 3749.894"
+		Rot="0.000 0.902 0.000 -0.431" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn74"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="119.475 370.537 3776.393"
+		Rot="0.000 0.113 0.000 0.994" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn75"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="80.276 391.077 3832.596"
+		Rot="0.000 0.407 0.000 0.914" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn76"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="177.220 383.602 3875.739"
+		Rot="0.000 0.994 0.000 0.113" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn77"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="146.402 387.498 3857.290"
+		Rot="0.000 -0.199 0.000 0.980" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn78"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="220.910 386.352 3930.683"
+		Rot="0.000 0.131 0.000 0.991" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn79"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="168.076 398.787 3919.129"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn80"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="254.623 366.618 3894.105"
+		Rot="0.000 -0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn81"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="281.526 380.313 3959.143"
+		Rot="0.000 0.777 0.000 0.629" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn82"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="226.052 376.578 3899.135"
+		Rot="0.000 0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn83"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="70.058 384.591 3724.445"
+		Rot="0.000 -0.454 0.000 0.891" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn84"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="87.014 383.853 3779.027"
+		Rot="0.000 0.986 0.000 0.165" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn85"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="85.748 377.714 3728.715"
+		Rot="0.000 0.731 0.000 0.682" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn86"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="103.108 383.620 3803.751"
+		Rot="0.000 0.968 0.000 0.250" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn87"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="98.364 373.968 3748.522"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn88"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="120.999 365.080 3758.625"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn89"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="136.697 365.336 3792.177"
+		Rot="0.000 0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn90"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="118.925 378.531 3804.212"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn91"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="103.334 376.145 3769.320"
+		Rot="0.000 0.182 0.000 0.983" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn92"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="111.653 366.936 3745.264"
+		Rot="0.000 0.993 0.000 0.122" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn93"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="119.474 361.937 3740.801"
+		Rot="0.000 0.174 0.000 0.985" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn94"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="128.205 365.118 3774.515"
+		Rot="0.000 0.883 0.000 0.469" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn95"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="156.551 367.396 3827.076"
+		Rot="0.000 0.829 0.000 0.559" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn96"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="95.776 384.533 3797.559"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn97"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="86.005 361.978 3687.896"
+		Rot="0.000 -0.431 0.000 0.902" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn98"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="70.798 357.611 3670.866"
+		Rot="0.000 -0.174 0.000 0.985" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn99"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="36.756 356.560 3658.969"
+		Rot="0.000 0.165 0.000 0.986" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn100"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="15.976 339.000 3639.345"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn101"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="47.139 345.705 3648.176"
+		Rot="0.000 0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn102"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="46.964 358.298 3661.409"
+		Rot="0.000 0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn103"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="24.982 349.074 3651.139"
+		Rot="0.000 0.829 0.000 0.559" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn104"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="53.475 345.500 3649.728"
+		Rot="0.000 0.326 0.000 0.945" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn105"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="26.868 364.616 3670.421"
+		Rot="0.000 -0.358 0.000 0.934" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn106"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="35.636 372.942 3679.798"
+		Rot="0.000 0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn107"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="59.100 359.344 3666.516"
+		Rot="0.000 0.998 0.000 0.070" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn108"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="69.554 377.113 3694.317"
+		Rot="0.000 0.242 0.000 0.970" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn109"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="71.201 369.138 3685.417"
+		Rot="0.000 0.970 0.000 -0.242" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn110"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="83.829 354.459 3675.229"
+		Rot="0.000 0.656 0.000 0.755" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn111"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="94.395 359.619 3692.116"
+		Rot="0.000 -0.342 0.000 0.940" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn112"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="65.296 396.996 3842.421"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn113"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="40.237 392.166 3786.316"
+		Rot="0.000 1.000 0.000 -0.026" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn114"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="30.298 383.044 3729.423"
+		Rot="0.000 0.772 0.000 0.636" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn115"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="59.965 386.471 3741.650"
+		Rot="0.000 0.983 0.000 -0.182" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn116"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="44.431 389.956 3774.788"
+		Rot="0.000 0.994 0.000 0.113" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn117"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="11.556 376.635 3739.712"
+		Rot="0.000 0.284 0.000 0.959" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn118"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="20.599 379.298 3717.139"
+		Rot="0.000 0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn119"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="43.264 387.246 3717.019"
+		Rot="0.000 0.951 0.000 0.309" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn120"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="51.699 386.959 3707.850"
+		Rot="0.000 0.959 0.000 -0.284" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn121"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="30.973 379.977 3696.136"
+		Rot="0.000 -0.267 0.000 0.964" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn122"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="0.272 372.139 3698.238"
+		Rot="0.000 -0.423 0.000 0.906" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn123"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="44.481 383.852 3697.930"
+		Rot="0.000 0.887 0.000 -0.462" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn124"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="35.976 377.201 3686.827"
+		Rot="0.000 0.485 0.000 0.875" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn125"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="24.339 374.741 3688.796"
+		Rot="0.000 0.983 0.000 0.182" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn126"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="74.906 390.497 3804.647"
+		Rot="0.000 0.927 0.000 -0.375" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn127"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="41.981 390.197 3776.975"
+		Rot="0.000 -0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn128"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="39.601 385.986 3755.399"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn129"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="53.315 388.318 3765.236"
+		Rot="0.000 0.937 0.000 -0.350" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn130"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="57.705 395.111 3811.574"
+		Rot="0.000 0.139 0.000 0.990" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn131"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="65.227 392.033 3792.910"
+		Rot="0.000 0.997 0.000 0.078" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn132"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="83.736 389.385 3822.380"
+		Rot="0.000 0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn133"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="114.045 392.984 3850.011"
+		Rot="0.000 0.843 0.000 0.537" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn134"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="103.093 388.442 3829.684"
+		Rot="0.000 0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn135"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="139.344 383.984 3843.210"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn136"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="70.799 404.702 3871.988"
+		Rot="0.000 -0.688 0.000 0.725" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn137"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="122.848 400.568 3880.516"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn138"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="95.158 394.091 3852.555"
+		Rot="0.000 0.383 0.000 0.924" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn139"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="130.647 406.298 3911.824"
+		Rot="0.000 0.964 0.000 -0.267" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn140"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="88.622 413.345 3903.986"
+		Rot="0.000 -0.017 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn141"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="106.250 403.758 3885.529"
+		Rot="0.000 -0.595 0.000 0.804" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn142"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="138.850 401.841 3903.850"
+		Rot="0.000 0.996 0.000 -0.087" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn143"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="118.269 386.820 3832.299"
+		Rot="0.000 0.994 0.000 -0.105" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn144"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="145.786 396.707 3886.840"
+		Rot="0.000 0.676 0.000 0.737" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn145"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="159.255 385.384 3864.183"
+		Rot="0.000 -0.701 0.000 0.713" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn146"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="171.711 376.755 3858.930"
+		Rot="0.000 0.191 0.000 0.982" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn147"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="151.244 374.704 3836.012"
+		Rot="0.000 0.887 0.000 -0.462" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn148"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="172.740 372.091 3852.096"
+		Rot="0.000 0.431 0.000 0.902" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn149"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="202.871 381.033 3890.690"
+		Rot="0.000 -0.814 0.000 0.581" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn150"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="195.563 384.790 3893.089"
+		Rot="0.000 0.165 0.000 0.986" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn151"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="198.758 375.644 3878.025"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn152"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="185.431 375.072 3867.321"
+		Rot="0.000 0.943 0.000 -0.334" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn153"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="214.241 371.458 3880.905"
+		Rot="0.000 0.636 0.000 0.772" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn154"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="238.415 368.599 3888.425"
+		Rot="0.000 -0.250 0.000 0.968" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn155"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="241.301 377.378 3915.236"
+		Rot="0.000 -0.174 0.000 0.985" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn156"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="210.605 383.461 3903.642"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn157"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="262.800 381.478 3953.977"
+		Rot="0.000 0.078 0.000 0.997" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn158"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="271.692 373.299 3926.728"
+		Rot="0.000 -0.552 0.000 0.834" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn159"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="341.310 375.028 3991.771"
+		Rot="0.000 0.899 0.000 0.438" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn160"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="392.306 369.852 3974.890"
+		Rot="0.000 0.978 0.000 0.208" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn161"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="325.992 363.803 3945.030"
+		Rot="0.000 -0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn162"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="478.612 367.511 3995.848"
+		Rot="0.000 0.383 0.000 0.924" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn163"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="449.482 359.228 3982.763"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn164"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="495.600 349.748 3968.161"
+		Rot="0.000 0.934 0.000 -0.358" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn165"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="602.329 366.641 4008.367"
+		Rot="0.000 0.701 0.000 0.713" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn166"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="533.408 363.820 3994.973"
+		Rot="0.000 0.879 0.000 -0.477" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn167"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="568.003 350.329 3969.087"
+		Rot="0.000 0.945 0.000 -0.326" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn168"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="644.895 369.242 3993.666"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn169"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="629.579 363.588 3992.646"
+		Rot="0.000 0.284 0.000 0.959" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn170"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="678.451 360.142 3958.146"
+		Rot="0.000 -0.009 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn171"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="700.859 351.292 3933.150"
+		Rot="0.000 0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn172"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="689.904 380.882 4002.370"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn173"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="734.117 369.784 3997.401"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn174"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="735.317 362.796 3977.754"
+		Rot="0.000 0.961 0.000 0.276" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn175"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="772.026 346.414 3979.396"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn176"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="796.805 355.392 4015.101"
+		Rot="0.000 0.383 0.000 0.924" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn177"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="755.716 369.635 4012.561"
+		Rot="0.000 0.934 0.000 -0.358" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn178"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="813.567 336.621 3985.408"
+		Rot="0.000 -0.070 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn179"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="898.515 334.810 4062.389"
+		Rot="0.000 -0.829 0.000 0.559" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn180"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="845.962 340.290 4013.462"
+		Rot="0.000 0.914 0.000 -0.407" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn181"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="843.813 353.677 4057.445"
+		Rot="0.000 0.446 0.000 0.895" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn182"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="771.301 378.872 4060.673"
+		Rot="0.000 0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn183"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="774.440 368.394 4021.458"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn184"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="828.864 356.673 4040.836"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn185"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="725.680 385.479 4026.818"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn186"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="548.658 370.244 4042.063"
+		Rot="0.000 0.284 0.000 0.959" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn187"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="658.114 385.612 4026.979"
+		Rot="0.000 0.899 0.000 0.438" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn188"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="677.689 374.645 3987.403"
+		Rot="0.000 0.216 0.000 0.976" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn189"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="706.245 373.218 3977.814"
+		Rot="0.000 -0.731 0.000 0.682" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn190"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="715.846 386.377 4022.135"
+		Rot="0.000 0.431 0.000 0.902" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn191"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="597.512 372.317 4058.731"
+		Rot="0.000 0.930 0.000 0.367" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn192"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="549.779 366.379 4006.201"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn193"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="631.831 358.811 3985.111"
+		Rot="0.000 0.943 0.000 -0.334" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn194"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="578.326 361.496 3990.134"
+		Rot="0.000 0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn195"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="589.123 374.042 4044.075"
+		Rot="0.000 -0.545 0.000 0.839" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn196"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="635.968 378.583 4020.926"
+		Rot="0.000 0.937 0.000 -0.350" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn198"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="459.056 375.653 4019.991"
+		Rot="0.000 0.446 0.000 0.895" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn199"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="509.500 368.878 4031.810"
+		Rot="0.000 0.972 0.000 -0.233" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn200"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="503.020 369.338 4009.955"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn201"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="69.652 432.926 3942.055"
+		Rot="0.000 -0.395 0.000 0.919" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn202"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="59.088 426.265 3927.179"
+		Rot="0.000 -0.191 0.000 0.982" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn203"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="70.021 422.549 3917.544"
+		Rot="0.000 0.959 0.000 0.284" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn204"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="110.910 422.963 3950.322"
+		Rot="0.000 0.760 0.000 0.649" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn205"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="87.795 432.683 3950.769"
+		Rot="0.000 0.225 0.000 0.974" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn206"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="55.539 416.843 3903.836"
+		Rot="0.000 -0.454 0.000 0.891" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn207"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="34.176 407.445 3867.234"
+		Rot="0.000 0.891 0.000 -0.454" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn208"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="53.292 404.962 3858.695"
+		Rot="0.000 0.537 0.000 0.843" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn209"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="81.770 407.195 3885.564"
+		Rot="0.000 0.559 0.000 0.829" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn210"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="141.309 413.744 3947.802"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn211"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="160.129 412.085 3950.497"
+		Rot="0.000 -0.743 0.000 0.669" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn212"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="169.230 407.757 3942.520"
+		Rot="0.000 0.999 0.000 -0.052" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn213"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="144.376 408.625 3931.875"
+		Rot="0.000 -0.233 0.000 0.972" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn214"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="220.384 388.619 3977.292"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn215"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="253.697 382.447 3981.227"
+		Rot="0.000 0.983 0.000 -0.182" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn216"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="222.292 389.820 3962.776"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn217"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="183.866 404.973 3946.274"
+		Rot="0.000 -0.070 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn218"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="192.372 392.793 3915.463"
+		Rot="0.000 0.595 0.000 0.804" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn219"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="187.765 405.173 3968.410"
+		Rot="0.000 -0.415 0.000 0.910" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn220"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="201.925 399.862 3960.157"
+		Rot="0.000 -0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn221"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="233.143 385.209 3951.312"
+		Rot="0.000 -0.113 0.000 0.994" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn224"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="241.936 384.171 3966.609"
+		Rot="0.000 0.891 0.000 0.454" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn227"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="331.847 371.711 3969.916"
+		Rot="0.000 -0.407 0.000 0.914" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn228"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="295.629 381.112 3987.273"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn229"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="62.038 332.198 3638.019"
+		Rot="0.000 0.843 0.000 0.537" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn230"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="100.133 342.165 3666.156"
+		Rot="0.000 0.267 0.000 0.964" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn231"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="86.695 351.397 3672.547"
+		Rot="0.000 -0.208 0.000 0.978" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn232"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="85.442 338.019 3653.555"
+		Rot="0.000 -0.259 0.000 0.966" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn233"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="120.676 354.281 3710.112"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn234"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="125.148 346.987 3692.009"
+		Rot="0.000 1.000 0.000 -0.017" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn235"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="111.108 348.577 3684.916"
+		Rot="0.000 0.035 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn236"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="132.721 353.899 3728.725"
+		Rot="0.000 0.937 0.000 -0.350" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn237"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="150.650 348.130 3734.443"
+		Rot="0.000 -0.156 0.000 0.988" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn238"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="144.565 355.666 3769.430"
+		Rot="0.000 0.799 0.000 0.602" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn239"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="138.532 346.917 3703.501"
+		Rot="0.000 -0.250 0.000 0.968" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn240"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="149.425 360.296 3799.991"
+		Rot="0.000 0.961 0.000 -0.276" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn241"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="134.558 357.800 3755.266"
+		Rot="0.000 0.225 0.000 0.974" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn242"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="257.264 357.554 3878.341"
+		Rot="0.000 0.643 0.000 0.766" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn244"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="293.109 360.441 3911.423"
+		Rot="0.000 -0.233 0.000 0.972" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn246"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="339.117 343.134 3884.348"
+		Rot="0.000 0.906 0.000 -0.423" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn247"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="330.960 359.470 3937.402"
+		Rot="0.000 0.968 0.000 0.250" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn248"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="304.956 360.191 3922.050"
+		Rot="0.000 0.883 0.000 -0.469" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn249"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="316.091 349.047 3897.003"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn250"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="352.980 358.022 3939.256"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn251"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="356.495 358.343 3940.524"
+		Rot="0.000 -0.326 0.000 0.945" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn252"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="343.579 351.724 3919.864"
+		Rot="0.000 0.964 0.000 0.267" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn253"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="377.736 365.478 3959.651"
+		Rot="0.000 0.887 0.000 -0.462" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn254"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="372.006 355.601 3934.697"
+		Rot="0.000 0.991 0.000 -0.131" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn255"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="377.984 348.494 3918.429"
+		Rot="0.000 0.814 0.000 0.581" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn256"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="412.260 351.922 3946.220"
+		Rot="0.000 -0.113 0.000 0.994" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn257"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="438.393 350.335 3961.661"
+		Rot="0.000 0.968 0.000 0.250" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn258"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="453.976 342.362 3947.256"
+		Rot="0.000 0.574 0.000 0.819" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn259"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="482.413 343.671 3956.742"
+		Rot="0.000 0.250 0.000 0.968" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn260"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="437.458 342.354 3937.242"
+		Rot="0.000 0.940 0.000 -0.342" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn261"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="520.419 345.514 3960.462"
+		Rot="0.000 0.988 0.000 -0.156" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn262"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="537.916 355.072 3972.263"
+		Rot="0.000 0.982 0.000 -0.191" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn263"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="564.515 341.382 3957.836"
+		Rot="0.000 0.991 0.000 0.131" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn264"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="596.603 341.048 3967.661"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn265"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="586.950 331.287 3954.238"
+		Rot="0.000 0.250 0.000 0.968" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn266"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="643.150 324.722 3943.219"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn267"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="636.606 348.465 3970.852"
+		Rot="0.000 0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn268"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="613.156 335.722 3963.804"
+		Rot="0.000 0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn269"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="661.813 356.172 3964.898"
+		Rot="0.000 0.078 0.000 0.997" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn270"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="669.183 340.409 3942.024"
+		Rot="0.000 -0.766 0.000 0.643" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn271"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="671.876 334.445 3933.833"
+		Rot="0.000 0.829 0.000 0.559" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn272"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="718.134 340.559 3919.149"
+		Rot="0.000 0.096 0.000 0.995" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn273"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="718.354 338.305 3917.094"
+		Rot="0.000 0.948 0.000 0.317" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn274"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="720.749 364.240 3955.610"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn275"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="743.105 345.592 3937.714"
+		Rot="0.000 0.917 0.000 -0.399" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn276"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="740.987 341.706 3928.577"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn277"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="791.559 334.832 3965.207"
+		Rot="0.000 0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn278"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="756.789 333.310 3926.544"
+		Rot="0.000 -0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn279"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="755.808 326.639 3914.229"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn280"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="722.854 356.744 3940.842"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn281"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="749.248 353.564 3969.934"
+		Rot="0.000 0.819 0.000 0.574" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn282"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="813.139 321.977 3941.918"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn283"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="862.266 331.757 3999.253"
+		Rot="0.000 0.924 0.000 0.383" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn284"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="819.678 334.509 3982.850"
+		Rot="0.000 0.991 0.000 -0.131" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn285"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="809.238 328.901 3959.780"
+		Rot="0.000 0.602 0.000 0.799" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn286"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="870.716 322.167 3982.205"
+		Rot="0.000 0.997 0.000 -0.078" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn287"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="894.573 327.915 4012.742"
+		Rot="0.000 0.994 0.000 0.113" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn288"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="844.396 327.677 3979.146"
+		Rot="0.000 -0.663 0.000 0.749" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn289"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="874.008 329.419 4000.819"
+		Rot="0.000 0.980 0.000 -0.199" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn290"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="876.750 338.983 4040.670"
+		Rot="0.000 -0.866 0.000 0.500" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn291"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="905.369 331.687 4049.490"
+		Rot="0.000 0.819 0.000 0.574" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn292"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="920.194 328.463 4068.667"
+		Rot="0.000 -0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn293"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="903.105 329.565 4029.983"
+		Rot="0.000 -0.636 0.000 0.772" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn294"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="924.958 325.723 4059.320"
+		Rot="0.000 0.391 0.000 0.920" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn297"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="310.891 370.447 3952.562"
+		Rot="0.000 0.581 0.000 0.814" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn299"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="485.817 367.160 3995.703"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn302"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="540.914 365.579 4006.078"
+		Rot="0.000 0.974 0.000 -0.225" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn303"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="604.032 358.374 3990.680"
+		Rot="0.000 -0.061 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn304"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="529.270 360.983 3985.998"
+		Rot="0.000 -0.866 0.000 0.500" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn305"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="583.156 373.826 4041.624"
+		Rot="0.000 -0.772 0.000 0.636" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn306"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="617.482 363.804 3998.184"
+		Rot="0.000 0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn307"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="592.003 368.823 4016.804"
+		Rot="0.000 0.383 0.000 0.924" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn308"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="643.473 380.595 4020.033"
+		Rot="0.000 0.766 0.000 0.643" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn309"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="678.964 373.272 3982.764"
+		Rot="0.000 0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn310"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="699.202 374.043 3978.065"
+		Rot="0.000 0.191 0.000 0.982" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn311"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="694.405 353.584 3938.995"
+		Rot="0.000 -0.799 0.000 0.602" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn312"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="653.576 344.267 3956.819"
+		Rot="0.000 0.982 0.000 0.191" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn313"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="797.572 352.382 4010.866"
+		Rot="0.000 -0.866 0.000 0.500" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn314"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="765.902 345.195 3969.773"
+		Rot="0.000 0.399 0.000 0.917" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn315"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="832.223 347.590 4023.145"
+		Rot="0.000 -0.695 0.000 0.719" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn316"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="768.914 360.582 4005.603"
+		Rot="0.000 0.391 0.000 0.920" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn317"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="865.608 318.693 3972.518"
+		Rot="0.000 0.999 0.000 -0.035" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn318"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="778.364 336.420 3958.513"
+		Rot="0.000 0.994 0.000 0.105" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn319"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="760.313 341.632 3952.302"
+		Rot="0.000 -0.663 0.000 0.749" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn320"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="695.953 339.290 3922.302"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn321"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="727.998 321.592 3901.808"
+		Rot="0.000 -0.415 0.000 0.910" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn322"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="700.644 328.963 3911.616"
+		Rot="0.000 -0.500 0.000 0.866" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn323"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="736.916 336.920 3919.693"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn324"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="731.074 361.054 3960.996"
+		Rot="0.000 0.407 0.000 0.914" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn325"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="512.488 363.033 3992.238"
+		Rot="0.000 -0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn326"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="472.383 356.950 3978.776"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn327"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="501.302 342.999 3957.014"
+		Rot="0.000 0.994 0.000 0.113" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn328"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="536.647 348.610 3963.000"
+		Rot="0.000 0.988 0.000 0.156" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn329"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="575.213 366.728 4005.183"
+		Rot="0.000 -0.522 0.000 0.853" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn330"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="554.284 352.228 3968.207"
+		Rot="0.000 1.000 0.000 0.009" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn332"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="396.958 370.327 3979.782"
+		Rot="0.000 -0.731 0.000 0.682" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn333"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="352.235 373.125 3982.769"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn334"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="390.734 366.637 3965.915"
+		Rot="0.000 -0.574 0.000 0.819" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn336"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="323.378 360.318 3935.541"
+		Rot="0.000 0.545 0.000 0.839" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn337"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="294.340 377.324 3959.280"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn338"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="286.173 374.667 3943.905"
+		Rot="0.000 0.250 0.000 0.968" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn339"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="274.957 364.220 3904.601"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn340"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="282.705 356.761 3893.062"
+		Rot="0.000 -0.078 0.000 0.997" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn341"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="244.276 379.193 3925.595"
+		Rot="0.000 -0.581 0.000 0.814" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn342"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="263.227 365.857 3898.856"
+		Rot="0.000 0.879 0.000 -0.477" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn343"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="308.580 366.127 3939.770"
+		Rot="0.000 0.934 0.000 -0.358" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn344"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="86.242 427.307 3934.569"
+		Rot="0.000 0.035 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn345"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="102.229 417.766 3923.077"
+		Rot="0.000 -0.061 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn346"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="113.243 413.532 3920.291"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn347"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="97.585 415.172 3913.337"
+		Rot="0.000 -0.026 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn348"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="103.263 425.280 3945.170"
+		Rot="0.000 0.906 0.000 -0.423" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn349"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="122.763 411.898 3924.773"
+		Rot="0.000 -0.017 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn350"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="115.572 409.573 3909.110"
+		Rot="0.000 0.309 0.000 0.951" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn358"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="290.343 304.181 3548.675"
+		Rot="0.000 0.875 0.000 0.485" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn359"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="346.587 315.212 3592.139"
+		Rot="0.000 0.707 0.000 0.707" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn360"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="234.864 313.092 3586.911"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn362"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="423.842 332.636 3770.990"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn363"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="177.516 327.685 3647.704"
+		Rot="0.000 -0.250 0.000 0.968" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn364"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="386.782 341.158 3829.982"
+		Rot="0.000 0.737 0.000 0.676" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn365"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="461.650 335.648 3899.547"
+		Rot="0.000 -0.545 0.000 0.839" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn366"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="550.862 315.762 3907.479"
+		Rot="0.000 -0.267 0.000 0.964" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn367"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="628.433 305.030 3907.352"
+		Rot="0.000 0.937 0.000 0.350" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn368"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="509.399 315.226 3847.532"
+		Rot="0.000 -0.044 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn369"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="401.820 334.964 3749.036"
+		Rot="0.000 0.910 0.000 0.415" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn370"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="318.364 323.919 3620.389"
+		Rot="0.000 0.917 0.000 -0.399" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn371"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="198.897 336.354 3687.246"
+		Rot="0.000 0.997 0.000 -0.078" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn372"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="355.777 305.901 3557.880"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn373"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="462.694 305.729 3617.292"
+		Rot="0.000 -0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn374"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="496.944 309.456 3731.304"
+		Rot="0.000 -0.783 0.000 0.623" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn375"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="557.591 305.680 3878.299"
+		Rot="0.000 0.972 0.000 0.233" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn376"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="452.604 324.719 3758.727"
+		Rot="0.000 -0.777 0.000 0.629" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn377"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="444.397 335.974 3870.208"
+		Rot="0.000 0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn378"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="415.776 335.964 3794.699"
+		Rot="0.000 0.743 0.000 0.669" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn379"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="373.142 340.875 3795.982"
+		Rot="0.000 0.980 0.000 0.199" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn380"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="499.173 312.157 3793.973"
+		Rot="0.000 0.993 0.000 -0.122" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn381"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="498.212 326.285 3891.774"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn382"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="592.086 309.756 3916.796"
+		Rot="0.000 -0.358 0.000 0.934" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn383"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="663.455 302.146 3887.472"
+		Rot="0.000 0.783 0.000 0.623" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn384"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="775.481 305.140 3886.706"
+		Rot="0.000 0.927 0.000 -0.375" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn385"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="869.446 305.877 3948.832"
+		Rot="0.000 0.701 0.000 0.713" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn386"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="923.048 307.170 3984.649"
+		Rot="0.000 -0.545 0.000 0.839" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn387"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="474.308 306.772 3639.974"
+		Rot="0.000 0.375 0.000 0.927" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn388"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="488.973 309.103 3692.471"
+		Rot="0.000 0.986 0.000 0.165" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn389"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="435.083 316.485 3648.354"
+		Rot="0.000 0.139 0.000 0.990" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn390"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="403.473 332.042 3719.101"
+		Rot="0.000 -0.415 0.000 0.910" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn391"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="347.451 341.214 3771.242"
+		Rot="0.000 0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn392"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="366.010 339.982 3757.688"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn393"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="166.500 313.767 3609.220"
+		Rot="0.000 0.182 0.000 0.983" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn394"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="128.506 322.306 3636.160"
+		Rot="0.000 0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn395"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="211.840 316.765 3605.456"
+		Rot="0.000 0.910 0.000 -0.415" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn396"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="207.462 305.172 3572.197"
+		Rot="0.000 -0.602 0.000 0.799" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn397"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="130.100 331.768 3656.077"
+		Rot="0.000 0.462 0.000 0.887" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn398"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="103.196 320.193 3632.975"
+		Rot="0.000 -0.843 0.000 0.537" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn399"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="170.090 304.571 3587.071"
+		Rot="0.000 0.242 0.000 0.970" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn400"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="147.420 313.478 3613.232"
+		Rot="0.000 -0.749 0.000 0.663" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn401"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="188.928 321.219 3625.502"
+		Rot="0.000 -0.588 0.000 0.809" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn402"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="272.537 306.658 3559.133"
+		Rot="0.000 0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn403"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="291.008 312.525 3577.402"
+		Rot="0.000 -0.017 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn404"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="284.333 321.289 3609.488"
+		Rot="0.000 0.986 0.000 0.165" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn405"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="308.321 314.630 3584.865"
+		Rot="0.000 0.966 0.000 0.259" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn406"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="318.206 309.536 3567.153"
+		Rot="0.000 0.974 0.000 0.225" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn407"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="325.752 317.688 3597.848"
+		Rot="0.000 0.317 0.000 0.948" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn408"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="247.449 319.105 3605.764"
+		Rot="0.000 0.991 0.000 -0.131" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn409"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="219.153 334.226 3677.080"
+		Rot="0.000 0.940 0.000 -0.342" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn410"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="273.699 326.985 3635.211"
+		Rot="0.000 0.985 0.000 -0.174" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn411"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="233.897 332.451 3666.502"
+		Rot="0.000 1.000 0.000 0.009" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn412"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="345.730 341.214 3818.931"
+		Rot="0.000 0.367 0.000 0.930" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn413"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="392.393 341.214 3861.981"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn414"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="428.341 336.392 3834.252"
+		Rot="0.000 0.974 0.000 -0.225" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn415"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="324.853 341.214 3859.958"
+		Rot="0.000 -0.522 0.000 0.853" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn416"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="372.324 341.214 3834.481"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn417"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="407.039 341.214 3894.780"
+		Rot="0.000 -0.131 0.000 0.991" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn418"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="473.033 330.331 3876.983"
+		Rot="0.000 0.995 0.000 -0.096" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn419"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="480.479 324.675 3849.501"
+		Rot="0.000 0.367 0.000 0.930" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn420"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="491.427 334.474 3926.507"
+		Rot="0.000 0.937 0.000 -0.350" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn421"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="524.428 326.879 3921.588"
+		Rot="0.000 -0.061 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn422"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="502.893 323.120 3881.591"
+		Rot="0.000 0.875 0.000 0.485" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn423"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="532.029 317.201 3893.416"
+		Rot="0.000 -0.737 0.000 0.676" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn424"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="464.015 323.399 3783.729"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn425"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="484.055 315.336 3760.851"
+		Rot="0.000 0.070 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn426"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="257.961 336.560 3689.290"
+		Rot="0.000 -0.676 0.000 0.737" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn427"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="293.920 331.621 3655.794"
+		Rot="0.000 -0.216 0.000 0.976" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn428"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="387.658 336.143 3735.698"
+		Rot="0.000 0.899 0.000 0.438" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn429"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="399.828 339.323 3809.668"
+		Rot="0.000 0.731 0.000 0.682" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn430"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="435.767 327.074 3736.770"
+		Rot="0.000 0.284 0.000 0.959" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn457"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1454.457 349.743 1953.238"
+		Rot="0.000 -0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn458"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1395.289 346.525 1885.285"
+		Rot="0.000 0.903 0.000 -0.431" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn459"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1420.580 373.794 1879.351"
+		Rot="0.000 -0.350 0.000 0.937" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn460"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1414.735 356.210 1907.489"
+		Rot="0.000 -0.225 0.000 0.974" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn461"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1399.317 358.001 1832.533"
+		Rot="0.000 0.737 0.000 0.676" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn462"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1430.839 385.856 1838.720"
+		Rot="0.000 0.165 0.000 0.986" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn463"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1458.622 362.389 1910.864"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn464"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1364.554 336.759 1818.662"
+		Rot="0.000 0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn465"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1363.406 352.976 1786.939"
+		Rot="0.000 0.375 0.000 0.927" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn466"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1337.120 343.192 1766.248"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn467"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1324.703 330.363 1782.038"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn468"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1403.489 378.303 1787.139"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn469"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1383.334 361.542 1719.697"
+		Rot="0.000 -0.552 0.000 0.834" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn470"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1430.121 391.458 1677.488"
+		Rot="0.000 0.961 0.000 -0.276" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn471"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1421.811 403.016 1722.469"
+		Rot="0.000 -0.276 0.000 0.961" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn472"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1403.040 383.159 1731.254"
+		Rot="0.000 0.766 0.000 0.643" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn473"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1369.075 359.423 1742.168"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn474"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1390.612 342.098 1671.646"
+		Rot="0.000 0.990 0.000 -0.139" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn475"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1420.052 372.332 1665.394"
+		Rot="0.000 -0.777 0.000 0.629" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn476"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1382.303 351.758 1701.569"
+		Rot="0.000 -0.009 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn477"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1351.199 340.786 1719.690"
+		Rot="0.000 0.954 0.000 0.301" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn478"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1415.537 340.057 1625.675"
+		Rot="0.000 0.676 0.000 0.737" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn479"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1442.735 358.632 1604.137"
+		Rot="0.000 -0.407 0.000 0.914" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn480"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1438.152 412.482 1780.994"
+		Rot="0.000 0.883 0.000 0.469" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn481"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1432.364 390.953 1819.393"
+		Rot="0.000 1.000 0.000 -0.017" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn482"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1413.554 394.785 1764.307"
+		Rot="0.000 0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn483"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1511.818 393.786 1768.331"
+		Rot="0.000 -0.208 0.000 0.978" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn484"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1474.260 371.385 1858.330"
+		Rot="0.000 -0.749 0.000 0.663" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn485"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1468.787 366.088 1888.866"
+		Rot="0.000 -0.182 0.000 0.983" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn486"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1482.392 356.524 1919.987"
+		Rot="0.000 -0.399 0.000 0.917" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn487"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1500.313 348.514 1947.227"
+		Rot="0.000 -0.446 0.000 0.895" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn488"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1476.025 348.681 1960.112"
+		Rot="0.000 -0.035 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn489"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1465.274 355.549 1937.591"
+		Rot="0.000 -0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn490"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1431.725 356.232 1921.600"
+		Rot="0.000 0.972 0.000 -0.233" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn491"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1442.022 376.795 1887.226"
+		Rot="0.000 -0.602 0.000 0.799" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn492"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1436.067 346.683 1950.092"
+		Rot="0.000 0.999 0.000 0.035" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn493"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1408.597 343.229 1925.393"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn494"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1455.618 385.401 1845.161"
+		Rot="0.000 -0.537 0.000 0.843" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn495"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1460.594 423.494 1713.561"
+		Rot="0.000 -0.629 0.000 0.777" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn496"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1489.393 417.505 1675.052"
+		Rot="0.000 0.446 0.000 0.895" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn497"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1497.110 400.337 1635.331"
+		Rot="0.000 0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn498"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1533.710 377.578 1619.602"
+		Rot="0.000 0.988 0.000 -0.156" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn499"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1534.780 380.896 1684.373"
+		Rot="0.000 0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn500"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1506.815 404.694 1702.983"
+		Rot="0.000 0.843 0.000 0.537" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn501"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1510.613 397.516 1646.820"
+		Rot="0.000 0.061 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn502"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1505.677 405.261 1715.678"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn503"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1476.167 422.280 1717.260"
+		Rot="0.000 0.998 0.000 0.061" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn504"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1510.823 404.039 1669.978"
+		Rot="0.000 0.994 0.000 -0.113" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn505"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1479.427 420.220 1750.143"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn506"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1482.429 408.729 1773.773"
+		Rot="0.000 0.994 0.000 -0.113" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn507"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1498.839 409.297 1743.530"
+		Rot="0.000 -0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn508"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1516.490 397.241 1737.056"
+		Rot="0.000 0.407 0.000 0.914" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn509"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1527.562 381.136 1764.311"
+		Rot="0.000 -0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn510"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1490.459 396.198 1785.748"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn511"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1510.320 386.415 1783.644"
+		Rot="0.000 -0.087 0.000 0.996" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn512"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1460.535 390.955 1819.398"
+		Rot="0.000 -0.399 0.000 0.917" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn513"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1464.407 383.342 1836.073"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn514"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1476.417 387.197 1809.942"
+		Rot="0.000 0.656 0.000 0.755" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn515"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1461.518 410.424 1787.689"
+		Rot="0.000 -0.242 0.000 0.970" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn516"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1463.085 427.919 1738.601"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn517"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1434.637 419.084 1750.769"
+		Rot="0.000 0.009 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn518"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1442.344 413.879 1704.565"
+		Rot="0.000 0.469 0.000 0.883" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn519"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1414.815 387.797 1701.429"
+		Rot="0.000 -0.292 0.000 0.956" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn520"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1411.364 374.868 1685.070"
+		Rot="0.000 0.940 0.000 0.342" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn521"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1390.556 374.362 1756.135"
+		Rot="0.000 0.701 0.000 0.713" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn522"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1410.528 367.862 1849.971"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn523"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1383.495 339.275 1848.121"
+		Rot="0.000 0.695 0.000 0.719" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn524"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1388.361 354.776 1814.286"
+		Rot="0.000 0.522 0.000 0.853" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn525"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1419.291 381.451 1817.566"
+		Rot="0.000 0.367 0.000 0.930" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn526"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1386.445 363.097 1793.723"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn527"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1344.042 335.323 1798.893"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn528"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1360.415 357.175 1764.060"
+		Rot="0.000 0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn529"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1423.084 362.498 1904.239"
+		Rot="0.000 -0.113 0.000 0.994" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn530"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1407.522 364.700 1846.970"
+		Rot="0.000 0.208 0.000 0.978" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn531"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1399.042 352.860 1874.482"
+		Rot="0.000 0.537 0.000 0.843" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn532"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1386.386 338.910 1866.510"
+		Rot="0.000 0.431 0.000 0.903" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn533"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1387.372 349.321 1825.775"
+		Rot="0.000 0.350 0.000 0.937" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn534"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1414.404 379.527 1809.566"
+		Rot="0.000 -0.326 0.000 0.946" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn535"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1372.481 350.110 1802.202"
+		Rot="0.000 -0.165 0.000 0.986" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn536"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1350.311 332.313 1810.730"
+		Rot="0.000 0.990 0.000 -0.139" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn537"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1351.049 349.363 1778.862"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn538"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1322.176 331.609 1754.981"
+		Rot="0.000 0.581 0.000 0.814" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn539"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1358.921 350.025 1730.372"
+		Rot="0.000 0.462 0.000 0.887" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn540"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1353.693 351.159 1745.805"
+		Rot="0.000 0.857 0.000 0.515" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn541"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1390.571 372.911 1773.052"
+		Rot="0.000 0.998 0.000 0.061" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn542"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1396.732 377.078 1733.717"
+		Rot="0.000 -0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn543"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1408.870 389.694 1764.720"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn544"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1423.358 399.652 1781.386"
+		Rot="0.000 0.879 0.000 0.477" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn545"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1434.466 416.921 1764.190"
+		Rot="0.000 0.814 0.000 0.581" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn546"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1440.603 404.726 1797.687"
+		Rot="0.000 -0.588 0.000 0.809" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn547"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1423.248 407.502 1741.164"
+		Rot="0.000 0.026 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn548"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1427.388 396.838 1795.462"
+		Rot="0.000 -0.636 0.000 0.772" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn549"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1432.515 385.459 1863.544"
+		Rot="0.000 -0.701 0.000 0.713" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn550"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1410.741 366.824 1869.901"
+		Rot="0.000 -0.469 0.000 0.883" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn551"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1420.548 379.093 1833.167"
+		Rot="0.000 0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn552"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1403.655 360.672 1844.734"
+		Rot="0.000 0.974 0.000 0.225" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn553"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1416.597 364.606 1894.319"
+		Rot="0.000 0.917 0.000 0.399" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn554"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1399.499 345.773 1903.404"
+		Rot="0.000 0.940 0.000 0.342" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn555"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1383.104 333.539 1876.699"
+		Rot="0.000 0.966 0.000 0.259" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn556"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1367.554 327.832 1844.664"
+		Rot="0.000 -0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn557"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1438.175 368.607 1900.272"
+		Rot="0.000 -0.276 0.000 0.961" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn558"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1447.401 354.265 1936.677"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn559"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1416.467 343.422 1936.660"
+		Rot="0.000 0.989 0.000 0.148" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn560"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1413.922 383.143 1798.442"
+		Rot="0.000 -0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn561"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1404.943 382.161 1716.826"
+		Rot="0.000 0.999 0.000 -0.052" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn562"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1404.054 366.129 1684.877"
+		Rot="0.000 0.431 0.000 0.903" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn563"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1403.161 373.968 1700.844"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn564"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1392.080 348.726 1679.459"
+		Rot="0.000 -0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn565"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1420.703 360.773 1646.773"
+		Rot="0.000 0.946 0.000 -0.326" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn566"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1370.399 342.318 1702.085"
+		Rot="0.000 0.804 0.000 0.595" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn567"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1380.730 334.024 1675.177"
+		Rot="0.000 -0.588 0.000 0.809" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn568"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1397.647 334.455 1647.348"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn569"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1412.130 356.364 1655.660"
+		Rot="0.000 -0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn570"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1434.084 405.679 1699.173"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn571"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1453.280 414.449 1684.464"
+		Rot="0.000 0.956 0.000 -0.292" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn572"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1451.940 405.926 1663.994"
+		Rot="0.000 0.225 0.000 0.974" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn573"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1452.573 390.918 1638.779"
+		Rot="0.000 -0.804 0.000 0.595" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn574"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1437.167 382.787 1649.777"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn575"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1445.738 397.036 1657.845"
+		Rot="0.000 0.943 0.000 -0.334" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn576"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1468.215 408.535 1651.362"
+		Rot="0.000 0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn577"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1474.361 397.800 1630.455"
+		Rot="0.000 0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn578"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1473.805 385.657 1595.554"
+		Rot="0.000 -0.788 0.000 0.616" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn579"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1440.158 377.358 1636.810"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn580"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1431.413 361.495 1629.190"
+		Rot="0.000 0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn581"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1462.593 387.412 1622.381"
+		Rot="0.000 0.998 0.000 -0.061" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn582"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1458.641 378.843 1612.054"
+		Rot="0.000 0.993 0.000 -0.122" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn583"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1446.972 373.627 1621.657"
+		Rot="0.000 -0.375 0.000 0.927" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn584"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1460.042 372.294 1589.430"
+		Rot="0.000 0.917 0.000 0.399" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn585"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1471.732 377.930 1569.945"
+		Rot="0.000 -0.334 0.000 0.943" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn586"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1459.291 366.606 1572.047"
+		Rot="0.000 -0.695 0.000 0.719" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn587"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1445.737 350.888 1570.767"
+		Rot="0.000 -0.009 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn588"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1462.790 357.532 1536.212"
+		Rot="0.000 0.966 0.000 0.259" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn589"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1477.420 374.559 1547.809"
+		Rot="0.000 0.809 0.000 0.588" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn590"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1479.968 364.674 1515.085"
+		Rot="0.000 0.914 0.000 0.407" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn591"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1458.540 352.344 1534.606"
+		Rot="0.000 0.959 0.000 -0.284" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn592"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1459.825 360.982 1553.151"
+		Rot="0.000 0.883 0.000 -0.469" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn593"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1448.335 342.712 1540.005"
+		Rot="0.000 0.968 0.000 0.250" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn594"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1443.299 333.600 1532.183"
+		Rot="0.000 0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn595"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1461.108 345.023 1503.088"
+		Rot="0.000 -0.663 0.000 0.749" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn596"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1481.453 353.156 1480.325"
+		Rot="0.000 -0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn597"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1472.043 357.327 1511.123"
+		Rot="0.000 0.982 0.000 -0.191" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn598"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1502.657 367.024 1490.830"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn599"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1504.142 372.760 1507.087"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn600"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1507.393 363.776 1481.570"
+		Rot="0.000 0.921 0.000 -0.391" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn601"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1512.125 354.383 1463.932"
+		Rot="0.000 0.995 0.000 -0.096" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn602"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1529.689 355.838 1471.562"
+		Rot="0.000 0.695 0.000 0.719" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn603"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1538.459 368.715 1506.187"
+		Rot="0.000 0.927 0.000 -0.375" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn604"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1523.684 375.438 1522.052"
+		Rot="0.000 0.875 0.000 0.485" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn605"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1557.946 361.017 1533.077"
+		Rot="0.000 0.980 0.000 0.199" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn606"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1563.931 357.120 1520.332"
+		Rot="0.000 0.999 0.000 -0.035" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn607"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1550.837 361.171 1499.709"
+		Rot="0.000 0.956 0.000 0.292" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn608"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1533.801 378.099 1557.929"
+		Rot="0.000 0.948 0.000 0.317" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn609"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1549.019 367.246 1557.081"
+		Rot="0.000 0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn610"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1559.725 359.302 1569.792"
+		Rot="0.000 0.358 0.000 0.934" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn611"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1542.771 374.466 1601.587"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn612"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1523.299 389.947 1593.134"
+		Rot="0.000 -0.749 0.000 0.663" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn613"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1515.107 392.118 1576.089"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn614"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1516.235 384.650 1553.214"
+		Rot="0.000 0.853 0.000 0.522" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn615"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1538.694 371.249 1534.421"
+		Rot="0.000 -0.588 0.000 0.809" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn616"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1474.641 340.591 1461.778"
+		Rot="0.000 0.113 0.000 0.994" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn617"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1516.856 344.413 1444.088"
+		Rot="0.000 0.105 0.000 0.995" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn618"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1532.133 345.276 1454.541"
+		Rot="0.000 0.891 0.000 0.454" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn619"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1520.175 336.814 1423.844"
+		Rot="0.000 0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn620"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1496.425 347.801 1456.756"
+		Rot="0.000 -0.225 0.000 0.974" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn621"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1519.475 364.754 1482.763"
+		Rot="0.000 -0.070 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn622"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1500.186 382.091 1542.644"
+		Rot="0.000 1.000 0.000 -0.009" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn623"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1494.601 394.348 1590.319"
+		Rot="0.000 -0.326 0.000 0.946" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn624"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1490.003 377.751 1537.578"
+		Rot="0.000 -0.174 0.000 0.985" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn625"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1498.244 390.534 1567.112"
+		Rot="0.000 -0.500 0.000 0.866" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn626"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1488.963 364.683 1498.389"
+		Rot="0.000 0.326 0.000 0.946" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn627"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1521.204 373.359 1506.665"
+		Rot="0.000 0.309 0.000 0.951" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn628"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1497.256 377.227 1528.846"
+		Rot="0.000 0.980 0.000 0.199" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn629"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1487.054 388.146 1571.292"
+		Rot="0.000 0.999 0.000 -0.044" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn630"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1486.969 384.755 1560.792"
+		Rot="0.000 0.701 0.000 0.713" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn631"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1516.305 389.219 1566.609"
+		Rot="0.000 0.649 0.000 0.760" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn632"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1482.056 395.494 1619.854"
+		Rot="0.000 0.814 0.000 0.581" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn633"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1509.944 394.203 1630.857"
+		Rot="0.000 -0.581 0.000 0.814" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn634"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1480.293 412.030 1653.831"
+		Rot="0.000 0.921 0.000 -0.391" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn635"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1471.463 421.479 1684.762"
+		Rot="0.000 0.574 0.000 0.819" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn636"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1494.090 413.195 1665.067"
+		Rot="0.000 0.899 0.000 -0.438" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn637"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1501.612 410.951 1686.558"
+		Rot="0.000 0.242 0.000 0.970" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn638"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1518.059 397.323 1683.836"
+		Rot="0.000 -0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn639"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1527.947 383.922 1651.358"
+		Rot="0.000 0.989 0.000 -0.148" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn640"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1544.198 365.295 1631.880"
+		Rot="0.000 0.834 0.000 0.552" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn641"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1552.081 357.062 1640.140"
+		Rot="0.000 -0.174 0.000 0.985" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn642"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1543.902 366.816 1658.101"
+		Rot="0.000 0.914 0.000 -0.407" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn643"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1556.195 361.649 1597.591"
+		Rot="0.000 0.964 0.000 -0.267" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn644"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1536.367 380.748 1575.096"
+		Rot="0.000 0.688 0.000 0.725" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn645"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1514.443 392.350 1605.725"
+		Rot="0.000 -0.862 0.000 0.508" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn646"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1551.408 351.137 1482.416"
+		Rot="0.000 -0.688 0.000 0.725" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn647"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1575.558 346.623 1500.338"
+		Rot="0.000 0.588 0.000 0.809" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn648"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1574.916 349.980 1538.452"
+		Rot="0.000 -0.819 0.000 0.574" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn649"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1587.857 341.902 1515.479"
+		Rot="0.000 0.996 0.000 -0.087" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn650"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1563.723 349.914 1490.549"
+		Rot="0.000 0.910 0.000 -0.415" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn651"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1552.606 329.911 1393.236"
+		Rot="0.000 -0.777 0.000 0.629" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn652"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1606.927 330.543 1418.166"
+		Rot="0.000 0.999 0.000 -0.052" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn653"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1637.929 330.562 1495.140"
+		Rot="0.000 0.292 0.000 0.956" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn654"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1631.201 330.543 1449.686"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn659"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1709.908 330.543 1473.867"
+		Rot="0.000 -0.755 0.000 0.656" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn679"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1586.349 330.643 1450.879"
+		Rot="0.000 -0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn680"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1657.944 330.543 1496.095"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn681"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1753.246 334.649 1577.152"
+		Rot="0.000 0.970 0.000 -0.242" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn682"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1784.786 330.533 1511.312"
+		Rot="0.000 0.910 0.000 -0.415" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn683"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1836.010 327.770 1529.066"
+		Rot="0.000 -0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn684"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1744.834 330.543 1457.984"
+		Rot="0.000 -0.174 0.000 0.985" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn685"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1760.950 332.359 1558.087"
+		Rot="0.000 0.809 0.000 0.588" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn686"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1670.820 330.542 1545.499"
+		Rot="0.000 -0.814 0.000 0.581" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn687"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1817.827 348.254 1608.155"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn688"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1832.177 342.168 1577.837"
+		Rot="0.000 1.000 0.000 0.017" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn689"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1865.650 335.099 1610.442"
+		Rot="0.000 -0.105 0.000 0.995" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn690"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1848.748 346.170 1708.948"
+		Rot="0.000 0.959 0.000 -0.284" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn691"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1841.506 344.438 1598.585"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn692"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1871.858 331.979 1587.577"
+		Rot="0.000 -0.839 0.000 0.545" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn693"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1846.021 343.001 1666.662"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn694"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1822.458 356.613 1656.055"
+		Rot="0.000 -0.559 0.000 0.829" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn695"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1869.582 330.524 1712.506"
+		Rot="0.000 -0.602 0.000 0.799" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn696"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1788.981 390.902 1748.167"
+		Rot="0.000 0.423 0.000 0.906" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn697"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1766.020 374.750 1677.207"
+		Rot="0.000 0.914 0.000 0.407" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn698"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1780.694 351.560 1626.827"
+		Rot="0.000 0.993 0.000 -0.122" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn699"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1799.840 377.867 1707.144"
+		Rot="0.000 0.431 0.000 0.903" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn700"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1769.825 385.889 1709.035"
+		Rot="0.000 -0.559 0.000 0.829" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn701"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1808.312 372.300 1697.549"
+		Rot="0.000 0.788 0.000 0.616" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn702"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1840.274 355.763 1772.806"
+		Rot="0.000 0.701 0.000 0.713" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn703"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1790.839 378.609 1689.544"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn704"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1791.996 366.510 1657.000"
+		Rot="0.000 0.959 0.000 -0.284" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn705"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1823.486 367.445 1734.163"
+		Rot="0.000 -0.250 0.000 0.968" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn706"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1761.411 400.237 1765.337"
+		Rot="0.000 0.446 0.000 0.895" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn707"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1788.177 385.224 1800.706"
+		Rot="0.000 0.454 0.000 0.891" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn708"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1824.123 360.284 1834.968"
+		Rot="0.000 -0.804 0.000 0.595" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn709"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1749.371 401.091 1830.752"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn710"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1713.031 379.519 1792.449"
+		Rot="0.000 0.997 0.000 -0.078" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn711"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1754.320 390.950 1730.183"
+		Rot="0.000 -0.199 0.000 0.980" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn712"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1706.899 373.993 1769.228"
+		Rot="0.000 -0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn713"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1743.494 393.548 1754.257"
+		Rot="0.000 -0.131 0.000 0.991" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn714"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1759.090 398.736 1805.643"
+		Rot="0.000 -0.292 0.000 0.956" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn715"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1794.258 380.559 1860.553"
+		Rot="0.000 -0.113 0.000 0.994" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn716"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1825.375 368.194 1849.684"
+		Rot="0.000 0.976 0.000 0.216" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn717"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1853.779 339.414 1828.191"
+		Rot="0.000 -0.656 0.000 0.755" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn718"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1824.063 347.123 1813.813"
+		Rot="0.000 0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn719"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1795.457 386.677 1762.474"
+		Rot="0.000 -0.367 0.000 0.930" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn720"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1814.425 371.459 1764.583"
+		Rot="0.000 0.948 0.000 -0.317" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn721"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1845.619 365.318 1752.053"
+		Rot="0.000 0.966 0.000 0.259" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn722"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1870.841 344.741 1755.921"
+		Rot="0.000 0.999 0.000 0.044" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn723"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1883.593 340.815 1802.745"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn724"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1899.003 327.598 1776.186"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn725"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1893.061 328.054 1720.056"
+		Rot="0.000 0.423 0.000 0.906" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn726"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1903.856 338.753 1799.854"
+		Rot="0.000 0.301 0.000 0.954" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn727"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1905.677 322.088 1710.884"
+		Rot="0.000 -0.819 0.000 0.574" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn728"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1863.461 332.715 1658.236"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn729"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1866.515 333.750 1640.196"
+		Rot="0.000 0.383 0.000 0.924" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn730"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1831.276 348.729 1621.922"
+		Rot="0.000 0.342 0.000 0.940" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn731"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1881.648 320.638 1693.072"
+		Rot="0.000 -0.182 0.000 0.983" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn732"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1891.042 336.427 1822.773"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn733"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1873.443 335.289 1853.305"
+		Rot="0.000 0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn734"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1866.344 342.664 1864.643"
+		Rot="0.000 -0.148 0.000 0.989" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn735"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1853.672 342.215 1903.964"
+		Rot="0.000 0.595 0.000 0.804" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn736"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1799.664 370.761 1897.551"
+		Rot="0.000 0.824 0.000 0.566" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn737"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1832.511 345.832 1922.458"
+		Rot="0.000 0.814 0.000 0.581" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn738"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1838.117 354.305 1883.253"
+		Rot="0.000 -0.182 0.000 0.983" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn739"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1806.252 364.051 1930.987"
+		Rot="0.000 0.995 0.000 -0.105" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn740"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1815.129 350.938 1962.874"
+		Rot="0.000 -0.375 0.000 0.927" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn741"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1782.611 359.368 1982.558"
+		Rot="0.000 0.731 0.000 0.682" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn742"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1762.044 345.968 2016.370"
+		Rot="0.000 1.000 0.000 -0.009" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn743"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1788.405 345.318 2012.345"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn744"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1735.791 337.615 2040.364"
+		Rot="0.000 0.934 0.000 0.358" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn745"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1714.310 343.992 1996.477"
+		Rot="0.000 -0.462 0.000 0.887" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn746"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1736.085 365.542 1960.017"
+		Rot="0.000 0.986 0.000 0.165" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn747"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1748.695 378.549 1942.151"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn748"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1749.557 359.040 1983.405"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn749"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1710.275 359.512 1934.680"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn750"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1701.190 370.474 1893.072"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn751"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1756.108 390.445 1909.188"
+		Rot="0.000 0.783 0.000 0.623" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn752"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1781.657 379.684 1935.744"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn753"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1765.243 397.650 1880.980"
+		Rot="0.000 -0.788 0.000 0.616" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn754"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1735.555 397.380 1861.607"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn755"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1718.965 376.123 1907.928"
+		Rot="0.000 0.970 0.000 0.242" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn756"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1699.447 370.685 1848.729"
+		Rot="0.000 0.914 0.000 -0.407" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn757"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1716.961 383.146 1872.774"
+		Rot="0.000 0.948 0.000 0.317" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn758"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1686.957 357.684 1908.648"
+		Rot="0.000 0.887 0.000 -0.462" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn759"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1700.358 374.885 1809.746"
+		Rot="0.000 0.994 0.000 -0.113" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn760"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1728.885 393.776 1831.626"
+		Rot="0.000 -0.559 0.000 0.829" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn761"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1736.314 393.663 1804.174"
+		Rot="0.000 0.887 0.000 0.462" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn762"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1729.419 382.325 1745.136"
+		Rot="0.000 0.737 0.000 0.676" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn763"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1742.556 396.020 1782.184"
+		Rot="0.000 0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn764"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1744.879 377.102 1703.477"
+		Rot="0.000 0.990 0.000 0.139" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn765"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1676.973 352.969 1849.440"
+		Rot="0.000 0.924 0.000 -0.383" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn766"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1680.711 358.695 1798.997"
+		Rot="0.000 -0.545 0.000 0.839" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn767"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1689.440 362.193 1766.850"
+		Rot="0.000 0.985 0.000 0.174" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn768"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1710.442 364.909 1732.711"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn769"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1727.413 358.345 1686.840"
+		Rot="0.000 -0.148 0.000 0.989" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn770"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1688.685 357.320 1744.837"
+		Rot="0.000 0.976 0.000 0.216" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn771"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1675.104 351.974 1782.916"
+		Rot="0.000 0.725 0.000 0.688" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn772"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1676.133 355.801 1811.218"
+		Rot="0.000 0.866 0.000 0.500" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn773"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1676.911 355.449 1826.604"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn774"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1703.832 348.406 1956.591"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn775"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1739.948 352.854 1992.341"
+		Rot="0.000 0.326 0.000 0.946" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn776"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1726.441 358.740 1964.393"
+		Rot="0.000 0.500 0.000 0.866" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn777"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1728.385 341.764 2019.140" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn778"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1766.067 356.920 1991.317"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn779"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1760.752 340.664 2032.146"
+		Rot="0.000 0.743 0.000 0.669" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn780"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1728.586 343.557 2011.988"
+		Rot="0.000 0.148 0.000 0.989" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn781"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1820.633 341.029 1986.912"
+		Rot="0.000 0.875 0.000 -0.485" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn782"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1782.098 373.162 1953.073"
+		Rot="0.000 -0.799 0.000 0.602" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn783"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1755.289 369.708 1963.929"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn784"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1768.584 368.455 1968.200"
+		Rot="0.000 -0.276 0.000 0.961" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn785"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1800.324 366.732 1946.382"
+		Rot="0.000 0.999 0.000 -0.044" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn786"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1844.480 338.066 1928.579"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn787"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1833.291 339.414 1951.822"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn788"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1838.072 334.564 1965.253"
+		Rot="0.000 0.983 0.000 0.182" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn789"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1834.644 334.778 1980.441"
+		Rot="0.000 -0.454 0.000 0.891" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn790"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1821.266 337.699 1999.475"
+		Rot="0.000 -0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn791"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1791.332 359.933 1975.663"
+		Rot="0.000 0.804 0.000 0.595" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn792"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1814.820 356.251 1934.817"
+		Rot="0.000 -0.267 0.000 0.964" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn793"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1800.628 345.858 2001.310"
+		Rot="0.000 0.998 0.000 0.070" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn794"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1844.651 332.611 1945.737"
+		Rot="0.000 0.788 0.000 0.616" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn795"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1861.614 338.062 1909.336"
+		Rot="0.000 -0.375 0.000 0.927" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn796"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1862.731 333.889 1922.025"
+		Rot="0.000 -0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn797"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1875.414 330.035 1907.343"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn798"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1850.097 326.660 1965.808"
+		Rot="0.000 0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn799"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1854.904 345.948 1778.192"
+		Rot="0.000 0.959 0.000 0.284" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn800"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1878.038 339.562 1756.133"
+		Rot="0.000 0.087 0.000 0.996" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn801"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1910.738 321.889 1750.795"
+		Rot="0.000 0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn802"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1911.635 334.930 1822.283"
+		Rot="0.000 -0.623 0.000 0.783" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn803"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1892.456 320.386 1867.225"
+		Rot="0.000 0.906 0.000 -0.423" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn804"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1915.516 331.911 1803.973"
+		Rot="0.000 -0.191 0.000 0.982" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn805"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1846.000 356.734 1841.997"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn806"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1850.204 340.938 1790.007"
+		Rot="0.000 0.983 0.000 -0.182" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn807"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1875.917 338.644 1765.631"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn808"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1867.767 344.395 1730.252"
+		Rot="0.000 -0.035 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn809"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1843.190 355.912 1723.867"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn810"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1868.524 347.616 1753.058"
+		Rot="0.000 -0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn811"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1842.884 345.557 1643.508"
+		Rot="0.000 0.643 0.000 0.766" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn812"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1855.091 341.370 1622.270"
+		Rot="0.000 0.522 0.000 0.853" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn813"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1852.169 339.488 1582.420"
+		Rot="0.000 -0.367 0.000 0.930" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn814"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1853.880 330.347 1553.382"
+		Rot="0.000 0.454 0.000 0.891" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn815"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1875.058 327.454 1567.701"
+		Rot="0.000 0.887 0.000 0.462" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn816"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1858.007 335.395 1572.727"
+		Rot="0.000 -0.078 0.000 0.997" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn817"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1832.104 338.566 1566.179"
+		Rot="0.000 -0.326 0.000 0.946" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn818"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1797.477 341.149 1582.832"
+		Rot="0.000 -0.182 0.000 0.983" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn819"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1803.368 346.116 1600.160"
+		Rot="0.000 -0.326 0.000 0.946" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn820"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1758.630 360.207 1654.481"
+		Rot="0.000 0.522 0.000 0.853" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn821"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1770.238 350.890 1629.601"
+		Rot="0.000 -0.026 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn822"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1779.869 346.282 1610.324"
+		Rot="0.000 0.995 0.000 0.105" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn823"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1808.161 337.254 1564.752"
+		Rot="0.000 0.999 0.000 -0.035" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn824"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1835.213 333.143 1552.588"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn825"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1828.205 345.449 1593.645"
+		Rot="0.000 0.999 0.000 -0.052" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn826"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1776.089 367.938 1659.841"
+		Rot="0.000 -0.122 0.000 0.993" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn827"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1796.847 358.066 1641.111"
+		Rot="0.000 0.943 0.000 0.334" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn828"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1806.526 370.352 1677.886"
+		Rot="0.000 0.999 0.000 -0.052" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn829"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1809.674 357.837 1645.226"
+		Rot="0.000 0.924 0.000 0.383" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn830"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1825.983 359.766 1685.273"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn831"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1830.553 360.358 1717.188"
+		Rot="0.000 1.000 0.000 0.026" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn832"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1811.315 370.482 1778.046"
+		Rot="0.000 0.914 0.000 0.407" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn833"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1813.928 359.802 1799.714"
+		Rot="0.000 -0.469 0.000 0.883" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn834"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1825.273 351.621 1793.311"
+		Rot="0.000 0.910 0.000 -0.415" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn835"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1795.411 375.599 1826.258"
+		Rot="0.000 1.000 0.000 0.017" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn836"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1799.063 380.797 1782.520"
+		Rot="0.000 0.139 0.000 0.990" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn837"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1845.384 362.480 1862.970"
+		Rot="0.000 -0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn838"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1816.567 367.239 1860.778"
+		Rot="0.000 0.809 0.000 0.588" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn839"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1821.244 358.985 1877.673"
+		Rot="0.000 -0.688 0.000 0.725" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn840"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1799.295 372.387 1877.066"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn841"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1807.079 364.083 1902.758"
+		Rot="0.000 0.980 0.000 0.199" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn842"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1811.742 359.189 1923.092"
+		Rot="0.000 0.985 0.000 0.174" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn843"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1787.881 379.344 1922.326"
+		Rot="0.000 0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn844"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1778.820 387.391 1897.962"
+		Rot="0.000 0.879 0.000 0.477" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn845"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1765.227 388.717 1916.335"
+		Rot="0.000 0.096 0.000 0.995" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn846"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1779.994 392.698 1874.449"
+		Rot="0.000 -0.407 0.000 0.914" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn847"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1764.731 401.648 1848.614"
+		Rot="0.000 -0.783 0.000 0.623" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn848"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1772.864 395.003 1825.407"
+		Rot="0.000 0.879 0.000 0.477" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn849"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1785.273 387.740 1838.178"
+		Rot="0.000 0.972 0.000 0.233" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn850"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1772.782 398.140 1851.072"
+		Rot="0.000 0.017 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn851"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1796.969 377.581 1842.751"
+		Rot="0.000 0.342 0.000 0.940" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn852"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1799.659 371.639 1810.259"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn853"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1774.736 398.063 1775.783"
+		Rot="0.000 -0.350 0.000 0.937" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn854"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1764.064 398.740 1797.409"
+		Rot="0.000 -0.431 0.000 0.903" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn855"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1772.081 395.985 1740.634"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn856"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1789.342 387.097 1729.827"
+		Rot="0.000 0.976 0.000 0.216" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn857"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1803.035 379.668 1745.538"
+		Rot="0.000 -0.284 0.000 0.959" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn858"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1784.877 393.227 1772.841"
+		Rot="0.000 0.990 0.000 -0.139" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn859"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1771.750 397.017 1794.122"
+		Rot="0.000 0.156 0.000 0.988" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn860"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1751.707 399.663 1819.920"
+		Rot="0.000 -0.766 0.000 0.643" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn861"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1746.715 401.758 1860.300"
+		Rot="0.000 0.078 0.000 0.997" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn862"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1761.033 401.980 1864.550"
+		Rot="0.000 -0.191 0.000 0.982" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn863"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1724.130 384.536 1888.941"
+		Rot="0.000 0.964 0.000 -0.267" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn864"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1764.505 392.689 1898.383"
+		Rot="0.000 0.989 0.000 0.148" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn865"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1738.267 381.920 1921.430"
+		Rot="0.000 0.783 0.000 0.623" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn866"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1744.802 394.097 1889.426"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn867"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1743.721 399.552 1869.109"
+		Rot="0.000 0.358 0.000 0.934" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn868"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1744.664 393.160 1892.225"
+		Rot="0.000 0.990 0.000 -0.139" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn869"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1737.728 383.343 1916.029"
+		Rot="0.000 -0.061 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn870"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1733.435 372.556 1940.330"
+		Rot="0.000 -0.522 0.000 0.853" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn871"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1724.931 373.719 1923.579"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn872"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1708.501 369.047 1911.464"
+		Rot="0.000 0.989 0.000 0.148" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn873"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1696.400 357.331 1921.888"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn874"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1716.037 350.606 1972.024"
+		Rot="0.000 0.824 0.000 0.566" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn875"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1727.335 365.083 1950.119"
+		Rot="0.000 0.749 0.000 0.663" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn876"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1734.780 355.088 1982.832"
+		Rot="0.000 0.725 0.000 0.688" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn877"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1701.134 352.178 1939.627"
+		Rot="0.000 -0.695 0.000 0.719" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn878"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1678.249 356.735 1890.636"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn879"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1706.198 376.066 1854.581"
+		Rot="0.000 0.899 0.000 0.438" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn880"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1690.574 363.477 1871.760"
+		Rot="0.000 -0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn881"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1718.225 387.025 1828.536"
+		Rot="0.000 0.743 0.000 0.669" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn882"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1718.065 387.105 1838.567"
+		Rot="0.000 0.358 0.000 0.934" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn883"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1700.271 375.262 1816.946"
+		Rot="0.000 0.948 0.000 -0.317" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn884"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1691.365 368.203 1823.787"
+		Rot="0.000 0.737 0.000 0.676" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn885"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1708.958 380.907 1825.824"
+		Rot="0.000 0.276 0.000 0.961" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn886"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1685.104 358.465 1853.935"
+		Rot="0.000 -0.391 0.000 0.921" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn887"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1777.947 341.826 2026.434"
+		Rot="0.000 -0.713 0.000 0.701" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn888"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1762.886 338.039 2041.886"
+		Rot="0.000 0.985 0.000 0.174" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn889"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1742.760 344.543 2016.058"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn890"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1779.964 356.000 1990.602"
+		Rot="0.000 -0.581 0.000 0.814" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn891"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1766.552 378.845 1946.716"
+		Rot="0.000 -0.636 0.000 0.772" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn892"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1748.390 387.292 1916.290"
+		Rot="0.000 -0.309 0.000 0.951" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn893"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1737.605 386.752 1904.260"
+		Rot="0.000 -0.454 0.000 0.891" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn894"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1701.637 371.346 1883.437"
+		Rot="0.000 0.996 0.000 -0.087" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn895"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1723.980 390.700 1855.171"
+		Rot="0.000 0.061 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn896"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1741.332 400.841 1846.869"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn897"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1728.371 390.275 1809.034"
+		Rot="0.000 0.943 0.000 0.334" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn898"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1696.779 370.262 1793.918"
+		Rot="0.000 -0.165 0.000 0.986" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn899"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1737.346 392.278 1765.592"
+		Rot="0.000 0.914 0.000 0.407" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn900"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1712.396 373.381 1750.349"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn901"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1903.605 327.326 1844.613"
+		Rot="0.000 0.993 0.000 0.122" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn902"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1871.267 333.646 1884.630"
+		Rot="0.000 0.870 0.000 -0.492" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn903"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1849.456 347.351 1890.362"
+		Rot="0.000 -0.131 0.000 0.991" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn904"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1873.459 330.737 1897.103"
+		Rot="0.000 0.545 0.000 0.839" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn905"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1876.483 331.661 1867.937"
+		Rot="0.000 0.259 0.000 0.966" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn906"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1880.620 333.651 1826.113"
+		Rot="0.000 0.139 0.000 0.990" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn907"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1860.973 331.946 1685.274"
+		Rot="0.000 0.656 0.000 0.755" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn908"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1882.154 325.344 1652.163"
+		Rot="0.000 0.492 0.000 0.870" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn909"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1879.553 327.818 1611.637"
+		Rot="0.000 0.566 0.000 0.824" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn910"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1881.708 327.018 1630.209"
+		Rot="0.000 0.866 0.000 0.500" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn911"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1890.753 323.458 1605.798"
+		Rot="0.000 0.875 0.000 0.485" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn912"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1879.768 328.490 1588.432"
+		Rot="0.000 0.879 0.000 0.477" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn913"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1870.456 326.047 1556.191"
+		Rot="0.000 -0.087 0.000 0.996" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn914"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1895.580 320.596 1681.072"
+		Rot="0.000 0.887 0.000 -0.462" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn915"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1911.715 319.062 1704.099"
+		Rot="0.000 -0.233 0.000 0.972" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn916"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1839.318 348.876 1685.071"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn917"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1825.996 360.030 1704.339"
+		Rot="0.000 0.968 0.000 -0.250" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn918"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1848.729 343.692 1701.606"
+		Rot="0.000 -0.462 0.000 0.887" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn919"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1852.881 358.086 1738.982"
+		Rot="0.000 0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn920"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1803.246 377.049 1720.971"
+		Rot="0.000 -0.454 0.000 0.891" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn921"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1674.144 330.526 2078.861"
+		Rot="0.000 -0.061 0.000 0.998" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn922"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1501.538 324.303 2028.626"
+		Rot="0.000 0.879 0.000 0.477" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn923"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1629.141 330.543 2061.298"
+		Rot="0.000 0.853 0.000 0.522" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn924"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1525.873 331.798 1992.278"
+		Rot="0.000 0.982 0.000 0.191" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn925"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1651.786 330.542 2103.496"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn926"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1573.447 330.245 2122.128"
+		Rot="0.000 -0.537 0.000 0.843" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn927"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1535.888 325.957 2109.069"
+		Rot="0.000 -0.824 0.000 0.566" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn928"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1602.444 330.506 2057.049"
+		Rot="0.000 0.462 0.000 0.887" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn929"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1594.928 330.517 2054.240"
+		Rot="0.000 0.105 0.000 0.995" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn930"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1660.581 326.862 2007.939"
+		Rot="0.000 0.983 0.000 -0.182" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn931"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1649.602 330.543 2072.523"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn932"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1610.382 328.748 1988.080"
+		Rot="0.000 -0.233 0.000 0.972" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn933"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1539.308 331.405 1975.877"
+		Rot="0.000 0.879 0.000 -0.477" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn934"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1507.949 323.310 2039.675"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn935"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1654.599 330.279 1951.096"
+		Rot="0.000 -0.292 0.000 0.956" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn936"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1689.347 331.453 2021.791"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn937"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1629.454 326.821 2000.798"
+		Rot="0.000 0.930 0.000 0.367" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn938"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1709.489 330.583 2072.573"
+		Rot="0.000 0.788 0.000 0.616" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn939"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1681.568 330.539 2096.664"
+		Rot="0.000 0.552 0.000 0.834" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn940"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1699.151 331.566 2042.031"
+		Rot="0.000 0.999 0.000 -0.044" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn941"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1655.619 326.763 2029.524"
+		Rot="0.000 0.980 0.000 -0.199" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn942"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1614.009 327.447 2015.957"
+		Rot="0.000 0.682 0.000 0.731" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn943"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1618.312 330.543 2092.774"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn944"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1539.714 329.627 2022.856"
+		Rot="0.000 0.940 0.000 0.342" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn945"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1536.819 327.302 2066.009"
+		Rot="0.000 0.793 0.000 0.609" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn946"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1514.802 321.825 2088.925"
+		Rot="0.000 -0.407 0.000 0.914" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn947"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1463.122 319.725 2029.110"
+		Rot="0.000 0.225 0.000 0.974" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn948"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1476.194 313.682 2099.968"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn949"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1484.350 317.465 2064.078"
+		Rot="0.000 -0.309 0.000 0.951" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn950"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1517.072 330.573 2003.092"
+		Rot="0.000 0.326 0.000 0.946" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn951"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1480.907 333.119 1999.182"
+		Rot="0.000 -0.755 0.000 0.656" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn952"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1510.691 317.508 2141.496"
+		Rot="0.000 0.682 0.000 0.731" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn953"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1497.177 316.489 2116.718"
+		Rot="0.000 0.848 0.000 0.530" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn954"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1548.839 327.865 2132.633"
+		Rot="0.000 0.292 0.000 0.956" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn955"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1626.066 330.541 2113.098"
+		Rot="0.000 -0.156 0.000 0.988" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn956"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1679.352 328.635 2150.929"
+		Rot="0.000 0.423 0.000 0.906" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn957"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1654.872 320.638 2188.225"
+		Rot="0.000 0.839 0.000 0.545" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn958"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1616.459 327.483 2176.255"
+		Rot="0.000 1.000 0.000 -0.009" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn959"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1729.200 322.215 2181.021"
+		Rot="0.000 0.719 0.000 0.695" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn960"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1747.758 312.249 2231.683"
+		Rot="0.000 -0.182 0.000 0.983" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn961"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1834.758 313.555 2213.913"
+		Rot="0.000 0.883 0.000 -0.469" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn962"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1800.936 306.713 2254.487"
+		Rot="0.000 -0.788 0.000 0.616" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn963"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1784.309 318.181 2197.850"
+		Rot="0.000 -0.688 0.000 0.725" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn964"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1642.216 306.397 2245.522"
+		Rot="0.000 0.895 0.000 -0.446" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn965"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1705.789 309.149 2241.878"
+		Rot="0.000 0.508 0.000 0.862" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn966"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1852.573 303.776 2260.721"
+		Rot="0.000 0.242 0.000 0.970" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn967"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1597.971 314.537 2210.933"
+		Rot="0.000 0.595 0.000 0.804" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn968"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1882.988 311.857 2058.272"
+		Rot="0.000 0.959 0.000 0.284" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn969"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1821.469 326.689 2062.141"
+		Rot="0.000 0.991 0.000 -0.131" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn970"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1855.922 318.799 2103.071"
+		Rot="0.000 -0.777 0.000 0.629" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn971"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="1770.255 330.375 2097.451"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn972"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1852.544 320.249 2054.607"
+		Rot="0.000 -0.259 0.000 0.966" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn973"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1801.037 327.094 2112.895"
+		Rot="0.000 0.334 0.000 0.943" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn974"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1883.678 311.981 2110.284"
+		Rot="0.000 0.998 0.000 0.070" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn975"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1825.434 324.660 2084.649"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn976"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="1736.568 330.550 2105.862"
+		Rot="0.000 -0.783 0.000 0.623" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn977"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1742.403 318.213 2200.894"
+		Rot="0.000 0.970 0.000 -0.242" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn978"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1670.816 315.844 2211.163"
+		Rot="0.000 -0.819 0.000 0.574" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn979"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1596.430 308.098 2235.593"
+		Rot="0.000 0.078 0.000 0.997" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn980"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="1730.101 302.416 2265.917"
+		Rot="0.000 0.809 0.000 0.588" />
+</DynamicScene>

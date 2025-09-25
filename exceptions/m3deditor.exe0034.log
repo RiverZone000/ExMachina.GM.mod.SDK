@@ -1,0 +1,90 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x00448E1B
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000018 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 04/01/23 22:46:45
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1511 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1105 MB
+1: Page file available            = 3561 MB
+
+1: Data from MemoryManager:
+1: mem used:           274320695
+1: mem allocated:      302109375
+1: mem overhead:        12678608
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   2
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   3     gapfnScSendMessage +734 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 77670000h
+
+1:   4     PeekMessageA +396 bytes
+1:     Decl: PeekMessageA
+1:     Mod:  USER32, base: 77670000h
+
+1:   5     CallWindowProcA +27 bytes
+1:     Decl: CallWindowProcA
+1:     Mod:  USER32, base: 77670000h
+
+1:   6
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16fcdb
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   7
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e0c7
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   8
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e14f
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   9     GetWindow +61 bytes
+1:     Decl: GetWindow
+1:     Mod:  USER32, base: 77670000h
+
+1:  10     IsWindowVisible +34 bytes
+1:     Decl: IsWindowVisible
+1:     Mod:  USER32, base: 77670000h
+
+1:  11
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c15af0d
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:  12
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c15af63
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+
+Registers:
+	CS:EIP 0x001B:00448E1B
+	SS:ESP 0x0023:0012FBE4
+	DS:EDI 0x0023:022C003C
+	ES:ESI 0x0023:3156F204
+	   EAX        00000000
+	   EBX        022C003C
+	   ECX        3156F204
+	   EDX        008EDE60
+

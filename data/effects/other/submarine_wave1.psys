@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="mage_main_attackdssvd1"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="1.000"
+			ParticleAgeMax="0.500"
+			MaxParticles="200"
+			EmitAtPeriod="50.000"
+			Phase="0.000"
+			EmitLength="1.000"
+			RepeatPeriod="1.000"
+			ResetTime="10000000.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="4.000 0.000 5.000"
+			Max="-4.000 0.000 -40.000"
+			Type="box"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="837282797"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="434629099"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="16119285" />
+
+			<Size
+				k:0="0.000"
+				k:1="0.545"
+				k:2="0.545"
+				k:3="1.040"
+				k:4="1.336"
+				k:5="1.535"
+				k:6="1.634"
+				k:7="1.634"
+				k:8="1.733"
+				k:9="2.030"
+				k:10="2.475"
+				k:11="2.574"
+				k:12="3.267"
+				k:13="3.811"
+				k:14="4.207"
+				k:15="4.653"
+				k:16="5.693"
+				k:17="6.435"
+				k:18="8.365"
+				k:19="9.851" />
+		</Keys>
+
+		<Render
+			TrailLen="14"
+			ScaleParts="6.000"
+			BlendMode="1"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\smoke\smoke1_t.tga"
+			Specific="1"
+			TexTiling="0"
+			ParentDependency="0.400"
+			ShaderType="0"
+			BBoxMin="-20.000 -20.000 -20.000"
+			BBoxMax="20.000 20.000 20.000" />
+	</PS>
+</PSEditor>

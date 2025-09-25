@@ -1,0 +1,58 @@
+1: 02/23/23 10:33:50
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1198 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1020 MB
+1: Page file available            = 2579 MB
+
+1: Data from MemoryManager:
+1: mem used:           324439521
+1: mem allocated:      401467883
+1: mem overhead:        22420736
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0x80000003 at address 0x7C36DEFF
+-== Exception type : BREAKPOINT 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+2: 02/23/23 10:33:56
+lu: GlobalMemoryStatus(): GetLastError = 2
+
+2: Data from MemoryManager:
+2: mem used:           322062913
+2: mem allocated:      400220751
+2: mem overhead:        21828784
+2: last allocation:            0
+
+
+2:   0     _assert +904 bytes
+2:     Decl: _assert
+2:     Mod:  MSVCR71, base: 7c360000h
+
+2:   1   SymGetSymFromAddr(): GetLastError = 126
+2: SymGetLineFromAddr(): GetLastError = 126
+2: SymGetModuleInfo): GetLastError = 126
+
+
+Registers:
+	CS:EIP 0x001B:7C36DEFF
+	SS:ESP 0x0023:0012F4B4
+	DS:EDI 0x0023:0012F4E0
+	ES:ESI 0x0023:0000001A
+	   EAX        00000004
+	   EBX        00000000
+	   ECX        00001274
+	   EDX        00001273
+

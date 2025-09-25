@@ -1,0 +1,3616 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Node
+	name="VirtualTree"
+	class="VirtualTree">
+	<Node
+		name="Animated models"
+		class="VirtualItem"
+		type="ANIMATED_MODELS"
+		isLeaf="0">
+		<Node
+			name="Region1"
+			class="VirtualItem"
+			type="ANIMATED_MODELS"
+			isLeaf="0">
+			<Node
+				name="Buildings"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Colonies"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="Brick_Hpuses"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="bar1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="bar2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="house1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="house2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="house3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="townhall"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="workshop1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="workshop2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+
+					<Node
+						name="Civil_Houses"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="civilhouse1_skin"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="civilhouse2_skin"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="civilhouse3_skin"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+
+					<Node
+						name="Fishman_Hpuses"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="fishman1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="fishman2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="fishman3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+
+					<Node
+						name="ben_house"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Towns"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="minin"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="port"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_town"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="millitary_town"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="minintown"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Barricades"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="Brick"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="brick_dot1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="brick_dot2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="brick_wall1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="brick_wall2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="Brocken"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="0">
+							<Node
+								name="light_dots_brocken1"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+
+							<Node
+								name="light_dots_brocken2"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+						</Node>
+					</Node>
+
+					<Node
+						name="Heavy"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="heavy_bigwall1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="heavy_smallwall1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="heavy_dot1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="heavy_dot2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="heavy_dot3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="heavy_dot4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="Brocken"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="0">
+							<Node
+								name="heavy_dot_brocken1"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+
+							<Node
+								name="heavy_dot_brocken2"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+
+							<Node
+								name="heavy_dot_brocken3"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+
+							<Node
+								name="heavy_dot_brocken4"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+						</Node>
+					</Node>
+
+					<Node
+						name="Sack"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="sack_dot1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="sack_dot2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="sack_wall1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="sack_wall2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="Brocken"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="0">
+							<Node
+								name="sack_dot_brocken1"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+
+							<Node
+								name="sack_dot_brocken2"
+								class="VirtualItem"
+								type="ANIMATED_MODELS"
+								isLeaf="1" />
+						</Node>
+					</Node>
+
+					<Node
+						name="Misc"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="wood_fence1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="wood_fence2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="tankeg"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="barbed_wire_high1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="barbed_wire_high2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+				</Node>
+
+				<Node
+					name="Neutral"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="oilmine1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="oilmine2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ore_mine_abk"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ore_mine_prom"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ore_mine_tower"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Other"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="transformator1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="transformator2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="petrolhouse1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="petrolhouse2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="petrolhouse3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="petrolstation"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Bridges"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="bridge_tube"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+			</Node>
+
+			<Node
+				name="Nature"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Trees"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="dub1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="dub2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="dub3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="deadtree1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="deadtree2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="deadtree3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="deadtree4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="deadtree5"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="elka1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="elka2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="elka3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="listvenoe1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="listvenoe2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="listvenoe3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="sosna1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="sosna2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="sosna3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Stones"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="Crag_Copped"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="crag_copped_1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_copped_2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_copped_3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_copped_4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_copped_5"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_copped_6"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_copped_7"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_copped_8"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+
+					<Node
+						name="Crag_BigBold"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="big_crag_1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_5"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_6"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_7"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_8"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_9"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_10"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_11"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_crag_12"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+
+					<Node
+						name="Stones_Bold"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="sml_stone1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="sml_stone2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="sml_stone3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="boulder_stone1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="boulder_stone2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="boulder_stone3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="boulder_stone4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_stone1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_stone2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_stone3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_stone4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="big_stone5"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+				</Node>
+
+				<Node
+					name="Plants"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="seedbed"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="seedbad_tomato"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+			</Node>
+
+			<Node
+				name="Environment"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Road_Envir"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="stolb2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="oilmine1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="stolb1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="billboard1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="billboard2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="billboard3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="electro_stolb1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="electro_stolb2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="electro_stolb3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="lamppost1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="lamppost2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="lamppost3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="road_sign1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="road_sign2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="road_sign3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="road_sign4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="road_sign5"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="traffic_lights1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="traffic_lights2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="traffic_lights3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Heavy_Envir"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="tunnel"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_concrete"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_military"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_span1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_span2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_span3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_stone"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="city_ruins"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="bridge_metal"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="Ikar_plane"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Agro_Envir"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="windmil"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="agro_tech1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="agro_tech2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="agro_tech3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="agro_tech4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="angar1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="angar2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruins1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruins2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruins3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruins4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruins5"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruins6"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruins7"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Mech_Envir"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="tube1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="tube2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="tube3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="brokvehicle1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="brokvehicle2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="rusty_car_1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="rusty_car_2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="rusty_car_3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="rusty_car_4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="rusty_car_5"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="Cemetery"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="car_cemetery01"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="car_cemetery02"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="car_cemetery03"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="car_cemetery04"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="car_cemetery05"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="car_cemetery06"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="car_cemetery07"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+
+					<Node
+						name="barrel1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="barrel2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="barrel3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Ruins"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="waste1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="waste2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="waste3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="concrete_ruins1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="concrete_ruins2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="concrete_ruins3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="concrete_ruins4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruin_town_hose_1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ruin_town_hose_2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Prom_Envir"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="prom_1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="prom_2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="prom_3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Ancient"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="ancient_temple"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="aquaduct1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="aquaduct2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="rotund"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Barricades"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="elast_1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="elast_2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="elast_dot"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="elast_wall_1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="elast_wall_2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="iron_dot"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="iron_wall"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="iron_wall_2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+			</Node>
+
+			<Node
+				name="airplane"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0" />
+		</Node>
+
+		<Node
+			name="Region2"
+			class="VirtualItem"
+			type="ANIMATED_MODELS"
+			isLeaf="0">
+			<Node
+				name="Buindings"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Colonies"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="machine_house1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="machine_house2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="machine_house3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="machine_house4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="brick_house1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="brick_house2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="brick_house3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="brick_house4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="brick_house5"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Towns"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="r2_marezzia"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r2_seil"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="monastery"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="helvecia"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="zion"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="zion_gate"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Barricades"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0" />
+
+				<Node
+					name="r2_high_voltage"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="r2_substation"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="Bridges"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="BRIDGE_INDUSTRY"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Substation"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="r2_substation_barrel"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+			</Node>
+
+			<Node
+				name="Nature"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Trees"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="dub1_r2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="dub2_r2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="dub3_r2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="dub_kust1_r2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="dub_kust2_r2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r2_deadtree1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r2_deadtree2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r2_deadtree3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r2_deadtree4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r2_deadtree5"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Stones"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="Crag_Copped"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="r2_crag_copped_1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r2_crag_copped_2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r2_crag_copped_3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r2_crag_copped_4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r2_crag_copped_5"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r2_crag_copped_6"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r2_crag_copped_7"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r2_crag_copped_8"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+				</Node>
+			</Node>
+
+			<Node
+				name="Environment"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0" />
+		</Node>
+
+		<Node
+			name="Region3"
+			class="VirtualItem"
+			type="ANIMATED_MODELS"
+			isLeaf="0">
+			<Node
+				name="Buindings"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Towns"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="r3_oracle"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="uluc"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="stonehendge"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="oracle_house"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="oracle_gate"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_set-fest"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Barricades"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0" />
+
+				<Node
+					name="Colonies"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="Druid"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="r3_druid_house1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druid_house2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druid_house3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druid_house4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druid_house5"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+
+					<Node
+						name="Children_Of_Iron"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="r3_druids_mech_house1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druids_mech_house2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druids_mech_house3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druids_mech_house4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="r3_druids_mech_house5"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+				</Node>
+			</Node>
+
+			<Node
+				name="Nature"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Trees"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="r3_tropicpalma1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_tropicpalma2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_tropicpalma3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_tropictree1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_tropictree2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="t_greattree1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="t_greattree2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="t_greattree3_"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_junglebush1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_junglebush2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_junglebush3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Stones"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="crag_boulder1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="crag_boulder2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="crag_boulder3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="crag_boulder4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Plants"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="r3_t_bush_flower1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_t_bush_flower2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_t_bush_flower3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_tropicfern1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_tropicfern2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r3_tropicfern3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+			</Node>
+
+			<Node
+				name="Environment"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="bridge_jungle"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+			</Node>
+		</Node>
+
+		<Node
+			name="Region4"
+			class="VirtualItem"
+			type="ANIMATED_MODELS"
+			isLeaf="0">
+			<Node
+				name="Buindings"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Towns"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="gadad_city"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="kef"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Barricades"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0" />
+
+				<Node
+					name="Colonies"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="desert_fence1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_fence2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house4"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house5"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_pole"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="well_col"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house6"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house_br1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_house_br3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="desert_houses_brock1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+			</Node>
+
+			<Node
+				name="Nature"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="Trees"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="r4_desert_palma_1"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r4_desert_palma_2"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="r4_desert_palma_3"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+
+				<Node
+					name="Stones"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="Crag_Desert"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="0">
+						<Node
+							name="crag_desert_1"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_desert_2"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_desert_3"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_desert_4"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_desert_5"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_desert_6"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+
+						<Node
+							name="crag_desert_7"
+							class="VirtualItem"
+							type="ANIMATED_MODELS"
+							isLeaf="1" />
+					</Node>
+				</Node>
+			</Node>
+
+			<Node
+				name="Environment"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="ufo"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="Ship_cemetery"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="0">
+					<Node
+						name="1_riback"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="2_ribasky"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="3_ribask"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="boevoy"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="esmin"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="kabina"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="kater"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="mina"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="minonos"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="ostov"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="shlupka"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="torgovy"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+
+					<Node
+						name="vint"
+						class="VirtualItem"
+						type="ANIMATED_MODELS"
+						isLeaf="1" />
+				</Node>
+			</Node>
+		</Node>
+
+		<Node
+			name="Misc"
+			class="VirtualItem"
+			type="ANIMATED_MODELS"
+			isLeaf="0">
+			<Node
+				name="Factory"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="factory_cistern1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_cistern"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="concrete_tube1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="concrete_tube2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="concrete_tube3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_bridge"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_tube"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_tube1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_tube1sam"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_tube2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_angle"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_long1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_long2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_long_brockcen1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_long_brockcen2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_short1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_short2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="pole_factory"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="pole_factory_big"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="prom"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="concrete_tube_angle"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="concrete_tube_middle"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="concrete_tube_t"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="fence_short_brocken"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="gradyrnja"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="pereezd1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="pereezd2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="pereezd3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="prom_brock1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="prom_small"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="prom2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_rr_angar1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_rr_angar2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="garage"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="long_vertical_tube"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="metal_tube_angle"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="metal_tube1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="poddon"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+			</Node>
+
+			<Node
+				name="Harbor"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="berth"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_big_cube"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_cube"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_g_line"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_g_round_line"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_line"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_round_line"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="hoisting_crane_1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="hoisting_crane_2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="hoisting_structure_1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="hoisting_structure_2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_g_line_m"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="quay_g_round_line_m"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+			</Node>
+
+			<Node
+				name="RR"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="rr_columne"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_barrier1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_barrier2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_barrier3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_sign1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_sign2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_vagon1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_vagon2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_vagon3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_column1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_column2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_column3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_lamp"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_platform"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_station"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_watertower"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="x_r_road"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="y_r_road"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="vagon3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="rr_vagon4"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+			</Node>
+
+			<Node
+				name="Arena barricades"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="arena_barricade1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade4"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade5"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade6"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade7"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade8"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade9"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade10"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade11"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade12"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade13"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade14"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade15"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade16"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="arena_barricade17"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+			</Node>
+
+			<Node
+				name="Prom"
+				class="VirtualItem"
+				type="ANIMATED_MODELS"
+				isLeaf="0">
+				<Node
+					name="bochka1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="bochka2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="bochka3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="bochka4"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="bochka5"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="metal_plate1"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="metal_plate2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="metal_plate3"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_box"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_conteiner"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="factory_conteiner2"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="prom_element"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="wood_tramp"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+
+				<Node
+					name="pack"
+					class="VirtualItem"
+					type="ANIMATED_MODELS"
+					isLeaf="1" />
+			</Node>
+		</Node>
+	</Node>
+
+	<Node
+		name="Prefabs"
+		class="VirtualItem"
+		type="PREFABS"
+		isLeaf="0" />
+
+	<Node
+		name="Static models"
+		class="VirtualItem"
+		type="STATIC_MODELS"
+		isLeaf="0" />
+
+	<Node
+		name="Sprites"
+		class="VirtualItem"
+		type="SPRITES"
+		isLeaf="0" />
+
+	<Node
+		name="Particle systems"
+		class="VirtualItem"
+		type="PARTICLE_SYSTEMS"
+		isLeaf="0" />
+
+	<Node
+		name="Tiles"
+		class="VirtualItem"
+		type="TILES"
+		isLeaf="0">
+		<Node
+			name="Region1"
+			class="VirtualItem"
+			type="TILES"
+			isLeaf="0">
+			<Node
+				name="ground_waste"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="ground_fall"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="ground_dried"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="ground_dried_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="ground_fall_dried"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="ground_fall_dried_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="grass_crk"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="grass_fall"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="grass_fall_leaf"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="grass_fall_leaf_brown"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="snow_marcescent_dark"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="ground_swamp"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="swamp"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="grass_swamp"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="rocks"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="rocks_ground"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="crag_rock"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="crag_rock_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="rocks_grass_dark"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="pebble_ground"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="pebble_ground_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="stony_covering"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="m0_stony_covering"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="concrete_covering"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="techno_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="techno_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="techno_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+		</Node>
+
+		<Node
+			name="Region2"
+			class="VirtualItem"
+			type="TILES"
+			isLeaf="0">
+			<Node
+				name="Ground_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Ground_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Ground_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Ground_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Ground_5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Grass_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Grass_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Grass_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Grass_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Stone_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Stone_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Stone_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Stone_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Stone_5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Rcrag_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Rcrag_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Gcrag_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Gcrag_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Tech_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Tech_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Tech_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Tech_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Tech_5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Tech_6"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+		</Node>
+
+		<Node
+			name="Region3"
+			class="VirtualItem"
+			type="TILES"
+			isLeaf="0">
+			<Node
+				name="TGround_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TGround_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TGround_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TGround_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TGrass_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TGrass_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TGrass_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TGrass_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TStone_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TStone_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TStone_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TStone_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TStone_5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TSwamp_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TSwamp_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TBoulderCrag_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TBoulderCrag_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TTech_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TTech_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TTech_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TTech_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TTech_5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="TTech_6"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+		</Node>
+
+		<Node
+			name="Region4"
+			class="VirtualItem"
+			type="TILES"
+			isLeaf="0">
+			<Node
+				name="Sand1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Sand2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Sand3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Sand4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Sand5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="Sand6"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandGrass_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandGrass_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandGrass_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandGrass_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandGrass_5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandStone_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandStone_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandStone_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandCrag_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandCrag_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandBlackCrag_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandBlackCrag_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandBlackCrag_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandTech_1"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandTech_2"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandTech_3"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandTech_4"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandTech_5"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+
+			<Node
+				name="SandTech_6"
+				class="VirtualItem"
+				type="TILES"
+				isLeaf="1" />
+		</Node>
+	</Node>
+
+	<Node
+		name="Рандомные группы"
+		class="VirtualItem"
+		type="RANDOM_GROUPS"
+		isLeaf="0">
+		<Node
+			name="Простые объекты"
+			class="VirtualItem"
+			type="RANDOM_GROUPS_SIMPLE_OBJECTS"
+			isLeaf="0" />
+	</Node>
+</Node>

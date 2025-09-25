@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<icons>
+
+	<Item id="locAvtoSTOP"			file="data\if\ico\TalkWithNpcDlg\cardialog1.dds"		file1=""/>
+	<Item id="locAvtoSTOP2"			file="data\if\ico\TalkWithNpcDlg\cardialog1.dds"		file1=""/>
+
+	<Item id="r6m1_Lost_Bar"		file="data\if\ico\TalkWithNpcDlg\castledialog1.dds"		file1=""/>
+
+	<Item id="r6m1_Real_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog3.dds"		file1=""/>
+	<Item id="r6m1_Lodon_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog3.dds"		file1=""/>
+	<Item id="r5m2_Vraska_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog3.dds"		file1=""/>
+
+	<Item id="r6m1_Onto_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog4.dds"		file1=""/>
+	<Item id="theTownMapleSheet_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog4.dds"		file1=""/>
+</icons>

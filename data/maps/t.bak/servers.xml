@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Servers>
+	<AnimatedModelsServer>
+		<Item
+			id="cargo"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dweller"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="dub3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="listvenoe1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="listvenoe2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="listvenoe3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rapier01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="rapier01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="vulcan01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="vulcan01gun"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="stolb1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="stolb2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralChassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralCab01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralCargo01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralSusp01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralSusp02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralWheel01l"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralWheel01r"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralWheel02l"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralWheel02r"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="tankeg"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_1_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_1_destroy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_2_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_2_destroy"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_3_brocken"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="barrel_3_destroy"
+			file="data\models\AnimModels.xml" />
+	</AnimatedModelsServer>
+
+	<StaticModelsServer />
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer />
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

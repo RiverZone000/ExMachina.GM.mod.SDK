@@ -1,0 +1,36 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: post_downsample_ps11.vs
+// Created by: Plus
+//
+// Downsample shader for bloom/blur filter
+//
+// $Id: post_downsample_ps11.ps,v 1.1 2005/05/23 08:32:28 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+
+#include "lib.fx"
+
+
+sampler2D tex; 
+
+//
+float4 htConst: register( c0 );
+
+
+//
+struct VS_OUTPUT_DOWNSAMPLE
+{
+    float4 Position   : POSITION;
+    float2 TexCoord   : TEXCOORD0;
+};
+
+//
+REAL4 PS_Downsample( VS_OUTPUT_DOWNSAMPLE IN ) : COLOR
+{
+        half4 c = tex2D(tex, IN.TexCoord);
+        c.a = (dot(c.rgb, htConst.rgb)+.15 - htConst.a)*4;
+       
+        return c;
+}

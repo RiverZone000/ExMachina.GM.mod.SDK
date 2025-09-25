@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<icons>
+	<Item id="BrokenVeh_loc"		file="data\if\ico\TalkWithNpcDlg\cardialog2.dds"		file1=""/>
+
+	<Item id="r6m1_Vaypeg_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog4.dds"		file1=""/>
+	<Item id="r6m1_Tander_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog4.dds"		file1=""/>
+
+	<Item id="r6m1_Gradofaks_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog3.dds"		file1=""/>
+	<Item id="r6m1_Bey_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog3.dds"		file1=""/>
+	<Item id="r6m1_Kanata_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog3.dds"		file1=""/>
+</icons>

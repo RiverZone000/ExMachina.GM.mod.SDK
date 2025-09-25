@@ -1,0 +1,29 @@
+---------------------------------------------- Log begins on Wed Nov 13 02:34:40 2024 ----------------------------------------------
+I           m3dapp.cpp[0088]13/11 02:34:40 Starting up...
+I           m3dapp.cpp[1645]13/11 02:34:40 ExMachina - release version release build v1.03 (Feb 10 2006 16:30:24)
+I      Stackwalker.cpp[0608]13/11 02:34:40 Stackwalker: log file name will be 'd:/games/ex machina mods/exmachina gm.mod sdk new/data/maps/exceptions/m3deditor.exe0000.log'
+I      Stackwalker.cpp[0609]13/11 02:34:40 Stackwalker: dump file name will be 'd:/games/ex machina mods/exmachina gm.mod sdk new/data/maps/exceptions/m3deditor.exe0000.dmp'
+I      Stackwalker.cpp[0610]13/11 02:34:40 Stackwalker: game log file name will be 'd:/games/ex machina mods/exmachina gm.mod sdk new/data/maps/exceptions/m3deditor.exe0000_game.log'
+I           m3dapp.cpp[1391]13/11 02:34:40 Path: D:\Games\EX Machina Mods\ExMachina GM.mod SDK new\data\maps
+I           m3dapp.cpp[1392]13/11 02:34:40 Exe: D:\Games\EX Machina Mods\ExMachina GM.mod SDK new\M3DEditor\M3DEditor.exe
+I           m3dapp.cpp[1401]13/11 02:34:40 Windows version: 6.1.7601
+I           m3dapp.cpp[1416]13/11 02:34:40 Computer name: RIVER-PC
+I           m3dapp.cpp[1443]13/11 02:34:40 Cpu: GenuineIntel
+I           m3dapp.cpp[1445]13/11 02:34:40 Max CPUID standard function operand: 13
+I           m3dapp.cpp[1480]13/11 02:34:40 Cpu brand:          Intel(R) Celeron(R) CPU B815 @ 1.60GHz
+I           m3dapp.cpp[1485]13/11 02:34:40 Cpu clock: ~1596
+I           m3dapp.cpp[1555]13/11 02:34:40 Processor supports MMX
+I           m3dapp.cpp[1565]13/11 02:34:40 Processor supports SSE
+I           m3dapp.cpp[1570]13/11 02:34:40 Processor supports HyperThreading
+I           m3dapp.cpp[1575]13/11 02:34:40 Number of logical processors on the die: 16
+I           m3dapp.cpp[1616]13/11 02:34:40 Physical memory: 2047 MB
+I           m3dapp.cpp[1617]13/11 02:34:40 Total memory:    4095 MB
+I           m3dapp.cpp[1618]13/11 02:34:40 Physical memory available: 1233 MB
+I           m3dapp.cpp[1619]13/11 02:34:40 Total memory available:    1939 MB
+I console_serialization.cpp[0071]13/11 02:34:40 Console:: cannot load data\m3deditor.cfg err: ReadXmlFile: Cannot open file data\m3deditor.cfg
+E           m3dapp.cpp[1684]13/11 02:34:40 ERROR! Application::init -- cannot open cfg: data\m3deditor.cfg
+----------------------------------------------- Log ends on Wed Nov 13 02:34:42 2024 -----------------------------------------------
+
+
+
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="fireexplosion_1_2"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="0.100"
+			ParticleAgeMax="0.300"
+			MaxParticles="50"
+			EmitAtPeriod="4.000"
+			Phase="0.000"
+			EmitLength="0.200"
+			RepeatPeriod="10000.000"
+			ResetTime="10000.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="-2.000 1.000 2.000"
+			Max="2.000 -2.000 -2.000"
+			Type="box"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="10"
+			Radius="0.000"
+			Point1="0.000 10.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="0"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="-1040912939"
+				k:1="-463417"
+				k:2="-530495"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="-1"
+				k:7="-269426025"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="13289009" />
+
+			<Size
+				k:0="0.000"
+				k:1="0.842"
+				k:2="1.584"
+				k:3="1.881"
+				k:4="2.475"
+				k:5="2.822"
+				k:6="3.069"
+				k:7="3.366"
+				k:8="4.059"
+				k:9="3.960"
+				k:10="3.911"
+				k:11="4.207"
+				k:12="4.455"
+				k:13="4.306"
+				k:14="4.554"
+				k:15="4.801"
+				k:16="5.049"
+				k:17="5.494"
+				k:18="2.624"
+				k:19="0.000" />
+</Keys>
+
+		<Render
+			ShaderType="1"
+			TrailLen="10"
+			ScaleParts="0.100"
+			BlendMode="0"
+			UpdateXForm="0"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\lens\lens34.tga"
+			Weather="0"
+			TexTiling="0.000" />
+</PS>
+</PSEditor>

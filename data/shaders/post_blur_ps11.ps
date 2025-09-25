@@ -1,0 +1,30 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: post_blur_ps11.ps
+// Created by: Plus
+//
+// Blur filter
+//
+// $Id: post_blur_ps11.ps,v 1.1 2005/05/23 08:31:39 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+ 
+#include "lib.fx"
+
+sampler2D tex;
+
+struct VS_OUTPUT_BLUR
+{
+    float4 Position   : POSITION;
+    float2 TexCoord[4]: TEXCOORD0;
+};
+
+// 
+float4 PS_Blur7( VS_OUTPUT_BLUR IN ) : COLOR
+{
+   float4 c1 = lerp (tex2D(tex, IN.TexCoord[0]), tex2D(tex, IN.TexCoord[1]),0.5);
+   float4 c2 = lerp (tex2D(tex, IN.TexCoord[2]), tex2D(tex, IN.TexCoord[3]),0.5);
+   float4 c =  lerp (c1, c2, 0.5);
+  
+    return c;
+}

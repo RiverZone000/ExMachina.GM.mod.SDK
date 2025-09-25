@@ -1,0 +1,69 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x00448E1B
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00005824 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 12/18/22 01:32:23
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      =  817 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1000 MB
+1: Page file available            = 2839 MB
+
+1: Data from MemoryManager:
+1: mem used:           338352803
+1: mem allocated:      406703771
+1: mem overhead:        21398096
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   2
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   3     gapfnScSendMessage +801 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 75c00000h
+
+1:   4     GetScrollBarInfo +253 bytes
+1:     Decl: GetScrollBarInfo
+1:     Mod:  USER32, base: 75c00000h
+
+1:   5     GetScrollBarInfo +264 bytes
+1:     Decl: GetScrollBarInfo
+1:     Mod:  USER32, base: 75c00000h
+
+1:   6     GetScrollBarInfo +264 bytes
+1:     Decl: GetScrollBarInfo
+1:     Mod:  USER32, base: 75c00000h
+
+1:   7     GetScrollBarInfo +364 bytes
+1:     Decl: GetScrollBarInfo
+1:     Mod:  USER32, base: 75c00000h
+
+1:   8     GetScrollBarInfo +380 bytes
+1:     Decl: GetScrollBarInfo
+1:     Mod:  USER32, base: 75c00000h
+
+
+Registers:
+	CS:EIP 0x001B:00448E1B
+	SS:ESP 0x0023:0012FBE4
+	DS:EDI 0x0023:03F5003C
+	ES:ESI 0x0023:36DC508C
+	   EAX        0000580C
+	   EBX        03F5003C
+	   ECX        36DC508C
+	   EDX        008EDE60
+

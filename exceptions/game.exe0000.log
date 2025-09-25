@@ -1,0 +1,179 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Exception      : 0xC0000005 at address 0x00458932
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 07/23/21 14:04:27
+1: Physical memory = 1893 MB
+1: Total memory    = 3787 MB
+1: Physical memory available      = 1069 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available =  930 MB
+1: Page file available            = 2690 MB
+
+1: Data from MemoryManager:
+1: mem used:           168375586
+1: mem allocated:      212095081
+1: mem overhead:        16478560
+1: last allocation:            0
+1: mem used by sound:   84347586
+
+
+1:   0     ItemWnd::UpdateItemIco +50 bytes
+1:     Decl: ItemWnd::UpdateItemIco
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uiwindows\charwindows\itemwnd.cpp(340) +12 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   1     VehiclePartWnd::GameDataUpdate +79 bytes
+1:     Decl: VehiclePartWnd::GameDataUpdate
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uiwindows\charwindows\vehiclepartwnd.cpp(127) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   2     GameUiManager::GUI_UpdateWindowsOnEvent +297 bytes
+1:     Decl: GameUiManager::GUI_UpdateWindowsOnEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\gameuimanager.cpp(936) +44 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   3     GameUiManager::GUI_ProcessEvent +163 bytes
+1:     Decl: GameUiManager::GUI_ProcessEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\gameuimanager.cpp(1038) +10 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   4     TruxxUiManager::HandleAppEvent +22 bytes
+1:     Decl: TruxxUiManager::HandleAppEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\truxxuimanager.cpp(343) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   5     CMiracle3d::OnEvent +63 bytes
+1:     Decl: CMiracle3d::OnEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(936) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   6     m3d::ui::WndStation::ProcessEvent +75 bytes
+1:     Decl: m3d::ui::WndStation::ProcessEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ui\wndstation.cpp(304) +11 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   7     m3d::Application::HandleEvent +1745 bytes
+1:     Decl: m3d::Application::HandleEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(2689) +9 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   8     m3d::Application::ProcessAllEvents +183 bytes
+1:     Decl: m3d::Application::ProcessAllEvents
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(3352) +31 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   9     m3d::Application::run +100 bytes
+1:     Decl: m3d::Application::run
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(658) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  10     m3d::Application::StartExclusiveMsgLoop +15 bytes
+1:     Decl: m3d::Application::StartExclusiveMsgLoop
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(687) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  11     m3d::ui::WndStation::DoModal +170 bytes
+1:     Decl: m3d::ui::WndStation::DoModal
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ui\wndstation.cpp(1075) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  12     GameUiManager::GUI_ShowWindow +286 bytes
+1:     Decl: GameUiManager::GUI_ShowWindow
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\gameuimanager.cpp(669) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  13     TruxxUiManager::ShowWindow +41 bytes
+1:     Decl: TruxxUiManager::ShowWindow
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\truxxuimanager.cpp(385) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  14     MotherPanel::ShowPanels +462 bytes
+1:     Decl: MotherPanel::ShowPanels
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uiwindows\charwindows\motherpanel.cpp(923) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  15     MotherPanel::OnTown +622 bytes
+1:     Decl: MotherPanel::OnTown
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uiwindows\charwindows\motherpanel.cpp(1115) +46 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  16     GameUiManager::GUI_UpdateWindowsOnEvent +297 bytes
+1:     Decl: GameUiManager::GUI_UpdateWindowsOnEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\gameuimanager.cpp(936) +44 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  17     GameUiManager::GUI_ProcessEvent +163 bytes
+1:     Decl: GameUiManager::GUI_ProcessEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\gameuimanager.cpp(1038) +10 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  18     TruxxUiManager::HandleAppEvent +22 bytes
+1:     Decl: TruxxUiManager::HandleAppEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\truxxuimanager.cpp(343) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  19     CMiracle3d::OnEvent +63 bytes
+1:     Decl: CMiracle3d::OnEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(936) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  20     m3d::ui::WndStation::ProcessEvent +75 bytes
+1:     Decl: m3d::ui::WndStation::ProcessEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ui\wndstation.cpp(304) +11 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  21     m3d::Application::HandleEvent +1745 bytes
+1:     Decl: m3d::Application::HandleEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(2689) +9 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  22     m3d::Application::ProcessAllEvents +183 bytes
+1:     Decl: m3d::Application::ProcessAllEvents
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(3352) +31 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  23     m3d::Application::run +100 bytes
+1:     Decl: m3d::Application::run
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(658) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  24     WinMain +235 bytes
+1:     Decl: WinMain
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(117) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  25     WinMainCRTStartup +389 bytes
+1:     Decl: WinMainCRTStartup
+1:     Line: f:\vs70builds\3077\vc\crtbld\crt\src\crtexe.c(390) +27 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  26     BaseThreadInitThunk +18 bytes
+1:     Decl: BaseThreadInitThunk
+1:     Mod:  kernel32, base: 75c60000h
+
+1:  27     RtlInitializeExceptionChain +239 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 776c0000h
+
+1:  28     RtlInitializeExceptionChain +194 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 776c0000h
+
+
+Registers:
+	CS:EIP 0x001B:00458932
+	SS:ESP 0x0023:039C43C4
+	DS:EDI 0x0023:009CD450
+	ES:ESI 0x0023:53D99AAC
+	   EAX        039C43CC
+	   EBX        039C45A4
+	   ECX        00000000
+	   EDX        51DDEBB0
+

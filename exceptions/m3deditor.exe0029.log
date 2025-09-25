@@ -1,0 +1,45 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x005CC2DA
+-== Exception type : ACCESS VIOLATION  read attempt to address 0xDEADBF2F 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 03/12/23 19:12:42
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1157 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1116 MB
+1: Page file available            = 2805 MB
+
+1: Data from MemoryManager:
+1: mem used:           290084849
+1: mem allocated:      421596397
+1: mem overhead:        89812032
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   2
+1:     Mod:  M3DEditor, base: 00400000h
+
+
+Registers:
+	CS:EIP 0x001B:005CC2DA
+	SS:ESP 0x0023:0012EFAC
+	DS:EDI 0x0023:0886E9BC
+	ES:ESI 0x0023:336DA52C
+	   EAX        DEADBF2B
+	   EBX        336DA5F0
+	   ECX        00000030
+	   EDX        DEADBEEF
+

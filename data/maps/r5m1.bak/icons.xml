@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<icons>
+	<Item id="TheTownBigHead_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog2.dds"		file1=""/>
+	<Item id="TheApple_Bar_Barman"	file="data\if\ico\TalkWithNpcDlg\museumdialog1.dds"		file1=""/>
+	<Item id="TheKonneks_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog2.dds"		file1=""/>
+	<Item id="TheTownMichikar_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog2.dds"		file1=""/>
+	<Item id="ThePensilvansk_Bar"		file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>
+</icons>

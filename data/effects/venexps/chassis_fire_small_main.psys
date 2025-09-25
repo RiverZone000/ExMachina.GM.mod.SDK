@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="main"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="0.500"
+			ParticleAgeMax="1.200"
+			MaxParticles="200"
+			EmitAtPeriod="7.000"
+			Phase="0.000"
+			EmitLength="1.000"
+			RepeatPeriod="1.000"
+			ResetTime="9999999980506447900.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="0.000 0.000 0.000"
+			Max="2.500 360.000 0.000"
+			Type="sphere"
+			PosMin="-8.000 2.000 -18.000"
+			PosMax="8.000 2.000 8.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="0"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="0"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-153547"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="0" />
+
+			<Size
+				k:0="0.000"
+				k:1="1.832"
+				k:2="3.415"
+				k:3="4.010"
+				k:4="4.257"
+				k:5="4.257"
+				k:6="4.207"
+				k:7="4.257"
+				k:8="3.812"
+				k:9="3.614"
+				k:10="3.217"
+				k:11="2.624"
+				k:12="1.931"
+				k:13="1.634"
+				k:14="1.287"
+				k:15="1.139"
+				k:16="0.990"
+				k:17="0.693"
+				k:18="0.594"
+				k:19="0.000" />
+		</Keys>
+
+		<Render
+				ShaderType="1"
+		TrailLen="12"
+			ScaleParts="0.150"
+			BlendMode="0"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="1"
+			Texture="data\fx\fire\fire2.tga"
+			Weather="0"
+			TexTiling="0.000"
+			ParentDependency="0.700" />
+
+		<Attr
+			Name="SA_1"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="accel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="-1.500 25.000 1.500"
+				Max="1.500 20.000 -1.500" />
+		</Attr>
+	</PS>
+</PSEditor>

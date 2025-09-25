@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Ini>
+	<LevelSettings>
+		<Key name="WEATHERTYPE" value = "none" />
+		<Key name="SKYTYPE" value="1" />
+		<Key name="ENV_SKY_Z_POS" value="data\env\day4.front.tga" />
+		<Key name="ENV_SKY_Z_NEG" value="data\env\day4.back.tga" />
+		<Key name="ENV_SKY_Y_POS" value="data\env\day4.up.tga" />
+		<Key name="ENV_SKY_Y_NEG" value="0" />
+		<Key name="ENV_SKY_X_POS" value="data\env\day4.right.tga" />
+		<Key name="ENV_SKY_X_NEG" value="data\env\day4.left.tga" />
+		<Key name="ENV_SKY_SCALE_S" value="0.800" />
+		<Key name="ENV_SKY_SCALE_T" value="0.400" />
+		<Key name="ENV_SKY_SCROLL_SPEED" value="1.000" />
+		<Key name="ENV_SKY_ROTATE_SPEED" value="2.000" />
+		<Key name="ENV_SKY_CLOUDS_ENABLE" value="1" />
+		<Key name="SUN_AZIMUTH_SPEED" value="0.000" />
+		<Key name="SUN_AZIMUTH" value="45.000" />
+		<Key name="SUN_ASCENTION" value="53.000" />
+	</LevelSettings>
+
+	<Illumination>
+		<Key name="MODEL_AMBIENT" value="149 156 172" />
+		<Key name="MODEL_DIFFUSE" value="255 255 255" />
+		<Key name="LS_COLOR" value="43 40 30" />
+		<Key name="LS_DIFFUSE" value="255 255 255" />
+		<Key name="LS_TFACTOR" value="0.250" />
+		<Key name="SKY_COLOR" value="88 133 159" />
+		<Key name="FOG_COLOR" value="91 152 189" />
+	</Illumination>
+</Ini>

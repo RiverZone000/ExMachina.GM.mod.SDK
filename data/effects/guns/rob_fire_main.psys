@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="w_geiser_main1"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="1.000"
+			ParticleAgeMax="0.500"
+			MaxParticles="200"
+			EmitAtPeriod="5.000"
+			Phase="0.000"
+			EmitLength="0.500"
+			RepeatPeriod="0.500"
+			ResetTime="1.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="10.000 0.000 65.000"
+			Max="0.000 360.000 90.000"
+			Type="sphere"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="0.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="0"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="1093479706"
+				k:1="-1"
+				k:2="-1"
+				k:3="-667864800"
+				k:4="-1"
+				k:5="-1626074866"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="5064254" />
+
+			<Size
+				k:0="0.000"
+				k:1="1.535"
+				k:2="3.812"
+				k:3="4.010"
+				k:4="4.950"
+				k:5="5.197"
+				k:6="5.247"
+				k:7="5.494"
+				k:8="5.445"
+				k:9="6.484"
+				k:10="7.326"
+				k:11="7.821"
+				k:12="8.464"
+				k:13="8.860"
+				k:14="9.157"
+				k:15="9.405"
+				k:16="9.553"
+				k:17="9.603"
+				k:18="9.702"
+				k:19="9.900" />
+		</Keys>
+
+		<Render
+			TrailLen="10"
+			ScaleParts="0.100"
+			BlendMode="1"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\smoke\smoke7.tga"
+			Weather="0"
+			TexTiling="0.000"
+			ParentDependency="0.000" />
+
+		<Attr
+			Name="SA_1"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="vel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="3.000 30.000 3.000"
+				Max="-3.000 0.000 -3.000" />
+		</Attr>
+
+		<Attr
+			Name="SA_2"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="accel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="0.000 0.000 0.000"
+				Max="0.000 0.000 0.000" />
+		</Attr>
+	</PS>
+</PSEditor>

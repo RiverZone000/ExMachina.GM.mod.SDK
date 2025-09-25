@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="gidrodamb"
+		class="SgNode">
+		<Node
+			name="Object76478869"
+			class="SgAnimatedModelNode"
+			org="60.537 -66.290 -63.769"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478871"
+			class="SgAnimatedModelNode"
+			org="58.106 -44.961 -62.528"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478872"
+			class="SgAnimatedModelNode"
+			org="57.840 -26.057 -62.774"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478873"
+			class="SgAnimatedModelNode"
+			org="57.700 -7.195 -62.740"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478883"
+			class="SgAnimatedModelNode"
+			org="92.744 -42.628 -93.554"
+			orgRel="0"
+			rot="0.0000 0.3807 0.0000 0.9247"
+			scale="1.776 1.776 1.776"
+			id="quay_cube"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478884"
+			class="SgAnimatedModelNode"
+			org="92.614 -17.026 -93.656"
+			orgRel="0"
+			rot="0.0000 0.3807 0.0000 0.9247"
+			scale="1.776 1.776 1.776"
+			id="quay_cube"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478874"
+			class="SgAnimatedModelNode"
+			org="2.356 -65.670 -8.297"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478875"
+			class="SgAnimatedModelNode"
+			org="-0.075 -45.160 -7.057"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478876"
+			class="SgAnimatedModelNode"
+			org="-0.341 -26.388 -7.303"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478877"
+			class="SgAnimatedModelNode"
+			org="-0.481 -7.576 -7.269"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478879"
+			class="SgAnimatedModelNode"
+			org="-57.936 -45.210 48.623"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478880"
+			class="SgAnimatedModelNode"
+			org="-58.202 -26.402 48.377"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478881"
+			class="SgAnimatedModelNode"
+			org="-58.342 -7.549 48.410"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478891"
+			class="SgAnimatedModelNode"
+			org="33.176 -9.034 -15.914"
+			orgRel="0"
+			rot="0.0000 0.3604 0.0000 0.9328"
+			scale="0.455 0.455 0.455"
+			id="concrete_tube_middle"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478878"
+			class="SgAnimatedModelNode"
+			org="-55.505 -66.385 47.382"
+			orgRel="0"
+			rot="0.0000 0.3726 0.0000 0.9280"
+			scale="1.486 1.486 1.486"
+			id="quay_line"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478888"
+			class="SgAnimatedModelNode"
+			org="-46.978 -45.884 70.604"
+			orgRel="0"
+			rot="0.0000 0.3379 0.0000 0.9412"
+			scale="1.268 1.268 1.268"
+			id="concrete_tube2"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478887"
+			class="SgAnimatedModelNode"
+			org="76.565 -45.452 -43.509"
+			orgRel="0"
+			rot="0.0000 0.3379 0.0000 0.9412"
+			scale="1.219 1.219 1.219"
+			id="concrete_tube2"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478890"
+			class="SgAnimatedModelNode"
+			org="-56.394 -8.317 84.399"
+			orgRel="0"
+			rot="0.0000 0.3604 0.0000 0.9328"
+			scale="0.455 0.455 0.455"
+			id="concrete_tube_middle"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478885"
+			class="SgAnimatedModelNode"
+			org="-98.626 -41.979 90.338"
+			orgRel="0"
+			rot="0.0000 0.3807 0.0000 0.9247"
+			scale="1.776 1.776 1.776"
+			id="quay_cube"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478886"
+			class="SgAnimatedModelNode"
+			org="-98.756 -16.286 90.237"
+			orgRel="0"
+			rot="0.0000 0.3807 0.0000 0.9247"
+			scale="1.776 1.776 1.776"
+			id="quay_cube"
+			ndmAction="0" />
+	</Node>
+</Prefabs>

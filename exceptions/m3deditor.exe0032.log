@@ -1,0 +1,44 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0x80000003 at address 0x7C36DEFF
+-== Exception type : BREAKPOINT 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 03/17/23 00:24:13
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1659 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1205 MB
+1: Page file available            = 3194 MB
+
+1: Data from MemoryManager:
+1: mem used:           324519679
+1: mem allocated:      459011331
+1: mem overhead:        92798272
+1: last allocation:            0
+
+
+1:   0     _assert +904 bytes
+1:     Decl: _assert
+1:     Mod:  MSVCR71, base: 7c360000h
+
+1:   1   SymGetSymFromAddr(): GetLastError = 126
+1: SymGetLineFromAddr(): GetLastError = 126
+1: SymGetModuleInfo): GetLastError = 126
+
+
+Registers:
+	CS:EIP 0x001B:7C36DEFF
+	SS:ESP 0x0023:0012E6A8
+	DS:EDI 0x0023:0012E6D4
+	ES:ESI 0x0023:0000001A
+	   EAX        00000004
+	   EBX        00000000
+	   ECX        000012B4
+	   EDX        000012B3
+

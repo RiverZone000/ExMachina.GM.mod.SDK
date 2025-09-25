@@ -1,0 +1,29 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: waterTest_ps20.ps
+// Created by: Plus
+//
+// simple water ps_2_0 shader w/ reflection/refraction 
+// and per-vertex fresnel term
+//
+// $Id: water_dumb.ps,v 1.1 2005/10/24 06:39:37 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+
+#include "lib.fx"
+
+
+// vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 TexRefl	: TEXCOORD0;
+	float  fog	: FOG;
+};
+
+
+// 
+REAL4 WaterPS( VS_OUTPUT v ): COLOR
+{
+	return float4 (0,0,0,1);
+}

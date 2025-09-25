@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by scorp (targem) -->
+<Servers>
+    <AnimatedModelsServer>
+        <Item id="OrcWarlord" file="data\models\AnimModels.xml"/>
+        <!-- don't touch!-->
+         <Item id="BOX" file="data\models\AnimModels.xml"/>
+        <!-- Animals -->
+        <!-- Items -->
+        <Item id="Chest" file="data\models\AnimModels.xml"/>
+	    <Item id="OrcFighter" file="data\models\AnimModels.xml"/>
+    </AnimatedModelsServer>
+
+    
+    
+    
+    <StaticModelsServer>
+         <!-- Artifacts -->
+         <Item id="Sword" file="data\models\StaticModels.xml"/>
+         <Item id="Staff" file="data\models\StaticModels.xml"/>
+         <Item id="Ring" file="data\models\StaticModels.xml"/>
+
+         <!-- Buildings -->
+         <!-- Common -->
+         <Item id="StoneBridge" file="data\models\StaticModels.xml"/>
+         <Item id="WoodFence1"  file="data\models\StaticModels.xml"/>
+         <Item id="WoodFence2"  file="data\models\StaticModels.xml"/>
+         <!-- Humans -->
+         <Item id="HumansHouse1" file="data\models\StaticModels.xml"/>
+         <Item id="StoneWinter3" file="data\models\StaticModels.xml"/>
+         <!-- Trees -->
+         <Item id="TreeBig1" file="data\models\StaticModels.xml"/>
+    </StaticModelsServer>
+
+    <LightsServer>
+        <Item id="PointLightSource" file="PointLightSource.xml"/>
+    </LightsServer>
+    <SpritesServer>
+    </SpritesServer>
+
+    <ParticlesServer>
+
+        <Item id="PS_PENT_FIRE" file="data\models\Other_effects\pent_fire.psys"/>
+        <Item id="PS_PENT_MAGIC1" file="data\models\Other_effects\pent_magic1.psys"/>        
+        <Item id="PS_PENT_MAGIC2" file="data\models\Other_effects\pent_magic2.psys"/>
+
+
+        <Item id="PS_TELEPORT_MAIN" file="data\models\Spells\teleport_main.psys"/>        
+        <Item id="PS_TELEPORT_RAYS" file="data\models\Spells\teleport_rays.psys"/>
+
+        <Item id="PS_FOUNTAIN1" file="data\models\psys\foun_1_1.psys"/>
+        <Item id="PS_FOUNTAIN2" file="data\models\psys\foun_1_2.psys"/>
+        <Item id="PS_FOUNTAIN21" file="data\models\psys\foun_2_1.psys"/>
+        <Item id="PS_FOUNTAIN22" file="data\models\psys\foun_2_2.psys"/>
+
+        <Item id="PS_ARROWTRAIL1" file="data\models\psys\arrow_1_1.psys"/>
+	    <Item id="PS_BOMBTRAIL" file="data\models\psys\bomb_1_1.psys"/>
+        <Item id="PS_FIREMAN1" file="data\models\psys\fireman_1_1.psys"/>
+        <Item id="PS_FIRE21" file="data\models\psys\fire_2_1.psys"/>
+        <Item id="PS_FIRE22" file="data\models\psys\fire_2_2.psys"/>
+        <Item id="PS_FIRE23" file="data\models\psys\fire_2_3.psys"/>
+        <Item id="PS_SMOG1" file="data\models\psys\smoke_1_1.psys"/>
+        <Item id="PS_LIGHT1" file="data\models\psys\light_2_1.psys"/>
+        <Item id="PS_LIGHT4" file="data\models\psys\light_2_4.psys"/>
+        <Item id="PS_SPARKLE1" file="data\models\psys\sparkle_2_1.psys"/>
+
+
+
+        <!--LP effects-->
+        <Item id="PS_BURN_DEMON_FIRE" file="data\models\lp\burn_d_throat.psys"/>
+        <Item id="PS_BURN_DEMON_MAIN" file="data\models\lp\burn_d_eyes.psys"/>
+
+        <Item id="PS_DRAGO_DEMON_SMOKE" file="data\models\lp\drago_demon_smoke.psys"/>
+        <Item id="PS_DRAGO_DEMON_AIR" file="data\models\lp\drago_demon_air.psys"/>
+        <Item id="PS_DRAGO_DEMON_FIRE" file="data\models\lp\drago_demon_fire.psys"/>
+
+        <Item id="PS_ELF_ENCANTER_MAIN" file="data\models\lp\elf_enchanter_main.psys"/>
+	<Item id="PS_ELF_ENCANTER_STAR" file="data\models\lp\elf_enchanter_star.psys"/>
+        <Item id="PS_ELF_ENCANTER_MAIN_ATTACK" file="data\models\lp\elf_enchanter_main_attack.psys"/>
+
+        <Item id="PS_GOBLINCARAVAN_SMOKE" file="data\models\lp\goblincaravan_smoke.psys"/>
+
+        <Item id="PS_GOBLINTANKETTE_SMOKE" file="data\models\lp\goblintankette_smoke.psys"/>
+        <Item id="PS_GOBLINTANKETTE_FIRE" file="data\models\lp\goblintankette_fire.psys"/>
+
+        <Item id="PS_BATTLE_MAGE_MAIN" file="data\models\lp\battle_mage_main.psys"/>
+        <Item id="PS_BATTLE_MAGE_STAR" file="data\models\lp\battle_mage_star.psys"/>
+        <Item id="PS_BATTLE_MAGE_STAR_ATTACK" file="data\models\lp\battle_mage_star_attack.psys"/>
+
+        <Item id="PS_MAGE_MAIN" file="data\models\lp\mage_main.psys"/>
+        <Item id="PS_MAGE_STAR" file="data\models\lp\mage_star.psys"/>
+        <Item id="PS_MAGE_MAIN_ATTACK" file="data\models\lp\mage_main_attack.psys"/>
+        <Item id="PS_MAGE_STAR_ATTACK" file="data\models\lp\mage_star_attack.psys"/>
+
+        <Item id="PS_MAGICAN_MAIN" file="data\models\lp\magican_main.psys"/>
+        <Item id="PS_MAGICAN_MAIN_ATTACK" file="data\models\lp\magican_main_attack.psys"/>
+        <Item id="PS_MAGICAN_STAR_ATTACK" file="data\models\lp\magican_star_attack.psys"/>
+ 
+        <Item id="PS_NATURE_DEMON_STARS" file="data\models\lp\nature_d_stars.psys"/>
+
+        <Item id="PS_ORC_DARC_SHAMAN_MAIN" file="data\models\lp\orc_darc_shaman_main.psys"/>
+        <Item id="PS_ORC_DARC_SHAMAN_SMOKE" file="data\models\lp\orc_darc_shaman_smoke.psys"/>
+
+        <Item id="PS_SPRITE_STARS" file="data\models\lp\sprite_stars.psys"/>
+
+        <Item id="PS_HORRORMAGE_MAIN" file="data\models\lp\un_horrormage_main.psys"/>
+        <Item id="PS_HORRORMAGE_STAR" file="data\models\lp\un_horrormage_star.psys"/>
+        <Item id="PS_HORRORMAGE_MAIN_ATTACK" file="data\models\lp\un_horrormage_main_attack.psys"/>
+        <Item id="PS_HORRORMAGE_STAR_ATTACK" file="data\models\lp\un_horrormage_star_attack.psys"/>
+
+        <!--Other effects-->
+
+        <Item id="PS_AURA_MAIN" file="data\models\Other_effects\aura_main.psys"/>
+
+        <Item id="PS_CROSS_MAIN" file="data\models\Other_effects\cross_main.psys"/>
+        <Item id="PS_DOT_MAIN" file="data\models\Other_effects\dot_main.psys"/>
+        <Item id="PS_CROSS_MAIN1" file="data\models\Other_effects\cross_main1.psys"/>
+        <Item id="PS_SWORD_MAIN" file="data\models\Other_effects\sword_main.psys"/>
+        <Item id="PS_RAIN_MAIN" file="data\models\Other_effects\rain_main.psys"/>
+        <Item id="PS_SNOW_MAIN" file="data\models\Other_effects\snow_main.psys"/>
+
+        <Item id="PS_STAR_RAYS1" file="data\models\Other_effects\star_rays1.psys"/>
+        <Item id="PS_STAR_GLOW1" file="data\models\Other_effects\star_glow1.psys"/>
+
+        <Item id="PS_LIGHTING_MAIN1" file="data\models\Other_effects\lighting_main1.psys"/>
+        <Item id="PS_LIGHTING_GLOW1" file="data\models\Other_effects\lighting_glow1.psys"/>
+        
+        <Item id="PS_FIRE_MAIN1" file="data\models\Other_effects\fire_main1.psys"/>
+        <Item id="PS_FIRE_SPARC1" file="data\models\Other_effects\fire_sparc1.psys"/>
+        <Item id="PS_FIRE_SMOKE1" file="data\models\Other_effects\fire_smoke1.psys"/>
+
+        <Item id="PS_FIRE_MAIN2" file="data\models\Other_effects\fire_main2.psys"/>
+        <Item id="PS_FIRE_SPARC2" file="data\models\Other_effects\fire_sparc2.psys"/>
+        <Item id="PS_FIRE_SMOKE2" file="data\models\Other_effects\fire_smoke2.psys"/>
+
+        <Item id="PS_SMOKE1" file="data\models\Other_effects\smoke1.psys"/>
+        <Item id="PS_SMOKE_WHITE1" file="data\models\Other_effects\smoke_white1.psys"/>
+
+        <Item id="PS_WATERFALL_MAIN" file="data\models\Other_effects\waterfall_main.psys"/>
+        <Item id="PS_WATERFALL_BEGIN" file="data\models\Other_effects\waterfall_begin.psys"/>
+        <Item id="PS_WATERFALL_SMOKE" file="data\models\Other_effects\waterfall_smoke.psys"/>
+
+        <Item id="PS_LAVA_MAIN" file="data\models\Other_effects\lava_main.psys"/>
+        <Item id="PS_LAVA_PARTS" file="data\models\Other_effects\lava_parts.psys"/>
+        <Item id="PS_LAVA_PARTS2" file="data\models\Other_effects\lava_parts2.psys"/>
+
+        <Item id="PS_BOG_MAIN" file="data\models\Other_effects\bog_main.psys"/>
+        <Item id="PS_BOG_SMOKE" file="data\models\Other_effects\bog_smoke.psys"/>
+
+        <Item id="PS_WGEISER_MAIN" file="data\models\Other_effects\w_geiser_main.psys"/>
+        <Item id="PS_WGEISER_MAIN1" file="data\models\Other_effects\w_geiser_main1.psys"/>
+        <Item id="PS_WGEISER_SMOKE" file="data\models\Other_effects\w_geiser_smoke.psys"/>
+
+        <!--Spells effects-->
+
+        <Item id="PS_SPAWN_MAIN1" file="data\models\Spells\spaun_main1.psys"/>
+        <Item id="PS_SPAWN_MAIN" file="data\models\Spells\spaun_main.psys"/>
+    
+        <Item id="PS_MEAT_MAIN" file="data\models\Spells\meat1_main.psys"/>
+
+        <Item id="PS_UPDATE_MAGIC" file="data\models\Spells\update_magic.psys"/>
+        <Item id="PS_UPDATE_MAIN" file="data\models\Spells\update_main.psys"/>
+
+        <Item id="PS_DISPEL_AURA_MAIN_BOX" file="data\models\Spells\dispel_aura_main_box.psys"/>
+        <Item id="PS_DISPEL_AURA_MAIN_SPHERE" file="data\models\Spells\dispel_aura_main_sphere.psys"/>
+
+		<Item id="PS_SPELL_RED_SMOKE" file="data\models\Spells\spell_red_smoke.psys"/>
+		<Item id="PS_SPELL_GREEN_SMOKE" file="data\models\Spells\spell_green_smoke.psys"/>
+		<Item id="PS_SPELL_BLACK_SMOKE" file="data\models\Spells\spell_black_smoke.psys"/>
+		<Item id="PS_SPELL_BLACK_LINES" file="data\models\Spells\spell_black_lines.psys"/>
+		<Item id="PS_SPELL_BLUE_SMOKE" file="data\models\Spells\spell_blue_smoke.psys"/>
+		<Item id="PS_FROZEN_SKIN" file="data\models\Spells\frozen_skin.psys"/>
+
+
+        <!--Chaos-->
+
+        <!-- 1 -->
+        <Item id="PS_FIREBOLT_MAIN" file="data\models\Spells\firebolt_main.psys"/>
+        <Item id="PS_FIREBOLT_SPARCLE" file="data\models\Spells\firebolt_sparcle.psys"/>
+
+        <Item id="PS_FIREBOLT_EXPLOSION_MAIN" file="data\models\Spells\fireboltexplosion_main.psys"/>
+        <Item id="PS_FIREBOLT_EXPLOSION_SPARCLE" file="data\models\Spells\fireboltexplosion_sparcle.psys"/>
+
+         <!-- 2 -->
+        <Item id="PS_STONESKIN_MAIN" file="data\models\Spells\stone_skin_main.psys"/>
+        <Item id="PS_STONESKIN_SPARK" file="data\models\Spells\stone_skin_spark.psys"/>
+        <Item id="PS_STONESKIN_SKIN" file="data\models\Spells\stone_skin_skin.psys"/>
+
+        <!-- 3 -->
+        <Item id="PS_BURN_EYES_WAVE" file="data\models\Spells\burn_eyes_wave.psys"/>
+
+        <!-- 4 -->
+        <Item id="PS_HASTE_MAIN" file="data\models\Spells\haste_main.psys"/>
+        <Item id="PS_HASTE_STARS" file="data\models\Spells\haste_stars.psys"/>
+
+        <!-- 5 -->
+        <Item id="PS_DAMNATION_SMOKE" file="data\models\Spells\damnation_smoke.psys"/>
+        <Item id="PS_DAMNATION_LINES" file="data\models\Spells\damnation_lines.psys"/>
+        <Item id="PS_DAMNATION_MAGIC" file="data\models\Spells\damnation_magic.psys"/>
+        <Item id="PS_DAMNATION_MAGIC1" file="data\models\Spells\damnation_magic1.psys"/>
+
+        <!-- 6 -->
+        <Item id="PS_CHAOS_TOUCH_BLOOD" file="data\models\Spells\chaos_touch_blood.psys"/>
+        <Item id="PS_CHAOS_TOUCH_MAGIC" file="data\models\Spells\chaos_touch_magic.psys"/>
+        <Item id="PS_CHAOS_TOUCH_MAGIC1" file="data\models\Spells\chaos_touch_magic1.psys"/>
+        <Item id="PS_CHAOS_TOUCH_SMOKE" file="data\models\Spells\chaos_touch_smoke.psys"/>
+
+        <!-- 7 -->
+        <Item id="PS_FIREBALL_MAIN" file="data\models\Spells\fireball_main.psys"/>
+        <Item id="PS_FIREBALL_SMOKE" file="data\models\Spells\fireball_smoke.psys"/>
+        <Item id="PS_FIREBALL_BASE" file="data\models\Spells\fireball_base.psys"/>
+        <Item id="PS_FIREBALL_RAYS" file="data\models\Spells\fireball_rays.psys"/>
+
+        <Item id="PS_FIREBALL_EXPLOSION_MAIN" file="data\models\Spells\fireballexplosion_main.psys"/>
+        <Item id="PS_FIREBALL_EXPLOSION_SMOKE" file="data\models\Spells\fireballexplosion_smoke.psys"/>
+        <Item id="PS_FIREBALL_EXPLOSION_SPARCLE" file="data\models\Spells\fireballexplosion_sparcle.psys"/>
+        <Item id="PS_FIREBALL_EXPLOSION_WAVE" file="data\models\Spells\fireballexplosion_wave.psys"/>
+
+        <!-- 8 -->
+        <Item id="PS_FIRE_SHACKLE_MAIN" file="data\models\Spells\fire_shackle_main.psys"/>
+        <Item id="PS_FIRE_SHACKLE_SMOKE" file="data\models\Spells\fire_shackle_smoke.psys"/>
+
+        <!-- 9 -->
+        <Item id="PS_LYCANTHROPY_BLOOD" file="data\models\Spells\lucanthropy_blood.psys"/>
+        <Item id="PS_LYCANTHROPY_MAGIC" file="data\models\Spells\lucanthropy_magic.psys"/>
+        <Item id="PS_LYCANTHROPY_SIGN" file="data\models\Spells\lucanthropy_sign.psys"/>
+
+        <!-- 10 -->
+        <Item id="PS_FANATICISM_MAGIC" file="data\models\Spells\FANATICISM_magic.psys"/>
+        <Item id="PS_FANATICISM_MAGIC1" file="data\models\Spells\FANATICISM_magic1.psys"/>
+        <Item id="PS_FANATICISM_MAGIC2" file="data\models\Spells\FANATICISM_magic2.psys"/>
+        <Item id="PS_FANATICISM_MAGIC3" file="data\models\Spells\FANATICISM_magic3.psys"/>
+
+        <!-- 11 -->
+        <Item id="PS_IMMOLATION_WAVE" file="data\models\Spells\immonation_wave.psys"/>
+        <Item id="PS_IMMOLATION_MAGIC" file="data\models\Spells\immonation_magic.psys"/>
+        <Item id="PS_IMMOLATION_MAGIC1" file="data\models\Spells\immonation_magic1.psys"/>
+        <Item id="PS_IMMOLATION_MAGIC2" file="data\models\Spells\immonation_magic2.psys"/>
+
+        <!-- 12 -->
+        <Item id="PS_BURNING_GROUND_WAVE" file="data\models\Spells\burning_ground_wave.psys"/>
+        <Item id="PS_BURNING_GROUND_FIRE" file="data\models\Spells\burning_ground_fire.psys"/>
+        <Item id="PS_BURNING_GROUND_SMOKE" file="data\models\Spells\burning_ground_smoke.psys"/>
+
+        <!-- 13 -->
+        <Item id="PS_BRAIN_INCINERATION_WAVE" file="data\models\Spells\brain_meltdown_wave.psys"/>
+        <Item id="PS_BRAIN_INCINERATION_RAYS" file="data\models\Spells\brain_meltdown_rays.psys"/>
+
+        <!-- 14 -->
+        <Item id="PS_BURN_DEMONS_MAIN" file="data\models\Spells\burn_demons_main.psys"/>
+        <Item id="PS_BURN_DEMONS_SMOKE" file="data\models\Spells\burn_demons_smoke.psys"/>
+        <Item id="PS_BURN_DEMONS_SPARCLE" file="data\models\Spells\burn_demons_sparcle.psys"/>
+
+        <!-- 15 -->
+        <Item id="PS_FIRE_STORM_MAIN" file="data\models\Spells\abc.psys"/>
+
+        <!--Nature-->
+        <!-- 16 -->
+        <Item id="PS_BARK_SKIN_MAIN" file="data\models\Spells\bark_skin_main.psys"/>
+        <Item id="PS_BARK_SKIN_SPARK" file="data\models\Spells\bark_skin_spark.psys"/>
+        <Item id="PS_BARK_SKIN_SKIN" file="data\models\Spells\bark_skin_skin.psys"/>
+
+        <!-- 17 -->
+        <Item id="PS_POISON_THORNS_MAIN" file="data\models\Spells\poison_thorns_main.psys"/>
+
+        <Item id="PS_POISON_THORNS_EX_MAIN" file="data\models\Spells\poison_thorns_ex_main.psys"/>
+        <Item id="PS_POISON_THORNS_EX_SMOKE" file="data\models\Spells\poison_thorns_ex_smoke.psys"/>
+        <Item id="PS_POISON_THORNS_EX_SPORE" file="data\models\Spells\poison_thorns_ex_spore.psys"/>
+        <!-- 18 -->
+        <Item id="PS_EARTH_TO_MUD_MUD" file="data\models\Spells\earth_to_mud_mud.psys"/>
+        <Item id="PS_EARTH_TO_MUD_SP" file="data\models\Spells\earth_to_mud_sp.psys"/>
+
+        <!-- 19 -->
+        <Item id="PS_CURE_POISON_MAIN" file="data\models\Spells\cure_poison_main.psys"/>
+        <Item id="PS_CURE_POISON_STARS" file="data\models\Spells\cure_poison_stars.psys"/>
+
+        <!-- 20 -->
+        <Item id="PS_HEALING_MAIN" file="data\models\Spells\healing_main.psys"/>
+        <Item id="PS_HEALING_STARS" file="data\models\Spells\healing_stars.psys"/>
+
+        <!-- 21 -->
+        <Item id="PS_SICKNESS_MAIN" file="data\models\Spells\sickness_main.psys"/>
+        <Item id="PS_SICKNESS_STAR" file="data\models\Spells\sickness_star.psys"/>
+
+        <!-- 22 -->
+        <Item id="PS_THORNY_SPORES_MAIN" file="data\models\Spells\thorny_spores_main.psys"/>
+        <Item id="PS_THORNY_SPORES_SMOKE" file="data\models\Spells\thorny_spores_smoke.psys"/>
+
+        <Item id="PS_THORNY_SPORES_EX_MAIN" file="data\models\Spells\thorny_spores_ex_main.psys"/>
+        <Item id="PS_THORNY_SPORES_EX_SMOKE" file="data\models\Spells\thorny_spores_ex_smoke.psys"/>
+        <Item id="PS_THORNY_SPORES_EX_SPORE" file="data\models\Spells\thorny_spores_ex_spore.psys"/>
+        <!-- 23 -->
+        <Item id="PS_VACCINATION_MAIN" file="data\models\Spells\vaccination_main.psys"/>
+        <Item id="PS_VACCINATION_STARS" file="data\models\Spells\vaccination_stars.psys"/>
+
+        <!-- 24 -->
+        <Item id="PS_VENOM_BLADES_MAGIC" file="data\models\Spells\venom_blades_magic.psys"/>
+        <Item id="PS_VENOM_BLADES_MAGIC1" file="data\models\Spells\venom_blades_magic1.psys"/>
+        <Item id="PS_VENOM_BLADES_MAGIC3" file="data\models\Spells\venom_blades_magic3.psys"/>
+        <Item id="PS_VENOM_BLADES_SP" file="data\models\Spells\venom_blades_sp.psys"/>
+
+        <!-- 25 -->
+        <Item id="PS_INFECTION_MAIN" file="data\models\Spells\infection_main.psys"/>
+        <Item id="PS_INFECTION_STARS" file="data\models\Spells\infection_stars.psys"/>
+
+        <!-- 26 -->
+        <Item id="PS_INCURABLE_MAGIC" file="data\models\Spells\incurable_magic.psys"/>
+        <Item id="PS_INCURABLE_MAIN" file="data\models\Spells\incurable_main.psys"/>
+
+        <!-- 27 -->
+        <Item id="PS_FOG_OF_DECAY_MAIN" file="data\models\Spells\fog_of_decay_main.psys"/>
+        <Item id="PS_FOG_OF_DECAY_RAYS" file="data\models\Spells\fog_of_decay_rays.psys"/>
+
+        <!-- 28 -->
+        <Item id="PS_TONIC_TOUCH_MAGIC" file="data\models\Spells\tonic_touch_magic.psys"/>
+        <Item id="PS_TONIC_TOUCH_MAIN" file="data\models\Spells\tonic_touch_main.psys"/>
+
+        <!-- 29 -->
+        <Item id="PS_SPRITES_SPARCLE" file="data\models\Spells\sprites_sparcle.psys"/>
+ 
+	  <!-- 30 -->
+        <Item id="PS_NATURE_ELEMENTAL_MAGIC1" file="data\models\Spells\nature_elemental_magic1.psys"/>
+        <Item id="PS_NATURE_ELEMENTAL_MAGIC2" file="data\models\Spells\nature_elemental_magic2.psys"/>
+        <Item id="PS_NATURE_ELEMENTAL_MAGIC3" file="data\models\Spells\nature_elemental_magic3.psys"/>
+        <Item id="PS_NATURE_ELEMENTAL_MAIN" file="data\models\Spells\nature_elemental_main.psys"/>
+
+        <!--Energy-->
+        <!-- 31 -->
+        <Item id="PS_BLESS_MAIN" file="data\models\Spells\bless_main.psys"/>
+        <Item id="PS_BLESS_STARS" file="data\models\Spells\bless_stars.psys"/>
+        <Item id="PS_BLESS_SKY" file="data\models\Spells\bless_sky.psys"/>
+
+        <!-- 32 -->
+        <Item id="PS_LUCK_MAIN" file="data\models\Spells\luck_main.psys"/>
+
+        <!-- 33 -->
+        <Item id="PS_ENERGY_SHIELD_MAIN" file="data\models\Spells\energy_shield_main.psys"/>
+        <Item id="PS_ENERGY_SHIELD_STARS" file="data\models\Spells\energy_shield_stars.psys"/>
+		
+        <!-- 34 -->
+        <Item id="PS_COLDARROW_MAIN" file="data\models\Spells\coldarrow_main.psys"/>
+        <Item id="PS_COLDARROW_COLD" file="data\models\Spells\coldarrow_cold.psys"/>
+ 
+        <Item id="PS_COLDEXPLOSION_MAIN" file="data\models\Spells\coldexplosion_main.psys"/>
+        <Item id="PS_COLDEXPLOSION_COLD" file="data\models\Spells\coldexplosion_cold.psys"/>
+
+        <!-- 35 -->
+        <Item id="PS_RESTORE_MAIN" file="data\models\Spells\restore_main.psys"/>
+        <Item id="PS_RESTORE_STARS" file="data\models\Spells\restore_stars.psys"/>
+
+        <!-- 36 -->
+        <Item id="PS_MANA_INSPIRE_MAIN" file="data\models\Spells\mana_inspire_main.psys"/>
+
+        <!-- 37 -->
+        <Item id="PS_THUNDERBOLT_MAIN" file="data\models\Spells\thunderbolt1_main.psys"/>
+        <Item id="PS_THUNDERBOLT_RAYS" file="data\models\Spells\thunderbolt1_rays.psys"/>
+
+        <Item id="PS_THUNDERBOLT_EXPLOSION_SMOKE" file="data\models\Spells\thunderbolt_explosion_smoke.psys"/>
+        <Item id="PS_THUNDERBOLT_EXPLOSION_SPARCLE" file="data\models\Spells\thunderbolt_explosion_sparcle.psys"/>
+        <Item id="PS_THUNDERBOLT_EXPLOSION_LIGHT" file="data\models\Spells\thunderbolt_explosion_light.psys"/>
+
+        <!-- 38 -->
+        <Item id="PS_HEROISM_MAGIC" file="data\models\Spells\heroism_magic.psys"/>
+        <Item id="PS_HEROISM_MAIN" file="data\models\Spells\heroism_main.psys"/>
+        <Item id="PS_HEROISM_SMOKE" file="data\models\Spells\heroism_smoke.psys"/>
+
+        <!-- 39 -->
+        <Item id="PS_FREEZE_BREATHING_MAGIC" file="data\models\Spells\freeze_breathing_magic.psys"/>
+        <Item id="PS_FREEZE_BREATHING_MAGIC1" file="data\models\Spells\freeze_breathing_magic1.psys"/>
+        <Item id="PS_FREEZE_BREATHING_MAGIC3" file="data\models\Spells\freeze_breathing_magic3.psys"/>
+        <Item id="PS_FREEZE_BREATHING_SP" file="data\models\Spells\freeze_breathing_sp.psys"/>
+
+        <!-- 40 -->
+        <Item id="PS_SPARK_MAIN" file="data\models\Spells\spark_main.psys"/>
+        <Item id="PS_SPARK_STARS" file="data\models\Spells\spark_stars.psys"/>
+
+        <!-- 41 -->
+        <Item id="PS_BLOOD_TO_ICE_ICE" file="data\models\Spells\blood_to_ice_ice.psys"/>
+        <Item id="PS_BLOOD_TO_ICE_SNOW" file="data\models\Spells\blood_to_ice_snow.psys"/>
+
+        <!-- 42 -->
+        <Item id="PS_CHARM_MAIN" file="data\models\Spells\charm_main.psys"/>
+        <Item id="PS_CHARM_STARS" file="data\models\Spells\charm_stars.psys"/>
+
+        <!-- 43 -->
+        <Item id="PS_MAGIC_SPIRIT_NX" file="data\models\Spells\magic_spirit_nx.psys"/>
+        <Item id="PS_MAGIC_SPIRIT_X" file="data\models\Spells\magic_spirit_x.psys"/>
+        <Item id="PS_MAGIC_SPIRIT_Y" file="data\models\Spells\magic_spirit_y.psys"/>
+        <Item id="PS_MAGIC_SPIRIT_NY" file="data\models\Spells\magic_spirit_ny.psys"/>
+
+        <!-- 44 -->
+        <Item id="PS_DISPEL_MAIN" file="data\models\Spells\dispel_main.psys"/>
+        <Item id="PS_DISPEL_STARS" file="data\models\Spells\dispel_stars.psys"/>
+
+
+
+        <Item id="PS_LIVE_ITEM_MAIN" file="data\models\Spells\live_item_main.psys"/>
+
+        <Item id="PS_PUT_TROOP_MAIN" file="data\models\Spells\put_troop_main.psys"/>
+
+        <Item id="PS_UPDATE_MAIN" file="data\models\Spells\update_main.psys"/>
+        <Item id="PS_UPDATE_MAGIC" file="data\models\Spells\update_magic.psys"/>
+
+        <Item id="PS_PUT_ITEM_MAIN" file="data\models\Spells\put_item_main.psys"/>
+
+        <Item id="PS_BLOOD_MAIN" file="data\models\Spells\blood_main.psys"/>
+    </ParticlesServer>
+
+    <SoundsServer>
+    </SoundsServer>
+</Servers>

@@ -1,0 +1,385 @@
+---------------------------------------------- Log begins on Wed Sep 24 20:21:51 2025 ----------------------------------------------
+I           m3dapp.cpp[0088]24/09 20:21:51 Starting up...
+I           m3dapp.cpp[1645]24/09 20:21:51 ExMachina - release version release build v1.03 (Feb 10 2006 16:30:24)
+I      Stackwalker.cpp[0608]24/09 20:21:51 Stackwalker: log file name will be 'b:/exmachina gm.mod sdk new/exceptions/m3deditor.exe0044.log'
+I      Stackwalker.cpp[0609]24/09 20:21:51 Stackwalker: dump file name will be 'b:/exmachina gm.mod sdk new/exceptions/m3deditor.exe0044.dmp'
+I      Stackwalker.cpp[0610]24/09 20:21:51 Stackwalker: game log file name will be 'b:/exmachina gm.mod sdk new/exceptions/m3deditor.exe0044_game.log'
+I           m3dapp.cpp[1391]24/09 20:21:51 Path: B:\ExMachina GM.mod SDK new
+I           m3dapp.cpp[1392]24/09 20:21:51 Exe: B:\ExMachina GM.mod SDK new\M3DEditor\M3DEditor.exe
+I           m3dapp.cpp[1401]24/09 20:21:51 Windows version: 6.2.9200
+I           m3dapp.cpp[1416]24/09 20:21:51 Computer name: DESKTOP-QQPV5MQ
+I           m3dapp.cpp[1443]24/09 20:21:51 Cpu: GenuineIntel
+I           m3dapp.cpp[1445]24/09 20:21:51 Max CPUID standard function operand: 32
+I           m3dapp.cpp[1480]24/09 20:21:51 Cpu brand: 12th Gen Intel(R) Core(TM) i3-12100F
+I           m3dapp.cpp[1485]24/09 20:21:51 Cpu clock: ~3302
+I           m3dapp.cpp[1555]24/09 20:21:51 Processor supports MMX
+I           m3dapp.cpp[1565]24/09 20:21:51 Processor supports SSE
+I           m3dapp.cpp[1570]24/09 20:21:51 Processor supports HyperThreading
+I           m3dapp.cpp[1575]24/09 20:21:51 Number of logical processors on the die: 16
+I           m3dapp.cpp[1616]24/09 20:21:51 Physical memory: 2047 MB
+I           m3dapp.cpp[1617]24/09 20:21:51 Total memory:    4095 MB
+I           m3dapp.cpp[1618]24/09 20:21:51 Physical memory available: 2047 MB
+I           m3dapp.cpp[1619]24/09 20:21:51 Total memory available:    1892 MB
+I           m3dapp.cpp[2991]24/09 20:21:51 SetCodepage -- using codepage 1251 '1251  (ANSI - кириллица)'
+I           m3dapp.cpp[2299]24/09 20:21:51 NOTE! renderer is bind to dxrender9.dll
+I           m3dapp.cpp[1751]24/09 20:21:51 WARNING! Application::init -- zero window rect, expanding
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Given device behavior: 80
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Confirmed device behavior: 80
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Description: NVIDIA GeForce GTX 1650
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Driver:      nvldumd.dll
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: VendorId:    0x10de
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: DeviceId:    0x1f0a
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: SubSysId:    0x145c1771
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Revision:    161
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Driver version info:
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d:   Product:    32
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d:   Version:    0
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d:   SubVersion: 15
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d:   Build:      8129
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: WHQLLevel:    0
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Texture max size: 16384x16384
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Guard band: (-100000000.000,-100000000.000,100000000.000,100000000.000)
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxTextureBlendStages: 8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxSimultaneousTextures: 8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxActiveLights: 10
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxUserClipPlanes: 8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: VertexShaderVersion: 0xfffe0300
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: PixelShaderVersion: 0xffff0300
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Geometry instancing: supported
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth bias supported: yes
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Slope-scale based depth bias supported: yes
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: HwRasterization: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: HwTnL: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: PureDevice: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: CubeMap: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: VolumeMap: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: TextureAddressCaps:
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: 	wrap: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: 	clamp: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: 	border: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Projective textures: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxPointSize: 8192.000
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxPrimitiveCount: 16777215
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxVertexIndex: 16777215
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxStreams: 16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxStreamsStride: 255
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxAnisotropy: 16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxVertexBlendMatrices: 4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxVertexBlendMatrixIndex: 8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: FullScreenGamma: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: COLORWRITEENABLE: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MASKZ: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: BLENDOP: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: CLIPPLANESCALEDPOINTS: false
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: CLIPTLVERTS: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: TSSARGTEMP: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: DIRECTIONALLIGHTS: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: LOCALVIEWER: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: POSITIONALLIGHTS: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: TEXGEN:  true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: TWEENING:  true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Dp3: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Lerp: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: MaxNpatchTessellationLevel: 0.000
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query VCACHE support: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query EVENT support: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query OCCLUSION support: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query TIMESTAMP support: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query TIMESTAMPDISJOINT support: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query TIMESTAMPFREQ support: true
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query PIPELINETIMINGS support: false
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query INTERFACETIMINGS support: false
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query VERTEXTIMINGS support: false
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query PIXELTIMINGS support: false
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query BANDWIDTHTIMINGS support: false
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Query CACHEUTILIZATION support: false
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+I           m3dapp.cpp[1829]24/09 20:21:51 NOTE! Application::init -- input module was not inited deliberately
+I             font.cpp[0976]24/09 20:21:51 FontManager: fonts are loaded successfully
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\fishmen.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\fishmen.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\fishmen.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo32.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo32.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo32.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo33.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo33.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo33.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo34.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo34.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo34.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo35.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo35.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo35.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo36.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo36.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo36.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo37.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo37.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo37.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo38.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo38.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo38.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo39.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo39.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo39.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo40.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo40.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo40.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo41.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo41.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo41.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo42.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo42.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo42.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo43.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo43.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo43.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo44.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo44.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo44.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo45.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo45.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo45.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo46.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo46.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo46.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo47.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo47.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo47.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo48.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo48.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo48.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo49.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo49.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo49.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo50.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo50.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo50.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo51.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo51.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo51.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo52.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo52.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo52.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo53.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo53.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo53.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo54.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo54.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo54.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo55.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo55.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo55.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo56.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo56.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo56.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo57.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo57.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo57.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo58.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo58.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo58.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo59.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo59.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo59.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo60.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo60.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo60.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo61.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo61.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo61.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo62.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo62.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo62.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo63.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo63.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo63.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo64.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo64.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo64.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo65.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo65.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo65.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo66.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo66.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo66.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo67.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo67.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo67.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo68.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo68.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo68.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo69.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo69.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo69.dds for model logos.gam
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\models\logos\logo70.dds
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\models\logos\logo70.dds
+E       DraftModel.cpp[1002]24/09 20:21:51 Error: Couldn't load texture data\models\logos\logo70.dds for model logos.gam
+I      RandomGroup.cpp[0879]24/09 20:21:51 RandomGroupManager: random groups were loaded successfully from file data\editor\RandomGroups.xml
+I             core.lua[0013]24/09 20:21:51 IMPROVED STORYLINE V1.0.5.3 ORIGINAL BUILD 220422
+I           m3dapp.cpp[1953]24/09 20:21:51 ----------------------- Engine inited in: 0
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\splashes\label.tga
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\splashes\label.tga
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\splashes\m3deditor.bmp
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\splashes\m3deditor.bmp
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Cannot open data\splashes\LoadSlider.tga
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: texmap failed to load: data\splashes\LoadSlider.tga
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix useless_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix useless_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix rusty_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix rusty_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix excellent_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix excellent_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix advanced_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix advanced_cabin
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix useless_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix useless_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix rusty_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix rusty_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix excellent_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix excellent_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix advanced_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix advanced_basket
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix useless_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix useless_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix rusty_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix rusty_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix excellent_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix excellent_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix advanced_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix advanced_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix slow_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix slow_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix assault_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix assault_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix rapid_firing_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix rapid_firing_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix weak_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix weak_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix deadly_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix deadly_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix destructive_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 1 for affix destructive_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix with_truncated_barrel_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix with_enlarged_barrel_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix with_long_barrel_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix without_sight_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix with_laser_sight_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix with_electric_sight_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix without_cooling_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix with_water_cooling_gun
+E            Affix.cpp[0162]24/09 20:21:51 Error: missing localized form 0 for affix with_nitro_cooling_gun
+I            Quest.cpp[0252]24/09 20:21:51 No file: \ReadXmlFile: Cannot open file \
+I           server.cpp[0723]24/09 20:21:51 No local quests was found. Using global ones
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Device reset ok
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Stenciling: off
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]24/09 20:21:51 d3d: Rt depth format: D16
+----------------------------------------------- Log ends on Wed Sep 24 20:24:41 2025 -----------------------------------------------
+
+
+
+

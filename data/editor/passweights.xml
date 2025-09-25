@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<PassEdit>
+<params
+	MountainStartsAt="10"
+	SubMountainStartsAt="6"
+/>
+	<pass index="80"  color="0x80b0b020" name="Road" />
+	<pass index="128" color="0x8000b020" name="Grass"/>
+	<pass index="160" color="0x80108020" name="Dense Grass"/>
+	<pass index="192" color="0x80807000" name="Submountain"/>
+	<pass index="255" color="0x80ff0000" name="Mountains"/>
+</PassEdit>
+

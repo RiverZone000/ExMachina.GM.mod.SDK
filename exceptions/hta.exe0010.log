@@ -1,0 +1,57 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Exception      : 0xC0000005 at address 0x100ADA4C
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x7F27577B 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 09/24/25 20:13:56
+1: Physical memory = 4095 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 4095 MB
+1: Total virtual memory           = 4095 MB
+1: Total virtual memory available = 2027 MB
+1: Page file available            = 4095 MB
+
+1: Data from MemoryManager:
+1: mem used:           230532332
+1: mem allocated:      307394808
+1: mem overhead:        24935920
+1: last allocation:            0
+1: mem used by sound:  109203589
+
+
+1:   0     createIRenderer +631276 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 10000000h
+
+1:   1     createIRenderer +633496 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 10000000h
+
+1:   2     createIRenderer +649382 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 10000000h
+
+1:   3     createIRenderer +229141 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 10000000h
+
+1:   4     createIRenderer +188447 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 10000000h
+
+
+Registers:
+	CS:EIP 0x0023:100ADA4C
+	SS:ESP 0x002B:039C4284
+	DS:EDI 0x002B:4B0D096C
+	ES:ESI 0x002B:00000000
+	   EAX        7F27576B
+	   EBX        4B0D096C
+	   ECX        0000A894
+	   EDX        03B10574
+

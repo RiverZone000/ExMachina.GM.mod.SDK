@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="PS21"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="1.500"
+			ParticleAgeMax="0.700"
+			MaxParticles="50"
+			EmitAtPeriod="14.000"
+			Phase="0.000"
+			EmitLength="0.500"
+			RepeatPeriod="5.000"
+			ResetTime="5.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="1.000 0.000 0.000"
+			Max="1.000 360.000 360.000"
+			Type="sphere"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="2026883008"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1614823489"
+				k:4="-1"
+				k:5="-1"
+				k:6="-1598178373"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="15194311" />
+
+			<Size
+				k:0="0.941"
+				k:1="0.545"
+				k:2="0.643"
+				k:3="0.594"
+				k:4="0.545"
+				k:5="0.495"
+				k:6="0.495"
+				k:7="0.396"
+				k:8="0.297"
+				k:9="0.446"
+				k:10="0.396"
+				k:11="0.446"
+				k:12="0.396"
+				k:13="0.396"
+				k:14="0.446"
+				k:15="0.446"
+				k:16="0.446"
+				k:17="0.446"
+				k:18="0.446"
+				k:19="0.347" />
+</Keys>
+
+		<Render
+			TrailLen="14"
+			ScaleParts="0.300"
+			BlendMode="1"
+			UpdateXForm="0"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\rock\rock4.bmp"
+			Weather="0"
+			TexTiling="0.000" />
+
+		<Attr
+			Name="SpaceAttractor3"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="vel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="-24.000 -14.000 -14.000"
+				Max="24.000 24.000 24.000" />
+</Attr>
+
+		<Attr
+			Name="SpaceAttractor4"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="accel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="0.000 -30.000 0.000"
+				Max="0.000 -50.000 0.000" />
+</Attr>
+
+		<Attr
+			Name="SA_4545"
+			Class="Point">
+			<Emitter
+				WorkMode="accel"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global" />
+
+			<Force
+				Min="-1.000"
+				Max="-1.000"
+				Pos="0.000 0.000 0.000" />
+</Attr>
+</PS>
+</PSEditor>

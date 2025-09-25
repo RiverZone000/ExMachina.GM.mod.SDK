@@ -1,0 +1,19 @@
+1: 02/23/23 10:28:39
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1080 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1020 MB
+1: Page file available            = 2576 MB
+
+1: Data from MemoryManager:
+1: mem used:           324433701
+1: mem allocated:      396278539
+1: mem overhead:        22414256
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+

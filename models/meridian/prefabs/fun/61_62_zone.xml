@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="61_62_zone"
+		class="SgNode">
+		<Node
+			name="Object4230090"
+			class="SgAnimatedModelNode"
+			org="-0.813 -0.082 7.482"
+			orgRel="0"
+			id="r3_tropicfern2"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object4230086"
+			class="SgAnimatedModelNode"
+			org="-4.431 -0.217 -5.755"
+			orgRel="0"
+			id="r3_junglebush3"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object4230088"
+			class="SgAnimatedModelNode"
+			org="-7.071 -0.100 2.118"
+			orgRel="0"
+			id="r3_junglebush1"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object4230097"
+			class="SgAnimatedModelNode"
+			org="1.478 -0.123 -6.661"
+			orgRel="0"
+			rot="0.0000 0.6691 0.0000 -0.7431"
+			id="r3_junglebush3"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object4230092"
+			class="SgAnimatedModelNode"
+			org="6.143 -0.102 -2.128"
+			orgRel="0"
+			id="r3_tropicfern1"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object4230096"
+			class="SgAnimatedModelNode"
+			org="4.693 -0.195 4.945"
+			orgRel="0"
+			rot="0.0000 -0.8077 0.0000 0.5895"
+			id="r3_junglebush3"
+			ndmAction="0"
+			passable="0" />
+	</Node>
+</Prefabs>

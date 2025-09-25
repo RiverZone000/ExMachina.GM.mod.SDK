@@ -1,0 +1,39 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina 1.5 - master candidate russian version release build v0.8 (Jul 19 2006 18:54:43)
+-==
+-== Exception      : 0xC0000005 at address 0x00492BA0
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000060 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 08/09/25 22:25:54
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1085 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1796 MB
+1: Page file available            = 4065 MB
+
+1: Data from MemoryManager:
+1: mem used:            19106092
+1: mem allocated:       26155964
+1: mem overhead:         1342672
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  TME rus, base: 00400000h
+
+
+Registers:
+	CS:EIP 0x001B:00492BA0
+	SS:ESP 0x0023:0012FA60
+	DS:EDI 0x0023:00000000
+	ES:ESI 0x0023:02AB00D8
+	   EAX        00000060
+	   EBX        00000000
+	   ECX        024C13D8
+	   EDX        00A4D6F8
+

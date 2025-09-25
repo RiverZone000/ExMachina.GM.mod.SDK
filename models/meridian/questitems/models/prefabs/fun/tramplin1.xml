@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="tramplin1"
+		class="SgNode">
+		<Node
+			name="Object564"
+			class="SgAnimatedModelNode"
+			org="-2.060 0.000 0.073"
+			orgRel="0"
+			id="wood_tramp"
+			ndmAction="0" />
+
+		<Node
+			name="Object565"
+			class="SgAnimatedModelNode"
+			org="2.060 0.000 -0.073"
+			orgRel="0"
+			id="wood_tramp"
+			ndmAction="0" />
+	</Node>
+</Prefabs>

@@ -1,0 +1,129 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Exception      : 0xC0000005 at address 0x007B684A
+-== Exception type : ACCESS VIOLATION  read attempt to address 0xDEADBF2F 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 03/12/23 19:08:46
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      =  935 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available =  541 MB
+1: Page file available            = 2814 MB
+
+1: Data from MemoryManager:
+1: mem used:           189117620
+1: mem allocated:      224616945
+1: mem overhead:        12278544
+1: last allocation:            0
+1: mem used by sound:   99745232
+
+
+1:   0     m3d::RoadManager::LinkRoadNodes +730 bytes
+1:     Decl: m3d::RoadManager::LinkRoadNodes
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\landscape\roads\roadmanager.cpp(521) +25 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   1     m3d::RoadManager::RebuildStructures +9 bytes
+1:     Decl: m3d::RoadManager::RebuildStructures
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\landscape\roads\roadmanager.cpp(926) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   2     m3d::RoadManager::ReadRoadsFromXmlFile +1997 bytes
+1:     Decl: m3d::RoadManager::ReadRoadsFromXmlFile
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\landscape\roads\roadmanager.cpp(382) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   3     m3d::CWorld::Load +3357 bytes
+1:     Decl: m3d::CWorld::Load
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\world.cpp(276) +67 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   4     CMiracle3d::LoadLevel +327 bytes
+1:     Decl: CMiracle3d::LoadLevel
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(1058) +37 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   5     CMiracle3d::LoadMap +884 bytes
+1:     Decl: CMiracle3d::LoadMap
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32_console.cpp(390) +43 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   6     CMiracle3d::LoadMapFromConsole +181 bytes
+1:     Decl: CMiracle3d::LoadMapFromConsole
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32_console.cpp(449) +19 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   7     CMiracle3d::HandleCommand +377 bytes
+1:     Decl: CMiracle3d::HandleCommand
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32_console.cpp(224) +8 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   8     ConsoleImp::executeCommand +168 bytes
+1:     Decl: ConsoleImp::executeCommand
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\console\console.cpp(979) +24 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   9     ConsoleImp::ProcessInputChar +846 bytes
+1:     Decl: ConsoleImp::ProcessInputChar
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\console\console.cpp(958) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  10     ConsoleImp::HandleEvent +85 bytes
+1:     Decl: ConsoleImp::HandleEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\console\console.cpp(1122) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  11     m3d::Application::HandleEvent +541 bytes
+1:     Decl: m3d::Application::HandleEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(2672) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  12     m3d::Application::ProcessAllEvents +183 bytes
+1:     Decl: m3d::Application::ProcessAllEvents
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(3352) +31 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  13     m3d::Application::run +100 bytes
+1:     Decl: m3d::Application::run
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(658) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  14     WinMain +235 bytes
+1:     Decl: WinMain
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(117) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  15     WinMainCRTStartup +389 bytes
+1:     Decl: WinMainCRTStartup
+1:     Line: f:\vs70builds\3077\vc\crtbld\crt\src\crtexe.c(390) +27 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  16     BaseThreadInitThunk +18 bytes
+1:     Decl: BaseThreadInitThunk
+1:     Mod:  kernel32, base: 77100000h
+
+1:  17     RtlInitializeExceptionChain +239 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 77330000h
+
+1:  18     RtlInitializeExceptionChain +194 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 77330000h
+
+
+Registers:
+	CS:EIP 0x001B:007B684A
+	SS:ESP 0x0023:039C40DC
+	DS:EDI 0x0023:3A0EE9BC
+	ES:ESI 0x0023:5B62868C
+	   EAX        DEADBF2B
+	   EBX        5B628750
+	   ECX        00000030
+	   EDX        DEADBEEF
+

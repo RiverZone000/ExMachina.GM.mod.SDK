@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="PS21"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="2.500"
+			ParticleAgeMax="3.000"
+			MaxParticles="50"
+			EmitAtPeriod="40.000"
+			Phase="0.000"
+			EmitLength="1.000"
+			RepeatPeriod="1.000"
+			ResetTime="100000.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="4.000 0.000 0.000"
+			Max="4.000 360.000 26.000"
+			Type="sphere"
+			PosMin="0.000 1.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="-1560366039"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1300015103"
+				k:4="-1"
+				k:5="-1"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="218761738"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="117440512"
+				k:17="-1"
+				k:18="-1"
+				k:19="1578258" />
+
+			<Size
+				k:0="4.207"
+				k:1="4.950"
+				k:2="4.653"
+				k:3="4.999"
+				k:4="5.544"
+				k:5="5.544"
+				k:6="6.237"
+				k:7="6.633"
+				k:8="7.227"
+				k:9="7.969"
+				k:10="8.613"
+				k:11="9.504"
+				k:12="9.504"
+				k:13="9.504"
+				k:14="9.652"
+				k:15="9.603"
+				k:16="9.751"
+				k:17="9.801"
+				k:18="9.801"
+				k:19="9.751" />
+		</Keys>
+
+		<Render
+				ShaderType="1"
+		TrailLen="14"
+			ScaleParts="1.500"
+			BlendMode="1"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\exp\exp14.tga"
+			Weather="0"
+			TexTiling="0.000"
+			ParentDependency="0.000" />
+
+		<Attr
+			Name="SpaceAttractor3"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="vel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="5.000 24.000 5.000"
+				Max="-6.000 15.000 -5.000" />
+		</Attr>
+
+		<Attr
+			Name="SA_4545"
+			Class="Rotate">
+			<Emitter
+				WorkMode="accel"
+				Phase="0.000"
+				EmitLength="100.000"
+				RepeatPeriod="100.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="0.000 3.000 0.000"
+				Max="0.000 1.000 0.000" />
+		</Attr>
+	</PS>
+</PSEditor>

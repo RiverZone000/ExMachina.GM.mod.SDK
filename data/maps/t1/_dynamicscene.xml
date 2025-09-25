@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene>
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object225"
+		Pos="130.636 254.859 20.717"
+		Rot="0.000 0.566 0.000 0.824" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object227"
+		Pos="81.281 255.579 29.776"
+		Rot="0.000 0.649 0.000 -0.760" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object234"
+		Pos="114.265 255.545 35.026"
+		Rot="0.000 0.574 0.000 -0.819" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object240"
+		Pos="58.734 254.378 35.553"
+		Rot="0.000 0.616 0.000 -0.788" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object241"
+		Pos="124.232 255.123 47.706"
+		Rot="0.000 0.552 0.000 -0.834" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object244"
+		Pos="138.851 254.463 35.038"
+		Rot="0.000 0.917 0.000 0.399" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object271"
+		Pos="25.164 252.498 25.651"
+		Rot="0.000 0.174 0.000 -0.985" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object283"
+		Pos="102.540 264.719 110.861"
+		Rot="0.000 0.857 0.000 -0.515" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object292"
+		Pos="74.180 261.625 144.278"
+		Rot="0.000 0.199 0.000 -0.980" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object299"
+		Pos="103.260 260.947 167.734"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object305"
+		Pos="132.931 264.405 143.536"
+		Rot="0.000 0.485 0.000 -0.875" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object319"
+		Pos="114.896 255.601 19.509"
+		Rot="0.000 0.087 0.000 -0.996" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object320"
+		Pos="142.288 254.198 18.224"
+		Rot="0.000 0.839 0.000 0.545" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object321"
+		Pos="112.173 255.587 36.462"
+		Rot="0.000 0.968 0.000 -0.250" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object322"
+		Pos="98.485 255.562 44.960"
+		Rot="0.000 0.707 0.000 0.707" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object323"
+		Pos="83.195 255.838 18.973"
+		Rot="0.000 0.454 0.000 -0.891" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object324"
+		Pos="80.745 255.183 46.227"
+		Rot="0.000 0.956 0.000 0.292" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object325"
+		Pos="54.242 254.387 19.706"
+		Rot="0.000 0.559 0.000 -0.829" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object326"
+		Pos="74.224 255.282 31.644"
+		Rot="0.000 0.574 0.000 0.819" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object327"
+		Pos="50.659 253.709 46.217"
+		Rot="0.000 0.096 0.000 -0.995" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object328"
+		Pos="72.627 255.544 16.617"
+		Rot="0.000 0.755 0.000 -0.656" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Dub3"
+		Name="Object329"
+		Pos="30.107 252.636 42.878"
+		Rot="0.000 0.989 0.000 0.148" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object330"
+		Pos="41.882 253.385 31.363"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object331"
+		Pos="16.044 252.101 37.387"
+		Rot="0.000 0.945 0.000 0.326" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object332"
+		Pos="19.697 252.315 18.005"
+		Rot="0.000 0.991 0.000 -0.131" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object333"
+		Pos="38.978 253.390 16.401"
+		Rot="0.000 0.688 0.000 0.725" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Dub3"
+		Name="Object334"
+		Pos="37.554 252.800 69.177"
+		Rot="0.000 0.829 0.000 -0.559" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object335"
+		Pos="18.084 252.137 67.005"
+		Rot="0.000 0.383 0.000 0.924" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object336"
+		Pos="45.142 253.312 52.766"
+		Rot="0.000 0.989 0.000 0.148" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object337"
+		Pos="29.711 252.567 52.966"
+		Rot="0.000 0.829 0.000 0.559" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object338"
+		Pos="45.793 252.820 102.523"
+		Rot="0.000 0.515 0.000 -0.857" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object339"
+		Pos="31.367 252.454 87.823"
+		Rot="0.000 0.743 0.000 0.669" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object340"
+		Pos="17.625 252.080 94.260"
+		Rot="0.000 0.695 0.000 0.719" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object341"
+		Pos="30.407 252.111 130.286"
+		Rot="0.000 0.276 0.000 -0.961" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object342"
+		Pos="23.419 252.089 115.145"
+		Rot="0.000 0.993 0.000 -0.122" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object343"
+		Pos="43.060 252.584 143.661"
+		Rot="0.000 0.866 0.000 -0.500" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object344"
+		Pos="19.842 251.798 143.553"
+		Rot="0.000 0.961 0.000 0.276" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object345"
+		Pos="45.935 253.537 125.337"
+		Rot="0.000 0.242 0.000 -0.970" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object354"
+		Pos="64.440 254.592 73.500"
+		Rot="0.000 0.105 0.000 -0.994" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe1"
+		Name="Object355"
+		Pos="63.445 254.223 58.465"
+		Rot="0.000 0.454 0.000 0.891" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object356"
+		Pos="78.213 257.287 79.834"
+		Rot="0.000 0.713 0.000 0.701" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe2"
+		Name="Object357"
+		Pos="78.350 254.923 53.793"
+		Rot="0.000 0.819 0.000 0.574" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Listvenoe3"
+		Name="Object358"
+		Pos="49.202 253.313 75.240"
+		Rot="0.000 0.009 0.000 1.000" />
+
+	<Object
+		Belong="-1"
+		Prototype="player"
+		Name="Player1" />
+
+	<Object
+		Belong="1001"
+		Prototype="Ural01"
+		Name="RobotTron81"
+		Pos="160.579 265.000 139.100"
+		Skin="5">
+		<Parts>
+			<BASKET
+				present="1"
+				Belong="1001"
+				Prototype="uralCargo01"
+				Name=""
+				Price="30000" />
+
+			<BASKET_BIG_GUN_0
+				present="1"
+				Belong="1001"
+				Prototype="rapier01"
+				Name=""
+				Price="4000" />
+
+			<CABIN
+				present="1"
+				Belong="1001"
+				Prototype="uralCab01"
+				Name=""
+				Price="150000" />
+
+			<CABIN_BIG_GUN_1
+				present="1"
+				Belong="1001"
+				Prototype="vulcan01"
+				Name=""
+				Price="2500" />
+
+			<CHASSIS
+				present="1"
+				Belong="1001"
+				Prototype="uralChassis"
+				Name=""
+				Price="40000" />
+		</Parts>
+
+		<Repository />
+	</Object>
+
+	<Object
+		Belong="1001"
+		Prototype="Human"
+		Name="Human39"
+		Pos="164.520 262.147 142.088" />
+
+	<Object
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Name="Breakable_Stolb131"
+		Pos="147.716 261.200 155.195"
+		Rot="-0.002 -0.999 -0.001 -0.040" />
+
+	<Object
+		Belong="1001"
+		Prototype="Breakable_Stolb2"
+		Name="Breakable_Stolb217"
+		Pos="147.273 263.705 138.679"
+		Rot="0.000 -0.998 0.000 0.057" />
+
+	<Object
+		Belong="1001"
+		Prototype="Breakable_TankEg"
+		Name="Breakable_TankEg35"
+		Pos="149.278 263.100 141.800" />
+
+	<Object
+		Belong="1001"
+		Prototype="Breakable_Barrel1"
+		Name="Breakable_Barrel179"
+		Pos="145.662 262.625 147.169" />
+
+	<Object
+		Belong="1001"
+		Prototype="Breakable_Barrel2"
+		Name="Breakable_Barrel212"
+		Pos="147.108 262.676 146.118" />
+
+	<Object
+		Belong="1001"
+		Prototype="Breakable_Barrel3"
+		Name="Breakable_Barrel378"
+		Pos="146.379 263.431 141.253" />
+</DynamicScene>

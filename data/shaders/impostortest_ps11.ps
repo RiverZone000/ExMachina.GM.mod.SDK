@@ -1,0 +1,38 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: grassTest_ps11.ps
+// Created by: Plus
+//
+// $Id: impostorTest_ps11.ps,v 1.1 2004/09/06 10:36:05 plus Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+
+#include "lib.fx"
+
+sampler2D Tex;
+
+
+// Vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 Pos	: POSITION;
+	float2 Tex0	: TEXCOORD0;
+	float  fog	: FOG;
+};
+
+
+REAL4 g_Ambient = { 0.8f, 0.8f, 0.8f, 1.0f };
+
+
+REAL4 ImpostorPS( VS_OUTPUT i ): COLOR
+{
+	REAL4 diff = tex2D( Tex, i.Tex0 );
+	return diff;
+
+
+	//diff.xyz *= g_Ambient.xyz;
+	//diff.a = 1;
+	//return diff;
+	//return float4( 1, 0, 0, 1 );
+}

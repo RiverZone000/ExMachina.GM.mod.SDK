@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene>
+	<Object
+		Belong="1001"
+		Prototype="BelazShot"
+		Name="BelazShot74"
+		Pos="-1.#IO 257.801 -1.#IO">
+		<Parts>
+			<BASKET
+				present="1"
+				Belong="1001"
+				Prototype="belazCargo05"
+				Name=""
+				Price="180000" />
+
+			<BASKET_BIG_GUN_0
+				present="1"
+				Belong="1001"
+				Prototype="kpvt01"
+				Name=""
+				Price="3000" />
+
+			<BASKET_SIDE_GUN_0
+				present="1"
+				Belong="1001"
+				Prototype="mrakSideGun"
+				Name=""
+				Price="40000">
+				<Parts>
+					<BASKET_SIDE_GUN_L
+						present="yes"
+						Belong="1001"
+						Prototype="mrak01L"
+						Name="BASKET_SIDE_GUN_L"
+						Price="0"
+						CompoundVehiclePartIndex="0" />
+
+					<BASKET_SIDE_GUN_R
+						present="yes"
+						Belong="1001"
+						Prototype="mrak01R"
+						Name="BASKET_SIDE_GUN_R"
+						Price="0"
+						CompoundVehiclePartIndex="1" />
+				</Parts>
+			</BASKET_SIDE_GUN_0>
+
+			<CABIN
+				present="1"
+				Belong="1001"
+				Prototype="belazCab05"
+				Name=""
+				Price="150000" />
+
+			<CABIN_BIG_GUN_1
+				present="1"
+				Belong="1001"
+				Prototype="vulcan01"
+				Name=""
+				Price="2500" />
+
+			<CABIN_GIANT_GUN
+				present="1"
+				Belong="1001"
+				Prototype="big_swingfire01"
+				Name=""
+				Price="40000" />
+
+			<CHASSIS
+				present="1"
+				Belong="1001"
+				Prototype="belazChassis"
+				Name=""
+				Price="40000" />
+		</Parts>
+
+		<Repository />
+	</Object>
+</DynamicScene>

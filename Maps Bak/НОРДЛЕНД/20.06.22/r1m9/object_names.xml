@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+
+	<Object
+		Name="PetrolStationTown4392"
+		FullName="Заправка" />
+	<Object
+		Name="PetrolStationTown4392_enter"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown4393"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown4393_enter"
+		FullName="Заправка" />
+
+	<Object
+		Name="TheEllen"
+		FullName="ЭЛЛЕН" />
+
+	<Object
+		Name="TheEllen_Workshop"
+		FullName="Автосервис" />
+
+	<Object
+		Name="TheEllen_Shop"
+		FullName="Маркет" />
+
+	<Object
+		Name="TheEllen_Bar"
+		FullName="Бар ''Полярная Звезда'' " />
+
+	<Object
+		Name="TheEllen_Bar_Barman"
+		FullName="Бармен Турбьёрн" />
+
+	<Object
+		Name="TheEllen_enter"
+		FullName="ЭЛЛЕН" />
+
+	<Object
+		Name="Heim"
+		FullName="ХЕЙМ" />
+
+	<Object
+		Name="Heim_Workshop"
+		FullName="Сборочный завод" />
+
+	<Object
+		Name="Heim_Shop"
+		FullName="Универмаг" />
+
+	<Object
+		Name="Heim_Bar"
+		FullName="Таверна ''Северное Сияние'' " />
+
+	<Object
+		Name="Heim_Bar_Barman"
+		FullName="Официант Мартинсен" />
+
+	<Object
+		Name="Heim_enter"
+		FullName="ХЕЙМ" />
+
+	<Object
+		Name="Ship"
+		FullName="ПРИБРЕЖНЫЙ СКЛАД" />
+
+	<Object
+		Name="Ship_Workshop"
+		FullName="Гараж" />
+
+	<Object
+		Name="Ship_Shop"
+		FullName="Склады" />
+
+	<Object
+		Name="Ship_Bar"
+		FullName="Столовая ''Морозный Бриз'' " />
+
+	<Object
+		Name="Ship_Bar_Barman"
+		FullName="Агнар Хаген" />
+
+	<Object
+		Name="Ship_enter"
+		FullName="ПРИБРЕЖНЫЙ СКЛАД" />
+
+	<Object
+		Name="Molde"
+		FullName="МОЛДЕ" />
+
+	<Object
+		Name="Molde_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Molde_Shop"
+		FullName="Магазинчик" />
+
+	<Object
+		Name="Molde_Bar"
+		FullName="Ананажная " />
+
+	<Object
+		Name="Molde_Bar_Barman"
+		FullName="Разливщица Хедда" />
+
+	<Object
+		Name="Molde_enter"
+		FullName="МОЛДЕ" />
+
+	<Object
+		Name="Ondalnes"
+		FullName="ОНДАЛЬНЕС" />
+
+	<Object
+		Name="Ondalnes_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Ondalnes_Shop"
+		FullName="Магазинчик" />
+
+	<Object
+		Name="Ondalnes_Bar"
+		FullName="Трактир ''Белая Ель''" />
+
+	<Object
+		Name="Ondalnes_Bar_Barman"
+		FullName="Трактирщица Ингвилль" />
+
+	<Object
+		Name="Ondalnes_enter"
+		FullName="ОНДАЛЬНЕС" />
+
+	<Object
+		Name="Bergen"
+		FullName="БЕРГЕН" />
+
+	<Object
+		Name="Bergen_Workshop"
+		FullName="Автосервис" />
+
+	<Object
+		Name="Bergen_Shop"
+		FullName="Торговая площадь" />
+
+	<Object
+		Name="Bergen_Bar"
+		FullName="Кафе ''Чёрная Снежинка''" />
+
+	<Object
+		Name="Bergen_Bar_Barman"
+		FullName="Хрючевмахер Туральф" />
+
+	<Object
+		Name="Bergen_enter"
+		FullName="БЕРГЕН" />
+
+	<Object
+		Name="Sula"
+		FullName="СУЛА" />
+
+	<Object
+		Name="Sula_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Sula_Shop"
+		FullName="Рынок" />
+
+	<Object
+		Name="Sula_Bar"
+		FullName="Бар ''Жёлтый Снег''" />
+
+	<Object
+		Name="Sula_Bar_Barman"
+		FullName="Пьяница Бёрге" />
+
+	<Object
+		Name="Sula_enter"
+		FullName="СУЛА" />
+
+	<Object
+		Name="Object4019"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4020"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4021"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4022"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4367"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4398"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4399"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4400"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4401"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4450"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4451"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4626"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4627"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4628"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4629"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4630"
+		FullName="Дот" />
+
+	<Object
+		Name="Object4760"
+		FullName="Дот" />
+
+	<Object
+		Name="Object7383"
+		FullName="Дот" />
+
+	<Object
+		Name="Object7403"
+		FullName="Дот" />
+
+	<Object
+		Name="Object8419"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_vulcan4754"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_vulcan4877"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_vulcan4878"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_vulcan4879"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_vulcan4880"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus4599"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus4600"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus4727"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus4728"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_big_swingfire4735"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_rapier4745"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus4758"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_big_hurricane4762"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_big_rainmetal4766"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_big_swingfire4775"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_octopus_spec4776"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_octopus_spec4777"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_big_rainmetal4781"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_octopus4862"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus4881"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_rapier4903"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_octopus5265"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_octopus5266"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot4_octopus5267"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot4_octopus5268"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot2_rainmetal4378"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot2_rainmetal4379"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot2_rainmetal4380"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot2_rainmetal4381"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot2_rainmetal4382"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot2_rainmetal4383"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot2_rainmetal4384"
+		FullName="Дот" />
+
+	<Object
+		Name="heavy_dot3_rainmetal4597"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot3_rainmetal4598"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot3_rainmetal4732"
+		FullName="Дот" />
+
+		<Object
+		Name="heavy_dot3_rainmetal4734"
+		FullName="Дот" />
+
+		<Object
+		Name="sack_dot2_vulcan4741"
+		FullName="Дот" />
+
+		<Object
+		Name="sack_dot2_vulcan4772"
+		FullName="Дот" />
+
+		<Object
+		Name="sack_dot2_vulcan4774"
+		FullName="Дот" />
+
+		<Object
+		Name="sack_dot2_vulcan4794"
+		FullName="Дот" />
+
+		<Object
+		Name="sack_dot2_vulcan4863"
+		FullName="Дот" />
+
+		<Object
+		Name="sack_dot2_vulcan4901"
+		FullName="Дот" />
+
+		<Object
+		Name="sack_dot2_vulcan4902"
+		FullName="Дот" />
+</ObjectNames>

@@ -1,0 +1,40 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina 1.5 - master candidate russian version release build v0.8 (Jul 19 2006 18:54:43)
+-==
+-== Exception      : 0xC0000005 at address 0x778528C7
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x26993793 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 10/05/22 23:45:52
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1481 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1797 MB
+1: Page file available            = 2465 MB
+
+1: Data from MemoryManager:
+1: mem used:             2091920
+1: mem allocated:       12199428
+1: mem overhead:          375844
+1: last allocation:            0
+
+
+1:   0     RtlFreeHeap +205 bytes
+1:     Decl: RtlFreeHeap
+1:     Mod:  ntdll, base: 77800000h
+
+
+Registers:
+	CS:EIP 0x001B:778528C7
+	SS:ESP 0x0023:0012FD98
+	DS:EDI 0x0023:01971538
+	ES:ESI 0x0023:2699378F
+	   EAX        0000166C
+	   EBX        01971540
+	   ECX        00020000
+	   EDX        01971540
+

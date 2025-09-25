@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<bindings>
+<param name="timeout" type="float" />
+<param name="ObjName" type="string" FromSceneOnly="1" fillFunc="GetObjectNameList" />
+<param name="name"    type="string" fillFunc="GenerateNewName" />
+<param name="pos"     type="vector" fillFunc="GetLandscapePosition" callBack="getColPos" />
+<param name="angle"   type="float"  fillFunc="GetRotation" callBack="getAngle" />
+<param name="radius"  type="float"  fillFunc="GetRadius" callBack="getColRadius" />
+<param name="TargetClasses"  type="string" valuelist="GUnit GTroop GPlayer" />
+<param name="belong"  type="int" />
+<param name="tolerance"  type="string"  valuelist="own,ally,neutral,enemy" />
+<param name="eventid"	type="string"  fillFunc="GetEventsList" />
+
+
+<event name="GE_TIME_PERIOD" param="timeout" />
+<event name="GE_OBJECT_ENTERS_LOCATION" param="ObjName" />
+<event name="GE_OBJECT_LEAVES_LOCATION" param="ObjName" />
+<event name="GE_OBJECT_DIE" param="ObjName" />
+
+<event name="GE_OBJECT_ENTERS_OBJECT" param="ObjName" />
+<event name="GE_OBJECT_LEAVES_OBJECT" param="ObjName" />
+
+</bindings>
+
+
+

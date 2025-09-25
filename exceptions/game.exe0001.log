@@ -1,0 +1,199 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Exception      : 0xC0000005 at address 0x006986CC
+-== Exception type : ACCESS VIOLATION  write attempt to address 0x0000000C 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 07/24/21 13:51:10
+1: Physical memory = 1893 MB
+1: Total memory    = 3787 MB
+1: Physical memory available      = 1076 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available =  865 MB
+1: Page file available            = 2802 MB
+
+1: Data from MemoryManager:
+1: mem used:            75387956
+1: mem allocated:       90223381
+1: mem overhead:         7442336
+1: last allocation:            0
+1: mem used by sound:   56926812
+
+
+1:   0     m3d::WheelTraceMgr::EndSkidding +156 bytes
+1:     Decl: m3d::WheelTraceMgr::EndSkidding
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\wheeltraces\wheeltraces.cpp(110) +5 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   1     m3d::WheelTraceMgr::AddTrace +1189 bytes
+1:     Decl: m3d::WheelTraceMgr::AddTrace
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\wheeltraces\wheeltraces.cpp(153) +17 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   2     ai::CollideWheelAndAsphalt +1132 bytes
+1:     Decl: ai::CollideWheelAndAsphalt
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\colliders\wheelasphaltcollider.cpp(148) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   3     ai::ColliderKrnl::CollideObjs +80 bytes
+1:     Decl: ai::ColliderKrnl::CollideObjs
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\colliders\colliderkrnl.cpp(232) +10 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   4     ai::NearCallback +845 bytes
+1:     Decl: ai::NearCallback
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\dynamicscene.cpp(382) +23 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   5     collideAABBs +122 bytes
+1:     Decl: collideAABBs
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space_internal.h(78) +9 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   6     dxSimpleSpace::collide2 +65 bytes
+1:     Decl: dxSimpleSpace::collide2
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(348) +11 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   7     dSpaceCollide2 +186 bytes
+1:     Decl: dSpaceCollide2
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(882) +18 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   8     ai::NearCallback +957 bytes
+1:     Decl: ai::NearCallback
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\dynamicscene.cpp(236) +15 bytes
+1:     Mod:  game, base: 00400000h
+
+1:   9     dxHashSpace::collide +1210 bytes
+1:     Decl: dxHashSpace::collide
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(670) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  10     dSpaceCollide +12 bytes
+1:     Decl: dSpaceCollide
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(843) +12 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  11     ai::DynamicScene::CollideScene +78 bytes
+1:     Decl: ai::DynamicScene::CollideScene
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\dynamicscene.cpp(1699) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  12     ai::CServer::Update +770 bytes
+1:     Decl: ai::CServer::Update
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\server.cpp(1108) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  13     m3d::CWorld::Update +114 bytes
+1:     Decl: m3d::CWorld::Update
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\world.cpp(509) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  14     m3d::CClient::Update +28 bytes
+1:     Decl: m3d::CClient::Update
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\client.cpp(243) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  15     CMiracle3d::FrameMove +495 bytes
+1:     Decl: CMiracle3d::FrameMove
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(399) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  16     m3d::Application::OneFrame +273 bytes
+1:     Decl: m3d::Application::OneFrame
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(745) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  17     m3d::Application::run +173 bytes
+1:     Decl: m3d::Application::run
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(663) +13 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  18     m3d::Application::StartExclusiveMsgLoop +15 bytes
+1:     Decl: m3d::Application::StartExclusiveMsgLoop
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(687) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  19     m3d::ui::WndStation::DoModal +170 bytes
+1:     Decl: m3d::ui::WndStation::DoModal
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ui\wndstation.cpp(1075) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  20     GameUiManager::GUI_ShowWindow +286 bytes
+1:     Decl: GameUiManager::GUI_ShowWindow
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\gameuimanager.cpp(669) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  21     TruxxUiManager::ShowWindow +41 bytes
+1:     Decl: TruxxUiManager::ShowWindow
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uimanager\truxxuimanager.cpp(385) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  22     MainMenuUI::OnNewGame +35 bytes
+1:     Decl: MainMenuUI::OnNewGame
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uiwindows\miscwindows\mainmenu.cpp(311) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  23     MainMenuUI::OnWndNotify +80 bytes
+1:     Decl: MainMenuUI::OnWndNotify
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\uiwindows\miscwindows\mainmenu.cpp(143) +5 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  24     m3d::ui::WndStation::ProcessEvent +251 bytes
+1:     Decl: m3d::ui::WndStation::ProcessEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ui\wndstation.cpp(223) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  25     m3d::Application::HandleEvent +1745 bytes
+1:     Decl: m3d::Application::HandleEvent
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(2689) +9 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  26     m3d::Application::ProcessAllEvents +183 bytes
+1:     Decl: m3d::Application::ProcessAllEvents
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(3352) +31 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  27     m3d::Application::run +100 bytes
+1:     Decl: m3d::Application::run
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(658) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  28     WinMain +235 bytes
+1:     Decl: WinMain
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(117) +0 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  29     WinMainCRTStartup +389 bytes
+1:     Decl: WinMainCRTStartup
+1:     Line: f:\vs70builds\3077\vc\crtbld\crt\src\crtexe.c(390) +27 bytes
+1:     Mod:  game, base: 00400000h
+
+1:  30     BaseThreadInitThunk +18 bytes
+1:     Decl: BaseThreadInitThunk
+1:     Mod:  kernel32, base: 77520000h
+
+1:  31     RtlInitializeExceptionChain +239 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 773b0000h
+
+1:  32     RtlInitializeExceptionChain +194 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 773b0000h
+
+
+Registers:
+	CS:EIP 0x001B:006986CC
+	SS:ESP 0x0023:039C1FF4
+	DS:EDI 0x0023:397BEA58
+	ES:ESI 0x0023:00002506
+	   EAX        00000000
+	   EBX        00000004
+	   ECX        007F7F7F
+	   EDX        3614BBC0
+

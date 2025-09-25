@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+
+	<Object
+		Name="Namlea"
+		FullName="Намлеа" />
+
+	<Object
+		Name="Namlea_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Namlea_Shop"
+		FullName="Маркет" />
+
+	<Object
+		Name="Namlea_Bar"
+		FullName="Бар ''Лазурный берег'' " />
+
+	<Object
+		Name="Namlea_Bar_Barman"
+		FullName="Бармен Эко" />
+
+	<Object
+		Name="Namlea_enter"
+		FullName="Намлеа" />
+
+	<Object
+		Name="Namrole"
+		FullName="Намроле" />
+
+	<Object
+		Name="Namrole_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Namrole_Shop"
+		FullName="Маркет" />
+
+	<Object
+		Name="Namrole_Bar"
+		FullName="Кухня" />
+
+	<Object
+		Name="Namrole_Bar_Barman"
+		FullName="Повариха Синта" />
+
+	<Object
+		Name="Namrole_enter"
+		FullName="Намроле" />
+
+	<Object
+		Name="Kendari"
+		FullName="Кендари" />
+
+	<Object
+		Name="Kendari_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Kendari_Shop"
+		FullName="Маркет" />
+
+	<Object
+		Name="Kendari_Bar"
+		FullName="Храм" />
+
+	<Object
+		Name="Kendari_House"
+		FullName="Святилище" />
+
+	<Object
+		Name="Kendari_Bar_Barman"
+		FullName="Жрец Агунг" />
+
+	<Object
+		Name="Kendari_enter"
+		FullName="Кендари" />
+
+	<Object
+		Name="Base_91"
+		FullName="База 91" />
+
+	<Object
+		Name="Base_91_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Base_91_Shop"
+		FullName="Маркет" />
+
+	<Object
+		Name="Base_91_Bar"
+		FullName="Бар ''Подвал дяди Билли''" />
+
+	<Object
+		Name="Base_91_House"
+		FullName="Казармы" />
+
+	<Object
+		Name="Base_91_Bar_Barman"
+		FullName="Прапорщик Kуват" />
+
+	<Object
+		Name="Base_91_enter"
+		FullName="База 91" />
+		
+	<Object
+		Name="ToR1M2"
+		FullName="Причал в Риджин" />
+
+	<Object
+		Name="sack_dot2_vulcan5749"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan5750"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan5748"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan5747"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan5751"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan5752"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan3999"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan3998"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan3997"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan3996"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan4000"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan4001"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_flag6581"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_flag6582"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_flag6579"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_flag6580"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan6590"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan6591"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan6592"
+		FullName="Дот" />
+
+	<Object
+		Name="sack_dot2_vulcan6589"
+		FullName="Дот" />
+</ObjectNames>

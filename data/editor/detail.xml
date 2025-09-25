@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Details>
+<params 
+	passmaptilesize="64" 
+	minimapsize="1024"
+/>
+<detail index="0" name="Empty_Place" value="0x0" string="Пусто"/>
+<detail index="255" name="water" value="0x0000ff" string="синий"/>
+<detail index="254" name="water_w_det" value="0x000080" string="светло-синий"/>
+<detail index="196" name="mountains" value="0x785530" string="коричневый"/>
+<detail index="128" name="forest" value="0x3B5E08" string="темно-зеленый"/>
+<detail index="96" name="grass" value="0x008000" string="зеленый"/>
+<detail index="64" name="town" value="0x808080" string="серый"/>
+<detail index="32" name="road" value="0x808000" string="желтый"/>
+</Details>
+

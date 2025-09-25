@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="85">
+	<TargetNamesForDestroy
+		Names="qqq1" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player"
+		Money="100">
+		<Object
+			Name="MyCar"
+			Belong="1100"
+			Prototype="Bug01"
+			Pos="220.285 280.777 220.222"
+			Rot="-0.007 1.000 -0.010 0.021">
+			<Parts>
+				<BASKET
+					present="1"
+					Belong="1100"
+					Prototype="bugCargo01"
+					Price="700" />
+
+				<CABIN
+					present="1"
+					Belong="1100"
+					Prototype="bugCab01"
+					Price="700" />
+
+				<CABIN_SMALL_GUN
+					present="1"
+					Belong="1100"
+					Prototype="hornet01"
+					Price="50" />
+
+				<CHASSIS
+					present="1"
+					Belong="1100"
+					Prototype="bugChassis"
+					Price="400" />
+			</Parts>
+
+			<Repository />
+		</Object>
+	</Object>
+
+	<Object
+		Name="TheChest"
+		Prototype="someChest"
+		Pos="225.009 275.583 225.758">
+		<Object
+			Flags="16"
+			Prototype="hornet01"
+			Price="50" />
+
+		<Object
+			Flags="16"
+			Prototype="specter01"
+			Price="100" />
+
+		<Object
+			Flags="16"
+			Prototype="pkt01"
+			Price="200" />
+
+		<Object
+			Flags="16"
+			Prototype="kord01"
+			Price="300" />
+
+		<Object
+			Flags="16"
+			Prototype="vector01"
+			Price="2000" />
+
+		<Object
+			Flags="16"
+			Prototype="vulcan01"
+			Price="2500" />
+
+		<Object
+			Flags="16"
+			Prototype="maxim01"
+			Price="1000" />
+
+		<Object
+			Flags="16"
+			Prototype="rapier01"
+			Price="4000" />
+
+		<Object
+			Flags="16"
+			Prototype="storm01"
+			Price="500" />
+
+		<Object
+			Flags="16"
+			Prototype="fagot01"
+			Price="700" />
+
+		<Object
+			Flags="16"
+			Prototype="kpvt01"
+			Price="3000" />
+
+		<Object
+			Flags="16"
+			Prototype="rainmetal01"
+			Price="8000" />
+
+		<Object
+			Flags="16"
+			Prototype="octopus01"
+			Price="50000" />
+
+		<Object
+			Flags="16"
+			Prototype="tank01"
+			Price="50000" />
+
+		<Object
+			Flags="16"
+			Prototype="cyclops01"
+			Price="45000" />
+
+		<Object
+			Flags="16"
+			Prototype="bumblebee01"
+			Price="15000" />
+
+		<Object
+			Flags="16"
+			Prototype="elephant01"
+			Price="10000" />
+
+		<Object
+			Flags="16"
+			Prototype="flag01"
+			Price="5000" />
+
+		<Object
+			Flags="16"
+			Prototype="hurricane01"
+			Price="60000" />
+
+		<Object
+			Flags="16"
+			Prototype="big_swingfire01"
+			Price="60000" />
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_energy" />
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_explosion" />
+
+		<Object
+			Flags="16"
+			Prototype="firing_rate_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="firing_rate_energy" />
+
+		<Object
+			Flags="16"
+			Prototype="grouping_angle_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_energy" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_explosion" />
+
+		<Object
+			Flags="16"
+			Prototype="grouping_angle_guns" />
+
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_guns2" />
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_energy2" />
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_explosion2" />
+
+		<Object
+			Flags="16"
+			Prototype="firing_rate_guns2" />
+
+		<Object
+			Flags="16"
+			Prototype="firing_rate_energy2" />
+
+		<Object
+			Flags="16"
+			Prototype="grouping_angle_guns2" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_guns2" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_energy2" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_explosion2" />
+
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_guns_and_firing_rate_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_energy_and_firing_rate_energy" />
+
+		<Object
+			Flags="16"
+			Prototype="cooling_system_explosion_and_firing_rate_explosion" />
+
+		<Object
+			Flags="16"
+			Prototype="firing_rate_guns_and_add_damage_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="firing_rate_energy_and_add_damage_energy" />
+
+		<Object
+			Flags="16"
+			Prototype="firing_rate_explosion_and_add_damage_explosion" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_guns_and_grouping_angle_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_energy_and_firing_rate_energy" />
+
+		<Object
+			Flags="16"
+			Prototype="add_damage_explosion_firing_rate_explosion" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_fuel_tank" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_torque" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_durability" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_stability" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_fuel_tank2" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_torque2" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_durability2" />
+
+		<Object
+			Flags="16"
+			Prototype="add_speed_and_torque" />
+
+		<Object
+			Flags="16"
+			Prototype="add_stability_and_speed" />
+
+		<Object
+			Flags="16"
+			Prototype="add_torque_and_stability" />
+
+		<Object
+			Flags="16"
+			Prototype="additional_fuel_tank2_add_damage_guns" />
+
+		<Object
+			Flags="16"
+			Prototype="rocketLauncher"
+			Price="60000" />
+
+		<Object
+			Flags="16"
+			Prototype="hailSideGun"
+			Price="45000">
+			<Parts>
+				<BASKET_SIDE_GUN_L
+					present="yes"
+					Flags="16"
+					Prototype="hail01L"
+					Price="0"
+					CompoundVehiclePartIndex="0" />
+
+				<BASKET_SIDE_GUN_R
+					present="yes"
+					Flags="16"
+					Prototype="hail01R"
+					Price="0"
+					CompoundVehiclePartIndex="1" />
+			</Parts>
+		</Object>
+
+		<Object
+			Flags="16"
+			Prototype="hammer01"
+			Price="35000" />
+
+		<Object
+			Flags="16"
+			Prototype="odin01"
+			Price="13000" />
+
+		<Object
+			Flags="16"
+			Prototype="omega01"
+			Price="19000" />
+
+		<Object
+			Flags="16"
+			Prototype="mrakSideGun"
+			Price="40000">
+			<Parts>
+				<BASKET_SIDE_GUN_L
+					present="yes"
+					Flags="16"
+					Prototype="mrak01L"
+					Price="0"
+					CompoundVehiclePartIndex="0" />
+
+				<BASKET_SIDE_GUN_R
+					present="yes"
+					Flags="16"
+					Prototype="mrak01R"
+					Price="0"
+					CompoundVehiclePartIndex="1" />
+			</Parts>
+		</Object>
+
+		<Object
+			Flags="16"
+			Prototype="hunterSideGun"
+			Price="37000">
+			<Parts>
+				<BASKET_SIDE_GUN_L
+					present="yes"
+					Flags="16"
+					Prototype="hunter01L"
+					Price="37000"
+					CompoundVehiclePartIndex="0" />
+
+				<BASKET_SIDE_GUN_R
+					present="yes"
+					Flags="16"
+					Prototype="hunter01R"
+					Price="0"
+					CompoundVehiclePartIndex="1" />
+			</Parts>
+		</Object>
+
+		<Object
+			Flags="16"
+			Prototype="zeusSideGun"
+			Price="50000">
+			<Parts>
+				<BASKET_SIDE_GUN_L
+					present="yes"
+					Flags="16"
+					Prototype="zeus01L"
+					Price="0"
+					CompoundVehiclePartIndex="0" />
+
+				<BASKET_SIDE_GUN_R
+					present="yes"
+					Flags="16"
+					Prototype="zeus01R"
+					Price="0"
+					CompoundVehiclePartIndex="1" />
+			</Parts>
+		</Object>
+
+		<Object
+			Flags="16"
+			Prototype="marsSideGun"
+			Price="55000">
+			<Parts>
+				<BASKET_SIDE_GUN_L
+					present="yes"
+					Flags="16"
+					Prototype="mars01L"
+					Price="0"
+					CompoundVehiclePartIndex="0" />
+
+				<BASKET_SIDE_GUN_R
+					present="yes"
+					Flags="16"
+					Prototype="mars01R"
+					Price="0"
+					CompoundVehiclePartIndex="1" />
+			</Parts>
+		</Object>
+
+		<Object
+			Flags="16"
+			Prototype="someTurboAccelerationPusher"
+			Price="19000" />
+
+		<Object
+			Flags="16"
+			Prototype="engineOilPusher"
+			Price="19000" />
+
+		<Object
+			Flags="16"
+			Prototype="nailsPusher"
+			Price="19000" />
+
+		<Object
+			Flags="16"
+			Prototype="minePusher"
+			Price="19000" />
+
+		<Object
+			Flags="16"
+			Prototype="minePusher_1"
+			Price="19000" />
+
+		<Object
+			Flags="16"
+			Prototype="minePusher_2"
+			Price="19000" />
+
+		<Object
+			Flags="16"
+			Prototype="Smoke"
+			Price="19000" />
+	</Object>
+
+	<Object
+		Name="Breakable_WoodFence118"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="325.855 0.000 381.755" />
+
+	<Object
+		Name="Breakable_WoodFence136"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="385.034 0.000 413.587"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence187"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="378.250 0.000 405.744"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence122"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="371.466 0.000 397.901"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence198"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="364.681 0.000 390.058"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence125"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="357.897 0.000 382.215"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence128"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="351.113 0.000 374.372"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence175"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="344.329 0.000 366.529"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence181"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="337.545 0.000 358.686"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence129"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="330.760 0.000 350.843"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence117"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="323.976 0.000 343.000"
+		Rot="0.000 0.909 0.000 0.416" />
+
+	<Object
+		Name="Breakable_WoodFence120"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="417.787 0.000 405.211"
+		Rot="0.000 0.906 0.000 0.424" />
+
+	<Object
+		Name="Breakable_WoodFence170"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="411.147 0.000 397.245"
+		Rot="0.000 0.906 0.000 0.424" />
+
+	<Object
+		Name="Breakable_WoodFence195"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="404.508 0.000 389.279"
+		Rot="0.000 0.906 0.000 0.424" />
+
+	<Object
+		Name="Breakable_WoodFence10"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="397.868 0.000 381.314"
+		Rot="0.000 0.906 0.000 0.424" />
+
+	<Object
+		Name="Breakable_WoodFence197"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="391.229 0.000 373.348"
+		Rot="0.000 0.906 0.000 0.424" />
+
+	<Object
+		Name="Breakable_WoodFence174"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="384.590 0.000 365.382"
+		Rot="0.000 0.906 0.000 0.424" />
+
+	<Object
+		Name="Breakable_WoodFence171"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="377.950 0.000 357.416"
+		Rot="0.000 0.906 0.000 0.424" />
+
+	<Object
+		Name="Breakable_WoodFence155"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="314.470 0.000 350.302"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence147"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="324.340 0.000 353.486"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence179"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="334.209 0.000 356.669"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence16"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="344.078 0.000 359.853"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence159"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="353.948 0.000 363.036"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence132"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="363.817 0.000 366.219"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence163"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="373.686 0.000 369.403"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence127"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="383.556 0.000 372.586"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence11"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="393.425 0.000 375.770"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence114"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="403.294 0.000 378.953"
+		Rot="0.000 -0.155 0.000 0.988" />
+
+	<Object
+		Name="Breakable_WoodFence117"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="347.572 0.000 393.769"
+		Rot="0.000 0.741 0.000 0.671" />
+
+	<Object
+		Name="Breakable_WoodFence180"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="346.543 0.000 383.450"
+		Rot="0.000 0.741 0.000 0.671" />
+
+	<Object
+		Name="Breakable_WoodFence138"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="345.515 0.000 373.131"
+		Rot="0.000 0.741 0.000 0.671" />
+
+	<Object
+		Name="Breakable_WoodFence187"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="344.486 0.000 362.812"
+		Rot="0.000 0.741 0.000 0.671" />
+
+	<Object
+		Name="Breakable_WoodFence116"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="343.457 0.000 352.493"
+		Rot="0.000 0.741 0.000 0.671" />
+
+	<Object
+		Name="Breakable_WoodFence128"
+		Belong="1001"
+		Prototype="Breakable_WoodFence1"
+		Pos="342.428 0.000 342.175"
+		Rot="0.000 0.741 0.000 0.671" />
+
+	<Object
+		Name="InfectionZone56"
+		Belong="-1"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="FelixsGang"
+		DropOutTimeOut="300.000"
+		InfectionLair="FelixsGang"
+		CurrentDropOutTimeOut="50.000"
+		HadPlayerInside="1">
+		<Polygon>
+			<Point
+				x="42.237"
+				y="230.492" />
+
+			<Point
+				x="47.885"
+				y="49.774" />
+
+			<Point
+				x="284.131"
+				y="56.538" />
+
+			<Point
+				x="300.930"
+				y="300.822" />
+
+			<Point
+				x="81.092"
+				y="227.087" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="108.791"
+				y="54.418" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_BrickWall1"
+		Pos="102.693 254.922 38.011"
+		Rot="0.000 -0.770 0.000 0.638" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_BrickWall1"
+		Pos="101.194 254.960 45.973"
+		Rot="0.000 -0.770 0.000 0.638" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_BrickWall1"
+		Pos="99.694 255.001 53.935"
+		Rot="0.000 -0.770 0.000 0.638" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_BrickWall1"
+		Pos="98.195 255.046 61.896"
+		Rot="0.000 -0.770 0.000 0.638" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_BrickWall1"
+		Pos="96.695 255.088 69.858"
+		Rot="0.000 -0.770 0.000 0.638" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_BrickWall1"
+		Pos="95.196 255.123 77.819"
+		Rot="0.000 -0.770 0.000 0.638" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_SackWall1"
+		Pos="104.068 255.240 137.508"
+		Rot="0.000 -0.697 0.000 0.717" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_SackWall1"
+		Pos="104.309 255.191 145.781"
+		Rot="0.000 -0.697 0.000 0.717" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_SackWall1"
+		Pos="104.549 255.133 154.054"
+		Rot="0.000 -0.697 0.000 0.717" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_SackWall1"
+		Pos="104.790 255.065 162.327"
+		Rot="0.000 -0.697 0.000 0.717" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_SackWall1"
+		Pos="105.031 254.990 170.600"
+		Rot="0.000 -0.697 0.000 0.717" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_SackWall1"
+		Pos="105.271 254.908 178.873"
+		Rot="0.000 -0.697 0.000 0.717" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_WoodFence1"
+		Pos="143.235 254.702 32.245"
+		Rot="0.000 -0.994 0.000 0.108" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_WoodFence1"
+		Pos="133.115 254.842 34.464"
+		Rot="0.000 -0.994 0.000 0.108" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_WoodFence1"
+		Pos="122.995 254.930 36.684"
+		Rot="0.000 -0.994 0.000 0.108" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="203.036 254.993 148.974" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="204.181 255.005 157.680" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="211.288 254.896 155.591" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="211.832 254.848 146.260" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="204.174 254.920 138.591" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="194.817 255.079 141.898" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="196.283 255.106 154.619" />
+
+	<Object
+		Belong="-1"
+		Prototype="Breakable_Elka1"
+		Pos="191.507 255.141 145.521" />
+
+	<Object
+		Name="BelazTest0519"
+		Belong="1001"
+		Prototype="BelazTest05"
+		Pos="229.031 256.493 104.002">
+		<Parts>
+			<BASKET
+				present="1"
+				Belong="1001"
+				Prototype="belazCargo05"
+				Price="180000" />
+
+			<CABIN
+				present="1"
+				Belong="1001"
+				Prototype="belazCab05"
+				Price="150000" />
+
+			<CHASSIS
+				present="1"
+				Belong="1001"
+				Prototype="belazChassis"
+				Price="40000" />
+		</Parts>
+
+		<Repository />
+	</Object>
+
+	<Object
+		Name="BelazTest0519"
+		Belong="1001"
+		Prototype="BelazTest05"
+		Pos="229.031 356.493 104.002">
+		<Parts>
+			<BASKET
+				present="1"
+				Belong="1001"
+				Prototype="belazCargo05"
+				Price="180000" />
+
+			<CABIN
+				present="1"
+				Belong="1001"
+				Prototype="belazCab05"
+				Price="150000" />
+
+			<CHASSIS
+				present="1"
+				Belong="1001"
+				Prototype="belazChassis"
+				Price="40000" />
+		</Parts>
+
+		<Repository />
+	</Object>
+
+	<Object
+		Name="TownSouth0"
+		Belong="1100"
+		Prototype="TownSouth"
+		Pos="79.894 254.789 61.127"
+		Rot="0.000 0.947 0.000 0.321"
+		PointOfViewInInterface="5.000 20.000 5.000"
+		CaravansDest="">
+		<Object
+			Name="TownSouth0_defend"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="110.332 254.860 21.459"
+			Rot="0.000 0.947 0.000 0.321"
+			Radius="50.000"
+			Active="0" />
+
+		<Object
+			Flags="21"
+			Name="TownSouth0_deploy"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="79.894 254.789 61.127"
+			Rot="0.000 0.947 0.000 0.321"
+			Radius="50.000" />
+
+		<Object
+			Flags="21"
+			Name="TownSouth0_enter"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="133.500 255.472 132.925"
+			Rot="0.000 0.947 0.000 0.321"
+			Radius="200.000" />
+
+		<Object
+			Flags="21"
+			Name="TownSouth0_caravan"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="122.507 254.784 5.593"
+			Rot="0.000 0.947 0.000 0.321"
+			Radius="50.000" />
+
+		<Object
+			Name="TheTown_Workshop"
+			Belong="1100"
+			Prototype="workshop">
+			<CabinsAndBaskets>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCargo01"
+					Price="300" />
+
+				<Item
+					PosX="5"
+					PosY="0"
+					Flags="16"
+					Prototype="bugCargo02"
+					Price="750" />
+
+				<Item
+					PosX="0"
+					PosY="5"
+					Flags="16"
+					Prototype="bugCargo03"
+					Price="1000" />
+
+				<Item
+					PosX="5"
+					PosY="5"
+					Flags="16"
+					Prototype="molokovozCargo01"
+					Price="3000" />
+
+				<Item
+					PosX="0"
+					PosY="10"
+					Flags="16"
+					Prototype="molokovozCargo02"
+					Price="8000" />
+
+				<Item
+					PosX="5"
+					PosY="10"
+					Flags="16"
+					Prototype="molokovozCargo03"
+					Price="8000" />
+
+				<Item
+					PosX="0"
+					PosY="40"
+					Flags="16"
+					Prototype="bugCab01"
+					Price="300" />
+
+				<Item
+					PosX="5"
+					PosY="40"
+					Flags="16"
+					Prototype="bugCab02"
+					Price="750" />
+
+				<Item
+					PosX="0"
+					PosY="45"
+					Flags="16"
+					Prototype="bugCab03"
+					Price="1000" />
+
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="molokovozCab01"
+					Price="3000" />
+
+				<Item
+					PosX="0"
+					PosY="50"
+					Flags="16"
+					Prototype="molokovozCab02"
+					Price="8000" />
+
+				<Item
+					PosX="5"
+					PosY="50"
+					Flags="16"
+					Prototype="molokovozCab03"
+					Price="12000" />
+
+				<Item
+					PosX="0"
+					PosY="55"
+					Flags="16"
+					Prototype="belazCab01"
+					Price="30000" />
+
+				<Item
+					PosX="5"
+					PosY="55"
+					Flags="16"
+					Prototype="belazCab02"
+					Price="80000" />
+
+				<Item
+					PosX="0"
+					PosY="60"
+					Flags="16"
+					Prototype="belazCab03"
+					Price="150000" />
+
+				<Item
+					PosX="5"
+					PosY="60"
+					Flags="16"
+					Prototype="belazCab04"
+					Price="100000" />
+
+				<Item
+					PosX="0"
+					PosY="65"
+					Flags="16"
+					Prototype="mirotvorecCab01"
+					Price="30000" />
+
+				<Item
+					PosX="5"
+					PosY="65"
+					Flags="16"
+					Prototype="mirotvorecCab02"
+					Price="80000" />
+
+				<Item
+					PosX="0"
+					PosY="70"
+					Flags="16"
+					Prototype="mirotvorecCab03"
+					Price="150000" />
+
+				<Item
+					PosX="5"
+					PosY="70"
+					Flags="16"
+					Prototype="mirotvorecCab04"
+					Price="100000" />
+
+				<Item
+					PosX="0"
+					PosY="75"
+					Flags="16"
+					Prototype="mirotvorecCab05"
+					Price="180000" />
+
+				<Item
+					PosX="5"
+					PosY="75"
+					Flags="16"
+					Prototype="mirotvorecCargo01"
+					Price="30000" />
+
+				<Item
+					PosX="0"
+					PosY="80"
+					Flags="16"
+					Prototype="mirotvorecCargo02"
+					Price="80000" />
+
+				<Item
+					PosX="5"
+					PosY="80"
+					Flags="16"
+					Prototype="mirotvorecCargo03"
+					Price="150000" />
+
+				<Item
+					PosX="0"
+					PosY="85"
+					Flags="16"
+					Prototype="mirotvorecCargo04"
+					Price="100000" />
+
+				<Item
+					PosX="5"
+					PosY="85"
+					Flags="16"
+					Prototype="mirotvorecCargo05"
+					Price="180000" />
+
+				<Item
+					PosX="0"
+					PosY="90"
+					Flags="16"
+					Prototype="belazCab05"
+					Price="150000" />
+
+				<Item
+					PosX="0"
+					PosY="15"
+					Flags="16"
+					Prototype="uralCargo01"
+					Price="30000" />
+
+				<Item
+					PosX="5"
+					PosY="15"
+					Flags="16"
+					Prototype="uralCargo02"
+					Price="80000" />
+
+				<Item
+					PosX="0"
+					PosY="20"
+					Flags="16"
+					Prototype="uralCargo03"
+					Price="150000" />
+
+				<Item
+					PosX="5"
+					PosY="20"
+					Flags="16"
+					Prototype="uralCargo04"
+					Price="100000" />
+
+				<Item
+					PosX="0"
+					PosY="25"
+					Flags="16"
+					Prototype="uralCargo05"
+					Price="180000" />
+
+				<Item
+					PosX="5"
+					PosY="25"
+					Flags="16"
+					Prototype="belazCargo01"
+					Price="30000" />
+
+				<Item
+					PosX="0"
+					PosY="30"
+					Flags="16"
+					Prototype="belazCargo02"
+					Price="80000" />
+
+				<Item
+					PosX="5"
+					PosY="30"
+					Flags="16"
+					Prototype="belazCargo03"
+					Price="150000" />
+
+				<Item
+					PosX="0"
+					PosY="35"
+					Flags="16"
+					Prototype="belazCargo04"
+					Price="100000" />
+
+				<Item
+					PosX="5"
+					PosY="35"
+					Flags="16"
+					Prototype="belazCargo05"
+					Price="180000" />
+
+				<Item
+					PosX="5"
+					PosY="90"
+					Flags="16"
+					Prototype="uralCab01"
+					Price="30000" />
+
+				<Item
+					PosX="0"
+					PosY="95"
+					Flags="16"
+					Prototype="uralCab02"
+					Price="80000" />
+
+				<Item
+					PosX="5"
+					PosY="95"
+					Flags="16"
+					Prototype="uralCab03"
+					Price="150000" />
+
+				<Item
+					PosX="0"
+					PosY="100"
+					Flags="16"
+					Prototype="uralCab04"
+					Price="100000" />
+
+				<Item
+					PosX="5"
+					PosY="100"
+					Flags="16"
+					Prototype="uralCab05"
+					Price="180000" />
+
+				<Item
+					PosX="0"
+					PosY="105"
+					Flags="16"
+					Prototype="scoutCab01"
+					Price="1" />
+
+				<Item
+					PosX="5"
+					PosY="105"
+					Flags="16"
+					Prototype="scoutCab03"
+					Price="1" />
+
+				<Item
+					PosX="0"
+					PosY="110"
+					Flags="16"
+					Prototype="scoutCab03"
+					Price="1" />
+
+				<Item
+					PosX="5"
+					PosY="110"
+					Flags="16"
+					Prototype="hunterCab02"
+					Price="1" />
+
+				<Item
+					PosX="0"
+					PosY="115"
+					Flags="16"
+					Prototype="fighterCab02"
+					Price="1" />
+
+				<Item
+					PosX="5"
+					PosY="115"
+					Flags="16"
+					Prototype="hunterCab01"
+					Price="1" />
+
+				<Item
+					PosX="0"
+					PosY="120"
+					Flags="16"
+					Prototype="fighterCab01"
+					Price="1" />
+
+				<Item
+					PosX="5"
+					PosY="120"
+					Flags="16"
+					Prototype="cruiserCab01"
+					Price="1" />
+
+				<Item
+					PosX="0"
+					PosY="125"
+					Flags="16"
+					Prototype="cruiserCab02"
+					Price="1" />
+			</CabinsAndBaskets>
+
+			<Vehicles>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="Mirotvorec01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="mirotvorecCargo03"
+							Price="220000" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="mirotvorecCab03"
+							Price="225000" />
+
+						<CABIN_BIG_GUN_1
+							present="1"
+							Flags="16"
+							Prototype="vulcan01"
+							Price="2500" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="mirotvorecChassis"
+							Price="40000" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="1"
+					PosY="0"
+					Flags="16"
+					Prototype="Belaz01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="belazCargo01"
+							Price="85000" />
+
+						<BASKET_BIG_GUN_0
+							present="1"
+							Flags="16"
+							Prototype="vulcan01"
+							Price="2500" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="belazCab01"
+							Price="85000" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="specter01"
+							Price="100" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="belazChassis"
+							Price="40000" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Prototype="Ural00">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="uralCargo01"
+							Price="13000" />
+
+						<BASKET_BIG_GUN_0
+							present="1"
+							Flags="16"
+							Prototype="vulcan01"
+							Price="2500" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="uralCab01"
+							Price="18000" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="hornet01"
+							Price="50" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="uralChassis"
+							Price="40000" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="3"
+					PosY="0"
+					Flags="16"
+					Prototype="Tank01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="tankCab01"
+							Price="1500" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="tankChassis"
+							Price="0" />
+
+						<CHASSIS_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="specter01"
+							Price="100" />
+
+						<TANK_GUN
+							present="1"
+							Flags="16"
+							Prototype="tank01"
+							Price="20000" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="4"
+					PosY="0"
+					Flags="16"
+					Prototype="Dozer01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="dozerCab01"
+							Price="1000" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="specter01"
+							Price="100" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="dozerChassis"
+							Price="0" />
+
+						<CHASSIS_BIG_GUN
+							present="1"
+							Flags="16"
+							Prototype="octopus01"
+							Price="50000" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="5"
+					PosY="0"
+					Flags="16"
+					Prototype="Cruiser01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="cruiserCab01"
+							Price="25000" />
+
+						<CABIN_BIG_GUN_1
+							present="1"
+							Flags="16"
+							Prototype="octopus01"
+							Price="50000" />
+
+						<CABIN_GIANT_GUN
+							present="1"
+							Flags="16"
+							Prototype="flag01"
+							Price="5000" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="cruiserChassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="6"
+					PosY="0"
+					Flags="16"
+					Prototype="Fighter01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="fighterCab01"
+							Price="6000" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="specter01"
+							Price="100" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="fighterChassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="7"
+					PosY="0"
+					Flags="16"
+					Prototype="r1m2_hunter02">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="hunterCab02"
+							Price="12000" />
+
+						<CABIN_BIG_GUN
+							present="1"
+							Flags="16"
+							Prototype="elephant01"
+							Price="10000" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="specter01"
+							Price="100" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="hunterChassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="8"
+					PosY="0"
+					Flags="16"
+					Prototype="r1m1_sml04">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="sml4Cab01"
+							Price="300" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="hornet01"
+							Price="50" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="sml4Chassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="9"
+					PosY="0"
+					Flags="16"
+					Prototype="r1m1_sml03">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="sml3Cab01"
+							Price="300" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="specter01"
+							Price="100" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="sml3Chassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="10"
+					PosY="0"
+					Flags="16"
+					Prototype="r1m1_sml02">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="sml2Cab01"
+							Price="300" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="hornet01"
+							Price="50" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="sml2Chassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="11"
+					PosY="0"
+					Flags="16"
+					Prototype="r1m1_sml01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="sml1Cab01"
+							Price="300" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="specter01"
+							Price="100" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="sml1Chassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="12"
+					PosY="0"
+					Flags="16"
+					Prototype="r1m1_molokovoz01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="molokovozCargo01"
+							Price="3000" />
+
+						<BASKET_SMALL_GUN_0
+							present="1"
+							Flags="16"
+							Prototype="hornet01"
+							Price="50" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="molokovozCab01"
+							Price="3500" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="molokovozChassis"
+							Price="4000" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="0"
+					PosY="1"
+					Flags="16"
+					Prototype="BugForSale">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="bugCargo01"
+							Price="700" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="bugCab01"
+							Price="700" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="bugChassis"
+							Price="400" />
+					</Parts>
+
+					<Repository />
+				</Item>
+
+				<Item
+					PosX="1"
+					PosY="1"
+					Flags="16"
+					Prototype="r1m1_scout01">
+					<Parts>
+						<BASKET
+							present="1"
+							Flags="16"
+							Prototype="fakeCargo"
+							Price="0" />
+
+						<CABIN
+							present="1"
+							Flags="16"
+							Prototype="scoutCab01"
+							Price="600" />
+
+						<CABIN_SMALL_GUN
+							present="1"
+							Flags="16"
+							Prototype="hornet01"
+							Price="50" />
+
+						<CHASSIS
+							present="1"
+							Flags="16"
+							Prototype="scoutChassis"
+							Price="0" />
+					</Parts>
+
+					<Repository />
+				</Item>
+			</Vehicles>
+		</Object>
+
+		<Parts>
+			<AttackTeam
+				present="no" />
+		</Parts>
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+
+	<Object
+		Name="lamppost273"
+		Belong="1001"
+		Prototype="lamppost2"
+		Pos="183.574 253.796 32.654" />
+
+	<Object
+		Name="lamppost274"
+		Belong="1001"
+		Prototype="lamppost2"
+		Pos="180.515 254.157 50.089" />
+
+	<Object
+		Name="lamppost275"
+		Belong="1001"
+		Prototype="lamppost2"
+		Pos="180.160 254.631 78.797" />
+
+	<Object
+		Name="lamppost276"
+		Belong="1001"
+		Prototype="lamppost2"
+		Pos="178.849 254.959 100.884" />
+
+	<Object
+		Name="lamppost277"
+		Belong="1001"
+		Prototype="lamppost2"
+		Pos="178.391 255.141 117.903" />
+
+	<Object
+		Name="lamppost278"
+		Belong="1001"
+		Prototype="lamppost2"
+		Pos="174.650 255.273 130.564" />
+
+	<Object
+		Name="Breakable_Stolb279"
+		Belong="1001"
+		Prototype="Breakable_Stolb2"
+		Pos="192.680 255.176 175.132" />
+
+	<Object
+		Name="Breakable_Stolb280"
+		Belong="1001"
+		Prototype="Breakable_Stolb2"
+		Pos="187.329 255.235 168.329" />
+
+	<Object
+		Name="Breakable_Stolb281"
+		Belong="1001"
+		Prototype="Breakable_Stolb2"
+		Pos="181.383 255.288 157.240" />
+
+	<Object
+		Name="Breakable_Stolb182"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="181.402 255.270 194.409" />
+
+	<Object
+		Name="Breakable_Stolb183"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="173.288 255.339 186.840" />
+
+	<Object
+		Name="Breakable_Stolb184"
+		Belong="1001"
+		Prototype="Breakable_Stolb1"
+		Pos="161.185 255.407 178.305" />
+</DynamicScene>

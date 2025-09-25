@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Cliffs>
+	<Cliff
+		x="5"
+		y="2"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="4"
+		y="3"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="5"
+		y="3"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="4"
+		y="4"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="5"
+		y="4"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="4"
+		y="5"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="5"
+		y="5"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="4"
+		y="6"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="5"
+		y="6"
+		cliffSet="Cliffs16"
+		level="1" />
+
+	<Cliff
+		x="11"
+		y="15"
+		cliffSet="Cliffs16"
+		level="1" />
+</Cliffs>

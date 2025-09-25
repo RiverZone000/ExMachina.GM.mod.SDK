@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+	<trigger Name="triggerExitToMap11" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR1M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			local b = SpawnMessageBox( "8801" )
+			if b == 1 then
+
+				PassToMap("r1m1", "FromR4M0", -1 )
+			else
+				TActivate ("RolikExitToMap11")
+			end
+ 		</script>
+	</trigger>
+
+	<trigger Name="RolikExitToMap11" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			RotationPlayerByPoints(CVector(getPos("ToR1M1")), CVector(getPos("FromR1M1")))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR1M1")))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+    <trigger Name="triggerExitToMap41" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR4M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			local b = SpawnMessageBox( "8801" )
+			if b == 1 then
+
+				PassToMap("r4m1", "FromR4M0", -1 )
+			else
+				TActivate ("RolikExitToMap41")
+			end
+ 		</script>
+	</trigger>
+
+	<trigger Name="RolikExitToMap41" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			RotationPlayerByPoints(CVector(getPos("ToR4M1")), CVector(getPos("FromR4M1")))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR4M1")))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+    <trigger Name="triggerExitToMap81" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR8M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			local b = SpawnMessageBox( "8801" )
+			if b == 1 then
+
+				PassToMap("r8m1", "FromR4M0", -1 )
+			else
+				TActivate ("RolikExitToMap81")
+			end
+ 		</script>
+	</trigger>
+
+	<trigger Name="RolikExitToMap81" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			RotationPlayerByPoints(CVector(getPos("ToR8M1")), CVector(getPos("FromR8M1")))
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromR8M1")))
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="MirageStat" active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			CreateNewDummyObject( "Paris", "paris", -1, -1, CVector(1226.477, 258, 2381.308), Quaternion(0.0000, 0.928, 0.0000, -0.3726) )
+			CreateNewDummyObject( "boss04chassis", "ufo", -1, -1, CVector(3935.156, 412, 140.778), Quaternion(0.0499, -0.0050, 0.0218, 0.9985) )
+			CreateNewDummyObject( "r3_oracle", "oracle", -1, -1, CVector(2332.978, 294, 2284.607), Quaternion(0.2216, -0.3823, 0.0772, 0.8938) )
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="MiragesCarSpawn1" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="IvanMirageStart" />
+		<script>
+			CreateVehicleEx("UralIvan", "MirIvan1", CVector(3512.484, 288.096, 1162.684), 1004)
+
+			GetEntityByName("MirIvan1"):setGodMode(1)
+			TActivate("MiragesCarDespawn1")
+			trigger:Deactivate()
+		</script>
+	</trigger> 
+
+	<trigger Name="MiragesCarSpawn2" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="NeftMirageStart" />
+		<script>
+			CreateVehicleEx("Rabbug", "MirNeft1", CVector(2757.274, 302.913, 3091.711), 1011)
+			CreateVehicleEx("IngHunter", "MirNeft2", CVector(2765.637, 302.720, 3051.245), 1011)
+
+			GetEntityByName("MirNeft1"):setGodMode(1)
+			GetEntityByName("MirNeft2"):setGodMode(1)
+			TActivate("MiragesCarDespawn2")
+			trigger:Deactivate()
+		</script>
+	</trigger> 
+
+	<trigger Name="MiragesCarSpawn3" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="CraulerMirageStart" />
+		<script>
+			CreateVehicleEx("DesertCruiser", "MirCruis1", CVector(1893.511, 297.324, 1208.749), 1004)
+			CreateVehicleEx("DesertCruiser", "MirCruis2", CVector(1853.302, 297, 1221.582), 1004)
+			CreateVehicleEx("DesertCruiser", "MirCruis3", CVector(1913.256, 297, 1189.385), 1004)
+
+			GetEntityByName("MirCruis1"):setGodMode(1)
+			GetEntityByName("MirCruis2"):setGodMode(1)
+			GetEntityByName("MirCruis3"):setGodMode(1)
+			TActivate("MiragesCarDespawn3")
+			trigger:Deactivate()
+		</script>
+	</trigger> 
+
+	<trigger Name="MiragesCarSpawn4" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="BandMirageStart" />
+		<script>
+			CreateVehicleEx("DesertCruiser", "MirBand1", CVector(769.547, 288.096, 1887.983), 1004)
+			CreateVehicleEx("BandFighter", "MirBand2", CVector(866.553, 288, 1887.782), 1062)
+			CreateVehicleEx("BandFighter", "MirBand3", CVector(735.404, 288, 1884.740), 1062)
+			CreateVehicleEx("BandFighter", "MirBand4", CVector(820.423, 288, 1973.598), 1062)
+
+			GetEntityByName("MirBand1"):setGodMode(1)
+			GetEntityByName("MirBand2"):setGodMode(1)
+			GetEntityByName("MirBand3"):setGodMode(1)
+			GetEntityByName("MirBand4"):setGodMode(1)
+			TActivate("MiragesCarDespawn4")
+			trigger:Deactivate()
+		</script>
+	</trigger> 
+
+	<trigger Name="MiragesCarDespawn1" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="IvanMirage" />
+		<script>
+			local hs = GetEntityByName ("MirIvan1")
+			if hs then hs:Remove() end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="MiragesCarDespawn2" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="NeftMirage" />
+		<script>
+			local hs = GetEntityByName ("MirNeft1")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("MirNeft2")
+			if hs then hs:Remove() end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="MiragesCarDespawn3" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="CraulerMirage" />
+		<script>
+			local hs = GetEntityByName ("MirCruis1")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("MirCruis2")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("MirCruis3")
+			if hs then hs:Remove() end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+	
+	<trigger Name="MiragesCarDespawn4" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="BandMirage" />
+		<script>
+			local hs = GetEntityByName ("MirBand1")		
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("MirBand2")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("MirBand3")
+			if hs then hs:Remove() end
+			local hs = GetEntityByName ("MirBand4")
+			if hs then hs:Remove() end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+	
+	
+
+	<trigger Name="UfoMiragetrigger" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="UfoMirage" />
+		<script>
+			local us = GetEntityByName ("ufo")
+			if us then us:Remove() end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="ParisMiragetrigger" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ParisMirage" />
+		<script>
+			local ps = GetEntityByName ("paris")
+			if ps then ps:Remove() end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="OracleMiragetrigger" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="OracleMirage" />
+		<script>
+			local os = GetEntityByName ("oracle")
+			if os then os:Remove() end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+	
+</triggers>

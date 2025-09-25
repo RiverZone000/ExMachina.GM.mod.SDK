@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+        Name="CrazyDeadDesert_Village"
+        FullName="Деревня безумцев" />
+
+    <Object
+        Name="ToR1M1"
+        FullName="Дорога в Край" />
+
+    <Object
+        Name="ToR4M1"
+        FullName="Дорога в Вахат" />
+
+    <Object
+        Name="ToR8M1"
+        FullName="Дорога в Мариоль" />
+
+    <Object
+        Name="CrazyDeadDesert_Bar"
+        FullName="''Белая комната''" />
+
+    <Object
+        Name="CrazyDeadDesert_Workshop"
+        FullName="Старая Мастерская" />
+
+    <Object
+        Name="CrazyDeadDesert_Shop"
+        FullName="Скромный рынок" />
+
+    <Object
+        Name="CrazyDeadDesert_Bar_Barman"
+        FullName="Господин ПэЖэ" />
+
+    <Object
+        Name="DesertCrazyman"
+        FullName="Уэф" />
+
+    <Object
+        Name="RabCrazyman"
+        FullName="Би" />
+</ObjectNames>

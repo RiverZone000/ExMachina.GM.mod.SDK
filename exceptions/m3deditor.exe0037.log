@@ -1,0 +1,100 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x0048ECC2
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000020 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 05/18/23 23:43:15
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1402 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1050 MB
+1: Page file available            = 3469 MB
+
+1: Data from MemoryManager:
+1: mem used:           300723081
+1: mem allocated:      353854775
+1: mem overhead:        18332400
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c171915
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   2
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c171df7
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   3
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c175cd8
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   4
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c175e4f
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   5
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e0b0
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   6
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e14f
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   7
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e1b8
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   8
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e1f6
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   9     gapfnScSendMessage +455 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 77660000h
+
+1:  10     gapfnScSendMessage +711 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 77660000h
+
+1:  11     gapfnScSendMessage +2297 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 77660000h
+
+1:  12     DispatchMessageA +15 bytes
+1:     Decl: DispatchMessageA
+1:     Mod:  USER32, base: 77660000h
+
+1:  13
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c169076
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+
+Registers:
+	CS:EIP 0x001B:0048ECC2
+	SS:ESP 0x0023:0012FAC8
+	DS:EDI 0x0023:75E46F7F
+	ES:ESI 0x0023:21010AE9
+	   EAX        00000000
+	   EBX        33590240
+	   ECX        00000000
+	   EDX        00000578
+

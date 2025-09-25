@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="fire_2_3"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="0.300"
+			ParticleAgeMax="0.700"
+			MaxParticles="50"
+			EmitAtPeriod="40.000"
+			Phase="0.000"
+			EmitLength="1.000"
+			RepeatPeriod="1.000"
+			ResetTime="100000000.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="-0.200 0.000 -0.200"
+			Max="0.200 -2.000 0.200"
+			Type="box"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="0"
+				k:1="-1"
+				k:2="1610612736"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="0" />D
+			<Size
+				k:0="0.743"
+				k:1="1.040"
+				k:2="1.089"
+				k:3="1.188"
+				k:4="1.485"
+				k:5="1.485"
+				k:6="1.634"
+				k:7="1.584"
+				k:8="1.782"
+				k:9="1.931"
+				k:10="1.832"
+				k:11="2.277"
+				k:12="1.931"
+				k:13="2.277"
+				k:14="2.970"
+				k:15="3.217"
+				k:16="3.069"
+				k:17="3.614"
+				k:18="2.723"
+				k:19="2.178" />
+</Keys>
+
+		<Render
+			TrailLen="10"
+			ScaleParts="0.200"
+			BlendMode="1"
+			UpdateXForm="0"
+			SpriteAngle="0.000"
+			Orient="1"
+			Texture="data\fx\smoke\smoke7.tga"
+			Weather="0"
+ParentDependency="0.600"
+
+			TexTiling="0.000" />
+
+		<Attr
+			Name="SA_2"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="accel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="-8.000 10.000 -8.000"
+				Max="8.000 30.000 8.000" />
+</Attr>
+</PS>
+</PSEditor>

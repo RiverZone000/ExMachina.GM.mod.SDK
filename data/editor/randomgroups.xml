@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<RandomGroups>
+	<Group
+		name="Новая группа 1"
+		groupType="GROUPTYPE_SIMPLE_MODELS"
+		randomScale="0"
+		randomSkin="0"
+		chainSpace="0.000">
+		<Item
+			name="grib3"
+			className="SgAnimatedModelNode"
+			probability="50" />
+	</Group>
+
+	<Group
+		name="humanHause"
+		groupType="GROUPTYPE_SIMPLE_MODELS"
+		randomScale="0"
+		randomSkin="0"
+		chainSpace="20.000">
+		<Item
+			name="house1"
+			className="SgAnimatedModelNode"
+			probability="50" />
+
+		<Item
+			name="house2"
+			className="SgAnimatedModelNode"
+			probability="50" />
+
+		<Item
+			name="house3"
+			className="SgAnimatedModelNode"
+			probability="50" />
+
+		<Item
+			name="townhall"
+			className="SgAnimatedModelNode"
+			probability="10" />
+
+		<Item
+			name="workshop1"
+			className="SgAnimatedModelNode"
+			probability="10" />
+
+		<Item
+			name="workshop2"
+			className="SgAnimatedModelNode"
+			probability="10" />
+	</Group>
+</RandomGroups>

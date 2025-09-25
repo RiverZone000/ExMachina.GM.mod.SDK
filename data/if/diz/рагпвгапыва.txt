@@ -1,0 +1,11 @@
+	<LevelInfo
+		name="r8m1"
+		file="data\maps\r8m1.ssl"
+		fullName="Мариоль"
+		diz0=""
+		diz1=""
+		north="0 0 1"
+		image0="data\if\map\r1m7.dds"
+		image1="data\if\ico\GlobalMap\r1m6.dds"
+		splashes="data\if\ico\Splashes\r1m7.dds"
+		musicBlocks="r8_1 r8_2 r8_3" />

@@ -1,0 +1,40 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0x80000003 at address 0x0068B48C
+-== Exception type : BREAKPOINT 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 09/22/22 00:46:00
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1599 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1100 MB
+1: Page file available            = 3267 MB
+
+1: Data from MemoryManager:
+1: mem used:           250425876
+1: mem allocated:      285806891
+1: mem overhead:        11567296
+1: last allocation:            0
+1: mem used by sound:   31201906
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+
+Registers:
+	CS:EIP 0x001B:0068B48C
+	SS:ESP 0x0023:0012ED7C
+	DS:EDI 0x0023:01901044
+	ES:ESI 0x0023:01900FE8
+	   EAX        0AB3FD08
+	   EBX        00000000
+	   ECX        0AB80115
+	   EDX        0AB3FD14
+

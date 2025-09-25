@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="mage_main_attackdssvd1"
+		Class="Sprite">
+		<Emitter
+			ParticleAgeMin="5.000"
+			ParticleAgeMax="7.000"
+			MaxParticles="200"
+			EmitAtPeriod="4.000"
+			Phase="0.000"
+			EmitLength="2.000"
+			RepeatPeriod="10000.000"
+			ResetTime="10999999504390821000000000000.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="0.000 0.000 0.000"
+			Max="0.000 0.000 0.000"
+			Type="box"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="669907452"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="1017567214"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="16120828" />
+
+			<Size
+				k:0="0.000"
+				k:1="1.535"
+				k:2="2.475"
+				k:3="3.366"
+				k:4="4.059"
+				k:5="4.554"
+				k:6="4.999"
+				k:7="5.396"
+				k:8="5.742"
+				k:9="6.089"
+				k:10="6.534"
+				k:11="6.930"
+				k:12="7.375"
+				k:13="7.871"
+				k:14="8.415"
+				k:15="8.811"
+				k:16="9.256"
+				k:17="9.504"
+				k:18="9.801"
+				k:19="9.850" />
+		</Keys>
+
+		<Render
+			TrailLen="14"
+			ScaleParts="5.000"
+			BlendMode="1"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\ring\ring5_tt.tga"
+			Weather="0"
+			TexTiling="0"
+			ParentDependency="0.000"
+			ShaderType="0" />
+	</PS>
+</PSEditor>

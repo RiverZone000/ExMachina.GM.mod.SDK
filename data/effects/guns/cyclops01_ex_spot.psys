@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="mage_main_attackdssvd"
+		Class="LandSprite">
+		<Emitter
+			ParticleAgeMin="4.000"
+			ParticleAgeMax="4.000"
+			MaxParticles="200"
+			EmitAtPeriod="1.000"
+			Phase="0.000"
+			EmitLength="0.500"
+			RepeatPeriod="10.000"
+			ResetTime="10.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="0.000 0.000 0.000"
+			Max="0.000 0.000 0.000"
+			Type="sphere"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="1325729287"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="1057227780"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="419693572"
+				k:17="-1"
+				k:18="-1"
+				k:19="0" />
+
+			<Size
+				k:0="0.000"
+				k:1="5.841"
+				k:2="5.841"
+				k:3="5.841"
+				k:4="5.841"
+				k:5="5.841"
+				k:6="5.891"
+				k:7="5.891"
+				k:8="5.940"
+				k:9="5.940"
+				k:10="5.891"
+				k:11="5.841"
+				k:12="5.841"
+				k:13="5.841"
+				k:14="5.841"
+				k:15="5.792"
+				k:16="5.792"
+				k:17="5.792"
+				k:18="5.792"
+				k:19="5.049" />
+</Keys>
+
+		<Render
+			TrailLen="14"
+			ScaleParts="1.400"
+			BlendMode="1"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="1"
+			Texture="data\fx\20_t.tga"
+			Weather="0"
+			TexTiling="0.000" />
+</PS>
+</PSEditor>

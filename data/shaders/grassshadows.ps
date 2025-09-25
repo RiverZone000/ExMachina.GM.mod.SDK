@@ -1,0 +1,49 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: grassShadows.ps
+// Created by: Vano
+//
+// $Id: grassShadows.ps,v 1.3 2005/10/05 08:18:13 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+#include "lib.fx"
+
+sampler2D	grassTex;
+sampler2D 	lightmapTex;
+sampler2D	shadowTex;
+
+REAL4		TFactor		: register( c0 );
+
+// Vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 Pos		: POSITION;
+	float2 Tex0		: TEXCOORD0;
+	float2 Tex1		: TEXCOORD1;
+	float2 Tex2		: TEXCOORD2;	
+	REAL4  Alpha	: COLOR0;
+	REAL3   df		: COLOR1;
+};
+
+//REAL4 g_Ambient = { 0.8f, 0.8f, 0.8f, 1.0f };
+
+REAL4 GrassPS( VS_OUTPUT i ): COLOR
+{
+	// Calculate color without shadow
+	REAL4 diff = tex2D( grassTex, i.Tex0 );
+	//diff.xyz *= g_Ambient.xyz;
+	diff.a -= i.Alpha.a;
+	
+	REAL4 lightmap = 2 * tex2D( lightmapTex, i.Tex1 );
+	diff.xyz *= lightmap.xyz;
+
+	// Calculate shadow color	
+	REAL3 clr = tex2D( shadowTex, i.Tex2 );
+	REAL  shd  = 1.0 - dot( clr, TFactor ) * i.df.x;
+
+	// Return resulting color ( multiplication ) 	
+	return  REAL4( diff.xyz * shd, diff.a );
+}
+
+
+

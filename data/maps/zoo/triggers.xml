@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="Start2" active="0">
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+	<trigger Name="rolik" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+println("11111111111111111111111")
+--			CinemaFiltersUse()
+			TActivate( "Start2" )
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 13*0.75
+			PlfCoor.z = PlfCoor.z + 13*0.75
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(-5, -0.5, 13, 10, PlfCoor, PlfID, 1, 1 )
+
+			trigger:Deactivate() 
+		</script>
+	</trigger>
+
+
+	<trigger
+		Name="StartGame"
+		active="1">
+		<event
+			timeout="0"
+			eventid="GE_TIME_PERIOD" />
+
+		<script>SetRadarUpgrade(1)
+
+			GameFiltersUse()
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="00"
+		active="0">
+		<event
+			timeout="1"
+			eventid="GE_TIME_PERIOD" />
+
+		<script>AddPlayerVehicle("DemoBug3")
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="11"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DBU1" />
+
+		<script>AddPlayerVehicle("DemoBug1")
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="12"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DBU2" />
+
+		<script>AddPlayerVehicle("DemoBug2") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="13"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DBU3" />
+
+		<script>AddPlayerVehicle("DemoBug3") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="21"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DMO1" />
+
+		<script>AddPlayerVehicle("DemoMolokovoz1") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="22"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DMO2" />
+
+		<script>AddPlayerVehicle("DemoMolokovoz2")
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="23"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DMO3" />
+
+		<script>AddPlayerVehicle("DemoMolokovoz3")
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="31"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DUR1" />
+
+		<script>AddPlayerVehicle("DemoUral1") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="32"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DUR2" />
+
+		<script>AddPlayerVehicle("DemoUral2") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="33"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DUR3" />
+
+		<script>AddPlayerVehicle("DemoUral3") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="41"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DBE1" />
+
+		<script>AddPlayerVehicle("DemoBelaz1") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="42"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DBE2" />
+
+		<script>AddPlayerVehicle("DemoBelaz2") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="43"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DBE3" />
+
+		<script>AddPlayerVehicle("DemoBelaz3") 
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="51"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DMI1" />
+
+		<script>AddPlayerVehicle("DemoMirotvorec1") 
+ 			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="52"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DMI2" />
+
+		<script>AddPlayerVehicle("DemoMirotvorec2")
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger
+		Name="53"
+		active="0">
+		<event
+			eventid="GE_OBJECT_ENTERS_LOCATION"
+			ObjName="DMI3" />
+
+		<script>AddPlayerVehicle("DemoMirotvorec3")
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+</triggers>

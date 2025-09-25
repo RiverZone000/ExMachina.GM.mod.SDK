@@ -1,0 +1,4 @@
+STEND1 big_kpvt01_export.mb 2 
+MOVE1 big_kpvt01_export_anim.mb 100
+
+

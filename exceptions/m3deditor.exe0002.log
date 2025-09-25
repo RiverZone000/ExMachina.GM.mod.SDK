@@ -1,0 +1,55 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x00448E1B
+-== Exception type : ACCESS VIOLATION  read attempt to address 0xBEE05C2C 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 11/25/22 21:23:00
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1006 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available =  948 MB
+1: Page file available            = 3178 MB
+
+1: Data from MemoryManager:
+1: mem used:           330032604
+1: mem allocated:      392788339
+1: mem overhead:        20036240
+1: last allocation:            0
+1: mem used by sound:   31201906
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   2
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   3
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e1b8
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   4     gapfnScSendMessage +455 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 76740000h
+
+
+Registers:
+	CS:EIP 0x001B:00448E1B
+	SS:ESP 0x0023:0012FBE4
+	DS:EDI 0x0023:019B003C
+	ES:ESI 0x0023:39D1C4BC
+	   EAX        BEE05C14
+	   EBX        019B003C
+	   ECX        39D1C4BC
+	   EDX        008EDE60
+

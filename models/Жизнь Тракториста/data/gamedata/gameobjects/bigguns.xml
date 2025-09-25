@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+
+<!--
+$Id: BigGuns.xml,v 1.42 2005/10/18 06:12:47 anton Exp $
+-->
+
+<Prototypes>
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "rapier01"
+		ModelFile		= "rapier01"
+		ResourceType	= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		BulletPrototype	= "raybullet"
+		ExplosionType	= "CANNON"
+		FiringEffect	= "none"
+		Damage		= "400"
+		FiringRate		= "30"
+		GroupingAngle	= "0.6"
+		FiringRange		= "1200"
+		RecoilForce		= "1000"
+		DamageType	= "BLAST"
+		Decal				= "DC_GUN"
+
+		ChargeSize     = "1"
+		RechargingTime = "2"
+
+		Durability		= "100"
+		
+		BlastWavePrototype      = "smallBlastWave"
+		Price			= "35400"
+		FiringType		= "Cannon"
+		/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "vector01"
+		ModelFile		= "vector01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage			= "30"
+		FiringRate		= "200"
+		GroupingAngle		= "1.4"
+		FiringRange		= "750"
+		RecoilForce		= "50"
+		
+		ChargeSize     = "50"
+		RechargingTime = "3.5"
+
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		Price			= "5520"
+                FiringType		= "MachineGun"
+		Durability			= "50"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "vulcan01"
+		ModelFile			= "vulcan01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage			= "8"
+		FiringRate		= "1800"
+		GroupingAngle		= "0.9"
+		FiringRange		= "400"
+		RecoilForce		= "150"
+		
+		ChargeSize     = "400"
+		RechargingTime = "10"
+
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		Price			= "28630"
+                FiringType		= "MachineGun"
+		Durability		= "70"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "flag01"
+		ModelFile		= "flag01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage		= "720"
+		NumBulletsInShot	= "20"
+		FiringRate		= "20"
+		GroupingAngle		= "3"
+		FiringRange		= "250"
+		RecoilForce		= "2000"
+
+		Decal			= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     = "1"
+		RechargingTime = "3"
+
+		Price			= "36960"
+                FiringType		= "ShotGun"
+		Durability		= "200"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "flag01_upg"
+		ModelFile		= "flag01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "MACHINEGUN"
+		FiringEffect		= "none"
+		Damage		= "420"
+		NumBulletsInShot	= "20"
+		FiringRate		= "60"
+		GroupingAngle		= "2"
+		FiringRange		= "400"
+		RecoilForce		= "2000"
+               	CanBeUsedInAutogenerating  =  "0"
+		Decal			= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     = "1"
+		RechargingTime = "1"
+
+		Price			= "42960"
+                FiringType		= "ShotGun"
+		Durability		= "100"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "kpvt01"
+		ModelFile		= "kpvt01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		TracerEffect ="ET_PS_TRACER1"
+		TracerRange = "1" 
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "AUTOCANNON"
+		FiringEffect		= "none"
+		Damage		= "12"
+		FiringRate		= "800"
+		GroupingAngle		= "1.1"
+		FiringRange		= "1000"
+		RecoilForce		= "450"
+		
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     = "100"
+		RechargingTime = "6"
+
+		Price			= "16400"
+                FiringType		= "MachineGun"
+		Durability		= "60"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "rainmetal01"
+		ModelFile		= "rainmetal01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "AUTOCANNON"
+		FiringEffect		= "none"
+		Damage		= "40"
+		FiringRate		= "180"
+		GroupingAngle		= "1.0"
+		FiringRange		= "800"
+		RecoilForce		= "300"
+		
+		Decal				= "DC_BIG_MACHINEGUN"
+
+		ChargeSize     = "25"
+		RechargingTime = "7.5"
+
+		Price			= "37680"
+                FiringType		= "Cannon"
+		BlastWavePrototype      = "smallBlastWave"
+		Durability		= "100" />
+
+	<Prototype
+		Class			= "PlasmaBunchLauncher"
+		Name			= "elephant01"
+		ModelFile		= "big_elephant01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		BulletPrototype	= "somePlasmaBunch"
+		ExplosionType	= "PLASMA"
+		FiringEffect		= "none"
+		Damage		= "700"
+		FiringRate		= "20"
+		GroupingAngle		= "0.8"
+		FiringRange		= "400"
+		RecoilForce		= "1000"
+		
+		ChargeSize     = "1"
+		RechargingTime = "3"
+
+		Decal				= "DC_LASER"
+                FiringType		= "Plasma"
+		Price			= "63200"
+
+		Durability		= "200"/>
+	
+	<Prototype
+		Class			= "PlasmaBunchLauncher"
+		Name			= "elephant01_upg"
+		ModelFile		= "big_elephant01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+
+		BulletPrototype	= "somePlasmaBunch"
+		ExplosionType	= "PLASMA"
+		FiringEffect		= "none"
+		Damage		= "600"
+		FiringRate		= "240"
+		GroupingAngle		= "0.8"
+		FiringRange		= "400"
+		RecoilForce		= "2000"
+		CanBeUsedInAutogenerating  =  "0"
+		ChargeSize     = "2"
+		RechargingTime = "5"
+
+		Decal				= "DC_LASER"
+                FiringType		= "Plasma"
+		Price			= "80200"
+
+		Durability		= "100"/>
+	
+
+	<Prototype
+		Class			= "PlasmaBunchLauncher"
+		Name			= "odin01"
+		ModelFile		= "odin01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal				= "DC_LASER"
+
+		BulletPrototype		= "someLaserBeamBlue"
+		ExplosionType		= "LASER"
+		FiringEffect		= "none"
+		Damage			= "150"
+		FiringRate		= "90"
+		GroupingAngle		= "0.3"
+		FiringRange		= "800"
+		RecoilForce		= "300"
+
+		ChargeSize     		= "20"
+		RechargingTime 		= "3.5"
+                FiringType		= "Laser"
+		Price			= "102500"
+
+		Durability		= "250"/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "bumblebee01"
+		ModelFile			= "bumblebee01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "GRENADE"
+		FiringEffect		= "none"
+		Damage			= "625"
+		FiringRate		= "60"
+		GroupingAngle		= "2.1"
+		FiringRange		= "1000"
+		RecoilForce		= "1000"
+
+		ActionDist		= "1000"		
+		InitialVelocity		= "120"
+
+		BlastWavePrototype      = "smallBlastWave"
+		ChargeSize     = "10"
+		RechargingTime = "5"
+
+		TurningSpeed		= "120"
+                FiringType		= "Artillery"
+		Price			= "42310"
+
+		Durability		= "400"/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "bumblebee01_upg"
+		ModelFile			= "bumblebee01"
+		ResourceType		= "SMALL_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "someMortarShell"
+		ExplosionType		= "GRENADE"
+		FiringEffect		= "none"
+		Damage			= "800"
+		FiringRate		= "60"
+		GroupingAngle		= "2.1"
+		FiringRange		= "2000"
+		RecoilForce		= "1000"
+               	CanBeUsedInAutogenerating  =  "0"
+		ActionDist		= "2000"		
+		InitialVelocity		= "150"
+
+		BlastWavePrototype      = "smallBlastWave"
+		ChargeSize     = "14"
+		RechargingTime = "8"
+
+		TurningSpeed		= "100"
+                FiringType		= "Artillery"
+		Price			= "61238"
+
+		Durability		= "400"/>
+
+	<Prototype
+		Class			= "Mortar"
+		Name			= "omega01"
+		ModelFile		= "omega01"
+		ResourceType		= "BIG_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		ActionDist		= "1000"		
+		InitialVelocity		= "80"
+
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "someMortarShell02"
+		ExplosionType		= "GRENADE"
+		FiringEffect		= "none"
+		Damage		= "450"
+		FiringRate		= "120"
+		GroupingAngle		= "1.1"
+		FiringRange		= "500"
+		RecoilForce		= "500"
+               	CanBeUsedInAutogenerating  =  "2"
+		ChargeSize     = "20"
+		RechargingTime = "8"
+
+		Price			= "53000"
+        FiringType		= "Artillery"
+
+		TurningSpeed		= "80"
+
+		Durability		= "400"/>
+
+	<Prototype
+		Class			= "BulletLauncher"
+		Name			= "tank01"
+		ModelFile		= "tank01"
+		ResourceType		= "GIANT_GUN"
+		NodeScale		= "1 1 1"
+		Mass			= "1.0"
+		
+		Decal				= "DC_GUN"
+
+		BulletPrototype		= "raybullet"
+		ExplosionType		= "BLAST"
+		FiringEffect		= "none"
+		Damage		= "500"
+		FiringRate		= "30"
+		GroupingAngle		= "0.1"
+		FiringRange		= "500"
+		RecoilForce		= "500"
+
+		TurningSpeed		= "80"
+		CanBeUsedInAutogenerating  =  "4"
+		ChargeSize     = "6"
+		RechargingTime = "4"
+                VisibleInEncyclopedia = "false"
+		Price			= "20000"
+                FiringType		= "Cannon"
+		Durability		= "400"/>
+
+</Prototypes>

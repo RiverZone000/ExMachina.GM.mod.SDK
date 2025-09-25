@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+    <Object
+        Name="Mariupol_Bar_Barman"
+        FullName="Трактирщик Семка" />
+
+    <Object
+        Name="Mariupol_Bar"
+        FullName="Бар ''3 Метра до Пустыни''" />       
+
+    <Object
+        Name="Mariupol_Bar_Barman"
+        FullName="Трактирщик Семка" />
+
+    <Object
+        Name="Mariupol_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Mariupol_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="Berdanskoe_Bar_Barman"
+        FullName="Бармен Эльдар" />
+
+    <Object
+        Name="Berdanskoe_Bar"
+        FullName="Бар ''Колосок''" /> 
+
+    <Object
+        Name="Berdanskoe_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Berdanskoe_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="Topolinoe_Bar_Barman"
+        FullName="Трактирщица Марьяна" />
+
+    <Object
+        Name="Topolinoe_Bar"
+        FullName="Бар ''Голубое небо''" /> 
+
+    <Object
+        Name="Topolinoe_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Topolinoe_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="PetrolStationTown6302"
+        FullName="Заправка" />
+</ObjectNames>

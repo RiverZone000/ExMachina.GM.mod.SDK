@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Goryh (Targem) -->
+<Database>
+	<Vendor ID="0x10de" Name="nVidia">
+		<Device IDMin="0x0008" IDMax="0x0009" Name="NV 1">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x0010" IDMax="0x0010" Name="NV 2">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x0018" IDMax="0x0018" Name="Riva 128">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x0019" IDMax="0x0019" Name="Riva 128 ZX">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x0020" IDMax="0x0020" Name="TNT">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x0028" IDMax="0x002b" Name="TNT2">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x0029" IDMax="0x0029" Name="TNT2 Ultra">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x002c" IDMax="0x002f" Name="TNT Vanta">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x002d" IDMax="0x002d" Name="TNT2 M64">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x00a0" IDMax="0x00a0" Name="TNT2 Aladdin">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x0100" IDMax="0x0100" Name="GeForce 256"/>
+		<Device IDMin="0x0101" IDMax="0x0101" Name="GeForce 256 DDR"/>
+		<Device IDMin="0x0102" IDMax="0x0102" Name="GeForce 256 Ultra"/>
+		<Device IDMin="0x0103" IDMax="0x0103" Name="GeForce 256 Quadro"/>
+		<Device IDMin="0x0110" IDMax="0x0110" Name="GeForce2 MX"/>
+		<Device IDMin="0x0111" IDMax="0x0111" Name="GeForce2 MX DDR"/>
+		<Device IDMin="0x0112" IDMax="0x0112" Name="GeForce2 Go"/>
+		<Device IDMin="0x0113" IDMax="0x0153" Name="GeForce2 Quadro"/>
+		<Device IDMin="0x0150" IDMax="0x0150" Name="GeForce2"/>
+		<Device IDMin="0x0151" IDMax="0x0151" Name="GeForce2 Ti"/>
+		<Device IDMin="0x0152" IDMax="0x0152" Name="GeForce2 Ultra"/>
+		<Device IDMin="0x01a0" IDMax="0x01a0" Name="nForce"/>
+		<Device IDMin="0x01f0" IDMax="0x01f0" Name="nForce2"/>
+		<Device IDMin="0x0200" IDMax="0x0200" Name="GeForce3"/>
+		<Device IDMin="0x0201" IDMax="0x0201" Name="GeForce3 Ti200"/>
+		<Device IDMin="0x0202" IDMax="0x0202" Name="GeForce3 Ti500"/>
+		<Device IDMin="0x0203" IDMax="0x0203" Name="GeForce3 Quadro"/>
+		<Device IDMin="0x0170" IDMax="0x0183" Name="GeForce4 MX 460"/>
+		<Device IDMin="0x0171" IDMax="0x0171" Name="GeForce4 MX 440"/>
+		<Device IDMin="0x0172" IDMax="0x0172" Name="GeForce4 MX 420"/>
+		<Device IDMin="0x0173" IDMax="0x0182" Name="GeForce4 MX 440SE"/>
+		<Device IDMin="0x0174" IDMax="0x0179" Name="GeForce4 Go 440"/>
+		<Device IDMin="0x0175" IDMax="0x0176" Name="GeForce4 Go 420"/>
+		<Device IDMin="0x0178" IDMax="0x0178" Name="GeForce4 Quadro4"/>
+		<Device IDMin="0x017a" IDMax="0x017a" Name="GeForce4 Quadro 200"/>
+		<Device IDMin="0x017b" IDMax="0x017b" Name="GeForce4 Quadro 550"/>
+		<Device IDMin="0x0181" IDMax="0x0181" Name="GeForce4 MX 440-8x"/>
+		<Device IDMin="0x0186" IDMax="0x0187" Name="GeForce4 MX 448 Go"/>
+		<Device IDMin="0x018a" IDMax="0x018a" Name="GeForce4 Quadro 280"/>
+		<Device IDMin="0x018a" IDMax="0x018a" Name="GeForce4 Quadro 580"/>
+		<Device IDMin="0x018b" IDMax="0x018b" Name="GeForce4 Quadro 380"/>
+		<Device IDMin="0x0250" IDMax="0x0250" Name="GeForce4 Ti4600"/>
+		<Device IDMin="0x0251" IDMax="0x0251" Name="GeForce4 Ti4400"/>
+		<Device IDMin="0x0253" IDMax="0x0253" Name="GeForce4 Ti4200"/>
+		<Device IDMin="0x0258" IDMax="0x0258" Name="GeForce4 Quadro 900"/>
+		<Device IDMin="0x0259" IDMax="0x0259" Name="GeForce4 Quadro 750"/>
+		<Device IDMin="0x025b" IDMax="0x025b" Name="GeForce4 Quadro 700"/>
+		<Device IDMin="0x0280" IDMax="0x0280" Name="GeForce4 Ti4800"/>
+		<Device IDMin="0x0281" IDMax="0x0281" Name="GeForce4 Ti4200-8x"/>
+		<Device IDMin="0x0282" IDMax="0x0282" Name="GeForce4 Ti4800SE"/>
+		<Device IDMin="0x0286" IDMax="0x0286" Name="GeForce4 Go 4200"/>
+		<Device IDMin="0x0288" IDMax="0x0288" Name="GeForce4 Quadro 980"/>
+		<Device IDMin="0x0289" IDMax="0x0289" Name="GeForce4 Quadro 780"/>
+		<Device IDMin="0x02a0" IDMax="0x02a0" Name="GeForce3 XBOX"/>
+		<Device IDMin="0x0301" IDMax="0x0301" Name="GeForce FX 5800 Ultra">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0302" IDMax="0x0302" Name="GeForce FX 5800">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0308" IDMax="0x0308" Name="Quadro FX 2000">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0309" IDMax="0x0309" Name="Quadro FX 1000">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0311" IDMax="0x0311" Name="GeForce FX 5600 Ultra">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0312" IDMax="0x0313" Name="GeForce FX 5600">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0314" IDMax="0x0314" Name="GeForce FX 5600XT">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0320" IDMax="0x0320" Name="GeForce FX 5200">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x0321" IDMax="0x0321" Name="GeForceFX 5200 Ultra">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x0322" IDMax="0x0322" Name="GeForceFX 5200">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x0323" IDMax="0x0323" Name="GeForceFX 5200LE">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x0326" IDMax="0x0326" Name="GeForce FX 5500">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0327" IDMax="0x0327" Name="GeForce FX 5100">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x032A" IDMax="0x032A" Name="Quadro NVS 280 PCI">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x032B" IDMax="0x032B" Name="Quadro FX 500/FX 600">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x032F" IDMax="0x032F" Name="NV34GL">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0330" IDMax="0x0330" Name="GeForce FX 5900 Ultra"/>
+		<Device IDMin="0x0331" IDMax="0x0331" Name="GeForce FX 5900"/>
+		<Device IDMin="0x0332" IDMax="0x0332" Name="GeForce FX 5900XT"/>
+		<Device IDMin="0x0333" IDMax="0x0333" Name="GeForce FX 5950 Ultra"/>
+		<Device IDMin="0x0334" IDMax="0x0334" Name="GeForce FX 5900ZT">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0338" IDMax="0x0338" Name="Quadro FX 3000">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x033F" IDMax="0x033F" Name="Quadro FX 700">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0341" IDMax="0x0341" Name="GeForce FX 5700 Ultra">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0342" IDMax="0x0342" Name="GeForce FX 5700">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0343" IDMax="0x0343" Name="GeForce FX 5700LE">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0344" IDMax="0x0344" Name="GeForce FX 5700VE">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0345" IDMax="0x0345" Name="NV36">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x034E" IDMax="0x034E" Name="Quadro FX 1100">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x034F" IDMax="0x034F" Name="NV36GL">
+			<Property Name="MaxVS" Value="11"/>
+			<Property Name="MaxPS" Value="14"/>
+		</Device>
+		<Device IDMin="0x0041" IDMax="0x0041" Name="GeForce FX 6800"/>
+		<Device IDMin="0x0040" IDMax="0x0040" Name="GeForce 6800 Ultra"/>
+		<Device IDMin="0x0041" IDMax="0x0041" Name="GeForce 6800"/>
+		<Device IDMin="0x0042" IDMax="0x0042" Name="GeForce 6800 LE"/>
+		<Device IDMin="0x0043" IDMax="0x0043" Name="NV40"/>
+		<Device IDMin="0x0045" IDMax="0x0045" Name="GeForce 6800 GT"/>
+		<Device IDMin="0x0049" IDMax="0x0049" Name="NV40GL"/>
+		<Device IDMin="0x004E" IDMax="0x004E" Name="Quadro FX 4000"/>
+		<Device IDMin="0x00C0" IDMax="0x00C0" Name="NV41"/>
+		<Device IDMin="0x00C1" IDMax="0x00C1" Name="GeForce 6800"/>
+		<Device IDMin="0x00C2" IDMax="0x00C2" Name="GeForce 6800 LE"/>
+		<Device IDMin="0x00CC" IDMax="0x00CC" Name="Quadro FX Go1400"/>
+		<Device IDMin="0x00CD" IDMax="0x00CD" Name="Quadro FX 3450/4000 SDI"/>
+		<Device IDMin="0x00CE" IDMax="0x00CE" Name="Quadro FX 1400"/>
+		<Device IDMin="0x0140" IDMax="0x0140" Name="GeForce 6600 GT"/>
+		<Device IDMin="0x0141" IDMax="0x0141" Name="GeForce 6600"/>
+		<Device IDMin="0x0142" IDMax="0x0142" Name="NV43"/>
+		<Device IDMin="0x0143" IDMax="0x0143" Name="NV43"/>
+		<Device IDMin="0x0145" IDMax="0x0145" Name="GeForce 6610 XL"/>
+		<Device IDMin="0x014B" IDMax="0x014B" Name="NV43"/>
+		<Device IDMin="0x014C" IDMax="0x014C" Name="NV43GL"/>
+		<Device IDMin="0x014D" IDMax="0x014D" Name="NV43GL"/>
+		<Device IDMin="0x014E" IDMax="0x014E" Name="Quadro FX 540"/>
+		<Device IDMin="0x014F" IDMax="0x014F" Name="GeForce 6200"/>
+		<Device IDMin="0x0160" IDMax="0x0160" Name="NV44"/>
+		<Device IDMin="0x0161" IDMax="0x0161" Name="GeForce 6200 TurboCache(TM)"/>
+		<Device IDMin="0x0162" IDMax="0x0162" Name="NV44"/>
+		<Device IDMin="0x0163" IDMax="0x0163" Name="NV44"/>
+		<Device IDMin="0x0165" IDMax="0x0165" Name="Quadro NVS 285"/>
+		<Device IDMin="0x016E" IDMax="0x016E" Name="NV44GL"/>
+		<Device IDMin="0x0220" IDMax="0x0220" Name="NV44"/>
+		<Device IDMin="0x0221" IDMax="0x0221" Name="NV44"/>
+		<Device IDMin="0x0222" IDMax="0x0222" Name="NV44"/>
+		<Device IDMin="0x0211" IDMax="0x0211" Name="GeForce 6800"/>
+		<Device IDMin="0x0212" IDMax="0x0212" Name="GeForce 6800 LE"/>
+		<Device IDMin="0x0215" IDMax="0x0215" Name="GeForce 6800 GT"/>
+		<Device IDMin="0x00F9" IDMax="0x00F9" Name="GeForce 6800 Series GPU"/>
+		<Device IDMin="0x0091" IDMax="0x0091" Name="GeForce 7800 GTX"/>
+		<Device IDMin="0x0112" IDMax="0x0112" Name="GeForce2 Go"/>
+		<Device IDMin="0x0174" IDMax="0x0174" Name="GeForce4 440 Go"/>
+		<Device IDMin="0x0175" IDMax="0x0175" Name="GeForce4 420 Go"/>
+		<Device IDMin="0x0176" IDMax="0x0176" Name="GeForce4 420 Go 32M"/>
+		<Device IDMin="0x0177" IDMax="0x0177" Name="GeForce4 460 Go"/>
+		<Device IDMin="0x0179" IDMax="0x0179" Name="GeForce4 440 Go 64M"/>
+		<Device IDMin="0x017D" IDMax="0x017D" Name="GeForce4 410 Go 16M"/>
+		<Device IDMin="0x017C" IDMax="0x017C" Name="Quadro4 500 GoGL"/>
+		<Device IDMin="0x0186" IDMax="0x0186" Name="GeForce4 448 Go"/>
+		<Device IDMin="0x0187" IDMax="0x0187" Name="GeForce4 488 Go"/>
+		<Device IDMin="0x018D" IDMax="0x018D" Name="GeForce4 448 Go"/>
+		<Device IDMin="0x0286" IDMax="0x0286" Name="GeForce4 4200 Go"/>
+		<Device IDMin="0x028C" IDMax="0x028C" Name="Quadro4 700 GoGL"/>
+		<Device IDMin="0x0316" IDMax="0x0316" Name="NV31M"/>
+		<Device IDMin="0x0317" IDMax="0x0317" Name="NV31M Pro"/>
+		<Device IDMin="0x031A" IDMax="0x031A" Name="GeForce FX Go5600"/>
+		<Device IDMin="0x031B" IDMax="0x031B" Name="GeForce FX Go5650"/>
+		<Device IDMin="0x031C" IDMax="0x031C" Name="Quadro FX Go700"/>
+		<Device IDMin="0x031D" IDMax="0x031D" Name="NV31GLM"/>
+		<Device IDMin="0x031E" IDMax="0x031E" Name="NV31GLM Pro"/>
+		<Device IDMin="0x031F" IDMax="0x031F" Name="NV31GLM Pro"/>
+		<Device IDMin="0x0324" IDMax="0x0324" Name="GeForce FX Go5200"/>
+		<Device IDMin="0x0325" IDMax="0x0325" Name="GeForce FX Go5250"/>
+		<Device IDMin="0x0328" IDMax="0x0328" Name="GeForce FX Go5200 32M/64M"/>
+		<Device IDMin="0x0329" IDMax="0x0329" Name="NV34MAP"/>
+		<Device IDMin="0x032C" IDMax="0x032C" Name="GeForce FX Go53xx"/>
+		<Device IDMin="0x032D" IDMax="0x032D" Name="GeForce FX Go5100"/>
+		<Device IDMin="0x0347" IDMax="0x0347" Name="GeForce FX Go5700"/>
+		<Device IDMin="0x0348" IDMax="0x0348" Name="GeForce FX Go5700"/>
+		<Device IDMin="0x0349" IDMax="0x0349" Name="NV36M Pro"/>
+		<Device IDMin="0x034B" IDMax="0x034B" Name="NV36MAP"/>
+		<Device IDMin="0x034C" IDMax="0x034C" Name="Quadro FX Go1000"/>
+		<Device IDMin="0x00C8" IDMax="0x00C8" Name="GeForce Go 6800"/>
+		<Device IDMin="0x00C9" IDMax="0x00C9" Name="GeForce Go 6800 Ultra"/>
+		<Device IDMin="0x00CC" IDMax="0x00CC" Name="Quadro FX Go1400"/>
+		<Device IDMin="0x0140" IDMax="0x0140" Name="NV43"/>
+		<Device IDMin="0x0144" IDMax="0x0144" Name="GeForce Go 6600"/>
+		<Device IDMin="0x0147" IDMax="0x0147" Name="NV43"/>
+		<Device IDMin="0x0148" IDMax="0x0148" Name="GeForce Go 6600"/>
+		<Device IDMin="0x0149" IDMax="0x0149" Name="NV43"/>
+		<Device IDMin="0x014C" IDMax="0x014C" Name="NV43GL"/>
+		<Device IDMin="0x0164" IDMax="0x0164" Name="GeForce Go 6200"/>
+		<Device IDMin="0x0167" IDMax="0x0167" Name="GeForce Go 6200"/>
+		<Device IDMin="0x0169" IDMax="0x0169" Name="NV44M"/>
+		<Device IDMin="0x016B" IDMax="0x016B" Name="NV44GLM"/>
+		<Device IDMin="0x016C" IDMax="0x016C" Name="NV44GLM"/>
+		<Device IDMin="0x016D" IDMax="0x016D" Name="NV44GLM"/>
+		<Device IDMin="0x0228" IDMax="0x0228" Name="NV44M"/>
+	</Vendor>
+	<Vendor ID="0x1002" Name="ATI">
+		<Device IDMin="0x4158" IDMax="0x4158" Name="Mach 32">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4242" IDMax="0x4242" Name="Radeon 8500 DV">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4337" IDMax="0x4337" Name="IGP 340M">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4354" IDMax="0x4354" Name="Mach 64">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4742" IDMax="0x4751" Name="Rage Pro">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x474c" IDMax="0x4753" Name="Rage XC">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x474d" IDMax="0x4752" Name="Rage XL">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4754" IDMax="0x4754" Name="Rage II">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4755" IDMax="0x4755" Name="Rage II+">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4756" IDMax="0x475a" Name="Rage IIC">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4966" IDMax="0x4c41" Name="Radeon 9000"/>
+		<Device IDMin="0x4c42" IDMax="0x4c51" Name="Rage LT Pro"/>
+		<Device IDMin="0x4c45" IDMax="0x4c54" Name="Rage Mobility">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4c47" IDMax="0x4c47" Name="Rage LT">
+			<Property Name="UnsupportedCard"/>
+		</Device>
+		<Device IDMin="0x4c57" IDMax="0x4c58" Name="Radeon Mobility 7500"/>
+		<Device IDMin="0x4c59" IDMax="0x4c5a" Name="Radeon Mobility VE"/>
+		<Device IDMin="0x4c64" IDMax="0x4c66" Name="Radeon Mobility 9000"/>
+		<Device IDMin="0x4d46" IDMax="0x4d4c" Name="Rage Mobility 128"/>
+		<Device IDMin="0x4e44" IDMax="0x4e64" Name="Radeon 9700 PRO"/>
+		<Device IDMin="0x4e46" IDMax="0x4e46" Name="Radeon 9600"/>
+		<Device IDMin="0x4e50" IDMax="0x4e52" Name="Radeon 9600 Mobility"/>
+		<Device IDMin="0x5041" IDMax="0x5455" Name="Rage 128 Pro"/>
+		<Device IDMin="0x5046" IDMax="0x5046" Name="Rage Fury Pro/MAXX"/>
+		<Device IDMin="0x5144" IDMax="0x5147" Name="Radeon 7200"/>
+		<Device IDMin="0x5148" IDMax="0x5148" Name="Radeon FireGL"/>
+		<Device IDMin="0x514c" IDMax="0x514f" Name="Radeon 8500"/>
+		<Device IDMin="0x5157" IDMax="0x5157" Name="Radeon 7500"/>
+		<Device IDMin="0x5159" IDMax="0x515a" Name="Radeon 7000"/>
+		<Device IDMin="0x516c" IDMax="0x516c" Name="Radeon"/>
+		<Device IDMin="0x5245" IDMax="0x534e" Name="Rage 128"/>
+		<Device IDMin="0x514d" IDMax="0x516d" Name="Radeon 9100">
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x5834" IDMax="0x5834" Name="Radeon 9100 IGP">
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x5940" IDMax="0x5964" Name="Radeon 9200">
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x5d44" IDMax="0x5d44" Name="Radeon 9200">
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x5c61" IDMax="0x5c63" Name="Radeon Mobility 9200">
+			<Property Name="NonPow2Conditional" Value="0"/>
+		</Device>
+		<Device IDMin="0x4144" IDMax="0x4144" Name="Radeon 9500"/>
+		<Device IDMin="0x4145" IDMax="0x4145" Name="Radeon 9700"/>
+		<Device IDMin="0x4150" IDMax="0x4151" Name="Radeon 9600 PRO"/>
+		<Device IDMin="0x4170" IDMax="0x4171" Name="Radeon 9600 PRO"/>
+		<Device IDMin="0x4e66" IDMax="0x4e66" Name="Radeon 9600"/>
+		<Device IDMin="0x4152" IDMax="0x4152" Name="Radeon 9600 XT"/>
+		<Device IDMin="0x4172" IDMax="0x4172" Name="Radeon 9600 XT"/>
+		<Device IDMin="0x4e4a" IDMax="0x4e4a" Name="Radeon 9800 XT"/>
+		<Device IDMin="0x4e6a" IDMax="0x4e6a" Name="Radeon 9800 XT"/>
+		<Device IDMin="0x4148" IDMax="0x4e49" Name="Radeon 9800 PRO"/>
+		<Device IDMin="0x4e68" IDMax="0x4e69" Name="Radeon 9800 PRO"/>
+	</Vendor>
+</Database>

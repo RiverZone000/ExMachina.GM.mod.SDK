@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="4719">
+	<TargetNamesForDestroy
+		Names="u1 u2 u3 u4 u5 u6 u7 u8 u9" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player" />
+
+	<Object
+		Flags="21"
+		Name="FromR4M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3590.081 288.443 474.156"
+		Radius="10.000"
+		LookingTimeOut="10.000"
+		ExitLocation="ToR4M1" />
+
+	<Object
+		Flags="21"
+		Name="ToR4M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3615.175 288.450 449.955"
+		Radius="100.000"
+		LookingTimeOut="100.000"
+		PassageAddress="r4m1 FromR4M0"
+		PassageActive="0" />
+
+	<Object
+		Flags="21"
+		Name="FromR8M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1599.109 287.028 3790.769"
+		Radius="10.000"
+		LookingTimeOut="10.000"
+		ExitLocation="ToR8M1" />
+
+	<Object
+		Flags="21"
+		Name="ToR8M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1604.871 288.435 3834.300"
+		Radius="100.000"
+		LookingTimeOut="100.000"
+		PassageAddress="r8m1 FromR1M1"
+		PassageActive="0" />
+
+	<Object
+		Flags="21"
+		Name="FromR1M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="304.433 288.092 3483.852"
+		Radius="10.000"
+		LookingTimeOut="10.000"
+		ExitLocation="ToR1M1" />
+
+	<Object
+		Flags="21"
+		Name="ToR1M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="283.783 285.495 3527.016"
+		Radius="100.000"
+		LookingTimeOut="100.000"
+		PassageAddress="r1m1 FromR4M0"
+		PassageActive="0" />
+
+	<Object
+		Name="CrazyDeadDesert_Village"
+		Belong="1080"
+		Prototype="r4m0_CrazyDeadDesert_Village"
+		Pos="3625.671 289.258 1234.923"
+		Rot="0.000 -0.787 0.000 0.617"
+		PointOfViewInInterface="50.000 50.000 50.000"
+		CaravansDest="">
+		<Object
+			Name="CrazyDeadDesert_Bar"
+			Belong="1080"
+			Prototype="bar">
+			<Object
+				Name="CrazyDeadDesert_Bar_Barman"
+				Belong="1080"
+				Prototype="NPC"
+				ModelName="r4_man"
+				skin="1"
+				cfg="202"
+				NpcType="BARMAN"
+				SpokenCount="0" />
+
+			<Object
+				Name="DesertCrazyman"
+				Belong="1080"
+				Prototype="NPC"
+				ModelName="r4_man"
+				skin="2"
+				cfg="141"
+				SpokenCount="0" />
+
+			<Object
+				Name="RabCrazyman"
+				Belong="1080"
+				Prototype="NPC"
+				ModelName="r1_man"
+				skin="3"
+				cfg="158"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
+			Name="CrazyDeadDesert_Workshop"
+			Belong="1080"
+			Prototype="workshop" />
+
+		<Object
+			Name="CrazyDeadDesert_Shop"
+			Belong="1080"
+			Prototype="shop">
+			<GunsAndGadgets />
+		</Object>
+
+		<Object
+			Flags="21"
+			Name="CrazyDeadDesert_enter"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="3613.858 289.224 1231.618"
+			Radius="70.511"
+			LookingTimeOut="10.000" />
+
+		<Object
+			Flags="21"
+			Name="CrazyDeadDesert_defend"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="3625.671 289.258 1234.923"
+			Radius="23.993"
+			LookingTimeOut="70.000" />
+
+		<Object
+			Flags="21"
+			Name="CrazyDeadDesert_deploy"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="3625.671 289.258 1234.923"
+			Radius="6.584"
+			LookingTimeOut="20.000" />
+
+		<Parts />
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="Light_Yellow4599"
+		Belong="1001"
+		Prototype="Light_Yellow"
+		Pos="3546.689 290.245 1259.544" />
+
+	<Object
+		Name="Light_Yellow4600"
+		Belong="1001"
+		Prototype="Light_Yellow"
+		Pos="3635.770 289.979 1278.062" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24601"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3661.417 288.908 1190.434" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24602"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3658.333 288.793 1191.702" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24603"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3659.101 288.799 1190.038" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24604"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3658.915 288.761 1188.221" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24605"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3656.643 288.686 1189.721" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24606"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3660.450 288.837 1188.722" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24607"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3659.997 288.857 1191.133" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24608"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3656.735 288.707 1190.762" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24609"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3656.689 288.662 1188.160" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24610"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3658.748 288.689 1185.548" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24611"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3659.134 288.634 1182.909" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24612"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3656.568 288.613 1185.518" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24613"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3657.018 288.596 1184.158" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24614"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3669.290 289.692 1195.935" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24615"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3672.639 289.850 1193.367" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24616"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3672.148 289.728 1192.132" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24617"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3668.916 289.563 1194.092" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24618"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3659.526 288.663 1184.116" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24619"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3660.132 288.631 1180.710" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24620"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3661.707 288.595 1178.041" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24621"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3660.787 288.617 1179.486" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24622"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3660.083 288.538 1176.756" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24623"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3657.768 288.544 1179.079" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24624"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3657.455 288.564 1181.186" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24625"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3659.542 288.596 1179.417" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24626"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3658.467 288.514 1176.822" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24627"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3658.435 288.483 1175.139" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24628"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3655.541 288.436 1174.412" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24629"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3656.057 288.467 1176.781" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24630"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3655.999 288.499 1179.273" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24631"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3656.653 288.457 1175.282" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24632"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3654.758 288.423 1173.333" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24633"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3652.708 288.412 1172.675" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24634"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3653.545 288.437 1175.327" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24635"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3656.047 288.532 1181.654" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24636"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3659.964 288.639 1181.667" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24637"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3670.889 289.884 1197.081" />
+
+	<Object
+		Name="Breakable_Barrel_Explosive24638"
+		Belong="1001"
+		Prototype="Breakable_Barrel_Explosive2"
+		Pos="3671.099 289.796 1195.097" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn4689"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="3269.479 285.848 1552.920"
+		Rot="0.000 -0.843 0.000 0.537" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn4690"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="3319.559 286.570 1462.641"
+		Rot="0.000 0.537 0.000 0.843" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn4691"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="3223.571 287.477 1456.869"
+		Rot="0.000 0.649 0.000 0.760" />
+
+	<Object
+		Name="r4_desert_palma_1_dyn4692"
+		Belong="1001"
+		Prototype="r4_desert_palma_1_dyn"
+		Pos="3347.793 290.574 1529.746"
+		Rot="0.000 -0.530 0.000 0.848" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn4693"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="3308.118 289.719 1564.052"
+		Rot="0.000 -0.026 0.000 1.000" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn4694"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="3354.463 291.143 1482.465"
+		Rot="0.000 -0.035 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn4695"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="3276.914 288.263 1431.341"
+		Rot="0.000 -0.743 0.000 0.669" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn4696"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="3227.273 288.539 1567.732"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn4697"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="3293.830 291.064 1592.985"
+		Rot="0.000 -0.326 0.000 0.945" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn4698"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="3365.473 292.583 1559.647"
+		Rot="0.000 0.956 0.000 0.292" />
+
+	<Object
+		Name="r4_desert_palma_3_dyn4699"
+		Belong="1001"
+		Prototype="r4_desert_palma_3_dyn"
+		Pos="3311.487 293.817 1413.006"
+		Rot="0.000 0.927 0.000 0.375" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4700"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3311.884 289.252 1443.497"
+		Rot="0.000 -0.824 0.000 0.566" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4701"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3215.463 288.246 1612.029"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4702"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3270.607 288.728 1646.083"
+		Rot="0.000 -0.824 0.000 0.566" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4703"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3370.239 296.491 1643.019"
+		Rot="0.000 0.980 0.000 -0.199" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4704"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3427.639 294.556 1527.410"
+		Rot="0.000 0.862 0.000 0.508" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4705"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3436.275 294.224 1473.631"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4706"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3472.157 298.062 1531.931"
+		Rot="0.000 -0.772 0.000 0.636" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4707"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3428.365 294.992 1568.319"
+		Rot="0.000 0.994 0.000 -0.105" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4708"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3383.898 295.699 1431.525"
+		Rot="0.000 0.910 0.000 -0.415" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4709"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3358.743 296.333 1375.716"
+		Rot="0.000 0.087 0.000 0.996" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4710"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3383.260 294.364 1344.962"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4711"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3304.725 291.660 1356.220"
+		Rot="0.000 0.284 0.000 0.959" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4712"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3199.565 288.972 1392.559"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4713"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3182.334 288.097 1335.242"
+		Rot="0.000 -0.399 0.000 0.917" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4714"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3240.310 288.124 1340.053"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="r4_desert_palma_2_dyn4715"
+		Belong="1001"
+		Prototype="r4_desert_palma_2_dyn"
+		Pos="3178.656 290.322 1462.803"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="OracleMirage"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2340.824 296.818 2286.920"
+		Radius="900.000" />
+
+	<Object
+		Name="UfoMirage"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3767.100 286.485 347.755"
+		Radius="900.000" />
+
+	<Object
+		Name="ParisMirage"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1169.481 288.097 2401.426"
+		Radius="900.000" />
+
+	<Object
+		Name="CraulerMirageStart"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1893.511 297.324 1208.749"
+		Radius="700.000" />
+
+	<Object
+		Name="BandMirageStart"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="769.547 288.096 1887.983"
+		Radius="700.000" />
+
+	<Object
+		Name="IvanMirageStart"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3472.484 288.096 1102.684"
+		Radius="700.000" />
+
+	<Object
+		Name="NeftMirageStart"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2914.978 304.986 3041.979"
+		Radius="700.000" />
+
+	<Object
+		Name="CraulerMirage"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1893.511 297.324 1208.749"
+		Radius="300.000" />
+
+	<Object
+		Name="BandMirage"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="769.547 288.096 1887.983"
+		Radius="300.000" />
+
+	<Object
+		Name="IvanMirage"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3472.484 288.096 1102.684"
+		Radius="300.000" />
+
+	<Object
+		Name="NeftMirage"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2914.978 304.986 3041.979"
+		Radius="300.000" />
+
+	<Object
+		Name="InfectionZone34"
+		Belong="1062"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="r4_BanditesTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="r4_BanditesTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="1472.396"
+				y="3398.847" />
+
+			<Point
+				x="962.925"
+				y="3212.602" />
+
+			<Point
+				x="234.254"
+				y="2949.901" />
+
+			<Point
+				x="2061.354"
+				y="1071.900" />
+
+			<Point
+				x="1202.839"
+				y="3105.200" />
+
+			<Point
+				x="2238.450"
+				y="1810.697" />
+
+			<Point
+				x="669.345"
+				y="625.440" />
+
+			<Point
+				x="1138.740"
+				y="2557.224" />
+
+			<Point
+				x="1327.908"
+				y="1844.346" />
+
+			<Point
+				x="308.540"
+				y="1522.828" />
+
+			<Point
+				x="1368.363"
+				y="2288.148" />
+
+			<Point
+				x="303.428"
+				y="2493.816" />
+		</Polygon>
+		
+		<DropOut>
+			<Point
+				x="892.984"
+				y="3087.875" />
+
+			<Point
+				x="342.970"
+				y="2874.887" />
+
+			<Point
+				x="1489.358"
+				y="2385.972" />
+
+			<Point
+				x="1416.338"
+				y="2776.370" />
+
+			<Point
+				x="1046.086"
+				y="2535.484" />
+
+			<Point
+				x="620.440"
+				y="2227.523" />
+
+			<Point
+				x="659.124"
+				y="2595.542" />
+
+			<Point
+				x="922.292"
+				y="3387.238" />
+
+			<Point
+				x="1153.315"
+				y="3135.650" />
+
+			<Point
+				x="1458.714"
+				y="1916.572" />
+
+			<Point
+				x="554.308"
+				y="1853.087" />
+
+			<Point
+				x="1619.039"
+				y="2237.939" />
+
+			<Point
+				x="1840.311"
+				y="2511.152" />
+
+			<Point
+				x="2009.127"
+				y="2182.370" />
+
+			<Point
+				x="1808.941"
+				y="2875.793" />
+
+			<Point
+				x="1769.832"
+				y="3220.813" />
+
+			<Point
+				x="1417.218"
+				y="3538.284" />
+
+			<Point
+				x="1273.884"
+				y="1819.153" />
+
+			<Point
+				x="998.804"
+				y="1675.910" />
+
+			<Point
+				x="697.085"
+				y="1663.698" />
+
+			<Point
+				x="817.250"
+				y="1444.654" />
+
+			<Point
+				x="860.051"
+				y="985.180" />
+
+			<Point
+				x="1268.668"
+				y="1606.467" />
+
+			<Point
+				x="1573.729"
+				y="1205.416" />
+
+			<Point
+				x="1497.251"
+				y="1538.940" />
+
+			<Point
+				x="1690.349"
+				y="1726.086" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone35"
+		Belong="1062"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="r4_BanditesTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="r4_BanditesTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="3938.146"
+				y="934.854" />
+
+			<Point
+				x="3977.194"
+				y="2269.855" />
+
+			<Point
+				x="3287.720"
+				y="2365.449" />
+
+			<Point
+				x="3060.098"
+				y="1645.710" />
+
+			<Point
+				x="4001.843"
+				y="1819.792" />
+
+			<Point
+				x="3614.211"
+				y="2154.581" />
+
+			<Point
+				x="3343.518"
+				y="1710.013" />
+
+			<Point
+				x="2491.448"
+				y="481.407" />
+
+			<Point
+				x="3558.146"
+				y="909.224" />
+
+			<Point
+				x="3182.886"
+				y="489.563" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="461.056"
+				y="1475.503" />
+
+			<Point
+				x="549.731"
+				y="1473.194" />
+
+			<Point
+				x="540.446"
+				y="1644.849" />
+
+			<Point
+				x="598.000"
+				y="1750.035" />
+
+			<Point
+				x="591.988"
+				y="1865.175" />
+
+			<Point
+				x="681.409"
+				y="1623.429" />
+
+			<Point
+				x="657.919"
+				y="1494.133" />
+
+			<Point
+				x="790.143"
+				y="1631.397" />
+
+			<Point
+				x="715.005"
+				y="1819.073" />
+
+			<Point
+				x="839.247"
+				y="1831.490" />
+
+			<Point
+				x="899.604"
+				y="1724.591" />
+
+			<Point
+				x="929.990"
+				y="1590.871" />
+
+			<Point
+				x="1046.612"
+				y="1512.116" />
+
+			<Point
+				x="1072.818"
+				y="1639.868" />
+
+			<Point
+				x="1191.406"
+				y="1510.299" />
+
+			<Point
+				x="1286.960"
+				y="1665.144" />
+
+			<Point
+				x="1220.490"
+				y="1765.227" />
+
+			<Point
+				x="1178.707"
+				y="1620.408" />
+
+			<Point
+				x="1324.707"
+				y="1592.660" />
+
+			<Point
+				x="1461.477"
+				y="1755.054" />
+
+			<Point
+				x="1087.600"
+				y="1793.051" />
+
+			<Point
+				x="2584.211"
+				y="1122.012" />
+
+			<Point
+				x="2617.065"
+				y="425.046" />
+
+			<Point
+				x="3323.718"
+				y="201.404" />
+
+			<Point
+				x="3209.091"
+				y="707.480" />
+
+			<Point
+				x="3024.724"
+				y="924.868" />
+
+			<Point
+				x="3817.065"
+				y="766.043" />
+
+			<Point
+				x="3835.078"
+				y="1039.947" />
+
+			<Point
+				x="3110.206"
+				y="1462.113" />
+
+			<Point
+				x="3281.345"
+				y="1909.959" />
+
+			<Point
+				x="3815.584"
+				y="2381.784" />
+
+			<Point
+				x="3852.851"
+				y="1630.504" />
+
+			<Point
+				x="3613.156"
+				y="1925.666" />
+
+			<Point
+				x="3910.948"
+				y="1963.160" />
+
+			<Point
+				x="2986.875"
+				y="2051.476" />
+
+			<Point
+				x="2859.938"
+				y="1427.447" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone36"
+		Belong="1062"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="r4_BanditesTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="r4_BanditesTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="1843.762"
+				y="3121.440" />
+
+			<Point
+				x="2775.084"
+				y="2962.684" />
+
+			<Point
+				x="1983.177"
+				y="2732.292" />
+
+			<Point
+				x="3094.292"
+				y="2679.574" />
+
+			<Point
+				x="3533.576"
+				y="2912.477" />
+
+			<Point
+				x="3633.832"
+				y="3721.794" />
+
+			<Point
+				x="2757.532"
+				y="3652.183" />
+
+			<Point
+				x="2274.489"
+				y="2914.489" />
+
+			<Point
+				x="2080.302"
+				y="3683.218" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="461.056"
+				y="1475.503" />
+
+			<Point
+				x="549.731"
+				y="1473.194" />
+
+			<Point
+				x="540.446"
+				y="1644.849" />
+
+			<Point
+				x="598.000"
+				y="1750.035" />
+
+			<Point
+				x="591.988"
+				y="1865.175" />
+
+			<Point
+				x="681.409"
+				y="1623.429" />
+
+			<Point
+				x="657.919"
+				y="1494.133" />
+
+			<Point
+				x="790.143"
+				y="1631.397" />
+
+			<Point
+				x="715.005"
+				y="1819.073" />
+
+			<Point
+				x="839.247"
+				y="1831.490" />
+
+			<Point
+				x="899.604"
+				y="1724.591" />
+
+			<Point
+				x="929.990"
+				y="1590.871" />
+
+			<Point
+				x="1046.612"
+				y="1512.116" />
+
+			<Point
+				x="1072.818"
+				y="1639.868" />
+
+			<Point
+				x="1191.406"
+				y="1510.299" />
+
+			<Point
+				x="1286.960"
+				y="1665.144" />
+
+			<Point
+				x="1220.490"
+				y="1765.227" />
+
+			<Point
+				x="1178.707"
+				y="1620.408" />
+
+			<Point
+				x="1324.707"
+				y="1592.660" />
+
+			<Point
+				x="1461.477"
+				y="1755.054" />
+
+			<Point
+				x="1087.600"
+				y="1793.051" />
+
+			<Point
+				x="2651.598"
+				y="2514.037" />
+
+			<Point
+				x="3088.524"
+				y="2525.421" />
+
+			<Point
+				x="2629.134"
+				y="2781.317" />
+
+			<Point
+				x="2664.828"
+				y="3287.320" />
+
+			<Point
+				x="2297.327"
+				y="3597.403" />
+
+			<Point
+				x="2098.640"
+				y="2947.072" />
+
+			<Point
+				x="2291.305"
+				y="2536.158" />
+
+			<Point
+				x="3341.069"
+				y="2652.315" />
+
+			<Point
+				x="3606.571"
+				y="3154.380" />
+
+			<Point
+				x="3497.092"
+				y="3887.149" />
+
+			<Point
+				x="3739.629"
+				y="3619.858" />
+
+			<Point
+				x="2425.891"
+				y="2948.585" />
+
+			<Point
+				x="2732.930"
+				y="3830.507" />
+
+			<Point
+				x="1736.045"
+				y="3559.031" />
+
+			<Point
+				x="1811.060"
+				y="2920.967" />
+
+			<Point
+				x="2081.655"
+				y="2475.110" />
+
+			<Point
+				x="2889.815"
+				y="2385.610" />
+
+			<Point
+				x="3780.341"
+				y="2736.594" />
+
+			<Point
+				x="3178.581"
+				y="2786.037" />
+		</DropOut>
+	</Object>
+</DynamicScene>

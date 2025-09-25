@@ -1,0 +1,269 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x0058F112
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 06/18/23 02:28:26
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1010 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available =  959 MB
+1: Page file available            = 1633 MB
+
+1: Data from MemoryManager:
+1: mem used:           164443355
+1: mem allocated:      311114687
+1: mem overhead:         9034272
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1     RtlFreeHeap +126 bytes
+1:     Decl: RtlFreeHeap
+1:     Mod:  ntdll, base: 77530000h
+
+
+Registers:
+	CS:EIP 0x001B:0058F112
+	SS:ESP 0x0023:0012ECB4
+	DS:EDI 0x0023:00000000
+	ES:ESI 0x0023:082401B8
+	   EAX        00000000
+	   EBX        00000000
+	   ECX        082401B8
+	   EDX        0904C5FC
+
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x004AEDE5
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x000000C0 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+2: 06/18/23 02:28:28
+lu: GlobalMemoryStatus(): GetLastError = 2
+
+2: Data from MemoryManager:
+2: mem used:           164452379
+2: mem allocated:      311123743
+2: mem overhead:         9034288
+2: last allocation:            0
+
+
+2:   0
+2:     Mod:  M3DEditor, base: 00400000h
+
+2:   1
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c171915
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   2
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c14db36
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   3
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c1561ca
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   4
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c156147
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   5
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e0b0
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   6
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e14f
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   7
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e1b8
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   8
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e1f6
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:   9     gapfnScSendMessage +455 bytes
+2:     Decl: gapfnScSendMessage
+2:     Mod:  USER32, base: 77230000h
+
+2:  10     gapfnScSendMessage +711 bytes
+2:     Decl: gapfnScSendMessage
+2:     Mod:  USER32, base: 77230000h
+
+2:  11     DefWindowProcW +536 bytes
+2:     Decl: DefWindowProcW
+2:     Mod:  USER32, base: 77230000h
+
+2:  12     SendMessageW +73 bytes
+2:     Decl: SendMessageW
+2:     Mod:  USER32, base: 77230000h
+
+2:  13     ImageList_DrawIndirect +5355 bytes
+2:     Decl: ImageList_DrawIndirect
+2:     Mod:  COMCTL32, base: 57580000h
+
+2:  14     ImageList_Destroy +2103 bytes
+2:     Decl: ImageList_Destroy
+2:     Mod:  COMCTL32, base: 57580000h
+
+2:  15     _TrackMouseEvent +73950 bytes
+2:     Decl: _TrackMouseEvent
+2:     Mod:  COMCTL32, base: 57580000h
+
+2:  16     _TrackMouseEvent +76086 bytes
+2:     Decl: _TrackMouseEvent
+2:     Mod:  COMCTL32, base: 57580000h
+
+2:  17     gapfnScSendMessage +455 bytes
+2:     Decl: gapfnScSendMessage
+2:     Mod:  USER32, base: 77230000h
+
+2:  18     gapfnScSendMessage +711 bytes
+2:     Decl: gapfnScSendMessage
+2:     Mod:  USER32, base: 77230000h
+
+2:  19     PeekMessageA +396 bytes
+2:     Decl: PeekMessageA
+2:     Mod:  USER32, base: 77230000h
+
+2:  20     CallWindowProcA +27 bytes
+2:     Decl: CallWindowProcA
+2:     Mod:  USER32, base: 77230000h
+
+2:  21
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16fcdb
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:  22
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e0c7
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:  23
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e14f
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:  24
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e1b8
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:  25
+2:     Mod:  MFC71, base: 7c140000h
+2:     Offset: 0x7c16e1f6
+2:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+2:  26     gapfnScSendMessage +455 bytes
+2:     Decl: gapfnScSendMessage
+2:     Mod:  USER32, base: 77230000h
+
+2:  27     SetPropW +474 bytes
+2:     Decl: SetPropW
+2:     Mod:  USER32, base: 77230000h
+
+2:  28     GetScrollBarInfo +253 bytes
+2:     Decl: GetScrollBarInfo
+2:     Mod:  USER32, base: 77230000h
+
+2:  29     GetScrollBarInfo +364 bytes
+2:     Decl: GetScrollBarInfo
+2:     Mod:  USER32, base: 77230000h
+
+2:  30     KiUserCallbackDispatcher +46 bytes
+2:     Decl: KiUserCallbackDispatcher
+2:     Mod:  ntdll, base: 77530000h
+
+2:  31     DispatchMessageW +15 bytes
+2:     Decl: DispatchMessageW
+2:     Mod:  USER32, base: 77230000h
+
+2:  32     DrawStateW +847 bytes
+2:     Decl: DrawStateW
+2:     Mod:  USER32, base: 77230000h
+
+2:  33     DrawStateW +1439 bytes
+2:     Decl: DrawStateW
+2:     Mod:  USER32, base: 77230000h
+
+2:  34     SoftModalMessageBox +1674 bytes
+2:     Decl: SoftModalMessageBox
+2:     Mod:  USER32, base: 77230000h
+
+2:  35     SoftModalMessageBox +3086 bytes
+2:     Decl: SoftModalMessageBox
+2:     Mod:  USER32, base: 77230000h
+
+2:  36     MessageBoxTimeoutW +127 bytes
+2:     Decl: MessageBoxTimeoutW
+2:     Mod:  USER32, base: 77230000h
+
+2:  37     MessageBoxTimeoutA +161 bytes
+2:     Decl: MessageBoxTimeoutA
+2:     Mod:  USER32, base: 77230000h
+
+2:  38     MessageBoxExA +27 bytes
+2:     Decl: MessageBoxExA
+2:     Mod:  USER32, base: 77230000h
+
+2:  39     MessageBoxA +69 bytes
+2:     Decl: MessageBoxA
+2:     Mod:  USER32, base: 77230000h
+
+2:  40
+2:     Mod:  M3DEditor, base: 00400000h
+
+2:  41     _XcptFilter +351 bytes
+2:     Decl: _XcptFilter
+2:     Mod:  MSVCR71, base: 7c360000h
+
+2:  42     ai::Boss02::LoadFromXML +359103 bytes
+2:     Decl: public: virtual void __thiscall ai::Boss02::LoadFromXML(struct m3d::cmn::XmlFile *,struct m3d::cmn::XmlNode const *)
+2:     Mod:  M3DEditor, base: 00400000h
+
+2:  43     BaseThreadInitThunk +18 bytes
+2:     Decl: BaseThreadInitThunk
+2:     Mod:  kernel32, base: 77080000h
+
+2:  44     RtlInitializeExceptionChain +239 bytes
+2:     Decl: RtlInitializeExceptionChain
+2:     Mod:  ntdll, base: 77530000h
+
+2:  45     RtlInitializeExceptionChain +194 bytes
+2:     Decl: RtlInitializeExceptionChain
+2:     Mod:  ntdll, base: 77530000h
+
+
+Registers:
+	CS:EIP 0x001B:004AEDE5
+	SS:ESP 0x0023:0012C8F8
+	DS:EDI 0x0023:00000001
+	ES:ESI 0x0023:2D26E6C4
+	   EAX        000000C0
+	   EBX        0000004E
+	   ECX        00000001
+	   EDX        00000000
+

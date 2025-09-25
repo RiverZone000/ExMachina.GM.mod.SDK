@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+
+	<Object
+		Name="ToR4M0"
+		FullName="Выезд в Пустыню Смерти" />
+
+    <Object
+		Name="ToR1M1"
+		FullName="Дорога в Край" />
+
+    <Object
+        Name="Mariupol_Bar_Barman"
+        FullName="Бармен Сёмка" />
+
+    <Object
+        Name="Mariupol_Bar"
+        FullName="Бар ''3 Метра до Пустыни''" />       
+
+    <Object
+        Name="Mariupol_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Mariupol_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="Berdanskoe_Bar_Barman"
+        FullName="Бармен Эльдар" />
+
+    <Object
+        Name="Berdanskoe_Bar"
+        FullName="Бар ''Колосок''" /> 
+
+    <Object
+        Name="Berdanskoe_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Berdanskoe_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="Topolinoe_Bar_Barman"
+        FullName="Барменша Марьяна" />
+
+    <Object
+        Name="Topolinoe_Bar"
+        FullName="Бар ''Голубое небо''" /> 
+
+    <Object
+        Name="Topolinoe_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Topolinoe_Shop"
+        FullName="Магазин" />
+
+        <Object
+        Name="Nikolskoe_Bar_Barman"
+        FullName="Бармен(ша) Саша" />
+
+    <Object
+        Name="Nikolskoe_Bar"
+        FullName="Бар ''Радужное перепутье''" /> 
+
+    <Object
+        Name="Nikolskoe_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Nikolskoe_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="Mariupol_Village"
+        FullName="Мариупольское" />
+
+    <Object
+        Name="Berdanskoe_Village"
+        FullName="Бердянское" />
+
+    <Object
+        Name="Nikolskoe_Village"
+        FullName="Никольское" />
+
+    <Object
+        Name="Topolinoe_Village"
+        FullName="Тополиное" />
+
+    <Object
+        Name="Zavod_NGP"
+        FullName="Завод ''НГП''" />
+
+    <Object
+        Name="Zavod_NGP_Bar_Barman"
+        FullName="Официант Екатерина" />
+
+    <Object
+        Name="Zavod_NGP_Bar"
+        FullName="Столовая ''Неон''" /> 
+
+    <Object
+        Name="Zavod_NGP_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Zavod_NGP_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="Makedonovka_Village"
+        FullName="Македоновка" />
+
+    <Object
+        Name="Makedonovka_Bar_Barman"
+        FullName="Бармен Дениска" />
+
+    <Object
+        Name="Makedonovka_Bar"
+        FullName="Бар ''Кружечка нефти с газиком!''" /> 
+
+    <Object
+        Name="Makedonovka_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="Makedonovka_Shop"
+        FullName="Магазин" />
+
+    <Object
+        Name="PetrolStationTown6302"
+        FullName="Заправка" />
+</ObjectNames>

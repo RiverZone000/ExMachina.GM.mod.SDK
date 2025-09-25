@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+        Name="CrazyDeadDesert_Village"
+        FullName="Деревня безумцев" />
+
+    <Object
+        Name="CrazyDeadDesert_Bar"
+        FullName="''Белая комната''" />
+
+    <Object
+        Name="CrazyDeadDesert_Workshop"
+        FullName="Мастерская" />
+
+    <Object
+        Name="CrazyDeadDesert_Workshop"
+        FullName="Магазин" />
+</ObjectNames>

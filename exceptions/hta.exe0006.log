@@ -1,0 +1,41 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Minidump could not be written, GetLastError = 2147942408
+-== Exception      : 0x80000003 at address 0x00748A9B
+-== Exception type : BREAKPOINT 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 09/24/25 18:59:26
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 2047 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available =   13 MB
+1: Page file available            = 4095 MB
+
+1: Data from MemoryManager:
+1: mem used:           242960652
+1: mem allocated:      283881691
+1: mem overhead:        23267872
+1: last allocation:          100
+1: mem used by sound:   76918630
+
+
+1:   0   SymGetSymFromAddr(): GetLastError = 126
+1: SymGetModuleInfo): GetLastError = 126
+
+
+Registers:
+	CS:EIP 0x0023:00748A9B
+	SS:ESP 0x002B:039C3F8C
+	DS:EDI 0x002B:7796D7F8
+	ES:ESI 0x002B:0E4E0508
+	   EAX        00000000
+	   EBX        00000064
+	   ECX        00000000
+	   EDX        00000008
+

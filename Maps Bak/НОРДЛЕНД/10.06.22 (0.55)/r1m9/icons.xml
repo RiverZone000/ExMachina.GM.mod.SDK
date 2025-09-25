@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<icons>
+
+    <Item id="TheEllen_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>
+    <Item id="Heim_Bar"			file="data\if\ico\TalkWithNpcDlg\cardialog1.dds"		file1=""/>
+    <Item id="Ship_Bar"			file="data\if\ico\TalkWithNpcDlg\Dialog_Bar.dds"		file1=""/>
+    <Item id="Molde_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>
+    <Item id="Ondalnes_Bar"			file="data\if\ico\TalkWithNpcDlg\cardialog1.dds"		file1=""/>
+    <Item id="Bergen_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>
+    <Item id="Sula_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>
+
+</icons>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Roads>
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806730316"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806730844"
+		org="392.923 0.000 3706.350"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806730844"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode805814772"
+		BackZLink="RoadNode806730316"
+		org="379.640 0.000 3695.345"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode805814772"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806734012"
+		BackZLink="RoadNode806730844"
+		org="368.552 0.000 3681.697"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806734012"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode805813716"
+		BackZLink="RoadNode805814772"
+		org="362.290 0.000 3664.147"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode805813716"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode805811604"
+		BackZLink="RoadNode806734012"
+		org="366.409 0.000 3648.373"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode805811604"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode805812132"
+		BackZLink="RoadNode805813716"
+		org="368.384 0.000 3641.275"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode805812132"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806508212"
+		BackZLink="RoadNode805811604"
+		org="369.707 0.000 3636.704"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806508212"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806509268"
+		BackZLink="RoadNode805812132"
+		org="377.543 0.000 3621.364"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806509268"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806510324"
+		BackZLink="RoadNode806508212"
+		org="389.955 0.000 3612.639"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806510324"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806510852"
+		BackZLink="RoadNode806509268"
+		org="409.139 0.000 3608.545"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806510852"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806511380"
+		BackZLink="RoadNode806510324"
+		org="426.154 0.000 3603.732"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806511380"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806265924"
+		BackZLink="RoadNode806510852"
+		org="443.169 0.000 3598.918"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806265924"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806266980"
+		BackZLink="RoadNode806511380"
+		org="454.098 0.000 3586.561"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806266980"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806268036"
+		BackZLink="RoadNode806265924"
+		org="456.383 0.000 3568.703"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806268036"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806268564"
+		BackZLink="RoadNode806266980"
+		org="450.924 0.000 3555.329"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806268564"
+		roadset="road_dark_small_highway"
+		skinNumber="3"
+		FwdZLink="RoadNode806270148"
+		BackZLink="RoadNode806268036"
+		org="441.622 0.000 3541.269"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806270148"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806271204"
+		BackZLink="RoadNode806268564"
+		org="425.596 0.000 3523.926"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806271204"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806271732"
+		BackZLink="RoadNode806270148"
+		org="408.247 0.000 3521.214"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806271732"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806273316"
+		BackZLink="RoadNode806271204"
+		org="391.801 0.000 3520.364"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806273316"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806274372"
+		BackZLink="RoadNode806271732"
+		org="375.467 0.000 3514.218"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806274372"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806275428"
+		BackZLink="RoadNode806273316"
+		org="371.729 0.000 3496.827"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806275428"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806275956"
+		BackZLink="RoadNode806274372"
+		org="377.562 0.000 3483.821"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806275956"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806277540"
+		BackZLink="RoadNode806275428"
+		org="382.856 0.000 3473.446"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806277540"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806278596"
+		BackZLink="RoadNode806275956"
+		org="395.767 0.000 3462.483"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806278596"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806279124"
+		BackZLink="RoadNode806277540"
+		org="413.471 0.000 3453.631"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806279124"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806279652"
+		BackZLink="RoadNode806278596"
+		org="431.586 0.000 3445.267"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806279652"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806281764"
+		BackZLink="RoadNode806279124"
+		org="444.348 0.000 3439.745"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806281764"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806695916"
+		BackZLink="RoadNode806279652"
+		org="453.143 0.000 3431.627"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806695916"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806696444"
+		BackZLink="RoadNode806281764"
+		org="455.887 0.000 3421.379"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806696444"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode806696972"
+		BackZLink="RoadNode806695916"
+		org="455.687 0.000 3409.683"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806696972"
+		roadset="road_dark_small_highway"
+		skinNumber="3"
+		FwdZLink="RoadNode806553708"
+		BackZLink="RoadNode806696444"
+		org="445.013 0.000 3386.777"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806701724"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode806700140"
+		org="450.637 0.000 3646.942"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806700140"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode806699612"
+		BackZLink="RoadNode806701724"
+		org="441.945 0.000 3664.759"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806699612"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode806702780"
+		BackZLink="RoadNode806700140"
+		org="426.683 0.000 3687.170"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806702780"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode806703836"
+		BackZLink="RoadNode806699612"
+		org="408.305 0.000 3706.526"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806703836"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode806705420"
+		BackZLink="RoadNode806702780"
+		org="395.984 0.000 3720.336"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806705420"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode806707004"
+		BackZLink="RoadNode806703836"
+		org="382.169 0.000 3728.905"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806707004"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode806708588"
+		BackZLink="RoadNode806705420"
+		org="371.483 0.000 3741.203"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806708588"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		BackZLink="RoadNode806707004"
+		org="369.074 0.000 3762.184"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806553708"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode805814244"
+		BackZLink="RoadNode806696972"
+		org="437.393 0.000 3365.982"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode805814244"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806552652"
+		BackZLink="RoadNode806553708"
+		org="434.179 0.000 3345.678"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806552652"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode806551596"
+		BackZLink="RoadNode805814244"
+		org="443.948 0.000 3325.389"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode806551596"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode827282604"
+		BackZLink="RoadNode806552652"
+		org="465.968 0.000 3304.905"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode827282604"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode827283660"
+		BackZLink="RoadNode806551596"
+		org="488.809 0.000 3287.515"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode827283660"
+		roadset="road_dark_small_highway"
+		skinNumber="1"
+		FwdZLink="RoadNode827284716"
+		BackZLink="RoadNode827282604"
+		org="511.233 0.000 3278.900"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode827284716"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode827285244"
+		BackZLink="RoadNode827283660"
+		org="536.264 0.000 3273.060"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode827285244"
+		roadset="road_dark_small_highway"
+		skinNumber="3"
+		FwdZLink="RoadNode827286300"
+		BackZLink="RoadNode827284716"
+		org="556.799 0.000 3254.045"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode827286300"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode827287356"
+		BackZLink="RoadNode827285244"
+		org="570.147 0.000 3232.164"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode827287356"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		FwdZLink="RoadNode827779748"
+		BackZLink="RoadNode827286300"
+		org="574.246 0.000 3216.561"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode827779748"
+		roadset="road_dark_small_highway"
+		skinNumber="2"
+		BackZLink="RoadNode827287356"
+		org="578.346 0.000 3200.958"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825165340"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825166396"
+		org="1273.611 0.000 2434.678"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825166396"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825170620"
+		BackZLink="RoadNode825165340"
+		org="1283.949 0.000 2419.589"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825170620"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826509852"
+		BackZLink="RoadNode825166396"
+		org="1294.288 0.000 2404.499"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826509852"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826516716"
+		BackZLink="RoadNode825170620"
+		org="1312.264 0.000 2381.655"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826516716"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825172204"
+		BackZLink="RoadNode826509852"
+		org="1329.790 0.000 2358.130"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825172204"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826509324"
+		BackZLink="RoadNode826516716"
+		org="1339.374 0.000 2343.219"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826509324"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825173260"
+		BackZLink="RoadNode825172204"
+		org="1348.171 0.000 2327.830"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825173260"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826505628"
+		BackZLink="RoadNode826509324"
+		org="1354.664 0.000 2308.375"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826505628"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826516188"
+		BackZLink="RoadNode825173260"
+		org="1356.926 0.000 2287.991"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826516188"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826507212"
+		BackZLink="RoadNode826505628"
+		org="1357.992 0.000 2264.622"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826507212"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825755620"
+		BackZLink="RoadNode826516188"
+		org="1357.438 0.000 2241.236"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825755620"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826511964"
+		BackZLink="RoadNode826507212"
+		org="1358.629 0.000 2222.242"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826511964"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825754036"
+		BackZLink="RoadNode825755620"
+		org="1361.286 0.000 2203.396"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825754036"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825746116"
+		BackZLink="RoadNode826511964"
+		org="1365.219 0.000 2187.445"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825746116"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826513020"
+		BackZLink="RoadNode825754036"
+		org="1370.634 0.000 2171.933"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826513020"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode826512492"
+		BackZLink="RoadNode825746116"
+		org="1377.484 0.000 2157.000"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode826512492"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825749812"
+		BackZLink="RoadNode826513020"
+		org="1384.378 0.000 2142.328"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825749812"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825748756"
+		BackZLink="RoadNode826512492"
+		org="1391.406 0.000 2127.719"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825748756"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825751924"
+		BackZLink="RoadNode825749812"
+		org="1398.569 0.000 2113.176"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825751924"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825752452"
+		BackZLink="RoadNode825748756"
+		org="1405.864 0.000 2098.699"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825752452"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825747700"
+		BackZLink="RoadNode825751924"
+		org="1413.291 0.000 2084.289"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825747700"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		FwdZLink="RoadNode825780228"
+		BackZLink="RoadNode825752452"
+		org="1422.904 0.000 2064.459"
+		ModelNum="0" />
+
+	<RoadNode
+		class="RoadNode"
+		name="RoadNode825780228"
+		roadset="road_dark_highway"
+		skinNumber="0"
+		BackZLink="RoadNode825747700"
+		org="1431.953 0.000 2044.366"
+		ModelNum="0" />
+</Roads>

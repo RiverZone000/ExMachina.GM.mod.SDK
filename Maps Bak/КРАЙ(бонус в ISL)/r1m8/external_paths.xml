@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="SpecEnd_path1">
+		<Point
+			coord="3284.316 3087.792" />
+
+		<Point
+			coord="3311.798 3146.646" />
+
+		<Point
+			coord="3374.866 3204.898" />
+
+		<Point
+			coord="3380.171 3264.222" />
+	</Path>
+</Paths>

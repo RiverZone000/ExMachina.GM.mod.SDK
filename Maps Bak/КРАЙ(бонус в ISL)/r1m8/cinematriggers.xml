@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="SpecEnd_begin" active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+		SaveAllToleranceStatus(RS_NEUTRAL)
+		
+		PlayCustomMusic("QuietDialogue01")
+		
+		Fly("SpecEnd_cam01", CINEMATIC_NO_AIM, 0, 11, 1, 0 )
+		Fly("SpecEnd_cam02", CINEMATIC_NO_AIM, 0, 8, 0, 0 )
+		Fly("SpecEnd_cam03", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
+		Fly("SpecEnd_cam04", CINEMATIC_NO_AIM, 0, 17, 0, 0 )
+		Fly("SpecEnd_cam05", CINEMATIC_NO_AIM, 0, 23, 0, 0 )
+		Fly("SpecEnd_cam06", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
+		Fly("SpecEnd_cam07", CINEMATIC_NO_AIM, 0, 19, 0, 0 )
+		Fly("SpecEnd_cam08", CINEMATIC_NO_AIM, 0, 29, 0, 0 )
+		Fly("SpecEnd_cam09", CINEMATIC_NO_AIM, 0, 61, 0, 0 )
+		Fly("SpecEnd_cam10", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
+		Fly("SpecEnd_cam11", CINEMATIC_NO_AIM, 0, 41, 0, 0 )
+		Fly("SpecEnd_cam12", CINEMATIC_NO_AIM, 0, 4, 0, 0 )
+		Fly("SpecEnd_cam13", CINEMATIC_NO_AIM, 0, 43, 0, 0 )
+		Fly("SpecEnd_cam14", CINEMATIC_NO_AIM, 0, 4, 0, 0 )
+		Fly("SpecEnd_cam15", CINEMATIC_NO_AIM, 0, 4, 0, 0 )
+		Fly("SpecEnd_cam16", CINEMATIC_NO_AIM, 0, 3, 0, 0 )
+		Fly("SpecEnd_cam17", CINEMATIC_NO_AIM, 0, 8, 0, 0 )
+		Fly("SpecEnd_cam18", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
+		Fly("SpecEnd_cam19", CINEMATIC_NO_AIM, 0, 11, 0, 0 )
+		Fly("SpecEnd_cam20", CINEMATIC_NO_AIM, 0, 8, 0, 0 )
+		Fly("SpecEnd_cam21", CINEMATIC_NO_AIM, 0, 22, 0, 0 )
+		Fly("SpecEnd_cam22", CINEMATIC_NO_AIM, 0, 34, 0, 0 )
+		Fly("SpecEnd_cam23", CINEMATIC_NO_AIM, 0, 15, 0, 1 )
+		StartCinematic()
+		
+		TActivate("trSpecEnd_FadeIn")
+		TActivate("trSpecEnd_cam02")
+		TActivate("trSpecEnd_cam03")
+		TActivate("trSpecEnd_cam04")
+		TActivate("trSpecEnd_cam05")
+		TActivate("trSpecEnd_cam06")
+		TActivate("trSpecEnd_cam07")
+		TActivate("trSpecEnd_cam08")
+		TActivate("trSpecEnd_cam09")
+		TActivate("trSpecEnd_cam10")
+		TActivate("trSpecEnd_cam11")
+		TActivate("trSpecEnd_cam12")
+		TActivate("trSpecEnd_cam13")
+		TActivate("trSpecEnd_cam14")
+		TActivate("trSpecEnd_cam15")
+		TActivate("trSpecEnd_cam16")
+		TActivate("trSpecEnd_cam17")
+		TActivate("trSpecEnd_cam18")
+		TActivate("trSpecEnd_cam19")
+		TActivate("trSpecEnd_cam20")
+		TActivate("trSpecEnd_cam21")
+		TActivate("trSpecEnd_cam22")
+		TActivate("trSpecEnd_cam23")
+		TActivate("trSpecEnd_Titry")
+		TActivate("trSpecEndMsg10")
+		TActivate("trSpecEndMsg11")
+		TActivate("trSpecEndMsg19")
+		TActivate("trSpecEndMsg20")
+		TActivate("trSpecEndMsg23")
+		TActivate("trSpecEndMsg24")
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_FadeIn" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+		local vehPlayer = GetPlayerVehicle()
+		if vehPlayer then
+			vehPlayer:SetCustomLinearVelocity( 0 )
+			vehPlayer:SetThrottle( 0 )
+			vehPlayer:SetGamePositionOnGround( CVector(3277.523, 352.755, 3062.861))
+			vehPlayer:SetRotation(Quaternion(0.015, -0.332, -0.085, -0.939))
+			vehPlayer:SetExternalPathByName("SpecEnd_path1")
+			vehPlayer:SetCustomLinearVelocity( 50 )
+		end
+		
+		TeamCreate("MrShlyapa",1100,CVector(3357.856, 368.642, 3304.567),{"r1m2_CaravanBug01"})
+		
+		local vehShlyapa = GetEntityByName("MrShlyapa_vehicle_0")
+		if vehShlyapa then
+			vehShlyapa:SetRotation(Quaternion(-0.001, -0.984, 0.017, -0.177))
+		end
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam02" active="0">
+		<event flypath="SpecEnd_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		local vehPlayer = GetPlayerVehicle()
+		if vehPlayer then
+			vehPlayer:SetCustomControlEnabled( true )
+			vehPlayer:SetCustomLinearVelocity( 0 )
+			vehPlayer:SetThrottle( 0 )
+			vehPlayer:SetCustomControlEnabled( false )
+			vehPlayer:PlaceToEndOfPath("SpecEnd_path1")
+			vehPlayer:SetGamePositionOnGround( CVector(3378.344, 367.685, 3273.688))
+			vehPlayer:SetRotation(Quaternion(-0.032, -0.220, 0.020, 0.975))
+		end
+		
+		CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(3370.098, 366.434, 3269.767), Quaternion(-0.042, -0.162, 0.022, 0.986), 0)
+		
+		AddCinematicMessage( 1, 1 )
+		
+		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
+					
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam03" active="0">
+		<event flypath="SpecEnd_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 2, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_STAND1)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam04" active="0">
+		<event flypath="SpecEnd_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+
+		AddCinematicMessage( 3, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_RESERVED1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam05" active="0">
+		<event flypath="SpecEnd_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 4, 1 )
+		AddCinematicMessage( 5, 1 )
+		AddCinematicMessage( 6, 1 )
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam06" active="0">
+		<event flypath="SpecEnd_cam06" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 7, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam07" active="0">
+		<event flypath="SpecEnd_cam07" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 8, 1 )
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam08" active="0">
+		<event flypath="SpecEnd_cam08" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 9, 1 )
+		AddCinematicMessage( 10, 1 )
+		AddCinematicMessage( 11, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEndMsg10" active="0">
+		<event msgid="10" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEndMsg11" active="0">
+		<event msgid="11" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam09" active="0">
+		<event flypath="SpecEnd_cam09" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 12, 1 )
+		AddCinematicMessage( 13, 1 )
+		AddCinematicMessage( 14, 1 )
+		AddCinematicMessage( 15, 1 )
+		AddCinematicMessage( 16, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_STAND1)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam10" active="0">
+		<event flypath="SpecEnd_cam10" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 17, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam11" active="0">
+		<event flypath="SpecEnd_cam11" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 18, 1 )
+		AddCinematicMessage( 19, 1 )
+		AddCinematicMessage( 20, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_STAND1)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEndMsg19" active="0">
+		<event msgid="19" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEndMsg20" active="0">
+		<event msgid="20" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam12" active="0">
+		<event flypath="SpecEnd_cam12" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 21, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+		getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam13" active="0">
+		<event flypath="SpecEnd_cam13" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 22, 1 )
+		AddCinematicMessage( 221, 0.1 )
+		AddCinematicMessage( 23, 1 )
+		AddCinematicMessage( 24, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_STAND1)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEndMsg23" active="0">
+		<event msgid="23" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			getObj("humPlayer"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer"):SetNextForAnimation(AT_RESERVED1, AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEndMsg24" active="0">
+		<event msgid="24" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			getObj("humPlayer"):SetNodeAction(AT_STAND1)
+			getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam14" active="0">
+		<event flypath="SpecEnd_cam14" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		PlayCustomMusic("Battle01")
+		
+		getObj("humPlayer"):SetNodeAction(AT_STAND2)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND2, AT_STAND2, AT_STAND1)
+		
+		AddCinematicMessage( 25, 1 )
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam15" active="0">
+		<event flypath="SpecEnd_cam15" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		SetGameTime( 9, 0 )
+		
+		SetWeather(1)
+		
+		TActivate("BurnGloohoe")
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam16" active="0">
+		<event flypath="SpecEnd_cam16" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		SetGameTime( 9, 0 )
+		
+		SetWeather(2)
+		
+		TActivate("DestroyGloohoe")
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam17" active="0">
+		<event flypath="SpecEnd_cam17" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		SetGameTime( 9, 0 )
+		
+		SetWeather(0)
+
+		local hs = GetEntityByName ("FIRE01")
+		if hs then hs:Remove() end
+		local hs = GetEntityByName ("FIRE02")
+		if hs then hs:Remove() end
+		local hs = GetEntityByName ("FIRE03")
+		if hs then hs:Remove() end
+		local hs = GetEntityByName ("FIRE04")
+		if hs then hs:Remove() end
+		local hs = GetEntityByName ("FIRE05")	
+		if hs then hs:Remove() end
+		local hs = GetEntityByName ("FIRE06")
+		if hs then hs:Remove() end
+		
+		PlayCustomMusic("QuietDialogue01")
+		
+		AddCinematicMessage( 26, 1 )
+
+		getObj("humPlayer"):SetNodeAction(AT_STAND1)
+		getObj("humPlayer"):SetNextForAnimation(AT_STAND1, AT_STAND1)
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam18" active="0">
+		<event flypath="SpecEnd_cam18" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		PlayCustomMusic("Death01")
+		
+		getObj("humPlayer"):SetNodeAction(AT_MOVE2)
+		
+		AddCinematicMessage( 27, 1 )
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam19" active="0">
+		<event flypath="SpecEnd_cam19" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 28, 1 )
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam20" active="0">
+		<event flypath="SpecEnd_cam20" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 29, 1 )
+
+		getObj("humPlayer"):SetPosition(CVector(3370.098, 366.294, 3269.767))
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam21" active="0">
+		<event flypath="SpecEnd_cam21" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		
+		AddCinematicMessage( 30, 1 )
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam22" active="0">
+		<event flypath="SpecEnd_cam22" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+
+		AddCinematicMessage( 31, 1 )
+		AddCinematicMessage( 32, 1 )
+		AddCinematicMessage( 33, 1 )
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_cam23" active="0">
+		<event flypath="SpecEnd_cam23" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		AddCinematicMessage( 34, 1 )
+		
+		local vehShlyapa = GetEntityByName("MrShlyapa_vehicle_0")
+		if vehShlyapa then
+			vehShlyapa:Remove()
+		end
+		
+		trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trSpecEnd_Titry" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			local vehShlyapa = GetEntityByName("MrShlyapa_vehicle_0")
+			if vehShlyapa then
+				vehShlyapa:Remove()
+			end
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+				vehPlayer:Remove()
+			end
+
+			IMPULSES = GET_GLOBAL_OBJECT "IMPULSES"
+			IMPULSES:UnbindAll()
+
+			PlayCustomMusic("foreverandone")
+			
+			Fly("start_game", CINEMATIC_NO_AIM, 0, 342, 0, 0 )
+			StartCinematic()
+
+			AddCinematicMessage( 5971, 0)
+			AddCinematicMessage( 5886, 0.1)
+			AddCinematicMessage( 5968, 0.1)
+			AddCinematicMessage( 5969, 0.1)
+			AddCinematicMessage( 5970, 0.1)
+			AddCinematicMessage( 5972, 0)
+			AddCinematicMessage( 5973, 0)
+
+
+			TActivate("SpecEnd_End")
+			TActivate("trTrack1")
+			TActivate("trTrack2")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trTrack1" active="0">
+		<event msgid="5972" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			PlayCustomMusic("Silentium")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trTrack2" active="0">
+		<event msgid="5973" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+			TActivate("trQuitTime")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trQuitTime" active="0">
+		<event        timeout="3"        eventid="GE_TIME_PERIOD" />
+		<script>
+			TDeactivate("SpecEnd_End")
+
+			if g_Console then
+				g_Console:InputLine "\\quit"
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SpecEnd_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			TDeactivate("trQuitTime")
+
+			if g_Console then
+				g_Console:InputLine "\\quit"
+			end
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+</triggers>

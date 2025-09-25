@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="51_52_zone"
+		class="SgNode">
+		<Node
+			name="Object996504403"
+			class="SgAnimatedModelNode"
+			org="-0.353 -0.639 7.201"
+			orgRel="0"
+			id="dub_kust2_r2"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object996504404"
+			class="SgAnimatedModelNode"
+			org="6.578 -1.134 -0.385"
+			orgRel="0"
+			id="dub_kust1_r2"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object996504405"
+			class="SgAnimatedModelNode"
+			org="-6.774 -1.047 -1.469"
+			orgRel="0"
+			id="dub_kust1_r2"
+			ndmAction="0"
+			passable="0" />
+
+		<Node
+			name="Object996504406"
+			class="SgAnimatedModelNode"
+			org="0.550 -1.596 -5.348"
+			orgRel="0"
+			id="dub_kust2_r2"
+			ndmAction="0"
+			passable="0" />
+	</Node>
+</Prefabs>

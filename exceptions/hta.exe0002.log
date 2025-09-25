@@ -1,0 +1,154 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Exception      : 0xC0000005 at address 0x0087724E
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000034 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 08/10/25 01:22:24
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      =  682 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available =  482 MB
+1: Page file available            = 3845 MB
+
+1: Data from MemoryManager:
+1: mem used:           231279168
+1: mem allocated:      309178409
+1: mem overhead:        25056864
+1: last allocation:            0
+1: mem used by sound:  109211986
+
+
+1:   0     ai::RopeObj::BreakOff +366 bytes
+1:     Decl: ai::RopeObj::BreakOff
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\objects\ropeobj.cpp(384) +14 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   1     ai::BreakableObject::_BreakOffConnectedRopes +111 bytes
+1:     Decl: ai::BreakableObject::_BreakOffConnectedRopes
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\objects\breakableobject.cpp(257) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   2     ai::BreakableObject::SetState +700 bytes
+1:     Decl: ai::BreakableObject::SetState
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\objects\breakableobject.cpp(200) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   3     ai::CollideVehicleAndBreakableObject +1625 bytes
+1:     Decl: ai::CollideVehicleAndBreakableObject
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\colliders\breakableobjectcolliders.cpp(224) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   4     ai::ColliderKrnl::CollideObjs +80 bytes
+1:     Decl: ai::ColliderKrnl::CollideObjs
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\colliders\colliderkrnl.cpp(232) +10 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   5     ai::NearCallback +845 bytes
+1:     Decl: ai::NearCallback
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\dynamicscene.cpp(382) +23 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   6     collideAABBs +122 bytes
+1:     Decl: collideAABBs
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space_internal.h(78) +9 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   7     dxSimpleSpace::collide2 +65 bytes
+1:     Decl: dxSimpleSpace::collide2
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(348) +11 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   8     dSpaceCollide2 +113 bytes
+1:     Decl: dSpaceCollide2
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(870) +10 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:   9     ai::NearCallback +957 bytes
+1:     Decl: ai::NearCallback
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\dynamicscene.cpp(236) +15 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  10     dxHashSpace::collide +1210 bytes
+1:     Decl: dxHashSpace::collide
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(670) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  11     dSpaceCollide +12 bytes
+1:     Decl: dSpaceCollide
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\ode\sources\collision_space.cpp(843) +12 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  12     ai::DynamicScene::CollideScene +78 bytes
+1:     Decl: ai::DynamicScene::CollideScene
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\dynamicscene.cpp(1699) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  13     ai::CServer::Update +770 bytes
+1:     Decl: ai::CServer::Update
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\server\server.cpp(1108) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  14     m3d::CWorld::Update +114 bytes
+1:     Decl: m3d::CWorld::Update
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\world.cpp(509) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  15     m3d::CClient::Update +28 bytes
+1:     Decl: m3d::CClient::Update
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\client.cpp(243) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  16     CMiracle3d::FrameMove +495 bytes
+1:     Decl: CMiracle3d::FrameMove
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(399) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  17     m3d::Application::OneFrame +273 bytes
+1:     Decl: m3d::Application::OneFrame
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(745) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  18     m3d::Application::run +173 bytes
+1:     Decl: m3d::Application::run
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\engine\m3dapp.cpp(663) +13 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  19     WinMain +235 bytes
+1:     Decl: WinMain
+1:     Line: e:\builders\exmachina\tmpbuilddir5084\truxx\game\view32.cpp(117) +0 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  20     WinMainCRTStartup +389 bytes
+1:     Decl: WinMainCRTStartup
+1:     Line: f:\vs70builds\3077\vc\crtbld\crt\src\crtexe.c(390) +27 bytes
+1:     Mod:  hta, base: 00400000h
+
+1:  21     BaseThreadInitThunk +18 bytes
+1:     Decl: BaseThreadInitThunk
+1:     Mod:  kernel32, base: 76750000h
+
+1:  22     RtlInitializeExceptionChain +239 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 776b0000h
+
+1:  23     RtlInitializeExceptionChain +194 bytes
+1:     Decl: RtlInitializeExceptionChain
+1:     Mod:  ntdll, base: 776b0000h
+
+
+Registers:
+	CS:EIP 0x001B:0087724E
+	SS:ESP 0x0023:039BE24C
+	DS:EDI 0x0023:63A64654
+	ES:ESI 0x0023:00000000
+	   EAX        63A654AC
+	   EBX        65B38E64
+	   ECX        00000000
+	   EDX        00002D0A
+

@@ -1,0 +1,38 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: grassTest_ps11.ps
+// Created by: Plus
+//
+// $Id: grassTest_ps11.ps,v 1.3 2005/10/05 08:18:13 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+
+#include "lib.fx"
+
+sampler2D grassTex;
+sampler2D lightmapTex;
+
+
+// Vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 Pos	: POSITION;
+	float2 Tex0	: TEXCOORD0;
+	float2 Tex1	: TEXCOORD1;
+	REAL4  Alpha	: COLOR0;
+};
+
+
+//REAL4 g_Ambient = { 0.8f, 0.8f, 0.8f, 1.0f };
+
+
+REAL4 GrassPS( VS_OUTPUT i ): COLOR
+{
+	REAL4 diff = tex2D( grassTex, i.Tex0 );
+	REAL4 lightmap = 2 * tex2D( lightmapTex, i.Tex1 );
+//	diff.xyz *= g_Ambient.xyz;
+	diff.xyz *= lightmap.xyz;
+	diff.a -= i.Alpha.a;
+	return diff;
+}

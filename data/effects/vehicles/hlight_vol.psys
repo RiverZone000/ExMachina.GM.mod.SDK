@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="w_geiser_main1"
+		Class="Poly">
+		<Emitter
+			ParticleAgeMin="1000.000"
+			ParticleAgeMax="1000.000"
+			MaxParticles="200"
+			EmitAtPeriod="16.000"
+			Phase="0.000"
+			EmitLength="0.100"
+			RepeatPeriod="1000.000"
+			ResetTime="1000.000"
+			LocalStop="0"
+			StopTime="0.300"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="0.000 0.000 0.000"
+			Max="0.000 0.000 0.000"
+			Type="sphere"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="1"
+			Points="15"
+			Radius="2.300"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="1"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="-12104368"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-1"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-1"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="-12565427" />
+
+			<Size
+				k:0="0.495"
+				k:1="0.495"
+				k:2="0.495"
+				k:3="0.495"
+				k:4="0.495"
+				k:5="0.495"
+				k:6="0.495"
+				k:7="0.495"
+				k:8="0.495"
+				k:9="0.495"
+				k:10="0.495"
+				k:11="0.495"
+				k:12="0.495"
+				k:13="0.495"
+				k:14="0.495"
+				k:15="0.495"
+				k:16="0.495"
+				k:17="0.495"
+				k:18="0.495"
+				k:19="0.495" />
+</Keys>
+
+		<Render
+				ShaderType="1"
+		TrailLen="10"
+			ScaleParts="0.040"
+			BlendMode="3"
+			UpdateXForm="1"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\trail\trail8.tga"
+			Weather="0"
+			TexTiling="0.000" />
+
+		<Attr
+			Name="SA_4545"
+			Class="Point">
+			<Emitter
+				WorkMode="pos"
+				Phase="0.000"
+				EmitLength="100.000"
+				RepeatPeriod="100.000"
+				TimeMode="global" />
+
+			<Force
+				Min="40.000"
+				Max="40.000"
+				Pos="0.000 -0.300 0.000" />
+</Attr>
+</PS>
+</PSEditor>

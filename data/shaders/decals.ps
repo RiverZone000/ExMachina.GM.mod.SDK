@@ -1,0 +1,30 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: decals.ps
+// Created by: Vano
+//
+// $Id: decals.ps,v 1.1 2005/11/11 09:17:36 vano Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+#include "lib.fx"
+
+sampler2D decalTex;
+
+// Vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 Pos	: POSITION;
+	float2 Tex0	: TEXCOORD0;
+};
+
+REAL4 DecalsPS( VS_OUTPUT i ): COLOR
+{
+	// Calculate color
+	REAL4 diff = tex2D( decalTex, i.Tex0 );
+	// Return resulting color 	
+	return  diff;
+}
+
+
+

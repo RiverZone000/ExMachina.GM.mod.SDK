@@ -1,0 +1,137 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x005CC317
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 01/27/23 21:21:51
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1856 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1107 MB
+1: Page file available            = 2840 MB
+
+1: Data from MemoryManager:
+1: mem used:           273951388
+1: mem allocated:      301582219
+1: mem overhead:        13324128
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   2
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   3
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   4
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   5
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   6
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   7
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c171d69
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   8
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e0b0
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:   9
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e14f
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:  10
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e1b8
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:  11
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c16e1f6
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+1:  12     gapfnScSendMessage +455 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 751a0000h
+
+1:  13     gapfnScSendMessage +711 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 751a0000h
+
+1:  14     gapfnScSendMessage +2297 bytes
+1:     Decl: gapfnScSendMessage
+1:     Mod:  USER32, base: 751a0000h
+
+1:  15     DispatchMessageA +15 bytes
+1:     Decl: DispatchMessageA
+1:     Mod:  USER32, base: 751a0000h
+
+1:  16
+1:     Mod:  MFC71, base: 7c140000h
+1:     Offset: 0x7c169076
+1:     Sym:  type: -nosymbols-, file: C:\Windows\system32\MFC71.DLL
+
+
+Registers:
+	CS:EIP 0x001B:005CC317
+	SS:ESP 0x0023:0012FA58
+	DS:EDI 0x0023:08C0E9BC
+	ES:ESI 0x0023:32417D14
+	   EAX        00000000
+	   EBX        00000000
+	   ECX        00000000
+	   EDX        00000000
+
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x00482953
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+2: 01/27/23 21:21:52
+lu: GlobalMemoryStatus(): GetLastError = 2
+
+2: Data from MemoryManager:
+2: mem used:           273960412
+2: mem allocated:      301591275
+2: mem overhead:        13324144
+2: last allocation:            0
+
+
+2:   0
+2:     Mod:  M3DEditor, base: 00400000h
+
+
+Registers:
+	CS:EIP 0x001B:00482953
+	SS:ESP 0x0023:0012DC20
+	DS:EDI 0x0023:751AABD8
+	ES:ESI 0x0023:31E8311C
+	   EAX        00000000
+	   EBX        08C0E9BC
+	   ECX        00000000
+	   EDX        00000040
+

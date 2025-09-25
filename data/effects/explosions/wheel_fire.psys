@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<PSEditor>
+	<PS
+		Name="main"
+		Class="Quad">
+		<Emitter
+			ParticleAgeMin="1.000"
+			ParticleAgeMax="2.000"
+			MaxParticles="200"
+			EmitAtPeriod="15.000"
+			Phase="0.000"
+			EmitLength="1.000"
+			RepeatPeriod="1.000"
+			ResetTime="9999999980506447900.000"
+			LocalStop="0"
+			StopTime="0.000"
+			PhaseMax="0.000" />
+
+		<Force
+			Min="-0.700 0.000 0.700"
+			Max="0.700 0.000 -0.700"
+			Type="box"
+			PosMin="0.000 0.000 0.000"
+			PosMax="0.000 0.000 0.000" />
+
+		<Mesh
+			Enable="0"
+			Points="0"
+			Radius="5.000"
+			Point1="0.000 0.000 0.000"
+			Point2="0.000 0.000 0.000"
+			Forv="0"
+			Back="0" />
+
+		<Keys>
+			<Color
+				k:0="16629250"
+				k:1="-1"
+				k:2="-1"
+				k:3="-1"
+				k:4="-1"
+				k:5="-1"
+				k:6="-1"
+				k:7="-1"
+				k:8="-1"
+				k:9="-1"
+				k:10="-32704"
+				k:11="-1"
+				k:12="-1"
+				k:13="-1"
+				k:14="-1"
+				k:15="-12582912"
+				k:16="-1"
+				k:17="-1"
+				k:18="-1"
+				k:19="0" />
+
+			<Size
+				k:0="0.700"
+				k:1="0.800"
+				k:2="0.900"
+				k:3="1.000"
+				k:4="1.050"
+				k:5="1.100"
+				k:6="1.150"
+				k:7="1.100"
+				k:8="1.050"
+				k:9="1.000"
+				k:10="0.900"
+				k:11="0.800"
+				k:12="0.700"
+				k:13="0.600"
+				k:14="0.500"
+				k:15="0.400"
+				k:16="0.300"
+				k:17="0.200"
+				k:18="0.100"
+				k:19="0.000" />
+</Keys>
+
+		<Render
+			ShaderType="1"
+			TrailLen="10"
+			ScaleParts="0.250"
+			BlendMode="2"
+			UpdateXForm="0"
+			SpriteAngle="0.000"
+			Orient="0"
+			Texture="data\fx\exp\exp4.tga"
+			Weather="0"
+			TexTiling="0.000" />
+
+		<Attr
+			Name="SA_1"
+			Class="Space">
+			<Emitter
+				SystemMode="cart"
+				FuncMode="rnd"
+				WorkMode="vel"
+				PeriodX="2.000"
+				PeriodY="2.000"
+				PeriodZ="2.000"
+				Phase="0.000"
+				EmitLength="1.000"
+				RepeatPeriod="1.000"
+				TimeMode="global"
+				EmitterOn="0" />
+
+			<Force
+				Min="-0.100 1.000 0.100"
+				Max="0.100 2.500 -0.100" />
+</Attr>
+</PS>
+</PSEditor>

@@ -1,0 +1,43 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.03 (Feb 10 2006 16:30:09)
+-==
+-== Exception      : 0xC0000005 at address 0x007D0755
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 06/15/24 01:47:03
+1: Physical memory = 2047 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 1612 MB
+1: Total virtual memory           = 2047 MB
+1: Total virtual memory available = 1539 MB
+1: Page file available            = 4095 MB
+
+1: Data from MemoryManager:
+1: mem used:           172516014
+1: mem allocated:      205386133
+1: mem overhead:        15317504
+1: last allocation:            0
+
+
+1:   0
+1:     Mod:  M3DEditor, base: 00400000h
+
+1:   1   SymGetSymFromAddr(): GetLastError = 126
+1: SymGetLineFromAddr(): GetLastError = 126
+1: SymGetModuleInfo): GetLastError = 126
+
+
+Registers:
+	CS:EIP 0x001B:007D0755
+	SS:ESP 0x0023:0012EE98
+	DS:EDI 0x0023:0000400A
+	ES:ESI 0x0023:00000000
+	   EAX        00000000
+	   EBX        03602614
+	   ECX        00000000
+	   EDX        0000400A
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<quests>
+	<quest Name="r6m1_KillBoss2_Quest" CanBeGiven="1" IsTaken="1" CompleteStatus="complete" />
+</quests>

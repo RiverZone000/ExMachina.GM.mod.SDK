@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<triggers>
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD"/>
+		<script>
+			SetVar("CarType",0)
+		   SetVar("pos",CVector(0,0,0))
+--965.715, 345, 851.977  “а «*
+--920.195, 345, 794.014  ЎҐ« § *
+--876.989, 345, 790.876  д ©вҐа*
+--826.197, 345, 793.600  е ­вҐа*
+--769.985, 345, 789.234  ЄагЁ§Ґа*
+--716.532, 345, 790.598  Ў Ј*
+--659.257, 345, 785.829  ¬®«®Є®ў®§*
+
+
+--895.575, 255, 237.528 ’Ћ—ЉЂ 1
+--867.875, 255,  99.683 ’Ћ—ЉЂ 2
+           TActivate("trPlDie")
+		   trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trBelaz" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="belaz_loc"/>
+		<script>
+			SetVar("CarType","Belaz01")
+			SetVar("pos",CVector(920.195, 345, 794.014))
+			TActivate("trGiveVehicle")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trHunter" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="hunter_loc"/>
+		<script>
+			SetVar("CarType","Hunter02")
+			SetVar("pos",CVector(826.197, 345, 793.600))
+			TActivate("trGiveVehicle")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trCruiser" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="cruiser_loc"/>
+		<script>
+			SetVar("CarType","Cruiser01")
+			SetVar("pos",CVector(769.985, 345, 789.234))
+			TActivate("trGiveVehicle")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trMolokovoz" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="molokovoz_loc"/>
+		<script>
+			SetVar("CarType","Molokovoz01")
+			SetVar("pos",CVector(659.257, 345, 785.829))
+			TActivate("trGiveVehicle")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trUral" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ural_loc"/>
+		<script>
+			SetVar("CarType","Ural01")
+			SetVar("pos",CVector(965.715, 345, 851.977))
+			TActivate("trGiveVehicle")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trBug" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="bug_loc"/>
+		<script>	
+			SetVar("CarType","Bug01")
+			SetVar("pos",CVector(716.532, 345, 790.598))
+			TActivate("trGiveVehicle")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trFighter" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="fighter_loc"/>
+		<script>
+			SetVar("CarType","Fighter01")
+			SetVar("pos",CVector(876.989, 345, 790.876))
+			TActivate("trGiveVehicle")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trGiveVehicle" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD"/>
+		<script>
+--			println("1")
+			TDeactivate("trPlDie")
+			local team=getObj("exPlayerVeh")
+		    if team==nil then
+			   	local teamID = CreateNewObject{
+					prototypeName = "team",
+					objName = "exPlayerVeh",
+					belong = "1001"
+				}
+				team=GetEntityByID(teamID)
+			end
+--			println("2")
+			local pos=GetVar("pos").AsVector
+			if GetPlayerVehicle() then
+			   GetPlayerVehicle():SetPosition(CVector(829.913, 345.037, 870.437))
+			   team:AddChild(GetPlayerVehicle())
+			end
+			team:SetDestination(CVector(895.575, 255, 237.528))
+--			println("3")
+			local cartype=GetVar("CarType").AsString
+			local carname="PlCar"..random(1000)
+			CreateVehicle(cartype, 1100, pos,carname)
+			local plcar=getObj(carname)
+			local pl=GetEntityByName("Player1")
+			if pl and plcar then
+			   pl:AddChild(plcar)
+			end
+			TActivate("trActivator")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trActivator" active="0">
+		<event timeout="5" eventid="GE_TIME_PERIOD"/>
+		<script>
+			TActivate("trFighter")
+			TActivate("trBug")
+			TActivate("trUral")
+			TActivate("trMolokovoz")
+			TActivate("trCruiser")
+			TActivate("trHunter")
+			TActivate("trBelaz")
+			TActivate("trPlDie")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	<trigger Name="trPlDie" active="0">
+		<event timeout="2" eventid="GE_TIME_PERIOD"/>
+		<script>
+			if GetPlayerVehicle()==nil then
+				local carname="PlCar"..random(1000)
+				CreateVehicle("ArcadeScout01", 1100, CVector(829.913, 345.037, 870.437),carname)
+				local plcar=getObj(carname)
+				local pl=GetEntityByName("Player1")
+				if pl and plcar then
+				   pl:AddChild(plcar)
+				end
+
+			end
+		</script>
+	</trigger>
+</triggers>

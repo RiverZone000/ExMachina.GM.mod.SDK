@@ -1,0 +1,31 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: landscapeSolid_ps11.ps
+// Created by: Goryh
+//
+// $Id: landscapeDeep_ps20.ps,v 1.2 2005/07/06 05:36:55 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+#include "lib.fx"
+
+sampler RefractionSampler;
+
+
+// vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 Pos	: POSITION;
+	float4 Tex	: TEXCOORD0;
+	float4 col      : COLOR0;
+};
+
+
+/// 
+REAL4 LandscapePS( VS_OUTPUT v ) : COLOR
+{
+	float2 texcoord = v.Tex / v.Tex.w;
+	float4 col = tex2D( RefractionSampler, texcoord ) * v.col;
+	col.a = v.col.a;
+	return col;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Prefabs>
+	<Node
+		name="bridge_kef"
+		class="SgNode">
+		<Node
+			name="Object76478329"
+			class="SgAnimatedModelNode"
+			org="-0.340 0.000 10.712"
+			orgRel="0"
+			id="desert_fence2"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478334"
+			class="SgAnimatedModelNode"
+			org="0.020 0.000 -4.076"
+			orgRel="0"
+			id="desert_fence2"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478339"
+			class="SgAnimatedModelNode"
+			org="9.010 12.095 -3.318"
+			orgRel="0"
+			rot="0.7071 0.0000 0.0000 0.7071"
+			id="desert_fence1"
+			ndmAction="0" />
+
+		<Node
+			name="Object76478340"
+			class="SgAnimatedModelNode"
+			org="-8.690 12.095 -3.318"
+			orgRel="0"
+			rot="0.7071 0.0000 0.0000 0.7071"
+			id="desert_fence1"
+			ndmAction="0" />
+	</Node>
+</Prefabs>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="Хватит всей этой клоунады! Отвечай, кто ты?! И что здесь творится?!"
+		sound=""
+		time="7" />
+
+	<string
+		id="2"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Честно говоря, сам удивлён. Не думал, что эта местность настолько сильно преобразится. Да и твоя деревня как новенькая. Забавная такая аллегория, кто бы мог подумать, что моё подсознание ещё способно на шутки..."
+		sound="data\sounds\speech\r1m8\shlyapa_1.ogg"
+		time="14" />
+
+	<string
+		id="3"
+		modelName="mask_hero"
+		value="Да объясни ты мне, наконец, что происходит! Хотя нет, я, наверное, просто брежу… Ты мне кажешься, вот и всё! Ничего этого нет, я сейчас проснусь и выяснится, что я до сих пор в доме у Бена! Я просто сплю, и ты мне снишься!"
+		sound=""
+		time="16" />
+
+	<string
+		id="4"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Поразительно, до чего же любому человеку, даже воображаемому, свойственен эгоцентризм."
+		sound="data\sounds\speech\r1m8\shlyapa_2.ogg"
+		time="6" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		value="Что ты имеешь в виду?"
+		sound=""
+		time="4" />
+
+	<string
+		id="6"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Тебе будет нелегко в это поверить, но всё обстоит с точностью до наоборот. Это как раз ты снишься мне. Как и весь окружающий нас мир."
+		sound="data\sounds\speech\r1m8\shlyapa_3.ogg"
+		time="10" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		value="Какие невероятные бредни! Сейчас я проснусь!"
+		sound=""
+		time="6" />
+
+	<string
+		id="8"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Я и не ожидал, что этот разговор получится простым. Не знаю даже, как ещё тебя убедить, что проснуться куда-либо, кроме как в мой сон, у тебя не выйдет. На деле всё обстоит ещё хуже: я и сам не могу очнуться, поэтому мы просто обречены на общение друг с другом."
+		sound="data\sounds\speech\r1m8\shlyapa_4.ogg"
+		time="18" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		value="И как же весь этот бесконечный и разнообразный мир, включающий всех моих знакомых и меня самого, может вместиться в твою голову?"
+		sound=""
+		time="11" />
+
+	<string
+		id="10"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="А в твою, значит, он вмещается?"
+		sound="data\sounds\speech\r1m8\shlyapa_5.ogg"
+		time="4" />
+
+	<string
+		id="11"
+		modelName="mask_hero"
+		value="Так, ладно, допустим на минуту, что ты говоришь правду. Докажи это. Заставь меня поверить в то, что этот мир создан твоим воображением."
+		sound=""
+		time="11" />
+
+	<string
+		id="12"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Если бы он был плодом моего воображения, это было бы ещё полбеды. Но, к несчастью, я угодил в самые подвалы подсознания."
+		sound="data\sounds\speech\r1m8\shlyapa_6.ogg"
+		time="10" />
+
+	<string
+		id="13"
+		modelName="mask_hero"
+		value="Ты увиливаешь от ответа!"
+		sound=""
+		time="4" />
+
+	<string
+		id="14"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="А ты не замечаешь очевидных вещей. Ты же сам их видел: статуя на горе в Хеле, Урал из булыжников, габариты которого почему-то светятся, секретная пещера в Либриуме, человек на горе в Вахате. Неужели это тебе не кажется полным абсурдом?"
+		sound="data\sounds\speech\r1m8\shlyapa_7.ogg"
+		time="18" />
+
+	<string
+		id="15"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Хотя, с другой стороны, откуда тебе знать, как оно должно быть в действительности..."
+		sound="data\sounds\speech\r1m8\shlyapa_8.ogg"
+		time="5" />
+
+	<string
+		id="16"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Ну а вся эта задумка с упавшей тарелкой? Ладно, заражённый воздух ещё можно этим объяснить. А что насчёт географии? Отчего высохло Чёрное море, почему затопило Париж? А почему Англия заросла деревьями? Одного излучения здесь явно будет мало."
+		sound="data\sounds\speech\r1m8\shlyapa_9.ogg"
+		time="17" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		value="Весь этот бред ровным счётом ничего не доказывает!"
+		sound=""
+		time="6" />
+
+	<string
+		id="18"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="К несчастью, до тебя невозможно достучаться. Говорю тебе в который раз, всё это происходит с тобой лишь потому, что я вижу это в своём сне. Следовательно, вселенная и есть я."
+		sound="data\sounds\speech\r1m8\shlyapa_10.ogg"
+		time="17" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		value="Но тогда,  раз уж ты царь и бог этого мира, ты должен быть всемогущ! Докажи мне, что твои слова не пустышка! Соверши чудо! Сделай так, чтобы я тебе поверил!"
+		sound=""
+		time="11" />
+
+	<string
+		id="20"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Удивительно. Видимо, с этой проблемой приходится сталкиваться всем. Непременно нужны чудеса. Вынужден тебя разочаровать. Я бессилен."
+		sound="data\sounds\speech\r1m8\shlyapa_11.ogg"
+		time="10" />
+
+	<string
+		id="21"
+		modelName="mask_hero"
+		value="Но это же твой мир!"
+		sound=""
+		time="3" />
+
+	<string
+		id="22"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Мир?! Это мой вязкий, горячечный бред. Я просто смотрю его и не в силах что-либо изменить. Безусловно, мои скрытые желания или подавленные устремления влияют на него и толкают вперёд его витиеватый сюжет, отсюда, кстати, и такое огромное количество названий городов из мифологии."
+		sound="data\sounds\speech\r1m8\shlyapa_12.ogg"
+		time="18" />
+
+	<string
+		id="221"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Но происходит это не в большей степени, чем это бывает в обычных снах."
+		sound="data\sounds\speech\r1m8\shlyapa_121.ogg"
+		time="5" />
+
+	<string
+		id="23"
+		modelName="mask_hero"
+		value="Если это твой сон, то где же ты настоящий?"
+		sound=""
+		time="3" />
+
+	<string
+		id="24"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Хороший вопрос. Скорее всего, я лежу в больнице на аппарате искусственного жизнеобеспечения. А попал я туда после того, как меня по пути на работу сбила машина. Думаю, я впал в кому."
+		sound="data\sounds\speech\r1m8\shlyapa_13.ogg"
+		time="13" />
+
+	<string
+		id="25"
+		modelName="mask_hero"
+		value="Что происходит?!"
+		sound=""
+		time="3" />
+
+	<string
+		id="26"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Прощу прощения… Так схватило… Думал, конец настаёт…"
+		sound="data\sounds\speech\r1m8\shlyapa_14.ogg"
+		time="7" />
+
+	<string
+		id="27"
+		modelName="mask_hero"
+		value="Я не могу в это поверить…"
+		sound=""
+		time="4" />
+
+	<string
+		id="28"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Из-за постоянных инъекций я не могу прийти в себя. Мне не выплыть. Я обречён на пожизненное заключение в этом нескончаемом душном кошмаре."
+		sound="data\sounds\speech\r1m8\shlyapa_15.ogg"
+		time="10" />
+
+	<string
+		id="29"
+		modelName="mask_hero"
+		value="И что же теперь? Зачем ты мне это рассказал? Что ты от меня хочешь?"
+		sound=""
+		time="7" />
+
+	<string
+		id="30"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Я хочу, чтобы ты знал, что следующей попытки у тебя уже не будет. Через час или два последние силы покинут меня, и всё это перестанет существовать. Я это чувствую. Я подумал, что будет правильно поделиться этим с тобой. В конце концов, ты ведь главный герой этой истории."
+		sound="data\sounds\speech\r1m8\shlyapa_16.ogg"
+		time="21" />
+
+	<string
+		id="31"
+		modelName="mask_hero"
+		value="Как это произойдёт?"
+		sound=""
+		time="4" />
+
+	<string
+		id="32"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Незаметно. Даже представить страшно, сколько таких невообразимо богатых вселенных рождается и гибнет каждый день, так и не найдя своих летописцев и оставляя память о себе лишь в статистических сводках да на могильных камнях."
+		sound="data\sounds\speech\r1m8\shlyapa_17.ogg"
+		time="16" />
+
+	<string
+		id="33"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="427"
+		modelSlot="1"
+		value="Извини, что занял так много твоего времени, но я действительно хотел, чтобы ты всё осознал перед тем, как случится НАСТОЯЩИЙ апокалипсис. Прощай, безымянный герой."
+		sound="data\sounds\speech\r1m8\shlyapa_18.ogg"
+		time="12" />
+
+	<string
+		id="34"
+		modelName="mask_hero"
+		value="Прощай..."
+		sound=""
+		time="3" />
+
+	<string
+		id="5886"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@00ffffffААAА@ffffa600Концовка основана на романе Дмитрия Глуховского 'Сумерки'"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.3"
+		time="21" />
+
+	<string
+		id="5968"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@00ffffff|АААААААААААААAAАААА@ffffa600Компания «Targem Games»| | | |@00ffffffААААААААAAАААААААААААААААА@ffffa600Продюсер||@00ffffffАААААААААAAAАААААААА@ffffffffСтанислав «scorp» Скорб| | |@00ffffffААААААAAААААAAАААА@ffffa600Технический директор проекта||@00ffffffАААААААААААAAAAААААААААА@ffffffffАлексей Скрябин| | |@00ffffffАААААAAАААААААААААААААА@ffffa600Менеджер проекта||@00ffffffААААААААААААAAAАААААА@ffffffffЕвгений «Hrrr» Хрунов| | |@00ffffffААААААААААААААAAАААААААААА@ffffa600Сценарий||@00ffffffАААААААAААААAAААААА@ffffffffАлексей «Alex TG» Честных| | |@00ffffffАААААААAIААААААААА@ffffa600Ведущий программист проекта||@00ffffffАААААIАААAAААААААААААА@ffffffffАнтон «anger» Савин| | |@00ffffffАААААААААAAАААААААА@ffffa600Главный дизайнер проекта||@00ffffffААААААAААААAAАААААА@ffffffffАлексей «Alex TG» Честных| | |@00ffffffААААААААААAAААААААА@ffffa600Ведущий художник проекта||@00ffffffАААААААAAАААААААА@ffffffffАлександр «Alex ML» Маргушин| | |@00ffffffАААААAAАААААААААААААААААА@ffffa600Дизайн игры||@00ffffffАААААААIААААААAAАААА@ffffffffДенис «mif2000» Галанин|@00ffffffААААААААААAAАААААА@ffffffffСергей «JSinx» Удюрминский|@00ffffffАААААААAAАААААААААА@ffffffffАлексей «Razaz» Ануфриев|@00ffffffАААААААААААAIAАААААА@ffffffffСтанислав «scorp» Скорб|@00ffffffАААААААAAАААААААААААА@ffffffffБорис «borg» Смирнов| | |@00ffffffААААААААAAААIАААААААААА@ffffa600Программирование||@00ffffffААААААААААAIIAААААА@ffffffffЕлена «SoftKitty» Евдокимова|@00ffffffАААААААААААААААAAААААА@ffffffffИван «Vano» Власов|@00ffffffАААААААAAААААААААААА@ffffffffИлья «phosgen» Рузаков|@00ffffffАААААААААААААААAAАА@ffffffffМаксим «Shadow» Сарманов|@00ffffffААААААААААAIAААААА@ffffffffСергей «Ice Cat» Ключковский|@00ffffffАААААААААAAААААААААА@ffffffffИгорь «Goryh» Дегтярев| | |@00ffffffААААААААААААAAАААААААААААА@ffffa600Графика||@00ffffffААААААААAAААААААА@ffffffffАлександр «Alex ML» Маргушин|@00ffffffААААААAAАААААААААААААААА@ffffffffИван Снигирев|@00ffffffАААААААААААААAAАААА@ffffffffЕвгений «Dzhin» Гольцов|@00ffffffААААААAAАААААААААА@ffffffffВладимир «Price» Селезнев|@00ffffffААААААААAAАААААААААА@ffffffffСтанислав «Staz» Черва|@00ffffffААААААААAAААААААААААА@ffffffffРустам «Rychi» Турей|@00ffffffАААААААААААAAАААААААААА@ffffffffЕвгений Токарев|@00ffffffАААААААААAAААААААААА@ffffffffСергей «Sega» Митряев|@00ffffffААААААААААAAАААААА@ffffffffВиктор «isymbosi» Корьякин|@00ffffffААААААААААААAAАААААААААА@ffffffffРоман Латынов| | |@00ffffffАААААААААААААAAААААААААА@ffffa600Дизайн миссий||@00ffffffААААААААIААААAAААААА@ffffffffДенис «mif2000» Галанин|@00ffffffАААААААААAAААААААА@ffffffffСергей «JSinx» Удюрминский|@00ffffffАААААААAAАААААIАААААА@ffffffffАртем «solo» Соловьев|@00ffffffАААААААААIААААAAАА@ffffffffКондратьев «HiKiller» Даниил|@00ffffffААААААААААAIAАААААААА@ffffffffСтанислав «Staz» Черва| | |@00ffffffАААААААAAААААААААААА@ffffa600Разработка интерфейсов||@00ffffffАААААААААААAAААААААА@ffffffffМихаил «Rai» Матвиенко| | |@00ffffffААААААААААААААААAAААААААА@ffffa600Спецэффекты||@00ffffffААААААAАААААААAAААААА@ffffffffАлексей «Hal» Лобанов| | |@00ffffffАААААААААААААААAAАААААААА@ffffa600Музыка/звуки||@00ffffffААААААААААААAAААААААААААА@ffffffffАнтон Попов|@00ffffffААААААААААAAАААААААААА@ffffffffЕкатерина Швеммер| | |@00ffffffААААААААААААААААAAААААААА@ffffa600Тестирование||@00ffffffАААААААААAААААAAАААААА@ffffffffВячеслав «ls» Авдеев| | |@00ffffffААААААААААAAААААААААААААА@ffffa600PR-менеджер||@00ffffffААААААААAAAАААААААА@ffffffffСветлана «Сrystal» Честных| | |@00ffffffAAAAA@ffffa600В игре использовались композиции победителей музыкального|@00ffffffААAAАААААААААААААААААААААА@ffffa600конкурса||@00ffffffААААААААААAAАААААААААА@ffffffffАлександр Чекстер|@00ffffffААААААААААААAAААААААААА@ffffffffБорис Веденский|@00ffffffАААААААААAAАААААААААААА@ffffffffАлександр Трегер|@00ffffffАААААААААААААAAААААААААА@ffffffffМихаил Сидоров|@00ffffffАААААААААААAAААААААААА@ffffffffАлександр Лисенков|@00ffffffААААААAAАААААААААААААААААА@ffffffffParalaxeen|@00ffffffАААААААААААAAААААААААААА@ffffffffИгорь Белоусов| | |@00ffffffАААААAAАААА@ffffa600Также принимали участие на разных этапах||@00ffffffААААААAAАААА@ffffffffКонстантин Сохарев - программирование|@00ffffffААААААААAAАААА@ffffffffСвятослав Паташников - руководство|@00ffffffАААААААААAAАААА@ffffffffАлексей Андрущенко - Веб-дизайн"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.4"
+		time="108" />
+
+	<string
+		id="5969"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@00ffffffАААААААААAAАААААААААААА@ffffa600Компания «Бука»| | | |@00ffffffААААААААAAАААААААААААААААА@ffffa600Продюсер||@00ffffffААААААААААААAAAАIАААААААА@ffffffffИван Бунаков| | |@00ffffffАААААААААААAAААААААААА@ffffa600Старший продюсер||@00ffffffААAAААААААААААААААААААААА@ffffffffИван Мороз| | |@00ffffffААААААААAAАААА@ffffa600Менеджеры по продвижению продуктов||@00ffffffААААААААААААААААААAAАААААА@ffffffffЮрий Вирич|@00ffffffААААААААААAАAAААААААААА@ffffffffАлексей Писклюков| | |@00ffffffАААААААAAААIАААААААААА@ffffa600Технический эксперт||@00ffffffААААААААAAIААААААААААА@ffffffffКирилл Бестемьянов| | |@00ffffffААААААААААААААААAIAААААА@ffffa600Эксперт по звуку||@00ffffffААААААААААААIАAAАААААААА@ffffffffРуслан Дмитриев| | |@00ffffffААААААААAAАААААААААА@ffffa600Дизайнеры-полиграфисты||@00ffffffААААAAААААААААААААААААААА@ffffffffСанан Ушанов|@00ffffffААААAAААIАААААААААААА@ffffffffДаниелла Климашевская| | |@00ffffffААААААААААААААААAAААААААА@ffffa600PR-менеджер||@00ffffffААААААААААААAAАААААААА@ffffffffАлексей Пастушенко| | |@00ffffffААААААAAАААААIААААААА@ffffa600Ассистент PR-менеджера||@00ffffffАААААААААAAАААААААААААААА@ffffffffОлег Морозов| | |@00ffffffААААААААAAААААААIААААА@ffffa600Ассистент продюсера||@00ffffffААААААААААААААIAAАААААА@ffffffffАлексей Пешехонов|@00ffffffААААААААAAАIААААААААААА@ffffffffНиколай Сафронов| | |@00ffffffААААААААААAAАААААА@ffffa600Менеджер по новым командам||@00ffffffААААААААААААAAААААААААА@ffffffffНиколай Сафронов| | |@00ffffffААААAAААААААААААААААА@ffffa600Выпускающий продюсер||@00ffffffАААААААААААAAAААААААААААА@ffffffffАлександр Пак| | |@00ffffffАААAAАААААААIААААААААА@ffffa600Старший тестировщик||@00ffffffАААААААAAАIАААААААААААААА@ffffffffЕвгений Попов|@00ffffffАААААААААААAAААIААААААААААА@ffffffffИван Рид| | |@00ffffffААААААAAААААIААААААААА@ffffa600Служба тестирования||@00ffffffАААААААААААААААААIАAAААААА@ffffffffАнтон Епишин|@00ffffffААААААААААААAIAАААААААААА@ffffffffАлексей Петров|@00ffffffААААААААIАAAААААААААААА@ffffffffАлександр Полосин|@00ffffffАААААААААААIААAAААААААААА@ffffffffЕвгений Попов|@00ffffffААААААААAAАААААААААААIАААА@ffffffffИван Райнов|@00ffffffАААААААААААААААААААIIАAAАААА@ffffffffИван Рид|@00ffffffААААААААААААAAАIААААААА@ffffffffАлексей Чеботарев| | |@00ffffffАААААААААААААAAАААААА@ffffa600Внешнее тестирование||@00ffffffАААААААААAAАААААААААААААА@ffffffffПетр Беляев|@00ffffffАААААААААAAААААААААААААА@ffffffffАлексей Бунак|@00ffffffААААААААAAААААААААААААА@ffffffffИгорь Дмитриев|@00ffffffАААААААAAАААААААААААААА@ffffffffМихаил Матюшов|@00ffffffАААААААААААAAААААААААААА@ffffffffДенис Соколов|@00ffffffАААААААААAAАААААААААААА@ffffffffИгорь Пешехонцев|@00ffffffАААААААААААAAААААААААААА@ffffffffДмитрий Чичков|@00ffffffААААААААААААААAAААААААА@ffffffffАлексей Шеховцов|@00ffffffАААААААААААAAАААААААААААА@ffffffffИлья Юсипов|@00ffffffААААААААААAAААААААААААААА@ffffffffТимур Юсипов| | |@00ffffffАААААААAAААААААААААААААА@ffffa600Служба продаж||@00ffffffАААААААAAААААААААААААА@ffffffffМаксим О. Алексеев|@00ffffffААААААААААААААAAАААААА@ffffffffМаксим Ю. Алексеев|@00ffffffААААААААAAАААААААААААА@ffffffffМаксим А. Алексеев|@00ffffffАААААААААAAАAААААААААА@ffffffffНаталья Анкундинова|@00ffffffААААААААAAАААААААААААААА@ffffffffЕлена Антонова|@00ffffffАААААААAAААААААААААААААА@ffffffffИлья Бровченко|@00ffffffААААААААААААAAААААААААА@ffffffffПавел Григорьев|@00ffffffАААААААAAАААIАААААААААА@ffffffffВиктория Киселева|@00ffffffААААAAААААААААААIАААААА@ffffffffАлександр Кочетков|@00ffffffАААААААAAАААААААAААIААААА@ffffffffПавел Круглов|@00ffffffААААААААAAАААААIААААААААА@ffffffffАндрей Осипов|@00ffffffАААААААААААААААAAАААА@ffffffffАлександр Петринский|@00ffffffАААААААААААAAААААААААА@ffffffffОльга Полковникова|@00ffffffААААААААAAААААААААААААА@ffffffffЛариса Савельева|@00ffffffАААААААAAАААААААААААААА@ffffffffЕвгений Самсонов|@00ffffffААААААААААAAАААААААААА@ffffffffСветлана Самсонова|@00ffffffААААААААААААААAAАААААА@ffffffffВалерий Тихвинский|@00ffffffАААААААAAААААААААААААААА@ffffffffСергей Федосов| | |@00ffffffААААААААААААAAАААААААА@ffffa600Торговый маркетинг||@00ffffffААААААААAAААААААААААААА@ffffffffТатьяна Васекина| | |@00ffffffАААААAAААААААААААААААА@ffffa600Комьюнити менеджер||@00ffffffАААААААААAAААAААААААААА@ffffffffАлександр Ковалев| | |@00ffffffААААААААAAААААААААААААА@ffffa600Экспертный совет||@00ffffffАААААААААААAAАААААААААА@ffffffffВладимир Миняев|@00ffffffААААААААAAАААААААААААА@ffffffffМаксим Н. Михалев|@00ffffffААААААААAAАААААААААААААААА@ffffffffИван Мороз|@00ffffffАААААААААААААААAAААААААА@ffffffffСергей Руденко|@00ffffffААААААААAАAAАААААААААА@ffffffffВиталий Харитоненко| | |@00ffffffАААААААAAААААААААААА@ffffa600Юридическая поддержка||@00ffffffАААААААAAАААААААААААААА@ffffffffГеоргий Виталиев| | |@00ffffffААААААААAAААIАААААААА@ffffa600Техническая поддержка||@00ffffffААААААААААААAAАIАААААААА@ffffffffЕвгений Дмитриев| | |@00ffffffААААААААААAAААААААААА@ffffa600Генеральный директор||@00ffffffААААААААAAАААААААААААА@ffffffffАлександр Михайлов| | |@00ffffffААААААAAААААААААААААА@ffffa600Финансовый директор||@00ffffffАAAАААААААААААААААААААААА@ffffffffМарина Равун| | |@00ffffffАААААААAAАAАААААА@ffffa600Руководитель отдела маркетинга||@00ffffffАААААААААAAААААААААААА@ffffffffМаксим Н. Михалев| | |@00ffffffААААААААAAAАААА@ffffa600Руководитель коммерческого отдела||@00ffffffААААААААAAААААААААААААА@ffffffffТатьяна Устинова| | |@00ffffffААААААААAAАAААААА@ffffa600Руководитель отдела разработок||@00ffffffАААААААААAAАААААААААААААА@ffffffffИван Бунаков| | |@00ffffffААААААAAАААААААААААААА@ffffa600Отдельное спасибо||@00ffffffААААААААААААААААAAААААААА@ffffffffЮлия Белова|@00ffffffААААААААААAAАААААААААААА@ffffffffСергей Бобков|@00ffffffАААААААAAААААААААААААААА@ffffffffИлья Бровченко|@00ffffffАААAAАААААААААААААААААА@ffffffffДмитрий Захаров|@00ffffffААААААААААААААAAААААААА@ffffffffДмитрий Кулешов|@00ffffffАААААААААААААAAААААААААА@ffffffffДмитрий Лесин|@00ffffffАААААААААААААААAAАААААА@ffffffffВладимир Миняев|@00ffffffААААААAAАААААААААААААААААА@ffffffffИван Мороз|@00ffffffАААААААААААAAАААААААААААА@ffffffffМарина Равун|@00ffffffАААААААААААAAАААААААIАААААА@ffffffffИван Рид|@00ffffffАААААААAAААААААААААААААА@ffffffffИнна Суцепина|@00ffffffАААААААААААААААAAААААААА@ffffffffИгорь Устинов|@00ffffffААААААААAAААААААААААААААА@ffffffffИрина Царева|@00ffffffАААААААААААAAААААААААААА@ffffffffВиктория Эннс"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.4"
+		time="151" />
+
+	<string
+		id="5970"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@00ffffffАААААААААААААААААА@ffffa600«Improved Storyline v1.0.5.2»| | | |@00ffffffАААААААААААААААААААА@ffffa600Заимствования из модов| |@00ffffffААААААAIААААААА@ffffffffBooster Mod - карты, текстуры, иконки|@00ffffffААААААААААААААА@ffffffffKraycity - импортирован полностью|@00ffffffАААААААААААААААААААААА@ffffffffSteel Dawn - иконки| | |@00ffffffАААААААААААААААААААА@ffffa600Музыкальные композиции| |@00ffffffААААААААААААА@ffffffffNick Perito - The Green Leaves of Summer|@00ffffffAAAAAAAАAAAAAAAA@ffffffffAkira Yamaoka - Promise (Acoustic)|@00ffffffAAAAAAAAAAAAАAAAAAAAA@ffffffffLee Jackson - Dukelinka|@00ffffffAAAAAAAAAAAФAAAAAAAA@ffffffffJeff Russo - Fargo Theme|@00ffffffAAAAAАААAAAA@ffffffffGodless – Don’t Forget The Girls of La Belle|@00ffffffAAAAAAAAAAAAAAAAAAAAAAAAA@ffffffffЦифеi - Футуро|@00ffffffAAAAAAAAAAАAAAAAAAAA@ffffffffЦифеi - Прощай, Атлантис|@00ffffffААААААААААААААААААААА@ffffffffЦифеi - Праздник жизни|@00ffffffААААААААААААААА@ffffffffЦифеi - Когда возвращаются близкие| | |@00ffffffAAAAAAAAAAAAAAAAAAAAAAA@ffffa600Отдельное спасибо| |@00ffffffAAAAAAAIAAAAAAAAAAA@ffffffffLynne за модель локомотива|@00ffffffAAAAAAAAAAAAAAAAAA@ffffffffSuslo Red за модель медали АР|@00ffffffАААА..AААААА@ffffffffVarisane за многочисленные текстовые правки| |@00ffffffAAIAAAAAAAAA@ffffffffА также всем тестировщикам, багрепортерам|@00ffffffАAAAАААААAААААААА@ffffffffи тем, кто просто помог советом| | |@00ffffffAAAAAAAAAAIAAAAAAAAAAAAA@ffffa600Спасибо за игру!"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.3"
+		time="49" />
+	
+	<string
+		id="5971"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value=""
+		sound=""
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="1" />
+
+	<string
+		id="5972"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value=""
+		sound="data\sounds\speech\r1m8\kardiograf.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="13" />
+
+	<string
+		id="5973"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midleBSOD2.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shadeBSOD.dds"
+		value=""
+		sound=""
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="3" />
+
+</resource>

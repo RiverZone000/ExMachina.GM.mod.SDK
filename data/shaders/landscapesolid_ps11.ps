@@ -1,0 +1,26 @@
+//////////////////////////////////////////////////////////////////////////////
+//
+// Workfile: landscapeSolid_ps11.ps
+// Created by: Goryh
+//
+// $Id: landscapeSolid_ps11.ps,v 1.3 2005/10/05 08:18:13 goryh Exp $
+//
+//////////////////////////////////////////////////////////////////////////////
+
+#include "lib.fx"
+
+sampler LandscapeSampler;
+
+// vertex shader output structure
+struct VS_OUTPUT
+{
+	float4 Pos	: POSITION;
+	float2 Tex	: TEXCOORD0;
+	float  fog	: FOG;
+};
+
+/// 
+REAL4 LandscapePS( VS_OUTPUT v ) : COLOR
+{
+	return  tex2D( LandscapeSampler, v.Tex );
+}

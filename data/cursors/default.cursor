@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ini>
+    <Section name="CURSOR">
+        <Key name="FACE">data\cursors\strelka.tga</Key>
+        <Key name="SIZE_X">48</Key>
+        <Key name="SIZE_Y">48</Key>
+        <Key name="SPOT_X">0</Key>
+        <Key name="SPOT_Y">0</Key>
+    </Section>
+</Ini>

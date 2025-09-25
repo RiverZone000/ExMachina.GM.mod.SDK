@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Templates> 
+	<Item name = "Стандарт" file = "default.xml" default = "1" />
+<Templates/>
