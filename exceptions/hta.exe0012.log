@@ -1,0 +1,41 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Exception      : 0xC0000005 at address 0x100416D6
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x00000000 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 10/08/25 01:26:50
+1: Physical memory = 4095 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 4095 MB
+1: Total virtual memory           = 4095 MB
+1: Total virtual memory available = 2211 MB
+1: Page file available            = 4095 MB
+
+1: Data from MemoryManager:
+1: mem used:           119581063
+1: mem allocated:      218260501
+1: mem overhead:         8282864
+1: last allocation:            0
+1: mem used by sound:  109209191
+
+
+1:   0     createIRenderer +188022 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 10000000h
+
+
+Registers:
+	CS:EIP 0x0023:100416D6
+	SS:ESP 0x002B:039C3A94
+	DS:EDI 0x002B:4AFDD9FC
+	ES:ESI 0x002B:7885817C
+	   EAX        00000000
+	   EBX        00000000
+	   ECX        FFFFFFFF
+	   EDX        FFFFFFFF
+
