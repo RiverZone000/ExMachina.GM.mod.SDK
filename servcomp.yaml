@@ -1,0 +1,49 @@
+# Для парсинга GameObjects #
+gameobjects_save_all:
+  - 'gameobjects.xml'
+  - 'bigguns.xml'
+  - 'gadgets.xml'
+  - 'giantguns.xml'
+  - 'mortar.xml'
+  - 'plasma.xml'
+  - 'questitems.xml'
+  - 'breakableobjects.xml'
+  - 'rockets.xml'
+  - 'sideguns.xml'
+  - 'smallguns.xml'
+  - 'thunderbolt.xml'
+  - 'vehicleparts.xml'
+  - 'vehiclescrotch.xml'
+  - 'crotchguns.xml'
+  - 'wares.xml'
+  - 'towns.xml'
+  - 'crotchtowns.xml'
+gameobjects_save_only_used:
+  - 'bosses.xml'
+
+# Для парсинга файлов #
+gameobjects: '../../gamedata/gameobjects/'
+sounds: '../../sounds/'
+dynscene: 'dynamicscene.xml'
+strings: 'strings.xml'
+world: 'world.xml'
+effects: '../../effects/'
+
+# Объекты для servers по умолчанию #
+default_animmodels:
+  - 'cargo'
+  - 'box'
+  - 'cub'
+  - 'conteiner'
+  - 'mask_father'
+  - 'mask_hero'
+  - 'mask_lisa'
+  - 'mask_ben'
+  - 'point'
+  - 'dweller_player'
+  - 'dweller_father'
+  - 'dweller_lisa'
+  - 'dweller_felix'
+
+# Для заполнения servers #
+servers_animmodels_file: data\models\AnimModels.xml
