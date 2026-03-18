@@ -108,6 +108,12 @@
 		driving	="r8_3_driving"
 		alarm	="r8_1_alarm"
 		battle	="r8_1_battle" />
+
+	<Block 
+		name	="r9_1"
+		driving	="r9_1_driving"
+		alarm	="r5_1_alarm"
+		battle	="r5_1_battle" />
 		
 	<Block 
 		name	="r11_1"

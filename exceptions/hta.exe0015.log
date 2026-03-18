@@ -1,0 +1,65 @@
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+-==
+-== Log category   : Unhandled exception info
+-== Build          : ExMachina - release version release build v1.02 (Dec 21 2005 12:15:04)
+-==
+-== Exception      : 0xC0000005 at address 0x10A6D880
+-== Exception type : ACCESS VIOLATION  read attempt to address 0x7FF9A3A7 
+-==
+-==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==- -==-
+
+1: 02/27/26 21:48:19
+1: Physical memory = 4095 MB
+1: Total memory    = 4095 MB
+1: Physical memory available      = 4095 MB
+1: Total virtual memory           = 4095 MB
+1: Total virtual memory available = 2089 MB
+1: Page file available            = 4095 MB
+
+1: Data from MemoryManager:
+1: mem used:           182724827
+1: mem allocated:      202180961
+1: mem overhead:         9265744
+1: last allocation:            0
+1: mem used by sound:   77106293
+
+
+1:   0     createIRenderer +565280 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 109d0000h
+
+1:   1     createIRenderer +613910 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 109d0000h
+
+1:   2     createIRenderer +626800 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 109d0000h
+
+1:   3     createIRenderer +627137 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 109d0000h
+
+1:   4     createIRenderer +628469 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 109d0000h
+
+1:   5     createIRenderer +229155 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 109d0000h
+
+1:   6     createIRenderer +188447 bytes
+1:     Decl: createIRenderer
+1:     Mod:  dxrender9, base: 109d0000h
+
+
+Registers:
+	CS:EIP 0x0023:10A6D880
+	SS:ESP 0x002B:039C3DEC
+	DS:EDI 0x002B:800682DC
+	ES:ESI 0x002B:7FF9A397
+	   EAX        7FF9A397
+	   EBX        00000000
+	   ECX        800682DC
+	   EDX        00000005
+

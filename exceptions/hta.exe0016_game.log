@@ -1,0 +1,1194 @@
+---------------------------------------------- Log begins on Fri Mar 13 19:00:33 2026 ----------------------------------------------
+I           m3dapp.cpp[0088]13/03 19:00:33 Starting up...
+I           m3dapp.cpp[1498]13/03 19:00:33 ExMachina - release version release build v1.02 (Dec 21 2005 12:15:10)
+I      Stackwalker.cpp[0608]13/03 19:00:33 Stackwalker: log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/hta.exe0016.log'
+I      Stackwalker.cpp[0609]13/03 19:00:33 Stackwalker: dump file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/hta.exe0016.dmp'
+I      Stackwalker.cpp[0610]13/03 19:00:33 Stackwalker: game log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/hta.exe0016_game.log'
+I           m3dapp.cpp[1391]13/03 19:00:33 Path: B:\ExMachina.GM.mod.SDK_
+I           m3dapp.cpp[1392]13/03 19:00:33 Exe: B:\ExMachina.GM.mod.SDK_\hta.exe
+I           m3dapp.cpp[1401]13/03 19:00:33 Windows version: 6.2.9200
+I           m3dapp.cpp[1410]13/03 19:00:33 Computer name: DESKTOP-QQPV5MQ
+I           m3dapp.cpp[1430]13/03 19:00:33 Cpu: GenuineIntel
+I           m3dapp.cpp[1434]13/03 19:00:33 Cpu clock: ~3302
+I           m3dapp.cpp[1459]13/03 19:00:33 Processor is mmx able
+I           m3dapp.cpp[1470]13/03 19:00:33 Physical memory: 4095 MB
+I           m3dapp.cpp[1471]13/03 19:00:33 Total memory:    4095 MB
+I           m3dapp.cpp[1472]13/03 19:00:33 Physical memory available: 4095 MB
+I           m3dapp.cpp[1473]13/03 19:00:33 Total memory available:    3809 MB
+I           m3dapp.cpp[2846]13/03 19:00:33 SetCodepage -- using codepage 1251 '1251  (ANSI - кириллица)'
+I           m3dapp.cpp[2154]13/03 19:00:33 NOTE! renderer is bind to dxrender9.dll
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Given device behavior: 80
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Confirmed device behavior: 80
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Description: NVIDIA GeForce GTX 1650
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Driver:      nvldumd.dll
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: VendorId:    0x10de
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: DeviceId:    0x1f0a
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: SubSysId:    0x145c1771
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Revision:    161
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Driver version info:
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d:   Product:    32
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d:   Version:    0
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d:   SubVersion: 15
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d:   Build:      8129
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: WHQLLevel:    0
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Texture max size: 16384x16384
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Guard band: (-100000000.000,-100000000.000,100000000.000,100000000.000)
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxTextureBlendStages: 8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxSimultaneousTextures: 8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxActiveLights: 10
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxUserClipPlanes: 8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: VertexShaderVersion: 0xfffe0300
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: PixelShaderVersion: 0xffff0300
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Geometry instancing: supported
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Depth bias supported: yes
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Slope-scale based depth bias supported: yes
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: HwRasterization: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: HwTnL: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: PureDevice: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: CubeMap: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: VolumeMap: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: TextureAddressCaps:
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: 	wrap: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: 	clamp: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: 	border: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Projective textures: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxPointSize: 8192.000
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxPrimitiveCount: 16777215
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxVertexIndex: 16777215
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxStreams: 16
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxStreamsStride: 255
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxAnisotropy: 16
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxVertexBlendMatrices: 4
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxVertexBlendMatrixIndex: 8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: FullScreenGamma: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: COLORWRITEENABLE: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MASKZ: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: BLENDOP: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: CLIPPLANESCALEDPOINTS: false
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: CLIPTLVERTS: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: TSSARGTEMP: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: DIRECTIONALLIGHTS: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: LOCALVIEWER: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: POSITIONALLIGHTS: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: TEXGEN:  true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: TWEENING:  true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Dp3: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Lerp: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: MaxNpatchTessellationLevel: 0.000
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query VCACHE support: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query EVENT support: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query OCCLUSION support: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query TIMESTAMP support: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query TIMESTAMPDISJOINT support: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query TIMESTAMPFREQ support: true
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query PIPELINETIMINGS support: false
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query INTERFACETIMINGS support: false
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query VERTEXTIMINGS support: false
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query PIXELTIMINGS support: false
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query BANDWIDTHTIMINGS support: false
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Query CACHEUTILIZATION support: false
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Stenciling: off
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]13/03 19:00:33 d3d: Rt depth format: D16
+I           m3dapp.cpp[2206]13/03 19:00:33 NOTE! input is bind to input_di8.dll
+I           m3dapp.cpp[1938]13/03 19:00:33 NOTE! sound is bind to sound.dll
+I           m3dapp.cpp[1350]13/03 19:00:33 input: Joystick not found
+I           m3dapp.cpp[1343]13/03 19:00:34 snd: Max sound channels available: 128
+I           m3dapp.cpp[1343]13/03 19:00:34 snd: Sound is inited successfully
+I             font.cpp[0976]13/03 19:00:34 FontManager: fonts are loaded successfully
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\fishmen.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\fishmen.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\fishmen.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo36.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo36.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo36.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo37.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo37.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo37.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo38.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo38.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo38.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo39.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo39.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo39.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo40.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo40.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo40.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo41.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo41.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo41.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo42.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo42.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo42.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo43.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo43.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo43.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo44.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo44.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo44.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo45.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo45.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo45.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo46.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo46.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo46.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo47.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo47.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo47.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo48.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo48.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo48.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo49.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo49.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo49.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo50.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo50.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo50.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo51.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo51.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo51.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo52.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo52.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo52.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo53.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo53.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo53.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo54.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo54.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo54.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo55.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo55.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo55.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo56.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo56.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo56.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo57.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo57.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo57.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo58.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo58.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo58.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo59.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo59.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo59.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo60.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo60.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo60.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo61.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo61.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo61.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo62.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo62.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo62.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo63.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo63.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo63.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo64.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo64.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo64.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo65.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo65.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo65.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo66.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo66.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo66.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo67.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo67.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo67.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo68.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo68.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo68.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo69.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo69.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo69.dds for model logos.gam
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: Cannot open data\models\logos\logo70.dds
+I           m3dapp.cpp[1336]13/03 19:00:34 d3d: texmap failed to load: data\models\logos\logo70.dds
+E       DraftModel.cpp[1002]13/03 19:00:34 Error: Couldn't load texture data\models\logos\logo70.dds for model logos.gam
+I      gameimpulse.cpp[0288]13/03 19:00:34 Key bindings: were inited successfully
+I           view32.cpp[0705]13/03 19:00:34 --- Init Media ---
+I    GameUiManager.cpp[0303]13/03 19:00:34 Interface: is initializing...
+I    GameUiManager.cpp[1580]13/03 19:00:34 Interface: clearing resource infos ...
+I    GameUiManager.cpp[1491]13/03 19:00:34 Interface: loading resource infos ...
+I    GameUiManager.cpp[1603]13/03 19:00:34 Interface: loading resources ...
+I           m3dapp.cpp[1343]13/03 19:00:34 snd: Error: Can't Open SoundFile: 
+I           m3dapp.cpp[1343]13/03 19:00:34 snd: Cannot open sound stream from file . Error: File not found, flags: 8272
+I    GameUiManager.cpp[0395]13/03 19:00:34 Interface: is inited successfully
+I        LevelInfo.cpp[0806]13/03 19:00:34 Level infos were loaded successfully from file data\if\diz\LevelInfo.xml
+I        LevelInfo.cpp[0837]13/03 19:00:34 Error: could't open data\maps\r1m8.ssl file
+E        LevelInfo.cpp[0749]13/03 19:00:34 LevelInfoManager was inited with errors
+I   TruxxUiManager.cpp[0191]13/03 19:00:34 TruxxUiManager: was inited successfully
+I      gameimpulse.cpp[0618]13/03 19:00:34 Key bindings: unbind all is done
+I      gameimpulse.cpp[0324]13/03 19:00:34 Key bindings: were loaded successfully from file data\scripts\DefaultKeyBindings.lua
+I      gameimpulse.cpp[1194]13/03 19:00:34 Key bindings: were bind from defaults
+I            video.cpp[0704]13/03 19:00:34 Could not load specified video file: data\video\logobuka.wmv (hr = 80070003)
+I     view32_video.cpp[0061]13/03 19:00:34 Error: couldn't load video 'data\video\logobuka.wmv'
+I            video.cpp[0704]13/03 19:00:34 Could not load specified video file: data\video\logotargem.wmv (hr = 80070003)
+I     view32_video.cpp[0061]13/03 19:00:34 Error: couldn't load video 'data\video\logotargem.wmv'
+I            video.cpp[0704]13/03 19:00:34 Could not load specified video file: data\video\INTRO_RUS_FIELD.wmv (hr = 80070003)
+I     view32_video.cpp[0061]13/03 19:00:34 Error: couldn't load video 'data\video\INTRO_RUS_FIELD.wmv'
+I             core.lua[0013]13/03 19:00:34 IMPROVED STORYLINE V1.0.5.3 ORIGINAL BUILD 220422
+I           m3dapp.cpp[1808]13/03 19:00:34 ----------------------- Engine inited in: 0
+I          Profile.cpp[0602]13/03 19:00:35 Profile "RiverZone" set
+I   TruxxUiManager.cpp[1422]13/03 19:00:35 Game mode changed. Old mode = 3, new mode = 2
+I        SplashWnd.cpp[0244]13/03 19:00:35 Start splashing 11
+I           view32.cpp[1048]13/03 19:00:35 -- Loading Level: data\maps\mainmenu.ssl --
+I            world.cpp[0132]13/03 19:00:35 ----------------------- World Loading
+F        landscape.cpp[1674]13/03 19:00:35  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]13/03 19:00:35  |  ----------------------- Normal map loaded in: 10
+I        landscape.cpp[1920]13/03 19:00:35  |  ----------------------- Tiles loaded in: 135
+I        landscape.cpp[1944]13/03 19:00:35  |  ----------------------- ShoreLine loaded in: 1
+F        landscape.cpp[1944]13/03 19:00:35  +- Exit function: Landscape::Load()
+I            world.cpp[0169]13/03 19:00:35 ----------------------- Landscape loaded in: 350
+I       DataServer.cpp[0587]13/03 19:00:35 Loading Servers: data\maps\MainMenu\servers.xml
+I serverAnimatedModel.cpp[0630]13/03 19:00:40 ### Total time: 5141, GAM time: 4501
+I       DataServer.cpp[0587]13/03 19:00:40 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]13/03 19:00:45 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]13/03 19:00:45 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]13/03 19:00:45 ----------------------- Servers loaded in: 9911
+I            world.cpp[0338]13/03 19:00:45 LoadWorld begin...
+I            world.cpp[0350]13/03 19:00:45 %%%% read/parse xml: 20
+I            world.cpp[0362]13/03 19:00:45 %%%% read from xml: 20
+E    PlayerPassMap.cpp[0139]13/03 19:00:45 Couldn't load player pass map from file data\maps\MainMenu\player_passmap.xml
+I            world.cpp[0444]13/03 19:00:45 %%%% link nodes: 18
+I            world.cpp[0220]13/03 19:00:45 ----------------------- Nodes loaded in: 58
+I            world.cpp[0228]13/03 19:00:45 ----------------------- Prefabs loaded in: 1
+I            world.cpp[0247]13/03 19:00:45 ----------------------- World loaded in: 10566
+I            world.cpp[0278]13/03 19:00:46 ----------------------- Roads loaded in: 640
+I           view32.cpp[1078]13/03 19:00:46 Load Server begin...
+I   TruxxUiManager.cpp[0974]13/03 19:00:46 Interface: is loaded successfully
+I           server.cpp[0789]13/03 19:00:46 AI: Loading Server...
+I           server.cpp[0796]13/03 19:00:46 	AI: Loading Relationship
+I     Relationship.cpp[0134]13/03 19:00:46 		 File readed
+I           server.cpp[0801]13/03 19:00:46 	AI: Loading SoilProps
+I           server.cpp[0804]13/03 19:00:46 	AI: Loading ExternalPaths
+I           server.cpp[0807]13/03 19:00:46 	AI: Loading PlayerPassMap
+E    PlayerPassMap.cpp[0139]13/03 19:00:46 Couldn't load player pass map from file data\maps\MainMenu\player_passmap.xml
+I           server.cpp[0813]13/03 19:00:46 	AI: Loading GameObjects
+I           server.cpp[0816]13/03 19:00:46 	AI: Initializing VehicleGeneratorInfoCache
+I           server.cpp[0820]13/03 19:00:46 	AI: Refreshing GameObjects
+I           server.cpp[0824]13/03 19:00:46 	AI: Loading QuestStates
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Human1_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Human1_Quest2' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'BenGoodEnd' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'q_PlaceWithSign' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m2_OracleMemory' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m2_TalkWithLisa' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m2_TalkWithBenAboutCarAfterOracul' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m2_FindInfoAboutFather' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m1_LureMainDriud' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m1_ClearSanctuary' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m1_KnowAboutUluk' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r3m1_RescueUlukCivil' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'q_VisitDruid' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_Znaki2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_HeadsHunterQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_OldDvigatel1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_OldDvigatel2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_FightFelix' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_ReturnToMarecciaFromCastle' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_FightWithAxelInArena_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_FindLisAfterAxelAndFatherDie_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_ToLisaToMonastir' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_FightLisaToMonastir' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m2_GiveDisk2ToOrakul' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'MrShlyapa3_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m1_ArtAntipod_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m1_TakeNarcotics_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m1_KillGodFather_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'MrShlyapaSecret' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_GetSupportOneOfTheBands2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_GetSupportOneOfTheBands1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_FindVerbInAR_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_FindVerbInSNG_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_PatrulSideSNG_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_TakeGeneralOfBandits_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m1_TW_AlienInShip' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Podderzhka_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Zashita_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'preEretik_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'ReturnQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_FindVerbInAM_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'OdettIsDead_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Disk2OrakulLisa' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FindGomerB_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FreeExtremistLeader_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'KillExtremist_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m4_TalkWithOldTraderAboutSecondDisk' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'q_FindHusbent' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'RybakToOlm_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'AnanagaTech_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'MrShlyapa2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'ToCordanToTikhomir_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_BonnyAndKlideQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_ArchHelp' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_CrazyManQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_OldTownOutsiderCar2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FightForPesht' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_RideAcrossBase_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_GiveMoneyToBase_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_GetBomb_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_IntrigaOfMerMinin_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_MoveFreelancersToOilMine_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_MoveCanistraToMinin_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_OpenTunel_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_TalkWithThiefFromFatherHouse' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_MoveToOraculAfterThief' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_ToLisaToAsgard' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_TW_OralceAboutAlien' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_DestroyRadiationSource' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m1_DestroyAlienShip' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_PayWorkersMoney_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r2m1_TW_SellsCivilian' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'MorskieVrata2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Zachisti1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'LisaVPeshte' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'LisaUBena' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'WhereSigns_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'CombatInKollizey_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'BuyKollizey_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Kollizey_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'HelpRuins_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'DestroyRuins_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'DestroyRuins2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Signs_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'MrShlyapa1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FindBen2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_FindHouseOfBen_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m2_TW_BanAboutAlien' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m3_DestroyOracle' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Pomiritsa_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'VYar_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FindBenMZ_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'QuickFindBen' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'OpenMid_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'TalkBeforeDesert' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'ZashitaGotova' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FakeQuest1' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Chehly_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'WorkGiver_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_PunishBandits_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m1_Hospital_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m1_Botanik_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'r1m1_FindBotanik_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'Buyer_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FirstTimePlay' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'TalkWithFather_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'LisaAtSouth' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FindBen_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'FindBenAgain_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'd_SinFather_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'TalkToVasily' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'CheckTheEast' can be given now
+I       QuestState.cpp[0904]13/03 19:00:46 Quest 'BenSouth_Quest' can be given now
+I           server.cpp[0826]13/03 19:00:46 	AI: QuestStates loaded
+I           server.cpp[0828]13/03 19:00:46 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]13/03 19:00:46 		 Scene loading begin
+I     DynamicScene.cpp[1472]13/03 19:00:46 		 Scene loading end
+I           server.cpp[0837]13/03 19:00:46 	AI: DynamicScene loaded
+I           server.cpp[0852]13/03 19:00:46 	AI: Loading Triggers
+E           server.cpp[1242]13/03 19:00:46 Error: cannot open data\maps\MainMenu\
+I           server.cpp[0855]13/03 19:00:46 	AI: Triggers loaded
+I           server.cpp[0857]13/03 19:00:46 	AI: Loading Object Names
+E     ObjContainer.cpp[1104]13/03 19:00:46 Error: cannot open data\maps\MainMenu\object_names.xml
+I           server.cpp[0868]13/03 19:00:46 	AI: Initing Player
+I           server.cpp[0888]13/03 19:00:46 		Before first Update
+I   TruxxUiManager.cpp[1422]13/03 19:00:46 Game mode changed. Old mode = 2, new mode = 1
+I           server.cpp[0909]13/03 19:00:46 		After first Update
+I           server.cpp[0911]13/03 19:00:46 AI: Finished Loading Server
+I           view32.cpp[1106]13/03 19:00:46 Load server end
+I        QuestInfo.cpp[0847]13/03 19:00:46 Quest infos were loaded successfully from file data\if\diz\QuestInfoGlobal.xml
+I        QuestInfo.cpp[0783]13/03 19:00:46 QuestInfo manager was inited successfully
+I       MsgManager.cpp[0391]13/03 19:00:46 Can't open file data\maps\MainMenu\strings.xml for read.
+I    GameUiManager.cpp[0303]13/03 19:00:46 Interface: is initializing...
+I    GameUiManager.cpp[0405]13/03 19:00:46 Interface: is clearing...
+I    GameUiManager.cpp[0495]13/03 19:00:46 Interface: is cleared successfully
+I    GameUiManager.cpp[0395]13/03 19:00:46 Interface: is inited successfully
+I blockMusicManager.cpp[0199]13/03 19:00:46 BlockMusicManager: resetting
+I      gameimpulse.cpp[0618]13/03 19:00:46 Key bindings: unbind all is done
+I      gameimpulse.cpp[0618]13/03 19:00:46 Key bindings: unbind all is done
+I      gameimpulse.cpp[0324]13/03 19:00:46 Key bindings: were loaded successfully from file data/profiles/riverzone\KeyBindings.lua
+I      gameimpulse.cpp[1222]13/03 19:00:46 Key bindings: were loaded from profile
+I        SplashWnd.cpp[0244]13/03 19:00:57 Start splashing 11
+I   TruxxUiManager.cpp[1422]13/03 19:00:57 Game mode changed. Old mode = 1, new mode = 0
+I    GameUiManager.cpp[0405]13/03 19:00:57 Interface: is clearing...
+I    GameUiManager.cpp[0495]13/03 19:00:57 Interface: is cleared successfully
+I           view32.cpp[1048]13/03 19:00:57 -- Loading Level: data\maps\r1m9.ssl --
+I            world.cpp[0132]13/03 19:00:57 ----------------------- World Loading
+F        landscape.cpp[1674]13/03 19:00:57  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]13/03 19:00:57  |  ----------------------- Normal map loaded in: 1
+I        landscape.cpp[1920]13/03 19:00:58  |  ----------------------- Tiles loaded in: 953
+I        landscape.cpp[1944]13/03 19:00:58  |  ----------------------- ShoreLine loaded in: 0
+F        landscape.cpp[1944]13/03 19:00:59  +- Exit function: Landscape::Load()
+I            world.cpp[0169]13/03 19:00:59 ----------------------- Landscape loaded in: 1071
+I       DataServer.cpp[0587]13/03 19:00:59 Loading Servers: data\maps\r1m9\servers.xml
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]13/03 19:01:04 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = brick_debris1
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = back_exp
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = kanistr
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = koroldrov
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = lom
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rabochee_oborudovanie
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = tobacco
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = octopus01
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = octopus01gun
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = big_swingfire01
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = big_swingfire01gun
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = vulcan01
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = vulcan01gun
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rainmetal01
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rainmetal01gun
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rapier01
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rapier01gun
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = giant_hurricane01
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = giant_hurricane01gun
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = meXaNizm
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = sml1Susp01
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot_brocken2
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot_brocken3
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot_brocken4
+E serverAnimatedModel.cpp[0627]13/03 19:01:07 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = sack_dot_brocken1
+I serverAnimatedModel.cpp[0630]13/03 19:01:07 ### Total time: 8625, GAM time: 8326
+I           m3dapp.cpp[1343]13/03 19:01:08 snd: Cannot load sound sample from file data\sounds\Shooting\start_of_missile01.wav. Error: An invalid parameter was passed to this function
+I      serverSound.cpp[0622]13/03 19:01:08 SoundServer: cannot add sound data\sounds\Shooting\start_of_missile01.wav
+I      serverSound.cpp[0546]13/03 19:01:08 DataServer: cannot read data\sounds\Shooting\start_of_missile01.wav id = S_SHOOTING_MISSILE_LAUNCH01
+I       DataServer.cpp[0587]13/03 19:01:10 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]13/03 19:01:10 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]13/03 19:01:10 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]13/03 19:01:11 ----------------------- Servers loaded in: 12029
+I            world.cpp[0338]13/03 19:01:11 LoadWorld begin...
+I            world.cpp[0350]13/03 19:01:11 %%%% read/parse xml: 71
+I            world.cpp[0362]13/03 19:01:11 %%%% read from xml: 57
+I            world.cpp[0444]13/03 19:01:11 %%%% link nodes: 56
+I            world.cpp[0220]13/03 19:01:11 ----------------------- Nodes loaded in: 186
+I            world.cpp[0228]13/03 19:01:11 ----------------------- Prefabs loaded in: 0
+I            world.cpp[0247]13/03 19:01:11 ----------------------- World loaded in: 13526
+E        GamParser.cpp[0399]13/03 19:01:11 AnimatedModel::LoadGAM -- cannot open file data\models\roads\road_small_highway\small_highway_end.gam-
+I      roadManager.cpp[0139]13/03 19:01:11 RoadManager error( model not loaded ): data\models\roads\road_small_highway\small_highway_end.gam-
+I            world.cpp[0278]13/03 19:01:11 ----------------------- Roads loaded in: 544
+I           view32.cpp[1078]13/03 19:01:11 Load Server begin...
+I            Reply.cpp[0415]13/03 19:01:12 Replies were loaded successfully from file data\if\diz\DialogsGlobal.xml
+I            Reply.cpp[0415]13/03 19:01:12 Replies were loaded successfully from file data\if\diz\DynamicDialogsGlobal.xml
+I            Reply.cpp[0343]13/03 19:01:12 RepliesManager was inited successfully
+I    GameUiManager.cpp[1603]13/03 19:01:12 Interface: loading resources ...
+I     ObjectsIcons.cpp[0198]13/03 19:01:13 ObjectsIcons::AddIcon warning - ico with id SpeedPointer already exists and wiil be replaced
+I    GameUiManager.cpp[1603]13/03 19:01:14 Interface: loading resources ...
+I   TruxxUiManager.cpp[0974]13/03 19:01:14 Interface: is loaded successfully
+I           server.cpp[0789]13/03 19:01:14 AI: Loading Server...
+I           server.cpp[0796]13/03 19:01:14 	AI: Loading Relationship
+I     Relationship.cpp[0134]13/03 19:01:14 		 File readed
+I           server.cpp[0801]13/03 19:01:14 	AI: Loading SoilProps
+I           server.cpp[0804]13/03 19:01:14 	AI: Loading ExternalPaths
+I           server.cpp[0807]13/03 19:01:14 	AI: Loading PlayerPassMap
+I           server.cpp[0813]13/03 19:01:14 	AI: Loading GameObjects
+I           server.cpp[0816]13/03 19:01:14 	AI: Initializing VehicleGeneratorInfoCache
+I           server.cpp[0820]13/03 19:01:14 	AI: Refreshing GameObjects
+I           server.cpp[0824]13/03 19:01:15 	AI: Loading QuestStates
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Human1_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Human1_Quest2' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'BenGoodEnd' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'q_PlaceWithSign' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m2_OracleMemory' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m2_TalkWithLisa' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m2_TalkWithBenAboutCarAfterOracul' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m2_FindInfoAboutFather' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m1_LureMainDriud' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m1_ClearSanctuary' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m1_KnowAboutUluk' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r3m1_RescueUlukCivil' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'q_VisitDruid' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_Znaki2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_HeadsHunterQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_OldDvigatel1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_OldDvigatel2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_FightFelix' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_ReturnToMarecciaFromCastle' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_FightWithAxelInArena_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_FindLisAfterAxelAndFatherDie_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_ToLisaToMonastir' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_FightLisaToMonastir' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m2_GiveDisk2ToOrakul' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'MrShlyapa3_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m1_ArtAntipod_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m1_TakeNarcotics_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m1_KillGodFather_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'MrShlyapaSecret' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_GetSupportOneOfTheBands2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_GetSupportOneOfTheBands1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_FindVerbInAR_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_FindVerbInSNG_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_PatrulSideSNG_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_TakeGeneralOfBandits_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m1_TW_AlienInShip' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Podderzhka_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Zashita_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'preEretik_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'ReturnQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_FindVerbInAM_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'OdettIsDead_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Disk2OrakulLisa' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FindGomerB_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FreeExtremistLeader_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'KillExtremist_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m4_TalkWithOldTraderAboutSecondDisk' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'q_FindHusbent' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'RybakToOlm_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'AnanagaTech_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'MrShlyapa2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'ToCordanToTikhomir_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_BonnyAndKlideQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_ArchHelp' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_CrazyManQuest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_OldTownOutsiderCar2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FightForPesht' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_RideAcrossBase_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_GiveMoneyToBase_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_GetBomb_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_IntrigaOfMerMinin_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_MoveFreelancersToOilMine_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_MoveCanistraToMinin_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_OpenTunel_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_TalkWithThiefFromFatherHouse' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_MoveToOraculAfterThief' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_ToLisaToAsgard' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_TW_OralceAboutAlien' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_DestroyRadiationSource' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m1_DestroyAlienShip' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_PayWorkersMoney_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r2m1_TW_SellsCivilian' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'MorskieVrata2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Zachisti1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'LisaVPeshte' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'LisaUBena' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'WhereSigns_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'CombatInKollizey_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'BuyKollizey_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Kollizey_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'HelpRuins_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'DestroyRuins_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'DestroyRuins2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Signs_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'MrShlyapa1_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FindBen2_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_FindHouseOfBen_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m2_TW_BanAboutAlien' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m3_DestroyOracle' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Pomiritsa_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'VYar_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FindBenMZ_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'QuickFindBen' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'OpenMid_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'TalkBeforeDesert' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'ZashitaGotova' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FakeQuest1' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Chehly_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'WorkGiver_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_PunishBandits_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m1_Hospital_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m1_Botanik_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'r1m1_FindBotanik_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'Buyer_Quest1' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FirstTimePlay' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'TalkWithFather_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'LisaAtSouth' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FindBen_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'FindBenAgain_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'd_SinFather_Quest' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'TalkToVasily' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'CheckTheEast' can be given now
+I       QuestState.cpp[0904]13/03 19:01:15 Quest 'BenSouth_Quest' can be given now
+I           server.cpp[0826]13/03 19:01:15 	AI: QuestStates loaded
+I           server.cpp[0828]13/03 19:01:15 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]13/03 19:01:15 		 Scene loading begin
+E         Location.cpp[0527]13/03 19:01:15 Error: PassageLocation 'ToR1M9' does not exist for Location id = 2334 prototype = 'genericLocation' name = 'FromR1M4'
+I     DynamicScene.cpp[1472]13/03 19:01:15 		 Scene loading end
+I           server.cpp[0837]13/03 19:01:15 	AI: DynamicScene loaded
+I           server.cpp[0852]13/03 19:01:15 	AI: Loading Triggers
+I           server.cpp[0855]13/03 19:01:15 	AI: Triggers loaded
+I           server.cpp[0857]13/03 19:01:15 	AI: Loading Object Names
+I           server.cpp[0868]13/03 19:01:15 	AI: Initing Player
+I           server.cpp[0888]13/03 19:01:15 		Before first Update
+I DynamicQuestManager.cpp[0089]13/03 19:01:15 DynamicQuestReach id = 2555 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]13/03 19:01:15 targetName = 'Ship', hirerName = 'TheEllen', reward = 250
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 2556 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for TurboAccelerationPusher id = 2557 prototype = 'someTurboAccelerationPusher', modelName = Turboakselerator
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2562 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2563 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2564 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2565 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for MinePusher id = 2566 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for MinePusher id = 2567 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2574 prototype = 'Smoke', modelName = Dimzavesa
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2575 prototype = 'Smoke', modelName = Dimzavesa
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2582 prototype = 'Smoke', modelName = Dimzavesa
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2583 prototype = 'Smoke', modelName = Dimzavesa
+I DynamicQuestManager.cpp[0089]13/03 19:01:15 DynamicQuestReach id = 2588 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]13/03 19:01:15 targetName = 'Ondalnes', hirerName = 'Heim', reward = 250
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2595 prototype = 'nailsPusher', modelName = meXaNizm
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for LocationPusher id = 2596 prototype = 'nailsPusher', modelName = meXaNizm
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for Mortar id = 2601 prototype = 'omega01', modelName = omega01
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for Mortar id = 2602 prototype = 'omega01', modelName = omega01
+E            Affix.cpp[0075]13/03 19:01:15 Error: attempt to apply affix 'with_electric_sight_gun' for property 'Accuracy' of PlasmaBunchLauncher id = 2606 prototype = 'fagot01'
+E            Affix.cpp[0075]13/03 19:01:15 Error: attempt to apply affix 'with_electric_sight_gun' for property 'Accuracy' of PlasmaBunchLauncher id = 2600 prototype = 'hammer01'
+E            Affix.cpp[0075]13/03 19:01:15 Error: attempt to apply affix 'advanced_gun' for property 'Accuracy' of PlasmaBunchLauncher id = 2600 prototype = 'hammer01'
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for MinePusher id = 2633 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for MinePusher id = 2634 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for MinePusher id = 2635 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for MinePusher id = 2636 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for ThunderboltLauncher id = 2640 prototype = 'zeus01L' name = 'BASKET_SIDE_GUN_L', modelName = zeus01L
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for ThunderboltLauncher id = 2641 prototype = 'zeus01R' name = 'BASKET_SIDE_GUN_R', modelName = zeus01R
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for ThunderboltLauncher id = 2643 prototype = 'zeus01L' name = 'BASKET_SIDE_GUN_L', modelName = zeus01L
+E              Gun.cpp[0866]13/03 19:01:15 Error: LoadPoint not found: LP_GUN for ThunderboltLauncher id = 2644 prototype = 'zeus01R' name = 'BASKET_SIDE_GUN_R', modelName = zeus01R
+I DynamicQuestManager.cpp[0089]13/03 19:01:15 DynamicQuestReach id = 2645 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]13/03 19:01:15 targetName = 'PetrolStationTown4393', hirerName = 'Sula', reward = 250
+I           server.cpp[0909]13/03 19:01:15 		After first Update
+I           server.cpp[0911]13/03 19:01:15 AI: Finished Loading Server
+I           view32.cpp[1106]13/03 19:01:15 Load server end
+I        QuestInfo.cpp[0847]13/03 19:01:15 Quest infos were loaded successfully from file data\if\diz\QuestInfoGlobal.xml
+I        QuestInfo.cpp[0783]13/03 19:01:15 QuestInfo manager was inited successfully
+I    GameUiManager.cpp[0303]13/03 19:01:15 Interface: is initializing...
+I    GameUiManager.cpp[0395]13/03 19:01:15 Interface: is inited successfully
+I     GlobalMapWnd.cpp[0157]13/03 19:01:15 Make control error: control mainmenu_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]13/03 19:01:15 Make control error: control r1m8_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]13/03 19:01:15 Make control error: control r1m7_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]13/03 19:01:15 Make control error: control r4m0_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]13/03 19:01:15 Make control error: control r9m1_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0203]13/03 19:01:15 GlobalMapWnd: error - fail to init because of a bad resource
+I blockMusicManager.cpp[0185]13/03 19:01:15 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I       console_string[0236]13/03 19:02:12 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:02:12 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:02:12 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:02:39 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I        FadingMsg.cpp[0199]13/03 19:03:03 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:03:04 TownMusicManager: start playing new music: 'Nort_town5'
+I blockMusicManager.cpp[0199]13/03 19:03:15 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:03:15 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I        FadingMsg.cpp[0199]13/03 19:03:27 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I        FadingMsg.cpp[0199]13/03 19:05:23 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:05:25 TownMusicManager: start playing new music: 'Nort_town1'
+I blockMusicManager.cpp[0199]13/03 19:05:55 BlockMusicManager: resetting
+I        FadingMsg.cpp[0199]13/03 19:05:56 Fading message: 'Начался тяжелый трудовой день.'
+I blockMusicManager.cpp[0185]13/03 19:05:56 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I townMusicManager.cpp[0096]13/03 19:05:59 TownMusicManager: start playing new music: 'Nort_town1'
+I blockMusicManager.cpp[0199]13/03 19:06:01 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:06:01 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I        FadingMsg.cpp[0199]13/03 19:07:50 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I        FadingMsg.cpp[0199]13/03 19:08:26 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:08:30 TownMusicManager: start playing new music: 'Nort_town2'
+I blockMusicManager.cpp[0199]13/03 19:08:39 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:08:39 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+E ComplexPhysicObj.cpp[1428]13/03 19:09:28 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 51755 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]13/03 19:09:29 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 2719 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]13/03 19:09:29 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 2830 prototype = 'Ural01'
+E            Affix.cpp[0075]13/03 19:09:29 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 2864 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]13/03 19:09:29 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 2872 prototype = 'Ural01'
+E            Affix.cpp[0075]13/03 19:09:29 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of Mortar id = 2887 prototype = 'bumblebee01'
+I             util.cpp[0423]13/03 19:09:56 Maximum joint count reached: 21
+I        FadingMsg.cpp[0199]13/03 19:10:00 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:10:01 TownMusicManager: start playing new music: 'Nort_town3'
+I     DynamicQuest.cpp[0279]13/03 19:10:12 Dynamic quest id 2588 status changed to PROCESSING
+I blockMusicManager.cpp[0199]13/03 19:10:45 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:10:45 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I             util.cpp[0423]13/03 19:11:28 Maximum joint count reached: 22
+I             util.cpp[0423]13/03 19:11:41 Maximum joint count reached: 23
+I             util.cpp[0423]13/03 19:15:59 Maximum joint count reached: 33
+I        FadingMsg.cpp[0199]13/03 19:16:09 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I        FadingMsg.cpp[0199]13/03 19:16:49 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I       console_string[0236]13/03 19:19:18 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:19:18 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:19:18 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0236]13/03 19:19:31 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:19:31 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:19:31 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0236]13/03 19:19:35 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:19:35 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:19:35 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0236]13/03 19:19:38 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:19:38 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:19:38 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:20:35 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I        FadingMsg.cpp[0199]13/03 19:21:05 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:21:13 TownMusicManager: start playing new music: 'Nort_town4'
+I blockMusicManager.cpp[0199]13/03 19:21:18 BlockMusicManager: resetting
+I        FadingMsg.cpp[0199]13/03 19:21:18 Fading message: 'Наступила ночь.'
+I blockMusicManager.cpp[0185]13/03 19:21:18 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I        FadingMsg.cpp[0199]13/03 19:21:36 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I        FadingMsg.cpp[0199]13/03 19:22:24 Fading message: 'Проклятье!'
+I       console_string[0236]13/03 19:22:46 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:22:46 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:22:46 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:22:46 Fading message: 'Вы получили %1d монет!'
+I     DynamicQuest.cpp[0279]13/03 19:23:09 Dynamic quest id 2588 status changed to COMPLETE
+I        FadingMsg.cpp[0199]13/03 19:23:09 Fading message: 'Вы получили %1d монет!'
+I        FadingMsg.cpp[0199]13/03 19:23:09 Fading message: 'Вы выполнили задание "%1s"'
+I        FadingMsg.cpp[0199]13/03 19:23:09 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I DynamicQuestManager.cpp[0089]13/03 19:23:09 DynamicQuestHunt id = 183060 prototype = 'dynamicQuestHunt' created
+I DynamicQuestManager.cpp[0090]13/03 19:23:09 targetName = 'PlayerVehicle_0_4', hirerName = 'Heim', reward = 3887
+I townMusicManager.cpp[0096]13/03 19:23:11 TownMusicManager: start playing new music: 'Nort_town5'
+I blockMusicManager.cpp[0199]13/03 19:23:28 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:23:28 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I        FadingMsg.cpp[0199]13/03 19:25:04 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:25:05 TownMusicManager: start playing new music: ''
+E           m3dapp.cpp[3625]13/03 19:25:05 Error: invalid music name: ''
+I blockMusicManager.cpp[0199]13/03 19:25:07 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:25:07 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I        FadingMsg.cpp[0199]13/03 19:26:26 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:26:30 TownMusicManager: start playing new music: ''
+E           m3dapp.cpp[3625]13/03 19:26:30 Error: invalid music name: ''
+I blockMusicManager.cpp[0199]13/03 19:26:31 BlockMusicManager: resetting
+I        FadingMsg.cpp[0199]13/03 19:26:31 Fading message: 'Наступило утро.'
+I blockMusicManager.cpp[0185]13/03 19:26:31 BlockMusicManager: start playing new music: blockNum = 14, musicType = 0, name = 'r1_9_driving'
+I     ObjContainer.cpp[1278]13/03 19:27:36 Passing to map 'r1m4', location 'FromR1M9', angle = -1, immediate = 0
+I     DynamicQuest.cpp[0279]13/03 19:27:38 Dynamic quest id 183060 status changed to FORGOTTEN
+I     DynamicQuest.cpp[0324]13/03 19:27:38 Dynamic quest id 183060 removed
+I        PhysicObj.cpp[0313]13/03 19:27:38 Vehicle 'PlayerVehicle_0_4' id=51802 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:27:38 Wheel '' id=101145 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:27:38 Wheel '' id=51792 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:27:38 Wheel '' id=35401 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:27:38 Wheel '' id=35403 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:27:38 Wheel '' id=35405 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:27:38 Wheel '' id=35407 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:27:38 Object is  visible in SetPassed...
+I        SplashWnd.cpp[0244]13/03 19:27:38 Start splashing 11
+I   TruxxUiManager.cpp[1422]13/03 19:27:38 Game mode changed. Old mode = 0, new mode = 0
+I    GameUiManager.cpp[0405]13/03 19:27:39 Interface: is clearing...
+I    GameUiManager.cpp[0495]13/03 19:27:39 Interface: is cleared successfully
+I           view32.cpp[1048]13/03 19:27:39 -- Loading Level: data\maps\r1m4.ssl --
+I            world.cpp[0132]13/03 19:27:39 ----------------------- World Loading
+F        landscape.cpp[1674]13/03 19:27:39  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]13/03 19:27:39  |  ----------------------- Normal map loaded in: 23
+I        landscape.cpp[1920]13/03 19:27:40  |  ----------------------- Tiles loaded in: 996
+I        landscape.cpp[1944]13/03 19:27:40  |  ----------------------- ShoreLine loaded in: 10
+F        landscape.cpp[1944]13/03 19:27:40  +- Exit function: Landscape::Load()
+I            world.cpp[0169]13/03 19:27:40 ----------------------- Landscape loaded in: 1175
+I       DataServer.cpp[0587]13/03 19:27:40 Loading Servers: data\maps\r1m4\servers.xml
+I serverAnimatedModel.cpp[0630]13/03 19:27:41 ### Total time: 1250, GAM time: 1140
+I       DataServer.cpp[0587]13/03 19:27:41 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]13/03 19:27:41 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]13/03 19:27:41 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]13/03 19:27:41 ----------------------- Servers loaded in: 1523
+I            world.cpp[0338]13/03 19:27:41 LoadWorld begin...
+I            world.cpp[0350]13/03 19:27:41 %%%% read/parse xml: 140
+I            world.cpp[0362]13/03 19:27:42 %%%% read from xml: 21
+I            world.cpp[0444]13/03 19:27:42 %%%% link nodes: 54
+I            world.cpp[0220]13/03 19:27:42 ----------------------- Nodes loaded in: 216
+I            world.cpp[0228]13/03 19:27:42 ----------------------- Prefabs loaded in: 0
+I            world.cpp[0247]13/03 19:27:42 ----------------------- World loaded in: 3099
+I            world.cpp[0278]13/03 19:27:42 ----------------------- Roads loaded in: 93
+I           view32.cpp[1078]13/03 19:27:42 Load Server begin...
+I    GameUiManager.cpp[1603]13/03 19:27:42 Interface: loading resources ...
+I   TruxxUiManager.cpp[0974]13/03 19:27:42 Interface: is loaded successfully
+I           server.cpp[0789]13/03 19:27:42 AI: Loading Server...
+I           server.cpp[0801]13/03 19:27:42 	AI: Loading SoilProps
+I           server.cpp[0804]13/03 19:27:42 	AI: Loading ExternalPaths
+I           server.cpp[0807]13/03 19:27:42 	AI: Loading PlayerPassMap
+I           server.cpp[0820]13/03 19:27:42 	AI: Refreshing GameObjects
+I           server.cpp[0824]13/03 19:27:42 	AI: Loading QuestStates
+I           server.cpp[0826]13/03 19:27:42 	AI: QuestStates loaded
+I           server.cpp[0828]13/03 19:27:42 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]13/03 19:27:42 		 Scene loading begin
+E     DynamicScene.cpp[1589]13/03 19:27:42 Attempting to load object Player1 of prototype player, but an object with this name already exists!
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 10 prototype = 'mrak01L' name = 'BASKET_SIDE_GUN_L', modelName = mrak01L
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 11 prototype = 'mrak01R' name = 'BASKET_SIDE_GUN_R', modelName = mrak01R
+I      PassageData.cpp[0063]13/03 19:27:42 New position is set to passed vehicle: 2537.302 248.198 2358.114
+I     DynamicScene.cpp[1472]13/03 19:27:42 		 Scene loading end
+I           server.cpp[0837]13/03 19:27:42 	AI: DynamicScene loaded
+I           server.cpp[0852]13/03 19:27:42 	AI: Loading Triggers
+I           server.cpp[0855]13/03 19:27:42 	AI: Triggers loaded
+I           server.cpp[0857]13/03 19:27:42 	AI: Loading Object Names
+I           server.cpp[0868]13/03 19:27:42 	AI: Initing Player
+I           server.cpp[0888]13/03 19:27:42 		Before first Update
+I DynamicQuestManager.cpp[0089]13/03 19:27:42 DynamicQuestReach id = 4422 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]13/03 19:27:42 targetName = 'FVNearOlme', hirerName = 'TheOlme', reward = 4618
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for MinePusher id = 4427 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for MinePusher id = 4428 prototype = 'minePusher_1', modelName = minoYkladchiK
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4432 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4433 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4435 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4436 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for LocationPusher id = 4437 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for LocationPusher id = 4438 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for LocationPusher id = 4447 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for LocationPusher id = 4448 prototype = 'engineOilPusher', modelName = MasloRazliF
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4450 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4451 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4453 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]13/03 19:27:42 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 4454 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+I DynamicQuestManager.cpp[0089]13/03 19:27:42 DynamicQuestDestroy id = 4469 prototype = 'dynamicQuestDestroy' created
+I DynamicQuestManager.cpp[0090]13/03 19:27:42 targetName = 'urod6', hirerName = 'FVOnOcean', reward = 413
+I DynamicQuestManager.cpp[0089]13/03 19:27:42 DynamicQuestReach id = 4478 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]13/03 19:27:42 targetName = 'FVCalis', hirerName = 'FVCordan', reward = 9723
+I DynamicQuestManager.cpp[0089]13/03 19:27:42 DynamicQuestReach id = 4483 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]13/03 19:27:42 targetName = 'FVOnOcean', hirerName = 'FVPerch', reward = 14965
+I DynamicQuestManager.cpp[0089]13/03 19:27:42 DynamicQuestHunt id = 4486 prototype = 'dynamicQuestHunt' created
+I DynamicQuestManager.cpp[0090]13/03 19:27:42 targetName = 'PlayerVehicle_0_4', hirerName = 'FVBerko', reward = 3682
+I DynamicQuestManager.cpp[0089]13/03 19:27:42 DynamicQuestHunt id = 4491 prototype = 'dynamicQuestHunt' created
+I DynamicQuestManager.cpp[0090]13/03 19:27:42 targetName = 'PlayerVehicle_0_4', hirerName = 'StorageVil', reward = 3682
+I       MsgManager.cpp[0483]13/03 19:27:42 MsgManager::ShowMsgBox error - MsgInfo for msg with id 8801 not found
+I           server.cpp[0909]13/03 19:27:42 		After first Update
+I           server.cpp[0911]13/03 19:27:42 AI: Finished Loading Server
+I           view32.cpp[1106]13/03 19:27:42 Load server end
+I    GameUiManager.cpp[0303]13/03 19:27:42 Interface: is initializing...
+I    GameUiManager.cpp[0395]13/03 19:27:42 Interface: is inited successfully
+I blockMusicManager.cpp[0199]13/03 19:27:42 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:27:42 BlockMusicManager: start playing new music: blockNum = 3, musicType = 0, name = 'r1_4_driving'
+I blockMusicManager.cpp[0185]13/03 19:27:42 BlockMusicManager: start playing new music: blockNum = 3, musicType = 1, name = 'r1_4_alarm'
+I blockMusicManager.cpp[0185]13/03 19:27:43 BlockMusicManager: start playing new music: blockNum = 3, musicType = 2, name = 'r1_4_battle'
+E ComplexPhysicObj.cpp[1428]13/03 19:27:51 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 4757 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]13/03 19:27:51 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 4860 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]13/03 19:27:51 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 4860 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]13/03 19:27:51 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 4860 prototype = 'Ural02'
+I blockMusicManager.cpp[0199]13/03 19:27:55 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:27:55 BlockMusicManager: start playing new music: blockNum = 3, musicType = 0, name = 'r1_4_driving'
+I blockMusicManager.cpp[0185]13/03 19:28:03 BlockMusicManager: start playing new music: blockNum = 3, musicType = 1, name = 'r1_4_alarm'
+I blockMusicManager.cpp[0185]13/03 19:28:09 BlockMusicManager: start playing new music: blockNum = 3, musicType = 2, name = 'r1_4_battle'
+I blockMusicManager.cpp[0199]13/03 19:28:19 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:28:19 BlockMusicManager: start playing new music: blockNum = 3, musicType = 0, name = 'r1_4_driving'
+I       console_string[0236]13/03 19:28:37 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:37 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:37 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:37 CABIN_BIG_GUN_1 -- bumblebee01
+I       console_string[0194]13/03 19:28:37 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:28:37 BASKET_BIG_GUN_0 -- vector01
+I       console_string[0194]13/03 19:28:37 BASKET_GIANT_GUN -- cyclops01
+I       console_string[0236]13/03 19:28:39 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:39 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:39 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:39 CABIN_BIG_GUN_1 -- rapier01
+I       console_string[0194]13/03 19:28:39 CABIN_BIG_GUN_2 -- vulcan01
+I       console_string[0194]13/03 19:28:39 BASKET_BIG_GUN_0 -- elephant01
+I       console_string[0194]13/03 19:28:39 BASKET_GIANT_GUN -- hurricane01
+I       console_string[0236]13/03 19:28:41 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:41 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:41 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:41 CABIN_BIG_GUN_1 -- vulcan01
+I       console_string[0194]13/03 19:28:41 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:28:41 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:28:41 BASKET_GIANT_GUN -- hurricane01
+I WanderersManager.cpp[0641]13/03 19:28:43 Spawning caravan: WanderersManager id = 268 prototype = 'JSinxManager' name = 'TraderCaravans' spawns CaravanTeam id = 185199 prototype = 'jsCaravanTeam'
+I WanderersManager.cpp[0641]13/03 19:28:43 Spawning caravan: WanderersManager id = 269 prototype = 'JSinxManager' name = 'FisherCaravan' spawns CaravanTeam id = 365449 prototype = 'jsCaravanTeam'
+I       console_string[0236]13/03 19:28:44 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:44 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:44 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:44 CABIN_BIG_GUN_1 -- kpvt01
+I       console_string[0194]13/03 19:28:44 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:28:44 BASKET_BIG_GUN_0 -- rapier01
+I       console_string[0194]13/03 19:28:44 BASKET_GIANT_GUN -- cyclops01
+I       console_string[0236]13/03 19:28:45 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:45 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:45 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:45 CABIN_BIG_GUN_1 -- vector01
+I       console_string[0194]13/03 19:28:45 CABIN_BIG_GUN_2 -- vector01
+I       console_string[0194]13/03 19:28:45 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:28:45 BASKET_GIANT_GUN -- hurricane01
+I       console_string[0236]13/03 19:28:47 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:47 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:47 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:47 CABIN_BIG_GUN_1 -- kpvt01
+I       console_string[0194]13/03 19:28:47 CABIN_BIG_GUN_2 -- vector01
+I       console_string[0194]13/03 19:28:47 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:28:47 BASKET_GIANT_GUN -- rocketLauncher
+I       console_string[0236]13/03 19:28:49 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:49 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:49 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:49 CABIN_BIG_GUN_1 -- vulcan01
+I       console_string[0194]13/03 19:28:49 CABIN_BIG_GUN_2 -- rapier01
+I       console_string[0194]13/03 19:28:49 BASKET_BIG_GUN_0 -- bumblebee01
+I       console_string[0194]13/03 19:28:49 BASKET_GIANT_GUN -- octopus01
+I       console_string[0236]13/03 19:28:53 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:53 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:53 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:53 CABIN_BIG_GUN_1 -- rapier01
+I       console_string[0194]13/03 19:28:53 CABIN_BIG_GUN_2 -- bumblebee01
+I       console_string[0194]13/03 19:28:53 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:28:53 BASKET_GIANT_GUN -- big_swingfire01
+I       console_string[0236]13/03 19:28:54 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:54 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:54 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:54 CABIN_BIG_GUN_1 -- rainmetal01
+I       console_string[0194]13/03 19:28:55 CABIN_BIG_GUN_2 -- vector01
+I       console_string[0194]13/03 19:28:55 BASKET_BIG_GUN_0 -- odin01
+I       console_string[0194]13/03 19:28:55 BASKET_GIANT_GUN -- hurricane01
+I       console_string[0236]13/03 19:28:56 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:56 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:56 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:56 CABIN_BIG_GUN_1 -- elephant01
+I       console_string[0194]13/03 19:28:56 CABIN_BIG_GUN_2 -- bumblebee01
+I       console_string[0194]13/03 19:28:56 BASKET_BIG_GUN_0 -- elephant01
+I       console_string[0194]13/03 19:28:56 BASKET_GIANT_GUN -- octopus01
+I       console_string[0236]13/03 19:28:58 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:58 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:58 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:58 CABIN_BIG_GUN_1 -- rainmetal01
+I       console_string[0194]13/03 19:28:58 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:28:58 BASKET_BIG_GUN_0 -- bumblebee01
+I       console_string[0194]13/03 19:28:58 BASKET_GIANT_GUN -- big_swingfire01
+I       console_string[0236]13/03 19:28:59 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:28:59 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:28:59 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:28:59 CABIN_BIG_GUN_1 -- elephant01
+I       console_string[0194]13/03 19:28:59 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:28:59 BASKET_BIG_GUN_0 -- kpvt01
+I       console_string[0194]13/03 19:28:59 BASKET_GIANT_GUN -- big_swingfire01
+I       console_string[0236]13/03 19:29:00 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:00 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:00 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:00 CABIN_BIG_GUN_1 -- omega01
+E              Gun.cpp[0866]13/03 19:29:00 Error: LoadPoint not found: LP_GUN for Mortar id = 742280 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:00 CABIN_BIG_GUN_2 -- vulcan01
+I       console_string[0194]13/03 19:29:00 BASKET_BIG_GUN_0 -- elephant01
+I       console_string[0194]13/03 19:29:00 BASKET_GIANT_GUN -- hurricane01
+I       console_string[0236]13/03 19:29:01 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:01 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:01 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:01 CABIN_BIG_GUN_1 -- vulcan01
+I       console_string[0194]13/03 19:29:01 CABIN_BIG_GUN_2 -- rainmetal01
+I       console_string[0194]13/03 19:29:01 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:29:01 BASKET_GIANT_GUN -- rocketLauncher
+I       console_string[0236]13/03 19:29:03 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:03 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:03 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:03 CABIN_BIG_GUN_1 -- vulcan01
+I       console_string[0194]13/03 19:29:03 CABIN_BIG_GUN_2 -- flag01
+I       console_string[0194]13/03 19:29:03 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:29:03 BASKET_GIANT_GUN -- big_swingfire01
+I        FadingMsg.cpp[0199]13/03 19:29:15 Fading message: 'Нажмите (%1m), чтобы поднять груз'
+I       console_string[0236]13/03 19:29:21 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:21 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:21 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:21 CABIN_BIG_GUN_1 -- vulcan01
+I       console_string[0194]13/03 19:29:21 CABIN_BIG_GUN_2 -- odin01
+I       console_string[0194]13/03 19:29:21 BASKET_BIG_GUN_0 -- rapier01
+I       console_string[0194]13/03 19:29:21 BASKET_GIANT_GUN -- hurricane01
+I       console_string[0236]13/03 19:29:23 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:23 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:23 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:23 CABIN_BIG_GUN_1 -- rapier01
+I       console_string[0194]13/03 19:29:24 CABIN_BIG_GUN_2 -- bumblebee01
+I       console_string[0194]13/03 19:29:24 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:29:24 BASKET_GIANT_GUN -- hurricane01
+I       console_string[0236]13/03 19:29:25 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:25 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:25 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:25 CABIN_BIG_GUN_1 -- rainmetal01
+I       console_string[0194]13/03 19:29:25 CABIN_BIG_GUN_2 -- omega01
+E              Gun.cpp[0866]13/03 19:29:25 Error: LoadPoint not found: LP_GUN for Mortar id = 37508 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:25 BASKET_BIG_GUN_0 -- elephant01
+I       console_string[0194]13/03 19:29:25 BASKET_GIANT_GUN -- octopus01
+I       console_string[0236]13/03 19:29:25 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:25 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:25 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:25 CABIN_BIG_GUN_1 -- vector01
+I       console_string[0194]13/03 19:29:25 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:29:25 BASKET_BIG_GUN_0 -- rapier01
+I       console_string[0194]13/03 19:29:25 BASKET_GIANT_GUN -- octopus01
+I       console_string[0236]13/03 19:29:26 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:26 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:26 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:26 CABIN_BIG_GUN_1 -- odin01
+I       console_string[0194]13/03 19:29:26 CABIN_BIG_GUN_2 -- elephant01
+I       console_string[0194]13/03 19:29:26 BASKET_BIG_GUN_0 -- rainmetal01
+I       console_string[0194]13/03 19:29:26 BASKET_GIANT_GUN -- big_swingfire01
+I       console_string[0236]13/03 19:29:27 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:27 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:27 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:27 CABIN_BIG_GUN_1 -- omega01
+E              Gun.cpp[0866]13/03 19:29:27 Error: LoadPoint not found: LP_GUN for Mortar id = 807816 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:27 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:29:27 BASKET_BIG_GUN_0 -- kpvt01
+I       console_string[0194]13/03 19:29:27 BASKET_GIANT_GUN -- cyclops01
+I       console_string[0236]13/03 19:29:29 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:29 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:29 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:29 CABIN_BIG_GUN_1 -- elephant01
+I       console_string[0194]13/03 19:29:29 CABIN_BIG_GUN_2 -- vulcan01
+I       console_string[0194]13/03 19:29:29 BASKET_BIG_GUN_0 -- elephant01
+I       console_string[0194]13/03 19:29:29 BASKET_GIANT_GUN -- cyclops01
+I       console_string[0236]13/03 19:29:30 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:30 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:30 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:30 CABIN_BIG_GUN_1 -- vector01
+I       console_string[0194]13/03 19:29:30 CABIN_BIG_GUN_2 -- flag01
+I       console_string[0194]13/03 19:29:30 BASKET_BIG_GUN_0 -- kpvt01
+I       console_string[0194]13/03 19:29:30 BASKET_GIANT_GUN -- octopus01
+I       console_string[0236]13/03 19:29:45 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:45 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:45 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:45 CABIN_BIG_GUN_1 -- omega01
+E              Gun.cpp[0866]13/03 19:29:45 Error: LoadPoint not found: LP_GUN for Mortar id = 545693 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:45 CABIN_BIG_GUN_2 -- kpvt01
+I       console_string[0194]13/03 19:29:45 BASKET_BIG_GUN_0 -- odin01
+I       console_string[0194]13/03 19:29:45 BASKET_GIANT_GUN -- big_swingfire01
+I       console_string[0236]13/03 19:29:47 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:47 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:47 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:47 CABIN_BIG_GUN_1 -- omega01
+E              Gun.cpp[0866]13/03 19:29:47 Error: LoadPoint not found: LP_GUN for Mortar id = 840584 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:47 CABIN_BIG_GUN_2 -- vector01
+I       console_string[0194]13/03 19:29:47 BASKET_BIG_GUN_0 -- vector01
+I       console_string[0194]13/03 19:29:47 BASKET_GIANT_GUN -- big_swingfire01
+I       console_string[0236]13/03 19:29:49 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:49 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:49 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:49 CABIN_BIG_GUN_1 -- odin01
+I       console_string[0194]13/03 19:29:49 CABIN_BIG_GUN_2 -- rapier01
+I       console_string[0194]13/03 19:29:49 BASKET_BIG_GUN_0 -- rapier01
+I       console_string[0194]13/03 19:29:49 BASKET_GIANT_GUN -- cyclops01
+I WanderersManager.cpp[0641]13/03 19:29:49 Spawning caravan: WanderersManager id = 269 prototype = 'JSinxManager' name = 'FisherCaravan' spawns CaravanTeam id = 152218 prototype = 'jsCaravanTeam'
+I       console_string[0236]13/03 19:29:50 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:50 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:50 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:50 CABIN_BIG_GUN_1 -- omega01
+E              Gun.cpp[0866]13/03 19:29:50 Error: LoadPoint not found: LP_GUN for Mortar id = 529379 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:50 CABIN_BIG_GUN_2 -- flag01
+I       console_string[0194]13/03 19:29:50 BASKET_BIG_GUN_0 -- bumblebee01
+I       console_string[0194]13/03 19:29:50 BASKET_GIANT_GUN -- big_swingfire01
+I       console_string[0236]13/03 19:29:51 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]13/03 19:29:51 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]13/03 19:29:51 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I       console_string[0194]13/03 19:29:51 CABIN_BIG_GUN_1 -- rainmetal01
+I       console_string[0194]13/03 19:29:51 CABIN_BIG_GUN_2 -- omega01
+E              Gun.cpp[0866]13/03 19:29:51 Error: LoadPoint not found: LP_GUN for Mortar id = 578414 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:51 BASKET_BIG_GUN_0 -- omega01
+E              Gun.cpp[0866]13/03 19:29:51 Error: LoadPoint not found: LP_GUN for Mortar id = 578410 prototype = 'omega01', modelName = omega01
+I       console_string[0194]13/03 19:29:51 BASKET_GIANT_GUN -- octopus01
+I blockMusicManager.cpp[0185]13/03 19:30:44 BlockMusicManager: start playing new music: blockNum = 3, musicType = 1, name = 'r1_4_alarm'
+I blockMusicManager.cpp[0185]13/03 19:30:52 BlockMusicManager: start playing new music: blockNum = 3, musicType = 2, name = 'r1_4_battle'
+I blockMusicManager.cpp[0199]13/03 19:31:02 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:31:02 BlockMusicManager: start playing new music: blockNum = 3, musicType = 0, name = 'r1_4_driving'
+I blockMusicManager.cpp[0185]13/03 19:31:03 BlockMusicManager: start playing new music: blockNum = 3, musicType = 1, name = 'r1_4_alarm'
+I blockMusicManager.cpp[0185]13/03 19:31:08 BlockMusicManager: start playing new music: blockNum = 3, musicType = 2, name = 'r1_4_battle'
+I     DynamicQuest.cpp[0279]13/03 19:31:11 Dynamic quest id 4469 status changed to FORGOTTEN
+I     DynamicQuest.cpp[0324]13/03 19:31:11 Dynamic quest id 4469 removed
+I DynamicQuestManager.cpp[0089]13/03 19:31:11 DynamicQuestHunt id = 102814 prototype = 'dynamicQuestHunt' created
+I DynamicQuestManager.cpp[0090]13/03 19:31:11 targetName = 'PlayerVehicle_0_4', hirerName = 'FVOnOcean', reward = 3301
+I blockMusicManager.cpp[0199]13/03 19:31:18 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:31:18 BlockMusicManager: start playing new music: blockNum = 3, musicType = 0, name = 'r1_4_driving'
+I        FadingMsg.cpp[0199]13/03 19:31:29 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]13/03 19:31:35 TownMusicManager: start playing new music: 'bar'
+I blockMusicManager.cpp[0199]13/03 19:32:28 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]13/03 19:32:28 BlockMusicManager: start playing new music: blockNum = 3, musicType = 0, name = 'r1_4_driving'
+I WanderersManager.cpp[0641]13/03 19:33:05 Spawning caravan: WanderersManager id = 268 prototype = 'JSinxManager' name = 'TraderCaravans' spawns CaravanTeam id = 70130 prototype = 'jsCaravanTeam'
+I        FadingMsg.cpp[0199]13/03 19:33:16 Fading message: 'Нажмите (%1m), чтобы поднять груз'
+I        FadingMsg.cpp[0199]13/03 19:33:18 Fading message: 'Вы подняли предмет: %1s'
+I        FadingMsg.cpp[0199]13/03 19:33:18 Fading message: 'Вы подняли предмет: %1s'
+E ComplexPhysicObj.cpp[1428]13/03 19:33:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 21164 prototype = 'Ural01'
+E            Affix.cpp[0075]13/03 19:33:25 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 20979 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]13/03 19:33:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 70042 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]13/03 19:33:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 70042 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]13/03 19:33:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 70042 prototype = 'Ural02'
+I             util.cpp[0423]13/03 19:34:37 Maximum joint count reached: 35
+I             util.cpp[0423]13/03 19:34:38 Maximum joint count reached: 36
+I             util.cpp[0423]13/03 19:34:39 Maximum joint count reached: 37
+I             util.cpp[0423]13/03 19:34:39 Maximum joint count reached: 38
+I             util.cpp[0423]13/03 19:34:44 Maximum joint count reached: 39
+I             util.cpp[0423]13/03 19:34:50 Maximum joint count reached: 40
+I             util.cpp[0423]13/03 19:34:50 Maximum joint count reached: 41
+I             util.cpp[0423]13/03 19:34:52 Maximum joint count reached: 42
+I             util.cpp[0423]13/03 19:34:54 Maximum joint count reached: 43
+I             util.cpp[0423]13/03 19:35:09 Maximum joint count reached: 44
+I     ObjContainer.cpp[1278]13/03 19:35:23 Passing to map 'r1m3', location 'FromR1M4', angle = -1, immediate = 0
+I     DynamicQuest.cpp[0279]13/03 19:35:25 Dynamic quest id 4486 status changed to FORGOTTEN
+I     DynamicQuest.cpp[0324]13/03 19:35:25 Dynamic quest id 4486 removed
+I     DynamicQuest.cpp[0279]13/03 19:35:25 Dynamic quest id 4491 status changed to FORGOTTEN
+I     DynamicQuest.cpp[0324]13/03 19:35:25 Dynamic quest id 4491 removed
+I     DynamicQuest.cpp[0279]13/03 19:35:25 Dynamic quest id 102814 status changed to FORGOTTEN
+I     DynamicQuest.cpp[0324]13/03 19:35:25 Dynamic quest id 102814 removed
+I        PhysicObj.cpp[0313]13/03 19:35:25 Vehicle 'PlayerVehicle_0_4' id=51802 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is NOT visible in SetPassed...
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is NOT visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:35:25 Wheel '' id=101145 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:35:25 Wheel '' id=51792 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:35:25 Wheel '' id=35401 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:35:25 Wheel '' id=35403 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:35:25 Wheel '' id=35405 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]13/03 19:35:25 Wheel '' id=35407 passes to another map
+I       PhysicBody.cpp[1171]13/03 19:35:25 Object is  visible in SetPassed...
+I        SplashWnd.cpp[0244]13/03 19:35:25 Start splashing 11
+I   TruxxUiManager.cpp[1422]13/03 19:35:25 Game mode changed. Old mode = 0, new mode = 0
+I    GameUiManager.cpp[0405]13/03 19:35:26 Interface: is clearing...
+I    GameUiManager.cpp[0495]13/03 19:35:26 Interface: is cleared successfully
+I           view32.cpp[1048]13/03 19:35:26 -- Loading Level: data\maps\r1m3.ssl --
+I            world.cpp[0132]13/03 19:35:26 ----------------------- World Loading
+F        landscape.cpp[1674]13/03 19:35:26  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]13/03 19:35:26  |  ----------------------- Normal map loaded in: 32
+I        landscape.cpp[1920]13/03 19:35:27  |  ----------------------- Tiles loaded in: 998
+I        landscape.cpp[1944]13/03 19:35:27  |  ----------------------- ShoreLine loaded in: 1
+F        landscape.cpp[1944]13/03 19:35:27  +- Exit function: Landscape::Load()
+I            world.cpp[0169]13/03 19:35:27 ----------------------- Landscape loaded in: 1244
+I       DataServer.cpp[0587]13/03 19:35:27 Loading Servers: data\maps\r1m3\servers.xml
+I serverAnimatedModel.cpp[0630]13/03 19:35:28 ### Total time: 781, GAM time: 689
+I       DataServer.cpp[0587]13/03 19:35:28 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]13/03 19:35:28 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]13/03 19:35:28 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]13/03 19:35:28 ----------------------- Servers loaded in: 1076
+I            world.cpp[0338]13/03 19:35:28 LoadWorld begin...
+I            world.cpp[0350]13/03 19:35:28 %%%% read/parse xml: 136
+I            world.cpp[0362]13/03 19:35:28 %%%% read from xml: 43
+I            world.cpp[0444]13/03 19:35:29 %%%% link nodes: 105
+I            world.cpp[0220]13/03 19:35:29 ----------------------- Nodes loaded in: 286
+I            world.cpp[0228]13/03 19:35:29 ----------------------- Prefabs loaded in: 1
+I            world.cpp[0247]13/03 19:35:29 ----------------------- World loaded in: 2762
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.
+I           Kernel.cpp[0280]13/03 19:35:29 EffectImpl: failed to load fx file 'data/shaders/road.fx' with: No D3DX error message.

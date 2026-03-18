@@ -236,5 +236,5 @@
 		image0="data\if\map\r1m7.dds"
 		image1="data\if\ico\GlobalMap\r1m6.dds"
 		splashes="data\if\ico\Splashes\r1m7.dds"
-		musicBlocks="r11_1 r11_2" />
+		musicBlocks="r9_1" />
 </LevelInfoResource>

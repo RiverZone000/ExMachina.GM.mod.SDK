@@ -379,8 +379,15 @@
 		id="r8_1_battle"
 		file="data\music\blocks\region8\battle11v2.ogg"
 		/>
+
+
 		
-		
+	<model
+		id="r9_1_driving"
+		file="data\music\blocks\region9\1\driving53v3.ogg"
+		/>
+
+
 		
 	<model
 		id="r11_1_driving"

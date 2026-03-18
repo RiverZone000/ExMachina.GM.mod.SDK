@@ -4576,26 +4576,4 @@
 		id="big_elephant01"
 		ndmAction="0"
 		skin="5" />
-
-	<Node
-		name="ET_S_RAIN"
-		class="SgNode"
-		org="1256.344 296.620 251.329"
-		orgRel="0">
-		<Node
-			name="noise"
-			class="SgSoundSourceNode"
-			id="Fake_Sound_Do_Not_Use_It" />
-	</Node>
-
-	<Node
-		name="ET_S_RAIN"
-		class="SgNode"
-		org="2133.439 386.465 1661.700"
-		orgRel="0">
-		<Node
-			name="noise"
-			class="SgSoundSourceNode"
-			id="Fake_Sound_Do_Not_Use_It" />
-	</Node>
 </World>

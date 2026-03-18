@@ -446,6 +446,10 @@
 		FullName="Дот" />
 
 		<Object
+		Name="sack_dot2_vulcan6496"
+		FullName="Дот" />
+
+		<Object
 		Name="ToR1M4"
 		FullName="Тоннель в Хель" />
 </ObjectNames>
