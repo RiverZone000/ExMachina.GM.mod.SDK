@@ -132,4 +132,60 @@
     <Object
         Name="PetrolStationTown6302"
         FullName="Заправка" />
+        
+    <Object
+        Name="heavy_dot1_vulcan7884"
+        FullName="Дот" />
+    
+    <Object
+        Name="heavy_dot1_vulcan7886"
+        FullName="Дот" />
+    
+    <Object
+        Name="heavy_dot1_vulcan7887"
+        FullName="Дот" />
+
+    <Object
+        Name="heavy_dot1_vulcan7888"
+        FullName="Дот" />
+
+    <Object
+        Name="heavy_dot4_vulcan6150"
+        FullName="Дот" />
+    
+    <Object
+        Name="heavy_dot4_vulcan6142"
+        FullName="Дот" />
+    
+    <Object
+        Name="heavy_dot4_vulcan6143"
+        FullName="Дот" />
+
+    <Object
+        Name="heavy_dot4_vulcan6144"
+        FullName="Дот" />
+
+    <Object
+        Name="heavy_dot4_vulcan6149"
+        FullName="Дот" />
+    
+    <Object
+        Name="heavy_dot4_vulcan6148"
+        FullName="Дот" />
+    
+    <Object
+        Name="heavy_dot4_vulcan6147"
+        FullName="Дот" />
+
+    <Object
+        Name="heavy_dot4_vulcan6134"
+        FullName="Дот" />
+
+    <Object
+        Name="heavy_dot4_vulcan6133"
+        FullName="Дот" />
+
+    <Object
+        Name="heavy_dot4_vulcan6151"
+        FullName="Дот" />
 </ObjectNames>
