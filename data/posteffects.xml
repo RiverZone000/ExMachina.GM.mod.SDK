@@ -2539,7 +2539,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="0.350"
+			InitVal="-2.080"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2548,7 +2548,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="0.710"
+			InitVal="1.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2557,7 +2557,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="0.130"
+			InitVal="1.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2584,7 +2584,7 @@
 
 		<Unit
 			VarName="Sepia"
-			InitVal="1.000"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2593,7 +2593,7 @@
 
 		<Unit
 			VarName="SepiaIntensity"
-			InitVal="0.090"
+			InitVal="0.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2602,7 +2602,7 @@
 
 		<Unit
 			VarName="SepiaColorR"
-			InitVal="0.520"
+			InitVal="1.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2611,7 +2611,7 @@
 
 		<Unit
 			VarName="SepiaColorG"
-			InitVal="0.520"
+			InitVal="1.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2620,7 +2620,7 @@
 
 		<Unit
 			VarName="SepiaColorB"
-			InitVal="0.560"
+			InitVal="1.000"
 			Param1="0"
 			Param2="0"
 			Param3="0"

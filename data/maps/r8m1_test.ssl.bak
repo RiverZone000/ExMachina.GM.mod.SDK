@@ -93,16 +93,16 @@
 			name="WATERABSBLUE">0.020</Key>
 
 		<Key
-			name="MINSAFEX">40.000</Key>
+			name="MINSAFEX">4357.105</Key>
 
 		<Key
-			name="MINSAFEY">40.000</Key>
+			name="MINSAFEY">5789.283</Key>
 
 		<Key
-			name="MAXSAFEX">8152.000</Key>
+			name="MAXSAFEX">4352.880</Key>
 
 		<Key
-			name="MAXSAFEY">8152.000</Key>
+			name="MAXSAFEY">5783.686</Key>
 
 		<Key
 			name="SERVERDYN">DynamicScene.xml</Key>
@@ -213,19 +213,19 @@
 	<Section
 		name="CAMERA">
 		<Key
-			name="X">4836.818</Key>
+			name="X">4303.760</Key>
 
 		<Key
-			name="Y">356.727</Key>
+			name="Y">269.260</Key>
 
 		<Key
-			name="Z">5511.304</Key>
+			name="Z">5694.375</Key>
 
 		<Key
-			name="A">2167.738</Key>
+			name="A">2167.930</Key>
 
 		<Key
-			name="B">-0.617</Key>
+			name="B">-0.087</Key>
 
 		<Key
 			name="G">0.000</Key>

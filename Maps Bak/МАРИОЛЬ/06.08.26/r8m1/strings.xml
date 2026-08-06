@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+</resource>

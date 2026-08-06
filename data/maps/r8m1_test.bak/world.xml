@@ -2,7 +2,7 @@
 <World
 	name="Object31"
 	class="SgNode"
-	LastId="76499527">
+	LastId="76499528">
 	<Node
 		name="Object76484234"
 		class="SgAnimatedModelNode"
@@ -9886,4 +9886,14 @@
 		orgRel="1"
 		id="PS_BIG_SMOKE2"
 		psNumEmitterMesh="-1" />
+
+	<Node
+		name="Object76499527"
+		class="SgAnimatedModelNode"
+		org="4294.339 12.642 5813.593"
+		orgRel="1"
+		rot="0.0000 0.7086 0.0000 0.7056"
+		id="bridge_metal"
+		ndmAction="0"
+		passable="0" />
 </World>

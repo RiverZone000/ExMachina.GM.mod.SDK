@@ -3907,7 +3907,7 @@
 			sunriseColor="201.450 204.000 153.000"
 			dayColor="255.000 255.000 196.350"
 			sunsetColor="175.950 128.000 128.000"
-			nightColor="15.300 15.300 15.300" />
+			nightColor="12.750 12.750 12.750" />
 
 		<Ambient
 			sunriseColor="128.000 128.000 128.000"
@@ -3919,25 +3919,25 @@
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="71.400 73.950 56.100"
 			sunsetColor="128.000 128.000 128.000"
-			nightColor="22.950 25.500 28.050" />
+			nightColor="25.500 25.500 28.050" />
 
 		<Sun
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			nightColor="63.750 64.000 64.000" />
 
 		<Plant
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			nightColor="63.750 64.000 64.000" />
 
 		<Specular
 			sunriseColor="128.000 128.000 128.000"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			nightColor="66.300 64.000 64.000" />
 
 		<PostEffect
 			sunrise="wSunrise_r8m1"
