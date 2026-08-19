@@ -6,15 +6,15 @@
 
     <Object
         Name="ToR1M1"
-        FullName="Дорога в Край" />
+        FullName="Тропа в Край" />
 
     <Object
         Name="ToR4M1"
-        FullName="Дорога в Вахат" />
+        FullName="Тропа в Вахат" />
 
     <Object
         Name="ToR8M1"
-        FullName="Дорога в Мариоль" />
+        FullName="Тропа в Мариоль" />
 
     <Object
         Name="CrazyDeadDesert_Bar"

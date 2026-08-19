@@ -95882,15 +95882,15 @@
 
 	<Object
 		Name="js_barricade19130"
-		Belong="1001"
+		Belong="1002"
 		Prototype="js_barricade1"
 		Pos="1899.085 219.388 2737.701">
 		<Object
 			Name="js_barricade19130_Team"
-			Belong="1001"
+			Belong="1002"
 			Prototype="settlementTeam">
 			<Formation
-				Belong="1001"
+				Belong="1002"
 				Prototype="caravanFormation"
 				DistBetweenVehicles="30.000"
 				Pos="0.000 0.000 0.000"
@@ -95903,16 +95903,16 @@
 
 	<Object
 		Name="js_wallwithenemy19131"
-		Belong="1001"
+		Belong="1002"
 		Prototype="js_wallwithenemy1"
 		Pos="1895.552 219.311 2743.423">
 		<Object
 			Name="js_wallwithenemy19131_Team"
-			Belong="1001"
+			Belong="1002"
 			Prototype="settlementTeam">
 			<Object
 				Name="js_wallwithenemy19131_Child7"
-				Belong="1001"
+				Belong="1002"
 				Prototype="r1m1_scout01"
 				Pos="1922.760 222.055 2731.744"
 				Rot="0.014 -0.672 0.046 0.739"
@@ -95924,7 +95924,7 @@
 
 			<Object
 				Name="js_wallwithenemy19131_Child8"
-				Belong="1001"
+				Belong="1002"
 				Prototype="r1m3_hunter02"
 				Pos="1870.153 218.528 2745.095"
 				Rot="-0.041 0.711 0.013 0.702"
@@ -95935,7 +95935,7 @@
 			</Object>
 
 			<Formation
-				Belong="1001"
+				Belong="1002"
 				Prototype="caravanFormation"
 				DistBetweenVehicles="30.000"
 				Pos="0.000 0.000 0.000"
@@ -95948,16 +95948,16 @@
 
 	<Object
 		Name="js_wallwithenemy29132"
-		Belong="1001"
+		Belong="1002"
 		Prototype="js_wallwithenemy2"
 		Pos="1898.515 219.424 2739.947">
 		<Object
 			Name="js_wallwithenemy29132_Team"
-			Belong="1001"
+			Belong="1002"
 			Prototype="settlementTeam">
 			<Object
 				Name="js_wallwithenemy29132_Child7"
-				Belong="1001"
+				Belong="1002"
 				Prototype="r2m2_Hunter01"
 				Pos="1921.885 222.452 2744.345"
 				Rot="0.015 -0.699 0.042 0.713"
@@ -95969,7 +95969,7 @@
 
 			<Object
 				Name="js_wallwithenemy29132_Child8"
-				Belong="1001"
+				Belong="1002"
 				Prototype="r2m2_scout01"
 				Pos="1868.656 218.071 2734.995"
 				Rot="-0.046 0.733 0.013 0.679"
@@ -95980,7 +95980,7 @@
 			</Object>
 
 			<Formation
-				Belong="1001"
+				Belong="1002"
 				Prototype="caravanFormation"
 				DistBetweenVehicles="30.000"
 				Pos="0.000 0.000 0.000"
@@ -95993,16 +95993,16 @@
 
 	<Object
 		Name="barricade19133"
-		Belong="1001"
+		Belong="1002"
 		Prototype="barricade1"
 		Pos="1868.654 215.461 2701.967"
 		Probability="0.300">
 		<Object
 			Name="barricade19133_Team"
-			Belong="1001"
+			Belong="1002"
 			Prototype="settlementTeam">
 			<Formation
-				Belong="1001"
+				Belong="1002"
 				Prototype="caravanFormation"
 				DistBetweenVehicles="30.000"
 				Pos="0.000 0.000 0.000"
@@ -96015,16 +96015,16 @@
 
 	<Object
 		Name="barricade29134"
-		Belong="1001"
+		Belong="1002"
 		Prototype="barricade2"
 		Pos="1918.158 222.285 2766.682"
 		Probability="0.300">
 		<Object
 			Name="barricade29134_Team"
-			Belong="1001"
+			Belong="1002"
 			Prototype="settlementTeam">
 			<Formation
-				Belong="1001"
+				Belong="1002"
 				Prototype="caravanFormation"
 				DistBetweenVehicles="30.000"
 				Pos="0.000 0.000 0.000"
@@ -96093,16 +96093,16 @@
 
 	<Object
 		Name="barricade29143"
-		Belong="1001"
+		Belong="1002"
 		Prototype="barricade2"
 		Pos="1866.166 215.492 2705.297"
 		Probability="0.300">
 		<Object
 			Name="barricade29143_Team"
-			Belong="1001"
+			Belong="1002"
 			Prototype="settlementTeam">
 			<Formation
-				Belong="1001"
+				Belong="1002"
 				Prototype="caravanFormation"
 				DistBetweenVehicles="30.000"
 				Pos="0.000 0.000 0.000"
@@ -96139,7 +96139,7 @@
 
 	<Object
 		Name="sack_dot2_vulcan9150"
-		Belong="1001"
+		Belong="1002"
 		Prototype="sack_dot2_vulcan"
 		Pos="1868.782 215.421 2700.784"
 		Rot="0.000 -1.000 0.000 0.024">
@@ -96148,7 +96148,7 @@
 
 	<Object
 		Name="sack_dot2_vulcan9151"
-		Belong="1001"
+		Belong="1002"
 		Prototype="sack_dot2_vulcan"
 		Pos="1920.310 222.503 2767.346">
 		<Parts />

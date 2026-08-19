@@ -4126,7 +4126,7 @@ $Id: Towns.xml,v 1.70 2005/11/24 09:45:19 anton Exp $
 		ModelFile	= "brick_debris1"
 		NodeScale	= "1 1 1" 
 
-		MusicName		= "Donb_town1"
+		MusicName		= "Bio07unloop"
 
 		GunGenerator		= "gunTheGloochoeGenerator"
 		DesiredGunsInWorkshop	= "6"
@@ -4142,17 +4142,6 @@ $Id: Towns.xml,v 1.70 2005/11/24 09:45:19 anton Exp $
 
 		MaxDefenders	= "0" 
 		Vehicles	= "Scout" >
-		
-		<Article
-			Prototype			= "potato"				
-			Amount	 			= "5"
-			Export   			= "TRUE"
-			Import				= "FALSE"
-			PriceDynamic 			= "1"
-			ExternalPriceCoefficient	=  "0.8"
-			MinCount			= "0"
-			MaxCount			= "40"
-			RegenerationPeriod			= "300"			/>
 
 
 	<ResourceCoeff Coeff="0.5" Dispersion="0.0" Resource="CABIN" />

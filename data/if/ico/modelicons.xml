@@ -219,9 +219,9 @@
    <Item id="TownOldCibilla"	file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="r1m6_Kateberg"		file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="TownMoska"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
-   <Item id="TheEllenTown"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="TheEllenTown"		file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="HeimTown"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
-   <Item id="BergenTown"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
+   <Item id="BergenTown"		file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
    <Item id="Zavod_NGP"			file1="data\if\ico\LocalMap\icn_town.dds" file=""/>
 
 
@@ -281,17 +281,18 @@
    <Item id="r1m6_MudrecStation"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="r1m5_LaBelle"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
    <Item id="SulaVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="OndalnesVillage"				file1="data\if\ico\LocalMap\icn_oilvillage.dds" file=""/>
+   <Item id="OndalnesVillage"			file1="data\if\ico\LocalMap\icn_oilvillage.dds" file=""/>
    <Item id="MoldeVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="ShipTown"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r11m1_NamleaVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r11m1_NamroleVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r11m1_KendariVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r8m1_MariupolVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r8m1_BerdanskoeVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r8m1_TopolinoeVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r8m1_NikolskoeVillage"				file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
-   <Item id="r8m1_Makedonovka_Village"				file1="data\if\ico\LocalMap\icn_oilvillage.dds" file=""/>
+   <Item id="ShipTown"				    file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r11m1_NamleaVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r11m1_NamroleVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r11m1_KendariVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r8m1_MariupolVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r8m1_BerdanskoeVillage"	file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r8m1_TopolinoeVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r8m1_NikolskoeVillage"		file1="data\if\ico\LocalMap\icn_village.dds" file=""/>
+   <Item id="r8m1_Makedonovka_Village"	file1="data\if\ico\LocalMap\icn_oilvillage.dds" file=""/>
+   <Item id="r4m0_CrazyDeadDesert_Village"	file1="data\if\ico\LocalMap\icn_oilvillage.dds" file=""/>
 
    
    <Item id="DoNotRememberDeleteThisVillage"	file1="data\if\ico\LocalMap\icn_village.dds" file=""/>

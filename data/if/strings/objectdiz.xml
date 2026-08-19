@@ -767,6 +767,20 @@
 	<string
 		id="r8m1_PetrolStationTown6302_diz"
 		value="Заправка" />
+		
+	<string
+		id="r4m0_CrazyDeadDesert_Village_diz"
+		value="Деревня путников, затерявшихся в бескрайней выжженной пустыне." />
+		
+	<string
+		id="r4m0_ToR1M1_diz"
+		value="Тропа в Край." />
 
-	
+	<string
+		id="r4m0_ToR4M1_diz"
+		value="Тропа в Вахат" />
+		
+	<string
+		id="r4m0_ToR8M1_diz"
+		value="Тропа в Мариоль" />
 </resource>

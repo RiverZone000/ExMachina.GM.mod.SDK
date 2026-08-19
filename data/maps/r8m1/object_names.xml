@@ -188,4 +188,28 @@
     <Object
         Name="heavy_dot4_vulcan6151"
         FullName="Дот" />
+		
+	<Object
+        Name="sack_dot2_vulcan9150"
+        FullName="Застава" />
+		
+	<Object
+        Name="sack_dot2_vulcan9151"
+        FullName="Застава" />
+		
+	<Object
+		Name="urod1"
+		FullName="Винни" />
+
+	<Object
+		Name="urod2"
+		FullName="Дон" />
+
+	<Object
+		Name="urod3"
+		FullName="Юкка" />
+
+	<Object
+		Name="urod4"
+		FullName="Дэйзи" />
 </ObjectNames>

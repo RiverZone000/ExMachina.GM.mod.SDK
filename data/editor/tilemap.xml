@@ -313,6 +313,10 @@
 		texName="data\tiles\region1\Techno_2.dds" />
 
 	<object
+		color="11944457"
+		texName="data\tiles\region1\Snow_Ground1.dds" />
+
+	<object
 		color="12031082"
 		texName="data\tiles\region2\Tech_1.dds" />
 
@@ -355,6 +359,10 @@
 	<object
 		color="13750737"
 		texName="data\tiles\region1\crag_rock.dds" />
+
+	<object
+		color="13779521"
+		texName="data\tiles\region1\Snow_Crag1.dds" />
 
 	<object
 		color="13946631"
