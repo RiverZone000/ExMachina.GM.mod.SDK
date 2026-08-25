@@ -1,372 +1,1275 @@
----------------------------------------------- Log begins on Wed Aug 19 18:55:20 2026 ----------------------------------------------
-I           m3dapp.cpp[0088]19/08 18:55:20 Starting up...
-I           m3dapp.cpp[1645]19/08 18:55:20 ExMachina - release version release build v1.03 (Feb 10 2006 16:30:24)
-I      Stackwalker.cpp[0608]19/08 18:55:20 Stackwalker: log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/m3deditor.exe0044.log'
-I      Stackwalker.cpp[0609]19/08 18:55:20 Stackwalker: dump file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/m3deditor.exe0044.dmp'
-I      Stackwalker.cpp[0610]19/08 18:55:20 Stackwalker: game log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/m3deditor.exe0044_game.log'
-I           m3dapp.cpp[1391]19/08 18:55:20 Path: B:\ExMachina.GM.mod.SDK_
-I           m3dapp.cpp[1392]19/08 18:55:20 Exe: B:\ExMachina.GM.mod.SDK_\M3DEditor\M3DEditor.exe
-I           m3dapp.cpp[1401]19/08 18:55:20 Windows version: 6.2.9200
-I           m3dapp.cpp[1416]19/08 18:55:20 Computer name: DESKTOP-QQPV5MQ
-I           m3dapp.cpp[1443]19/08 18:55:20 Cpu: GenuineIntel
-I           m3dapp.cpp[1445]19/08 18:55:20 Max CPUID standard function operand: 32
-I           m3dapp.cpp[1480]19/08 18:55:20 Cpu brand: 12th Gen Intel(R) Core(TM) i3-12100F
-I           m3dapp.cpp[1485]19/08 18:55:20 Cpu clock: ~3302
-I           m3dapp.cpp[1555]19/08 18:55:20 Processor supports MMX
-I           m3dapp.cpp[1565]19/08 18:55:20 Processor supports SSE
-I           m3dapp.cpp[1570]19/08 18:55:20 Processor supports HyperThreading
-I           m3dapp.cpp[1575]19/08 18:55:20 Number of logical processors on the die: 16
-I           m3dapp.cpp[1616]19/08 18:55:20 Physical memory: 2047 MB
-I           m3dapp.cpp[1617]19/08 18:55:20 Total memory:    4095 MB
-I           m3dapp.cpp[1618]19/08 18:55:20 Physical memory available: 2047 MB
-I           m3dapp.cpp[1619]19/08 18:55:20 Total memory available:    1892 MB
-I           m3dapp.cpp[2991]19/08 18:55:20 SetCodepage -- using codepage 1251 '1251  (ANSI - кириллица)'
-I           m3dapp.cpp[2299]19/08 18:55:20 NOTE! renderer is bind to dxrender9.dll
-I           m3dapp.cpp[1751]19/08 18:55:20 WARNING! Application::init -- zero window rect, expanding
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Given device behavior: 80
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Confirmed device behavior: 80
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Description: NVIDIA GeForce GTX 1650
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Driver:      nvldumd.dll
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: VendorId:    0x10de
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: DeviceId:    0x1f0a
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: SubSysId:    0x145c1771
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Revision:    161
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Driver version info:
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d:   Product:    32
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d:   Version:    0
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d:   SubVersion: 15
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d:   Build:      8129
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: WHQLLevel:    0
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Texture max size: 16384x16384
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Guard band: (-100000000.000,-100000000.000,100000000.000,100000000.000)
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxTextureBlendStages: 8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxSimultaneousTextures: 8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxActiveLights: 10
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxUserClipPlanes: 8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: VertexShaderVersion: 0xfffe0300
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: PixelShaderVersion: 0xffff0300
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Geometry instancing: supported
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth bias supported: yes
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Slope-scale based depth bias supported: yes
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: HwRasterization: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: HwTnL: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: PureDevice: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: CubeMap: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: VolumeMap: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: TextureAddressCaps:
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: 	wrap: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: 	clamp: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: 	border: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Projective textures: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxPointSize: 8192.000
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxPrimitiveCount: 16777215
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxVertexIndex: 16777215
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxStreams: 16
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxStreamsStride: 255
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxAnisotropy: 16
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxVertexBlendMatrices: 4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxVertexBlendMatrixIndex: 8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: FullScreenGamma: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: COLORWRITEENABLE: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MASKZ: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: BLENDOP: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: CLIPPLANESCALEDPOINTS: false
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: CLIPTLVERTS: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: TSSARGTEMP: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: DIRECTIONALLIGHTS: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: LOCALVIEWER: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: POSITIONALLIGHTS: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: TEXGEN:  true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: TWEENING:  true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Dp3: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Lerp: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: MaxNpatchTessellationLevel: 0.000
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query VCACHE support: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query EVENT support: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query OCCLUSION support: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query TIMESTAMP support: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query TIMESTAMPDISJOINT support: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query TIMESTAMPFREQ support: true
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query PIPELINETIMINGS support: false
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query INTERFACETIMINGS support: false
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query VERTEXTIMINGS support: false
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query PIXELTIMINGS support: false
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query BANDWIDTHTIMINGS support: false
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Query CACHEUTILIZATION support: false
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt depth format: D16
-I           m3dapp.cpp[1829]19/08 18:55:20 NOTE! Application::init -- input module was not inited deliberately
-I             font.cpp[0976]19/08 18:55:20 FontManager: fonts are loaded successfully
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\fishmen.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\fishmen.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\fishmen.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo36.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo36.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo36.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo37.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo37.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo37.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo38.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo38.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo38.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo39.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo39.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo39.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo40.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo40.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo40.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo41.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo41.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo41.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo42.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo42.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo42.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo43.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo43.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo43.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo44.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo44.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo44.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo45.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo45.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo45.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo46.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo46.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo46.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo47.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo47.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo47.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo48.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo48.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo48.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo49.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo49.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo49.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo50.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo50.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo50.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo51.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo51.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo51.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo52.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo52.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo52.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo53.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo53.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo53.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo54.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo54.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo54.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo55.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo55.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo55.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo56.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo56.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo56.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo57.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo57.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo57.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo58.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo58.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo58.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo59.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo59.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo59.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo60.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo60.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo60.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo61.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo61.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo61.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo62.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo62.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo62.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo63.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo63.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo63.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo64.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo64.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo64.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo65.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo65.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo65.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo66.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo66.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo66.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo67.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo67.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo67.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo68.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo68.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo68.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo69.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo69.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo69.dds for model logos.gam
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\models\logos\logo70.dds
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\models\logos\logo70.dds
-E       DraftModel.cpp[1002]19/08 18:55:20 Error: Couldn't load texture data\models\logos\logo70.dds for model logos.gam
-I      RandomGroup.cpp[0879]19/08 18:55:20 RandomGroupManager: random groups were loaded successfully from file data\editor\RandomGroups.xml
-I             core.lua[0013]19/08 18:55:20 IMPROVED STORYLINE V1.0.5.3 ORIGINAL BUILD 220422
-I           m3dapp.cpp[1953]19/08 18:55:20 ----------------------- Engine inited in: 0
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt depth format: D16
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\splashes\label.tga
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\splashes\label.tga
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\splashes\m3deditor.bmp
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\splashes\m3deditor.bmp
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Cannot open data\splashes\LoadSlider.tga
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: texmap failed to load: data\splashes\LoadSlider.tga
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt depth format: D16
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt depth format: D16
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt depth format: D16
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt depth format: D16
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:20 d3d: Rt depth format: D16
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix useless_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix useless_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix rusty_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix rusty_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix excellent_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix excellent_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix advanced_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix advanced_cabin
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix useless_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix useless_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix rusty_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix rusty_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix excellent_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix excellent_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix advanced_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix advanced_basket
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix useless_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix useless_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix rusty_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix rusty_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix excellent_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix excellent_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix advanced_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix advanced_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix slow_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix slow_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix assault_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix assault_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix rapid_firing_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix rapid_firing_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix weak_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix weak_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix deadly_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix deadly_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix destructive_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 1 for affix destructive_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix with_truncated_barrel_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix with_enlarged_barrel_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix with_long_barrel_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix without_sight_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix with_laser_sight_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix with_electric_sight_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix without_cooling_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix with_water_cooling_gun
-E            Affix.cpp[0162]19/08 18:55:21 Error: missing localized form 0 for affix with_nitro_cooling_gun
-I            Quest.cpp[0252]19/08 18:55:21 No file: \ReadXmlFile: Cannot open file \
-I           server.cpp[0723]19/08 18:55:21 No local quests was found. Using global ones
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rt depth format: D16
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Device reset ok
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Creating or resetting the device
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Back buffer format: X8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Depth/stencil buffer format: D24S8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Stenciling: off
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rgba textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rgba no c. textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: RgbA textures format: DXT5
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: RgbA no c. textures format: A4R4G4B4
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rt textures format: A8R8G8B8
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Shadow textures format: R5G6B5
-I           m3dapp.cpp[1336]19/08 18:55:21 d3d: Rt depth format: D16
------------------------------------------------ Log ends on Wed Aug 19 18:55:30 2026 -----------------------------------------------
+---------------------------------------------- Log begins on Tue Aug 25 22:42:08 2026 ----------------------------------------------
+I           m3dapp.cpp[0088]25/08 22:42:08 Starting up...
+I           m3dapp.cpp[1645]25/08 22:42:08 ExMachina - release version release build v1.03 (Feb 10 2006 16:30:24)
+I      Stackwalker.cpp[0608]25/08 22:42:08 Stackwalker: log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/m3deditor.exe0044.log'
+I      Stackwalker.cpp[0609]25/08 22:42:08 Stackwalker: dump file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/m3deditor.exe0044.dmp'
+I      Stackwalker.cpp[0610]25/08 22:42:08 Stackwalker: game log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/m3deditor.exe0044_game.log'
+I           m3dapp.cpp[1391]25/08 22:42:08 Path: B:\ExMachina.GM.mod.SDK_
+I           m3dapp.cpp[1392]25/08 22:42:08 Exe: B:\ExMachina.GM.mod.SDK_\M3DEditor\M3DEditor.exe
+I           m3dapp.cpp[1401]25/08 22:42:08 Windows version: 6.2.9200
+I           m3dapp.cpp[1416]25/08 22:42:08 Computer name: DESKTOP-QQPV5MQ
+I           m3dapp.cpp[1443]25/08 22:42:08 Cpu: GenuineIntel
+I           m3dapp.cpp[1445]25/08 22:42:08 Max CPUID standard function operand: 32
+I           m3dapp.cpp[1480]25/08 22:42:08 Cpu brand: 12th Gen Intel(R) Core(TM) i3-12100F
+I           m3dapp.cpp[1485]25/08 22:42:08 Cpu clock: ~3302
+I           m3dapp.cpp[1555]25/08 22:42:08 Processor supports MMX
+I           m3dapp.cpp[1565]25/08 22:42:08 Processor supports SSE
+I           m3dapp.cpp[1570]25/08 22:42:08 Processor supports HyperThreading
+I           m3dapp.cpp[1575]25/08 22:42:08 Number of logical processors on the die: 16
+I           m3dapp.cpp[1616]25/08 22:42:08 Physical memory: 2047 MB
+I           m3dapp.cpp[1617]25/08 22:42:08 Total memory:    4095 MB
+I           m3dapp.cpp[1618]25/08 22:42:08 Physical memory available: 2047 MB
+I           m3dapp.cpp[1619]25/08 22:42:08 Total memory available:    1892 MB
+I           m3dapp.cpp[2991]25/08 22:42:08 SetCodepage -- using codepage 1251 '1251  (ANSI - кириллица)'
+I           m3dapp.cpp[2299]25/08 22:42:08 NOTE! renderer is bind to dxrender9.dll
+I           m3dapp.cpp[1751]25/08 22:42:08 WARNING! Application::init -- zero window rect, expanding
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Given device behavior: 80
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Confirmed device behavior: 80
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Description: NVIDIA GeForce GTX 1650
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Driver:      nvldumd.dll
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: VendorId:    0x10de
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: DeviceId:    0x1f0a
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: SubSysId:    0x145c1771
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Revision:    161
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Driver version info:
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d:   Product:    32
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d:   Version:    0
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d:   SubVersion: 15
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d:   Build:      8129
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: WHQLLevel:    0
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Texture max size: 16384x16384
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Guard band: (-100000000.000,-100000000.000,100000000.000,100000000.000)
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxTextureBlendStages: 8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxSimultaneousTextures: 8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxActiveLights: 10
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxUserClipPlanes: 8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: VertexShaderVersion: 0xfffe0300
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: PixelShaderVersion: 0xffff0300
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Geometry instancing: supported
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth bias supported: yes
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Slope-scale based depth bias supported: yes
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: HwRasterization: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: HwTnL: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: PureDevice: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: CubeMap: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: VolumeMap: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: TextureAddressCaps:
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: 	wrap: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: 	clamp: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: 	border: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Projective textures: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxPointSize: 8192.000
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxPrimitiveCount: 16777215
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxVertexIndex: 16777215
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxStreams: 16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxStreamsStride: 255
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxAnisotropy: 16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxVertexBlendMatrices: 4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxVertexBlendMatrixIndex: 8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: FullScreenGamma: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: COLORWRITEENABLE: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MASKZ: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: BLENDOP: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: CLIPPLANESCALEDPOINTS: false
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: CLIPTLVERTS: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: TSSARGTEMP: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: DIRECTIONALLIGHTS: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: LOCALVIEWER: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: POSITIONALLIGHTS: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: TEXGEN:  true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: TWEENING:  true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Dp3: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Lerp: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: MaxNpatchTessellationLevel: 0.000
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query VCACHE support: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query EVENT support: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query OCCLUSION support: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query TIMESTAMP support: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query TIMESTAMPDISJOINT support: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query TIMESTAMPFREQ support: true
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query PIPELINETIMINGS support: false
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query INTERFACETIMINGS support: false
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query VERTEXTIMINGS support: false
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query PIXELTIMINGS support: false
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query BANDWIDTHTIMINGS support: false
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Query CACHEUTILIZATION support: false
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+I           m3dapp.cpp[1829]25/08 22:42:08 NOTE! Application::init -- input module was not inited deliberately
+I             font.cpp[0976]25/08 22:42:08 FontManager: fonts are loaded successfully
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\fishmen.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\fishmen.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\fishmen.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo36.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo36.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo36.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo37.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo37.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo37.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo38.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo38.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo38.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo39.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo39.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo39.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo40.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo40.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo40.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo41.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo41.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo41.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo42.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo42.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo42.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo43.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo43.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo43.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo44.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo44.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo44.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo45.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo45.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo45.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo46.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo46.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo46.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo47.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo47.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo47.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo48.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo48.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo48.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo49.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo49.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo49.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo50.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo50.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo50.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo51.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo51.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo51.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo52.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo52.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo52.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo53.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo53.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo53.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo54.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo54.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo54.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo55.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo55.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo55.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo56.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo56.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo56.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo57.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo57.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo57.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo58.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo58.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo58.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo59.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo59.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo59.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo60.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo60.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo60.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo61.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo61.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo61.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo62.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo62.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo62.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo63.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo63.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo63.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo64.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo64.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo64.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo65.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo65.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo65.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo66.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo66.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo66.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo67.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo67.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo67.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo68.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo68.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo68.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo69.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo69.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo69.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\models\logos\logo70.dds
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\models\logos\logo70.dds
+E       DraftModel.cpp[1002]25/08 22:42:08 Error: Couldn't load texture data\models\logos\logo70.dds for model logos.gam
+I      RandomGroup.cpp[0879]25/08 22:42:08 RandomGroupManager: random groups were loaded successfully from file data\editor\RandomGroups.xml
+I             core.lua[0013]25/08 22:42:08 IMPROVED STORYLINE V1.0.5.3 ORIGINAL BUILD 220422
+I           m3dapp.cpp[1953]25/08 22:42:08 ----------------------- Engine inited in: 0
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\splashes\label.tga
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\splashes\label.tga
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\splashes\m3deditor.bmp
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\splashes\m3deditor.bmp
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Cannot open data\splashes\LoadSlider.tga
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: texmap failed to load: data\splashes\LoadSlider.tga
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix useless_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix useless_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix rusty_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix rusty_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix excellent_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix excellent_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix advanced_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix advanced_cabin
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix useless_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix useless_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix rusty_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix rusty_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix excellent_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix excellent_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix advanced_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix advanced_basket
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix useless_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix useless_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix rusty_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix rusty_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix excellent_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix excellent_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix advanced_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix advanced_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix slow_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix slow_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix assault_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix assault_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix rapid_firing_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix rapid_firing_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix weak_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix weak_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix deadly_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix deadly_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix destructive_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 1 for affix destructive_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix with_truncated_barrel_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix with_enlarged_barrel_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix with_long_barrel_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix without_sight_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix with_laser_sight_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix with_electric_sight_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix without_cooling_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix with_water_cooling_gun
+E            Affix.cpp[0162]25/08 22:42:08 Error: missing localized form 0 for affix with_nitro_cooling_gun
+I            Quest.cpp[0252]25/08 22:42:08 No file: \ReadXmlFile: Cannot open file \
+I           server.cpp[0723]25/08 22:42:08 No local quests was found. Using global ones
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 22:42:08 d3d: Rt depth format: D16
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix useless_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix useless_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix rusty_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix rusty_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix excellent_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix excellent_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix advanced_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix advanced_cabin
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix useless_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix useless_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix rusty_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix rusty_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix excellent_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix excellent_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix advanced_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix advanced_basket
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix useless_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix useless_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix rusty_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix rusty_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix excellent_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix excellent_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix advanced_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix advanced_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix slow_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix slow_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix assault_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix assault_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix rapid_firing_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix rapid_firing_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix weak_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix weak_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix deadly_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix deadly_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix destructive_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 1 for affix destructive_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix with_truncated_barrel_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix with_enlarged_barrel_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix with_long_barrel_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix without_sight_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix with_laser_sight_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix with_electric_sight_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix without_cooling_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix with_water_cooling_gun
+E            Affix.cpp[0162]25/08 22:42:19 Error: missing localized form 0 for affix with_nitro_cooling_gun
+I            Quest.cpp[0252]25/08 22:42:19 No file: \ReadXmlFile: Cannot open file \
+I           server.cpp[0723]25/08 22:42:19 No local quests was found. Using global ones
+I            world.cpp[0132]25/08 22:42:19 ----------------------- World Loading
+F        landscape.cpp[1677]25/08 22:42:19  +- Enter function: Landscape::Load()
+I        landscape.cpp[1914]25/08 22:42:19  |  ----------------------- Normal map loaded in: 0
+I        landscape.cpp[1923]25/08 22:42:20  |  ----------------------- Tiles loaded in: 0
+I        landscape.cpp[1947]25/08 22:42:20  |  ----------------------- ShoreLine loaded in: 0
+F        landscape.cpp[1947]25/08 22:42:20  +- Exit function: Landscape::Load()
+I            world.cpp[0169]25/08 22:42:20 ----------------------- Landscape loaded in: 0
+I       DataServer.cpp[0587]25/08 22:42:20 Loading Servers: data\maps\r11m1\servers.xml
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 22:42:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = brick_debris1
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = octopus01
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = octopus01gun
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = big_swingfire01
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = vulcan01
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = vulcan01gun
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rainmetal01
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rainmetal01gun
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = rapier01gun
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = cyclops01gun
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = big_hammer01
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = big_hammer01gun
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = hail01Lgun
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = hail01R
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot_brocken4
+E serverAnimatedModel.cpp[0627]25/08 22:42:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = sack_dot_brocken1
+I serverAnimatedModel.cpp[0630]25/08 22:42:23 ### Total time: 2906, GAM time: 2688
+I       DataServer.cpp[0587]25/08 22:42:23 Loading Servers: data\models\commonservers.xml
+I            world.cpp[0210]25/08 22:42:24 ----------------------- Servers loaded in: 0
+I            world.cpp[0338]25/08 22:42:24 LoadWorld begin...
+I            world.cpp[0350]25/08 22:42:25 %%%% read/parse xml: 0
+I            world.cpp[0362]25/08 22:42:25 %%%% read from xml: 0
+I            world.cpp[0444]25/08 22:42:25 %%%% link nodes: 0
+I            world.cpp[0220]25/08 22:42:25 ----------------------- Nodes loaded in: 0
+I            world.cpp[0228]25/08 22:42:25 ----------------------- Prefabs loaded in: 0
+I            world.cpp[0247]25/08 22:42:25 ----------------------- World loaded in: 0
+E        GamParser.cpp[0399]25/08 22:42:25 AnimatedModel::LoadGAM -- cannot open file data\models\roads\road_small_highway\small_highway_end.gam-
+I      roadManager.cpp[0139]25/08 22:42:25 RoadManager error( model not loaded ): data\models\roads\road_small_highway\small_highway_end.gam-
+I            world.cpp[0278]25/08 22:42:25 ----------------------- Roads loaded in: 0
+I           server.cpp[0793]25/08 22:42:25 AI: Loading Server...
+I           server.cpp[0800]25/08 22:42:25 	AI: Loading Relationship
+I     Relationship.cpp[0134]25/08 22:42:25 		 File readed
+I           server.cpp[0805]25/08 22:42:25 	AI: Loading SoilProps
+E     DynamicScene.cpp[2247]25/08 22:42:25 Error: couldn't load tile props for tile '1'
+I           server.cpp[0808]25/08 22:42:25 	AI: Loading ExternalPaths
+I           server.cpp[0811]25/08 22:42:25 	AI: Loading PlayerPassMap
+I           server.cpp[0817]25/08 22:42:25 	AI: Loading GameObjects
+I           server.cpp[0820]25/08 22:42:25 	AI: Initializing VehicleGeneratorInfoCache
+I           server.cpp[0824]25/08 22:42:25 	AI: Refreshing GameObjects
+E      VehiclePart.cpp[0138]25/08 22:42:26 Error: collision geom in vehicle part name = 'heavy_dot1' is not BOX
+I           server.cpp[0828]25/08 22:42:26 	AI: Loading QuestStates
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Human1_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Human1_Quest2' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'BenGoodEnd' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'q_PlaceWithSign' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m2_OracleMemory' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m2_TalkWithLisa' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m2_TalkWithBenAboutCarAfterOracul' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m2_FindInfoAboutFather' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m1_LureMainDriud' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m1_ClearSanctuary' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m1_KnowAboutUluk' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r3m1_RescueUlukCivil' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'q_VisitDruid' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_Znaki2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_HeadsHunterQuest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_OldDvigatel1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_OldDvigatel2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_FightFelix' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_ReturnToMarecciaFromCastle' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_FightWithAxelInArena_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_FindLisAfterAxelAndFatherDie_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_ToLisaToMonastir' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_FightLisaToMonastir' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m2_GiveDisk2ToOrakul' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'MrShlyapa3_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m1_ArtAntipod_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m1_TakeNarcotics_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m1_KillGodFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'MrShlyapaSecret' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_GetSupportOneOfTheBands2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_GetSupportOneOfTheBands1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_FindVerbInAR_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_FindVerbInSNG_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_PatrulSideSNG_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_TakeGeneralOfBandits_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m1_TW_AlienInShip' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Podderzhka_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Zashita_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'preEretik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'ReturnQuest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_FindVerbInAM_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'OdettIsDead_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Disk2OrakulLisa' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FindGomerB_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FreeExtremistLeader_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'KillExtremist_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m4_TalkWithOldTraderAboutSecondDisk' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'q_FindHusbent' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'RybakToOlm_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'AnanagaTech_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'MrShlyapa2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'ToCordanToTikhomir_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_BonnyAndKlideQuest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_ArchHelp' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_CrazyManQuest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_OldTownOutsiderCar2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FightForPesht' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_RideAcrossBase_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_GiveMoneyToBase_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_GetBomb_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_IntrigaOfMerMinin_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_MoveFreelancersToOilMine_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_MoveCanistraToMinin_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_OpenTunel_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_TalkWithThiefFromFatherHouse' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_MoveToOraculAfterThief' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_ToLisaToAsgard' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_TW_OralceAboutAlien' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_DestroyRadiationSource' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m1_DestroyAlienShip' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_PayWorkersMoney_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r2m1_TW_SellsCivilian' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'MorskieVrata2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Zachisti1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'LisaVPeshte' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'LisaUBena' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'WhereSigns_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'CombatInKollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'BuyKollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Kollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'HelpRuins_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'DestroyRuins_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'DestroyRuins2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Signs_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'MrShlyapa1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FindBen2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_FindHouseOfBen_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m2_TW_BanAboutAlien' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m3_DestroyOracle' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Pomiritsa_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'VYar_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FindBenMZ_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'QuickFindBen' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'OpenMid_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'TalkBeforeDesert' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'ZashitaGotova' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FakeQuest1' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Chehly_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'WorkGiver_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_PunishBandits_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m1_Hospital_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m1_Botanik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'r1m1_FindBotanik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'Buyer_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FirstTimePlay' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'TalkWithFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'LisaAtSouth' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FindBen_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'FindBenAgain_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'd_SinFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'TalkToVasily' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'CheckTheEast' can be given now
+I       QuestState.cpp[0904]25/08 22:42:26 Quest 'BenSouth_Quest' can be given now
+I           server.cpp[0830]25/08 22:42:26 	AI: QuestStates loaded
+I           server.cpp[0832]25/08 22:42:26 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]25/08 22:42:26 		 Scene loading begin
+E     DynamicScene.cpp[1589]25/08 22:42:26 Attempting to load object Father of prototype NPC, but an object with this name already exists!
+I     DynamicScene.cpp[1472]25/08 22:42:26 		 Scene loading end
+I           server.cpp[0841]25/08 22:42:26 	AI: DynamicScene loaded
+I           server.cpp[0856]25/08 22:42:26 	AI: Loading Triggers
+I           server.cpp[0859]25/08 22:42:26 	AI: Triggers loaded
+I           server.cpp[0861]25/08 22:42:26 	AI: Loading Object Names
+I           server.cpp[0872]25/08 22:42:26 	AI: Initing Player
+I           server.cpp[0892]25/08 22:42:26 		Before first Update
+I           server.cpp[0913]25/08 22:42:26 		After first Update
+I           server.cpp[0915]25/08 22:42:26 AI: Finished Loading Server
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = r3_oracle failed for node Object3283. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = r3_oracle failed for node Object3283. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = r3_oracle failed for node Object3283. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = workshop2 failed for node Object823. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brokvehicle2 failed for node Object855. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = heavy_dot3 failed for node Object864. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house3 failed for node Object908. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = heavy_dot2 failed for node Object1811. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = workshop2 failed for node Object823. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brokvehicle2 failed for node Object855. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house3 failed for node Object908. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = r3_oracle failed for node Object3283. Taking a 0 model.
+E    serialization.cpp[0205]25/08 22:42:27 ChildNodeFromXmlNode: node w/ same name already exists as a child: 'Object3300', address = 915238996
+I CStaticModelsDlg.cpp[0859]25/08 22:42:27 Error occured while reading prefab node: Node0 from file b:\exmachina.gm.mod.sdk_\data\models\prefabs\dungeons\oracle1.xml
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = waste3 failed for node Object8853. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins4 failed for node Object8850. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins1 failed for node Object8852. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins2 failed for node Object8851. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree3 failed for node Object8854. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins3 failed for node Object8856. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins3 failed for node Object8857. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object8858. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object8859. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object8860. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object8861. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object8862. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object8863. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object8864. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = bar2 failed for node Object8873. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = workshop2 failed for node Object8871. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = bar1 failed for node Object8872. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = townhall failed for node Object8869. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = workshop1 failed for node Object8870. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house3 failed for node Object8868. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house2 failed for node Object8867. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house1 failed for node Object8866. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8879. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8880. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object8881. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object8882. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8883. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object8884. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = listvenoe1 failed for node Object8885. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = listvenoe2 failed for node Object8886. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost2 failed for node Object8887. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost2 failed for node Object8888. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost2 failed for node Object8889. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost2 failed for node Object8890. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brokvehicle2 failed for node Object8892. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = bar2 failed for node Object8873. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = workshop2 failed for node Object8871. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house2 failed for node Object8867. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object8881. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object8882. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8883. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object8884. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = listvenoe1 failed for node Object8885. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost2 failed for node Object8887. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost2 failed for node Object8889. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost2 failed for node Object8890. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = workshop2 failed for node Object8893. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = windmil failed for node Object8895. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = agro_tech1 failed for node Object8896. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = angar1 failed for node Object8897. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = agro_tech3 failed for node Object8899. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = wood_fence1 failed for node Object26039. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = wood_fence2 failed for node Object26042. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = wood_fence1 failed for node Object26045. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = wood_fence2 failed for node Object26048. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse2_skin failed for node Object8901. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8904. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = electro_stolb2 failed for node Object8905. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object8907. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object8908. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object8909. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object8910. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object8911. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object8912. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object8913. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8915. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8916. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8917. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse3_skin failed for node Object8902. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8918. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8921. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8923. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object8925. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object8924. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse1_skin failed for node Object8900. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = petrolhouse1 failed for node Object8926. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = petrolhouse3 failed for node Object8927. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = transformator2 failed for node Object8928. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade15 failed for node Object8929. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade15 failed for node Object8931. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade15 failed for node Object8930. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8932. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8933. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8934. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8935. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8936. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8937. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8938. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8939. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tankeg failed for node Object8940. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object8920. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = bridge_span1 failed for node Object8942. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_tube1 failed for node Object8945. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = rusty_car_5 failed for node Object8947. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brokvehicle2 failed for node Object8952. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = rusty_car_5 failed for node Object8953. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = aquaduct1 failed for node Object8959. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = ancient_temple failed for node Object8957. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = aquaduct2 failed for node Object8958. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object8960. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object8961. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins4 failed for node Object8993. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins2 failed for node Object8994. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins1 failed for node Object8995. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9002. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9003. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9004. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree5 failed for node Object9006. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9007. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = traffic_lights1 failed for node Object9008. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree2 failed for node Object9011. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree2 failed for node Object9012. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree2 failed for node Object9013. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins4 failed for node Object8993. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins2 failed for node Object8994. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins1 failed for node Object8995. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9002. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9003. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9004. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9007. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = traffic_lights1 failed for node Object9008. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = billboard3 failed for node Object9014. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = waste3 failed for node Object9015. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins3 failed for node Object9016. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_ruins3 failed for node Object9017. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = rusty_car_5 failed for node Object9018. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9029. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9030. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9031. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9032. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9035. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9036. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9037. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = billboard3 failed for node Object9043. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = aquaduct1 failed for node Object9044. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = aquaduct2 failed for node Object9045. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = ruins7 failed for node Object9051. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = rusty_car_5 failed for node Object9054. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = rusty_car_5 failed for node Object9055. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = rusty_car_5 failed for node Object9056. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = rusty_car_5 failed for node Object9061. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = car_cemetery07 failed for node Object9053. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = prom_3 failed for node Object9063. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9064. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9065. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9066. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9067. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9068. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9069. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = lamppost1 failed for node Object9070. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = billboard3 failed for node Object9072. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = billboard3 failed for node Object9071. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade10 failed for node Object9073. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade10 failed for node Object9074. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade10 failed for node Object9075. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade10 failed for node Object9076. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade10 failed for node Object9078. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade10 failed for node Object9077. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9186. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9187. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9189. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib4 failed for node Object9929. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib8 failed for node Object9932. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9182. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9183. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9184. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9185. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib1 failed for node Object9916. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9917. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib5 failed for node Object9919. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib7 failed for node Object9920. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib2 failed for node Object9922. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9923. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib5 failed for node Object9924. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib9 failed for node Object9926. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib1 failed for node Object9927. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib7 failed for node Object9931. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib4 failed for node Object9912. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9190. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9191. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9192. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9193. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9928. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib9 failed for node Object9933. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib4 failed for node Object9918. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib8 failed for node Object9921. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib7 failed for node Object9925. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib6 failed for node Object9930. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9911. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25513. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25516. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25518. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25519. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25520. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25521. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25523. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25524. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25522. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25525. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25526. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25527. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25528. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25529. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25530. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25531. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25510. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25511. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25512. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25514. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25515. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25517. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25547. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25548. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25549. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25550. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25499. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25501. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25502. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25503. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25504. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25505. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25506. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25507. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25508. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25509. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25538. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25539. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25540. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25541. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25542. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25543. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25544. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25545. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25546. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25551. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25552. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25553. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25554. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25555. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25556. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25557. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25558. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25559. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25498. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9188. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9177. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25533. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9176. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25537. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub2 failed for node Object25536. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25500. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub1 failed for node Object25535. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = dub3 failed for node Object25534. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9179. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9181. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9180. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9186. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib4 failed for node Object9929. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib8 failed for node Object9932. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9187. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9189. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree1 failed for node Object10369. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9181. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib1 failed for node Object9916. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9917. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib5 failed for node Object9919. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib7 failed for node Object9920. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib2 failed for node Object9922. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9923. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib5 failed for node Object9924. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib9 failed for node Object9926. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib1 failed for node Object9927. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib7 failed for node Object9931. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9182. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9180. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9185. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9184. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9183. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9179. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree3 failed for node Object10371. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree3 failed for node Object10378. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree2 failed for node Object10370. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone1 failed for node Object10381. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib4 failed for node Object9912. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9193. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9928. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib9 failed for node Object9933. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9190. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9191. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9192. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree2 failed for node Object10379. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree1 failed for node Object10376. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib4 failed for node Object9918. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib8 failed for node Object9921. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib7 failed for node Object9925. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib6 failed for node Object9930. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree5 failed for node Object10373. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree1 failed for node Object10377. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree2 failed for node Object10375. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone4 failed for node Object10383. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = grib3 failed for node Object9911. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9177. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9176. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree3 failed for node Object10374. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = arena_barricade8 failed for node Object9188. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone2 failed for node Object10382. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = quay_round_line failed for node Object9090. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = quay_g_line_m failed for node Object9085. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = quay_round_line failed for node Object9090. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = hoisting_crane_2 failed for node Object9103. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = quay_g_line_m failed for node Object9085. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka2 failed for node Object5802. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka2 failed for node Object5803. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5805. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5806. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = quay_round_line failed for node Object10326. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = quay_cube failed for node Object10327. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka2 failed for node Object5793. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka2 failed for node Object5794. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka2 failed for node Object5795. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5796. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5797. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5798. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka2 failed for node Object5799. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5800. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5801. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = elka3 failed for node Object5804. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = quay_g_line failed for node Object10324. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8973. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = garage failed for node Object8842. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8974. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_angle failed for node Object8975. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen2 failed for node Object8970. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen2 failed for node Object8976. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8969. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = prom_3 failed for node Object8961. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = prom_brock1 failed for node Object8843. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = bochka2 failed for node Object8962. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_conteiner failed for node Object8987. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_conteiner failed for node Object8988. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8977. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8971. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_cistern failed for node Object8963. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8982. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_t failed for node Object8983. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_middle failed for node Object8984. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_angle failed for node Object8985. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8978. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_angle failed for node Object8980. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8973. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8974. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_angle failed for node Object8975. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen2 failed for node Object8970. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = gradyrnja failed for node Object8965. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen2 failed for node Object8976. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8969. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = prom_3 failed for node Object8961. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = prom_brock1 failed for node Object8843. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = bochka2 failed for node Object8962. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_conteiner failed for node Object8987. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_conteiner failed for node Object8988. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8977. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8971. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_cistern1 failed for node Object8847. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8982. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_t failed for node Object8983. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_middle failed for node Object8984. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_angle failed for node Object8985. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8978. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8973. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8974. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen2 failed for node Object8970. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = long_vertical_tube failed for node Object8968. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen2 failed for node Object8976. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8969. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_rr_angar2 failed for node Object8989. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = prom failed for node Object8846. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_conteiner failed for node Object8987. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_conteiner failed for node Object8988. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8977. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8971. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = factory_cistern1 failed for node Object8847. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long_brockcen1 failed for node Object8982. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_t failed for node Object8983. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_middle failed for node Object8984. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = concrete_tube_angle failed for node Object8985. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_long2 failed for node Object8978. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_angle failed for node Object8980. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_angle failed for node Object8975. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4865. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4869. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4870. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4884. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4892. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4893. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4906. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4913. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4915. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4916. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4922. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4923. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4939. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4942. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4967. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4926. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4970. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4971. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4881. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4927. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4895. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4914. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4924. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4943. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4958. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4974. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4872. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4954. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4955. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4863. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4871. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4873. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4874. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4875. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4876. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4877. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4878. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4879. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4882. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4885. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4886. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4887. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4888. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4890. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4894. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4896. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4897. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4899. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4900. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4901. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4902. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4904. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4905. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4908. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4911. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4912. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4917. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4918. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4919. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4920. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4921. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4929. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4930. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4931. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4932. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4933. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4935. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4937. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4938. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4940. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4941. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4945. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4946. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4949. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4950. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4951. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4956. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4957. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4959. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4961. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4964. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4965. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4966. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4969. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4975. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4976. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4977. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4979. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4981. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4982. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4984. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4985. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4989. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4990. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4991. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4992. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4993. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4994. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4995. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4996. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4997. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4998. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4999. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4928. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4960. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4925. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4973. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4968. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4953. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4972. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4986. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4987. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4988. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4978. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4980. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4944. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4983. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4880. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4947. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4962. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4963. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object4948. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object13065. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_5 failed for node Object13068. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_6 failed for node Object13071. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_11 failed for node Object13080. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_12 failed for node Object13083. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone1 failed for node Object13086. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone2 failed for node Object13089. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone3 failed for node Object13092. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone4 failed for node Object13095. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone5 failed for node Object13099. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone1 failed for node Object9081. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone2 failed for node Object9084. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone3 failed for node Object9087. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone4 failed for node Object9090. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_12 failed for node Object9093. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_11 failed for node Object9096. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object9108. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object9133. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_5 failed for node Object9136. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_6 failed for node Object9139. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_11 failed for node Object9146. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object9153. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_5 failed for node Object9156. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_6 failed for node Object9159. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_6 failed for node Object9176. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone1 failed for node Object9179. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone2 failed for node Object9182. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone3 failed for node Object9185. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone4 failed for node Object9188. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone5 failed for node Object9191. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object9200. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_5 failed for node Object9203. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_6 failed for node Object9206. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_12 failed for node Object9209. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object9215. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_5 failed for node Object9218. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone1 failed for node Object9221. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone2 failed for node Object9224. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone3 failed for node Object9227. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone4 failed for node Object9230. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone1 failed for node Object9233. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone2 failed for node Object9236. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone3 failed for node Object9239. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone4 failed for node Object9242. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_12 failed for node Object9252. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_11 failed for node Object9255. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_6 failed for node Object9262. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object9270. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone1 failed for node Object9273. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone2 failed for node Object9277. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone3 failed for node Object9280. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone4 failed for node Object9283. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_3 failed for node Object23088. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_8 failed for node Object23095. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_12 failed for node Object23098. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_10 failed for node Object23115. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_8 failed for node Object23119. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_6 failed for node Object23132. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_1 failed for node Object23145. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object23150. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object23160. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_12 failed for node Object23174. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_4 failed for node Object23197. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_8 failed for node Object23239. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_9 failed for node Object23242. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_crag_10 failed for node Object23245. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbed failed for node Object9010. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbed failed for node Object9012. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbed failed for node Object9014. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object9025. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object9027. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object9029. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object9031. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object9033. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = seedbad_tomato failed for node Object9035. Taking a 0 model.
+E    serialization.cpp[0205]25/08 22:42:27 ChildNodeFromXmlNode: node w/ same name already exists as a child: 'ET_PS_EXHAUST_SMOKE1', address = 916308044
+E    serialization.cpp[0265]25/08 22:42:27 ChildNodeFromXmlNode: Cannot load node: name = Object129
+I CStaticModelsDlg.cpp[0859]25/08 22:42:27 Error occured while reading prefab node: belaz1infire from file b:\exmachina.gm.mod.sdk_\data\models\prefabs\vehiclesinfire\belaz1infire - копия.xml
+E    serialization.cpp[0205]25/08 22:42:27 ChildNodeFromXmlNode: node w/ same name already exists as a child: 'ET_PS_EXHAUST_SMOKE1', address = 916309628
+E    serialization.cpp[0265]25/08 22:42:27 ChildNodeFromXmlNode: Cannot load node: name = Object129
+I CStaticModelsDlg.cpp[0859]25/08 22:42:27 Error occured while reading prefab node: belaz1infire from file b:\exmachina.gm.mod.sdk_\data\models\prefabs\vehiclesinfire\belaz1infire.xml
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house3 failed for node Object4679. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house2 failed for node Object4762. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = bar1 failed for node Object4767. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house1 failed for node Object4775. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = house3 failed for node Object4870. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object4893. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object4895. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object4897. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object4899. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object4901. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object4903. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object4906. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object4908. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object4910. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_dot1 failed for node Object4919. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone4 failed for node Object4930. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone1 failed for node Object4937. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone2 failed for node Object4940. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = kustarnik2 failed for node Object4955. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = kustarnik3 failed for node Object4958. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = sosna1 failed for node Object4968. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = kustarnik1 failed for node Object4972. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = kustarnik3 failed for node Object4976. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse1_skin failed for node Object5204. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse2_skin failed for node Object5210. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse3_skin failed for node Object5222. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = oilmine2 failed for node Object5241. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tube3 failed for node Object5268. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tube3 failed for node Object5273. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tube2 failed for node Object5276. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tube3 failed for node Object5279. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tube3 failed for node Object5281. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tube3 failed for node Object5283. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = tube2 failed for node Object5163. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse1_skin failed for node Object5889. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse2_skin failed for node Object5892. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse3_skin failed for node Object5896. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = civilhouse3_skin failed for node Object5900. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object5993. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object5999. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object6001. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object6003. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall1 failed for node Object6005. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object6010. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object6012. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object6014. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object6016. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object6018. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_wall2 failed for node Object6022. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_dot1 failed for node Object6028. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = brick_dot2 failed for node Object6031. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = big_stone2 failed for node Object6052. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone1 failed for node Object6057. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone2 failed for node Object6060. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone3 failed for node Object6063. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = boulder_stone4 failed for node Object6066. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = deadtree3 failed for node Object6075. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = kustarnik3 failed for node Object6084. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = kustarnik3 failed for node Object6086. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = fence_short2 failed for node Object4834. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = pole_factory failed for node Object4836. Taking a 0 model.
+I    serialization.cpp[0374]25/08 22:42:27 ReadFromXmlNode: GetItemByName for name = barbed_wire_high2 failed for node Object146. Taking a 0 model.
+I           m3dapp.cpp[1336]25/08 22:42:27 d3d: Cannot open data/editor/diffmasks/alpha3.dds
+I           m3dapp.cpp[1336]25/08 22:42:27 d3d: texmap failed to load: data/editor/diffmasks/alpha3.dds
+I           m3dapp.cpp[1336]25/08 22:42:32 d3d: Cannot open data\weatherTexs\LoadMe.txt
+I           m3dapp.cpp[1336]25/08 22:42:32 d3d: texmap failed to load: data\weatherTexs\LoadMe.txt
+----------------------------------------------- Log ends on Tue Aug 25 22:44:22 2026 -----------------------------------------------
 
 
 

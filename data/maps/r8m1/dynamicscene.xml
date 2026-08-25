@@ -68008,7 +68008,7 @@
 
 	<Object
 		Name="heavy_dot4_big_rainmetal6141"
-		Belong="1080"
+		Belong="1097"
 		Prototype="heavy_dot4_big_rainmetal"
 		Pos="705.038 215.000 873.621"
 		Rot="0.000 -0.701 0.000 0.713">
@@ -91406,7 +91406,7 @@
 
 	<Object
 		Name="staticAutoGun02_spec8494"
-		Belong="1080"
+		Belong="1097"
 		Prototype="staticAutoGun02_spec"
 		Pos="2817.030 196.566 2568.119"
 		Rot="0.000 -0.336 0.000 0.942">
@@ -91415,7 +91415,7 @@
 
 	<Object
 		Name="staticAutoGun02_spec8495"
-		Belong="1080"
+		Belong="1097"
 		Prototype="staticAutoGun02_spec"
 		Pos="2716.889 199.350 2489.918"
 		Rot="-0.012 -0.342 0.004 0.940">

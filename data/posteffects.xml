@@ -2539,7 +2539,7 @@
 
 		<Unit
 			VarName="BloomWidth"
-			InitVal="-2.080"
+			InitVal="-1.590"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2548,7 +2548,7 @@
 
 		<Unit
 			VarName="BloomOrigTerm"
-			InitVal="1.000"
+			InitVal="0.610"
 			Param1="0"
 			Param2="0"
 			Param3="0"
@@ -2557,7 +2557,7 @@
 
 		<Unit
 			VarName="BloomBlurTerm"
-			InitVal="1.000"
+			InitVal="0.560"
 			Param1="0"
 			Param2="0"
 			Param3="0"

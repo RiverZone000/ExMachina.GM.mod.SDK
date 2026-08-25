@@ -1,0 +1,1525 @@
+---------------------------------------------- Log begins on Tue Aug 25 21:23:12 2026 ----------------------------------------------
+I           m3dapp.cpp[0088]25/08 21:23:12 Starting up...
+I           m3dapp.cpp[1498]25/08 21:23:12 ExMachina - release version release build v1.02 (Dec 21 2005 12:15:10)
+I      Stackwalker.cpp[0608]25/08 21:23:12 Stackwalker: log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/hta.exe0032.log'
+I      Stackwalker.cpp[0609]25/08 21:23:12 Stackwalker: dump file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/hta.exe0032.dmp'
+I      Stackwalker.cpp[0610]25/08 21:23:12 Stackwalker: game log file name will be 'b:/exmachina.gm.mod.sdk_/exceptions/hta.exe0032_game.log'
+I           m3dapp.cpp[1391]25/08 21:23:12 Path: B:\ExMachina.GM.mod.SDK_
+I           m3dapp.cpp[1392]25/08 21:23:12 Exe: B:\ExMachina.GM.mod.SDK_\hta.exe
+I           m3dapp.cpp[1401]25/08 21:23:12 Windows version: 6.2.9200
+I           m3dapp.cpp[1410]25/08 21:23:12 Computer name: DESKTOP-QQPV5MQ
+I           m3dapp.cpp[1430]25/08 21:23:12 Cpu: GenuineIntel
+I           m3dapp.cpp[1434]25/08 21:23:12 Cpu clock: ~3302
+I           m3dapp.cpp[1459]25/08 21:23:12 Processor is mmx able
+I           m3dapp.cpp[1470]25/08 21:23:12 Physical memory: 4095 MB
+I           m3dapp.cpp[1471]25/08 21:23:12 Total memory:    4095 MB
+I           m3dapp.cpp[1472]25/08 21:23:12 Physical memory available: 4095 MB
+I           m3dapp.cpp[1473]25/08 21:23:12 Total memory available:    3809 MB
+I           m3dapp.cpp[2846]25/08 21:23:12 SetCodepage -- using codepage 1251 '1251  (ANSI - кириллица)'
+I           m3dapp.cpp[2154]25/08 21:23:12 NOTE! renderer is bind to dxrender9.dll
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Given device behavior: 80
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Confirmed device behavior: 80
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Description: NVIDIA GeForce GTX 1650
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Driver:      nvldumd.dll
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: VendorId:    0x10de
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: DeviceId:    0x1f0a
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: SubSysId:    0x145c1771
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Revision:    161
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Driver version info:
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d:   Product:    32
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d:   Version:    0
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d:   SubVersion: 15
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d:   Build:      8129
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: WHQLLevel:    0
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Texture max size: 16384x16384
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Guard band: (-100000000.000,-100000000.000,100000000.000,100000000.000)
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxTextureBlendStages: 8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxSimultaneousTextures: 8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxActiveLights: 10
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxUserClipPlanes: 8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: VertexShaderVersion: 0xfffe0300
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: PixelShaderVersion: 0xffff0300
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Geometry instancing: supported
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Depth bias supported: yes
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Slope-scale based depth bias supported: yes
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: HwRasterization: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: HwTnL: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: PureDevice: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: CubeMap: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: VolumeMap: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: TextureAddressCaps:
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: 	wrap: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: 	clamp: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: 	border: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Projective textures: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxPointSize: 8192.000
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxPrimitiveCount: 16777215
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxVertexIndex: 16777215
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxStreams: 16
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxStreamsStride: 255
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxAnisotropy: 16
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxVertexBlendMatrices: 4
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxVertexBlendMatrixIndex: 8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: FullScreenGamma: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: COLORWRITEENABLE: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MASKZ: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: BLENDOP: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: CLIPPLANESCALEDPOINTS: false
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: CLIPTLVERTS: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: TSSARGTEMP: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: DIRECTIONALLIGHTS: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: LOCALVIEWER: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: POSITIONALLIGHTS: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: TEXGEN:  true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: TWEENING:  true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Dp3: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Lerp: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: MaxNpatchTessellationLevel: 0.000
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query VCACHE support: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query EVENT support: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query OCCLUSION support: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query TIMESTAMP support: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query TIMESTAMPDISJOINT support: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query TIMESTAMPFREQ support: true
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query PIPELINETIMINGS support: false
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query INTERFACETIMINGS support: false
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query VERTEXTIMINGS support: false
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query PIXELTIMINGS support: false
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query BANDWIDTHTIMINGS support: false
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Query CACHEUTILIZATION support: false
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Creating or resetting the device
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Back buffer format: X8R8G8B8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Depth/stencil buffer format: D24S8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Stenciling: off
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Rgba textures format: DXT5
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Rgba no c. textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: RgbA textures format: DXT5
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: RgbA no c. textures format: A4R4G4B4
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Rt textures format: A8R8G8B8
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Shadow textures format: R5G6B5
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Rt depth format: D16
+I           m3dapp.cpp[2206]25/08 21:23:13 NOTE! input is bind to input_di8.dll
+I           m3dapp.cpp[1938]25/08 21:23:13 NOTE! sound is bind to sound.dll
+I           m3dapp.cpp[1350]25/08 21:23:13 input: Joystick not found
+I           m3dapp.cpp[1343]25/08 21:23:13 snd: Max sound channels available: 128
+I           m3dapp.cpp[1343]25/08 21:23:13 snd: Sound is inited successfully
+I             font.cpp[0976]25/08 21:23:13 FontManager: fonts are loaded successfully
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\fishmen.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\fishmen.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\fishmen.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo36.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo36.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo36.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo37.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo37.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo37.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo38.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo38.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo38.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo39.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo39.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo39.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo40.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo40.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo40.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo41.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo41.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo41.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo42.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo42.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo42.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo43.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo43.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo43.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo44.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo44.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo44.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo45.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo45.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo45.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo46.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo46.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo46.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo47.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo47.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo47.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo48.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo48.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo48.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo49.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo49.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo49.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo50.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo50.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo50.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo51.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo51.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo51.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo52.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo52.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo52.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo53.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo53.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo53.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo54.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo54.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo54.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo55.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo55.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo55.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo56.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo56.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo56.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo57.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo57.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo57.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo58.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo58.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo58.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo59.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo59.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo59.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo60.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo60.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo60.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo61.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo61.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo61.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo62.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo62.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo62.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo63.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo63.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo63.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo64.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo64.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo64.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo65.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo65.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo65.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo66.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo66.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo66.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo67.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo67.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo67.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo68.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo68.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo68.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo69.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo69.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo69.dds for model logos.gam
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: Cannot open data\models\logos\logo70.dds
+I           m3dapp.cpp[1336]25/08 21:23:13 d3d: texmap failed to load: data\models\logos\logo70.dds
+E       DraftModel.cpp[1002]25/08 21:23:13 Error: Couldn't load texture data\models\logos\logo70.dds for model logos.gam
+I      gameimpulse.cpp[0288]25/08 21:23:13 Key bindings: were inited successfully
+I           view32.cpp[0705]25/08 21:23:13 --- Init Media ---
+I    GameUiManager.cpp[0303]25/08 21:23:13 Interface: is initializing...
+I    GameUiManager.cpp[1580]25/08 21:23:13 Interface: clearing resource infos ...
+I    GameUiManager.cpp[1491]25/08 21:23:13 Interface: loading resource infos ...
+I    GameUiManager.cpp[1603]25/08 21:23:13 Interface: loading resources ...
+I           m3dapp.cpp[1343]25/08 21:23:13 snd: Error: Can't Open SoundFile: 
+I           m3dapp.cpp[1343]25/08 21:23:13 snd: Cannot open sound stream from file . Error: File not found, flags: 8272
+I    GameUiManager.cpp[0395]25/08 21:23:13 Interface: is inited successfully
+I        LevelInfo.cpp[0806]25/08 21:23:13 Level infos were loaded successfully from file data\if\diz\LevelInfo.xml
+I        LevelInfo.cpp[0837]25/08 21:23:13 Error: could't open data\maps\r1m8.ssl file
+E        LevelInfo.cpp[0749]25/08 21:23:13 LevelInfoManager was inited with errors
+I   TruxxUiManager.cpp[0191]25/08 21:23:13 TruxxUiManager: was inited successfully
+I      gameimpulse.cpp[0618]25/08 21:23:13 Key bindings: unbind all is done
+I      gameimpulse.cpp[0324]25/08 21:23:13 Key bindings: were loaded successfully from file data\scripts\DefaultKeyBindings.lua
+I      gameimpulse.cpp[1194]25/08 21:23:13 Key bindings: were bind from defaults
+I            video.cpp[0704]25/08 21:23:13 Could not load specified video file: data\video\logobuka.wmv (hr = 80070003)
+I     view32_video.cpp[0061]25/08 21:23:13 Error: couldn't load video 'data\video\logobuka.wmv'
+I            video.cpp[0704]25/08 21:23:13 Could not load specified video file: data\video\logotargem.wmv (hr = 80070003)
+I     view32_video.cpp[0061]25/08 21:23:13 Error: couldn't load video 'data\video\logotargem.wmv'
+I            video.cpp[0704]25/08 21:23:13 Could not load specified video file: data\video\INTRO_RUS_FIELD.wmv (hr = 80070003)
+I     view32_video.cpp[0061]25/08 21:23:13 Error: couldn't load video 'data\video\INTRO_RUS_FIELD.wmv'
+I             core.lua[0013]25/08 21:23:13 IMPROVED STORYLINE V1.0.5.3 ORIGINAL BUILD 220422
+I           m3dapp.cpp[1808]25/08 21:23:13 ----------------------- Engine inited in: 0
+I          Profile.cpp[0602]25/08 21:23:13 Profile "RiverZone" set
+I   TruxxUiManager.cpp[1422]25/08 21:23:13 Game mode changed. Old mode = 3, new mode = 2
+I        SplashWnd.cpp[0244]25/08 21:23:13 Start splashing 11
+I           view32.cpp[1048]25/08 21:23:13 -- Loading Level: data\maps\mainmenu.ssl --
+I            world.cpp[0132]25/08 21:23:13 ----------------------- World Loading
+F        landscape.cpp[1674]25/08 21:23:13  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]25/08 21:23:13  |  ----------------------- Normal map loaded in: 1
+I        landscape.cpp[1920]25/08 21:23:13  |  ----------------------- Tiles loaded in: 9
+I        landscape.cpp[1944]25/08 21:23:13  |  ----------------------- ShoreLine loaded in: 0
+F        landscape.cpp[1944]25/08 21:23:13  +- Exit function: Landscape::Load()
+I            world.cpp[0169]25/08 21:23:13 ----------------------- Landscape loaded in: 46
+I       DataServer.cpp[0587]25/08 21:23:13 Loading Servers: data\maps\MainMenu\servers.xml
+I serverAnimatedModel.cpp[0630]25/08 21:23:14 ### Total time: 484, GAM time: 203
+I       DataServer.cpp[0587]25/08 21:23:14 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]25/08 21:23:15 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]25/08 21:23:15 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]25/08 21:23:15 ----------------------- Servers loaded in: 1659
+I            world.cpp[0338]25/08 21:23:15 LoadWorld begin...
+I            world.cpp[0350]25/08 21:23:15 %%%% read/parse xml: 6
+I            world.cpp[0362]25/08 21:23:15 %%%% read from xml: 2
+E    PlayerPassMap.cpp[0139]25/08 21:23:15 Couldn't load player pass map from file data\maps\MainMenu\player_passmap.xml
+I            world.cpp[0444]25/08 21:23:15 %%%% link nodes: 8
+I            world.cpp[0220]25/08 21:23:15 ----------------------- Nodes loaded in: 17
+I            world.cpp[0228]25/08 21:23:15 ----------------------- Prefabs loaded in: 1
+I            world.cpp[0247]25/08 21:23:15 ----------------------- World loaded in: 1795
+I            world.cpp[0278]25/08 21:23:15 ----------------------- Roads loaded in: 60
+I           view32.cpp[1078]25/08 21:23:15 Load Server begin...
+I   TruxxUiManager.cpp[0974]25/08 21:23:15 Interface: is loaded successfully
+I           server.cpp[0789]25/08 21:23:15 AI: Loading Server...
+I           server.cpp[0796]25/08 21:23:15 	AI: Loading Relationship
+I     Relationship.cpp[0134]25/08 21:23:15 		 File readed
+I           server.cpp[0801]25/08 21:23:15 	AI: Loading SoilProps
+I           server.cpp[0804]25/08 21:23:15 	AI: Loading ExternalPaths
+I           server.cpp[0807]25/08 21:23:15 	AI: Loading PlayerPassMap
+E    PlayerPassMap.cpp[0139]25/08 21:23:15 Couldn't load player pass map from file data\maps\MainMenu\player_passmap.xml
+I           server.cpp[0813]25/08 21:23:15 	AI: Loading GameObjects
+I           server.cpp[0816]25/08 21:23:15 	AI: Initializing VehicleGeneratorInfoCache
+I           server.cpp[0820]25/08 21:23:15 	AI: Refreshing GameObjects
+I           server.cpp[0824]25/08 21:23:15 	AI: Loading QuestStates
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Human1_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Human1_Quest2' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'BenGoodEnd' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'q_PlaceWithSign' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m2_OracleMemory' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m2_TalkWithLisa' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m2_TalkWithBenAboutCarAfterOracul' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m2_FindInfoAboutFather' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m1_LureMainDriud' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m1_ClearSanctuary' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m1_KnowAboutUluk' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r3m1_RescueUlukCivil' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'q_VisitDruid' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_Znaki2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_HeadsHunterQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_OldDvigatel1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_OldDvigatel2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_FightFelix' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_ReturnToMarecciaFromCastle' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_FightWithAxelInArena_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_FindLisAfterAxelAndFatherDie_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_ToLisaToMonastir' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_FightLisaToMonastir' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m2_GiveDisk2ToOrakul' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'MrShlyapa3_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m1_ArtAntipod_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m1_TakeNarcotics_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m1_KillGodFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'MrShlyapaSecret' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_GetSupportOneOfTheBands2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_GetSupportOneOfTheBands1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_FindVerbInAR_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_FindVerbInSNG_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_PatrulSideSNG_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_TakeGeneralOfBandits_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m1_TW_AlienInShip' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Podderzhka_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Zashita_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'preEretik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'ReturnQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_FindVerbInAM_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'OdettIsDead_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Disk2OrakulLisa' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FindGomerB_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FreeExtremistLeader_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'KillExtremist_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m4_TalkWithOldTraderAboutSecondDisk' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'q_FindHusbent' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'RybakToOlm_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'AnanagaTech_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'MrShlyapa2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'ToCordanToTikhomir_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_BonnyAndKlideQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_ArchHelp' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_CrazyManQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_OldTownOutsiderCar2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FightForPesht' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_RideAcrossBase_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_GiveMoneyToBase_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_GetBomb_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_IntrigaOfMerMinin_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_MoveFreelancersToOilMine_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_MoveCanistraToMinin_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_OpenTunel_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_TalkWithThiefFromFatherHouse' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_MoveToOraculAfterThief' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_ToLisaToAsgard' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_TW_OralceAboutAlien' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_DestroyRadiationSource' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m1_DestroyAlienShip' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_PayWorkersMoney_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r2m1_TW_SellsCivilian' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'MorskieVrata2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Zachisti1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'LisaVPeshte' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'LisaUBena' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'WhereSigns_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'CombatInKollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'BuyKollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Kollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'HelpRuins_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'DestroyRuins_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'DestroyRuins2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Signs_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'MrShlyapa1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FindBen2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_FindHouseOfBen_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m2_TW_BanAboutAlien' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m3_DestroyOracle' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Pomiritsa_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'VYar_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FindBenMZ_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'QuickFindBen' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'OpenMid_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'TalkBeforeDesert' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'ZashitaGotova' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FakeQuest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Chehly_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'WorkGiver_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_PunishBandits_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m1_Hospital_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m1_Botanik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'r1m1_FindBotanik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'Buyer_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FirstTimePlay' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'TalkWithFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'LisaAtSouth' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FindBen_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'FindBenAgain_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'd_SinFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'TalkToVasily' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'CheckTheEast' can be given now
+I       QuestState.cpp[0904]25/08 21:23:15 Quest 'BenSouth_Quest' can be given now
+I           server.cpp[0826]25/08 21:23:15 	AI: QuestStates loaded
+I           server.cpp[0828]25/08 21:23:15 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]25/08 21:23:15 		 Scene loading begin
+I     DynamicScene.cpp[1472]25/08 21:23:15 		 Scene loading end
+I           server.cpp[0837]25/08 21:23:15 	AI: DynamicScene loaded
+I           server.cpp[0852]25/08 21:23:15 	AI: Loading Triggers
+E           server.cpp[1242]25/08 21:23:15 Error: cannot open data\maps\MainMenu\
+I           server.cpp[0855]25/08 21:23:15 	AI: Triggers loaded
+I           server.cpp[0857]25/08 21:23:15 	AI: Loading Object Names
+E     ObjContainer.cpp[1104]25/08 21:23:15 Error: cannot open data\maps\MainMenu\object_names.xml
+I           server.cpp[0868]25/08 21:23:15 	AI: Initing Player
+I           server.cpp[0888]25/08 21:23:15 		Before first Update
+I   TruxxUiManager.cpp[1422]25/08 21:23:15 Game mode changed. Old mode = 2, new mode = 1
+I           server.cpp[0909]25/08 21:23:15 		After first Update
+I           server.cpp[0911]25/08 21:23:15 AI: Finished Loading Server
+I           view32.cpp[1106]25/08 21:23:15 Load server end
+I        QuestInfo.cpp[0847]25/08 21:23:15 Quest infos were loaded successfully from file data\if\diz\QuestInfoGlobal.xml
+I        QuestInfo.cpp[0783]25/08 21:23:15 QuestInfo manager was inited successfully
+I       MsgManager.cpp[0391]25/08 21:23:15 Can't open file data\maps\MainMenu\strings.xml for read.
+I    GameUiManager.cpp[0303]25/08 21:23:15 Interface: is initializing...
+I    GameUiManager.cpp[0405]25/08 21:23:15 Interface: is clearing...
+I    GameUiManager.cpp[0495]25/08 21:23:15 Interface: is cleared successfully
+I    GameUiManager.cpp[0395]25/08 21:23:15 Interface: is inited successfully
+I blockMusicManager.cpp[0199]25/08 21:23:15 BlockMusicManager: resetting
+I      gameimpulse.cpp[0618]25/08 21:23:16 Key bindings: unbind all is done
+I      gameimpulse.cpp[0618]25/08 21:23:16 Key bindings: unbind all is done
+I      gameimpulse.cpp[0324]25/08 21:23:16 Key bindings: were loaded successfully from file data/profiles/riverzone\KeyBindings.lua
+I      gameimpulse.cpp[1222]25/08 21:23:16 Key bindings: were loaded from profile
+I        SplashWnd.cpp[0244]25/08 21:23:21 Start splashing 11
+I   TruxxUiManager.cpp[1422]25/08 21:23:21 Game mode changed. Old mode = 1, new mode = 0
+I    GameUiManager.cpp[0405]25/08 21:23:21 Interface: is clearing...
+I    GameUiManager.cpp[0495]25/08 21:23:21 Interface: is cleared successfully
+I           view32.cpp[1048]25/08 21:23:21 -- Loading Level: data\maps\r8m1.ssl --
+I            world.cpp[0132]25/08 21:23:21 ----------------------- World Loading
+F        landscape.cpp[1674]25/08 21:23:21  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]25/08 21:23:21  |  ----------------------- Normal map loaded in: 2
+I        landscape.cpp[1920]25/08 21:23:21  |  ----------------------- Tiles loaded in: 12
+I        landscape.cpp[1944]25/08 21:23:21  |  ----------------------- ShoreLine loaded in: 0
+F        landscape.cpp[1944]25/08 21:23:21  +- Exit function: Landscape::Load()
+I            world.cpp[0169]25/08 21:23:21 ----------------------- Landscape loaded in: 60
+I       DataServer.cpp[0587]25/08 21:23:21 Loading Servers: data\maps\r8m1\servers.xml
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E       DraftModel.cpp[1002]25/08 21:23:22 Error: Couldn't load texture data\models\vehicles\belaz\cab01_mt.dds for model cargov1.gam
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = barrel1_dyn
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = barrel3_dyn
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = brick_dot1gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = brick_dot2gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\Ammo\plasma01.gam
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\ammo\shell_big_gun01.gam
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\ammo\shell_big_gun02.gam
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\ammo\shell_sml_pulemet01.gam
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\buildings\region1\brick_debris1.gam
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\buildings\region1\wood_debris1.gam
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = dungeon_1
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = dungeon_1_dead
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot1gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot2gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot3gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot4gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = sack_dot1gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = sack_dot2gun
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = shell
+E serverAnimatedModel.cpp[0627]25/08 21:23:23 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = tankSusp01
+I serverAnimatedModel.cpp[0630]25/08 21:23:23 ### Total time: 2484, GAM time: 2375
+E      serverSound.cpp[0293]25/08 21:23:23 MusicServer: cannot read file: data\sounds\sounds.xml id = 'Fake_Sound_Do_Not_Use_It'
+I       DataServer.cpp[0587]25/08 21:23:23 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]25/08 21:23:23 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]25/08 21:23:23 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]25/08 21:23:23 ----------------------- Servers loaded in: 2764
+I            world.cpp[0338]25/08 21:23:23 LoadWorld begin...
+I            world.cpp[0350]25/08 21:23:24 %%%% read/parse xml: 122
+I            world.cpp[0362]25/08 21:23:24 %%%% read from xml: 168
+I            world.cpp[0444]25/08 21:23:24 %%%% link nodes: 248
+I            world.cpp[0220]25/08 21:23:24 ----------------------- Nodes loaded in: 542
+I            world.cpp[0228]25/08 21:23:24 ----------------------- Prefabs loaded in: 1
+I            world.cpp[0247]25/08 21:23:24 ----------------------- World loaded in: 3510
+E        GamParser.cpp[0399]25/08 21:23:24 AnimatedModel::LoadGAM -- cannot open file data\models\roads\road_small_highway\small_highway_end.gam-
+I      roadManager.cpp[0139]25/08 21:23:24 RoadManager error( model not loaded ): data\models\roads\road_small_highway\small_highway_end.gam-
+I            world.cpp[0278]25/08 21:23:24 ----------------------- Roads loaded in: 356
+I           view32.cpp[1078]25/08 21:23:24 Load Server begin...
+I            Reply.cpp[0415]25/08 21:23:25 Replies were loaded successfully from file data\if\diz\DialogsGlobal.xml
+I            Reply.cpp[0415]25/08 21:23:25 Replies were loaded successfully from file data\if\diz\DynamicDialogsGlobal.xml
+I            Reply.cpp[0343]25/08 21:23:25 RepliesManager was inited successfully
+I    GameUiManager.cpp[1603]25/08 21:23:25 Interface: loading resources ...
+I     ObjectsIcons.cpp[0198]25/08 21:23:25 ObjectsIcons::AddIcon warning - ico with id SpeedPointer already exists and wiil be replaced
+I    GameUiManager.cpp[1603]25/08 21:23:25 Interface: loading resources ...
+I   TruxxUiManager.cpp[0974]25/08 21:23:25 Interface: is loaded successfully
+I           server.cpp[0789]25/08 21:23:25 AI: Loading Server...
+I           server.cpp[0796]25/08 21:23:25 	AI: Loading Relationship
+I     Relationship.cpp[0134]25/08 21:23:25 		 File readed
+I           server.cpp[0801]25/08 21:23:25 	AI: Loading SoilProps
+I           server.cpp[0804]25/08 21:23:25 	AI: Loading ExternalPaths
+I           server.cpp[0807]25/08 21:23:25 	AI: Loading PlayerPassMap
+I           server.cpp[0813]25/08 21:23:25 	AI: Loading GameObjects
+I           server.cpp[0816]25/08 21:23:25 	AI: Initializing VehicleGeneratorInfoCache
+I           server.cpp[0820]25/08 21:23:25 	AI: Refreshing GameObjects
+E      VehiclePart.cpp[0138]25/08 21:23:25 Error: collision geom in vehicle part name = 'heavy_dot1' is not BOX
+I           server.cpp[0824]25/08 21:23:25 	AI: Loading QuestStates
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Human1_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Human1_Quest2' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'BenGoodEnd' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'q_PlaceWithSign' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m2_OracleMemory' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m2_TalkWithLisa' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m2_TalkWithBenAboutCarAfterOracul' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m2_FindInfoAboutFather' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m1_LureMainDriud' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m1_ClearSanctuary' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m1_KnowAboutUluk' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r3m1_RescueUlukCivil' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'q_VisitDruid' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_Znaki2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_HeadsHunterQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_OldDvigatel1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_OldDvigatel2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_FightFelix' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_ReturnToMarecciaFromCastle' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_FightWithAxelInArena_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_FindLisAfterAxelAndFatherDie_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_ToLisaToMonastir' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_FightLisaToMonastir' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m2_GiveDisk2ToOrakul' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'MrShlyapa3_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m1_ArtAntipod_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m1_TakeNarcotics_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m1_KillGodFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'MrShlyapaSecret' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_GetSupportOneOfTheBands2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_GetSupportOneOfTheBands1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_FindVerbInAR_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_FindVerbInSNG_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_PatrulSideSNG_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_TakeGeneralOfBandits_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m1_TW_AlienInShip' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Podderzhka_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Zashita_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'preEretik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'ReturnQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_FindVerbInAM_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'OdettIsDead_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Disk2OrakulLisa' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FindGomerB_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FreeExtremistLeader_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'KillExtremist_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m4_TalkWithOldTraderAboutSecondDisk' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'q_FindHusbent' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'RybakToOlm_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'AnanagaTech_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'MrShlyapa2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'ToCordanToTikhomir_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_BonnyAndKlideQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_ArchHelp' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_CrazyManQuest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_OldTownOutsiderCar2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FightForPesht' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_RideAcrossBase_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_GiveMoneyToBase_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_GetBomb_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_IntrigaOfMerMinin_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_MoveFreelancersToOilMine_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_MoveCanistraToMinin_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_OpenTunel_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_TalkWithThiefFromFatherHouse' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_MoveToOraculAfterThief' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_ToLisaToAsgard' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_TW_OralceAboutAlien' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_DestroyRadiationSource' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m1_DestroyAlienShip' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_PayWorkersMoney_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r2m1_TW_SellsCivilian' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'MorskieVrata2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Zachisti1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'LisaVPeshte' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'LisaUBena' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'WhereSigns_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'CombatInKollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'BuyKollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Kollizey_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'HelpRuins_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'DestroyRuins_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'DestroyRuins2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Signs_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'MrShlyapa1_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FindBen2_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_FindHouseOfBen_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m2_TW_BanAboutAlien' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m3_DestroyOracle' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Pomiritsa_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'VYar_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FindBenMZ_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'QuickFindBen' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'OpenMid_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'TalkBeforeDesert' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'ZashitaGotova' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FakeQuest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Chehly_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'WorkGiver_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_PunishBandits_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m1_Hospital_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m1_Botanik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'r1m1_FindBotanik_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'Buyer_Quest1' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FirstTimePlay' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'TalkWithFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'LisaAtSouth' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FindBen_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'FindBenAgain_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'd_SinFather_Quest' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'TalkToVasily' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'CheckTheEast' can be given now
+I       QuestState.cpp[0904]25/08 21:23:25 Quest 'BenSouth_Quest' can be given now
+I           server.cpp[0826]25/08 21:23:25 	AI: QuestStates loaded
+I           server.cpp[0828]25/08 21:23:25 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]25/08 21:23:26 		 Scene loading begin
+E     DynamicScene.cpp[1589]25/08 21:23:26 Attempting to load object Mariupol_Workshop of prototype workshop, but an object with this name already exists!
+I     DynamicScene.cpp[1472]25/08 21:23:26 		 Scene loading end
+I           server.cpp[0837]25/08 21:23:26 	AI: DynamicScene loaded
+I           server.cpp[0852]25/08 21:23:26 	AI: Loading Triggers
+I           server.cpp[0855]25/08 21:23:26 	AI: Triggers loaded
+I           server.cpp[0857]25/08 21:23:26 	AI: Loading Object Names
+I           server.cpp[0868]25/08 21:23:26 	AI: Initing Player
+I           server.cpp[0888]25/08 21:23:26 		Before first Update
+I DynamicQuestManager.cpp[0089]25/08 21:23:26 DynamicQuestReach id = 13148 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]25/08 21:23:26 targetName = 'Topolinoe_Village', hirerName = 'PetrolStationTown6302', reward = 250
+I DynamicQuestManager.cpp[0089]25/08 21:23:26 DynamicQuestReach id = 13149 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]25/08 21:23:26 targetName = 'Mariupol_Village', hirerName = 'Zavod_NGP', reward = 250
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 13151 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 13152 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 13154 prototype = 'hunter01L' name = 'BASKET_SIDE_GUN_L', modelName = hunter01L
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for RocketLauncher id = 13155 prototype = 'hunter01R' name = 'BASKET_SIDE_GUN_R', modelName = hunter01R
+I DynamicQuestManager.cpp[0089]25/08 21:23:26 DynamicQuestReach id = 13164 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]25/08 21:23:26 targetName = 'Topolinoe_Village', hirerName = 'Mariupol_Village', reward = 250
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13165 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13166 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13167 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13168 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13169 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13170 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13171 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13172 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13173 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13174 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13175 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13176 prototype = 'minePusher', modelName = minoYkladchiK
+I DynamicQuestManager.cpp[0089]25/08 21:23:26 DynamicQuestDestroy id = 13177 prototype = 'dynamicQuestDestroy' created
+I DynamicQuestManager.cpp[0090]25/08 21:23:26 targetName = 'u6', hirerName = 'Makedonovka_Village', reward = 350
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13178 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13179 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13180 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13181 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13182 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13183 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13184 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13185 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13186 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13187 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13188 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13189 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13190 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13191 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13192 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13193 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13194 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13195 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13196 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13197 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13198 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13199 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13200 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13201 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13202 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13203 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13204 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13205 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13206 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13207 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13208 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13209 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13210 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13211 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13212 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13213 prototype = 'minePusher', modelName = minoYkladchiK
+I DynamicQuestManager.cpp[0089]25/08 21:23:26 DynamicQuestReach id = 13214 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]25/08 21:23:26 targetName = 'PetrolStationTown6302', hirerName = 'Topolinoe_Village', reward = 250
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13215 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13216 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13217 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13218 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13219 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13220 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13221 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13222 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13223 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13224 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13225 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:23:26 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:23:26 Error: LoadPoint not found: LP_GUN for MinePusher id = 13226 prototype = 'minePusher', modelName = minoYkladchiK
+I           server.cpp[0909]25/08 21:23:26 		After first Update
+I           server.cpp[0911]25/08 21:23:26 AI: Finished Loading Server
+I           view32.cpp[1106]25/08 21:23:26 Load server end
+I        QuestInfo.cpp[0847]25/08 21:23:26 Quest infos were loaded successfully from file data\if\diz\QuestInfoGlobal.xml
+I        QuestInfo.cpp[0783]25/08 21:23:26 QuestInfo manager was inited successfully
+I    GameUiManager.cpp[0303]25/08 21:23:26 Interface: is initializing...
+I    GameUiManager.cpp[0395]25/08 21:23:26 Interface: is inited successfully
+I     GlobalMapWnd.cpp[0157]25/08 21:23:26 Make control error: control mainmenu_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]25/08 21:23:26 Make control error: control r1m8_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]25/08 21:23:26 Make control error: control r1m7_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]25/08 21:23:26 Make control error: control r4m0_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0157]25/08 21:23:26 Make control error: control r9m1_ico is not found or incorrect type
+I     GlobalMapWnd.cpp[0203]25/08 21:23:26 GlobalMapWnd: error - fail to init because of a bad resource
+I blockMusicManager.cpp[0185]25/08 21:23:26 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+I           m3dapp.cpp[1350]25/08 21:23:29 input: CInput_di8::GetLastKbdEvent() error - cannot translate key wit scan code 731
+I           m3dapp.cpp[1350]25/08 21:23:29 input: CInput_di8::GetLastKbdEvent() error - cannot translate key wit scan code 219
+I           m3dapp.cpp[1336]25/08 21:23:58 d3d: Device reset ok
+I       console_string[0236]25/08 21:24:13 ---------------------- CHEAT WAS USED --------- ANTICHEAT -----------------
+I        FadingMsg.cpp[0199]25/08 21:24:13 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+I        FadingMsg.cpp[0199]25/08 21:24:13 Fading message: '@FFFF1493Обнаружено использование чит-кодов. Система достижений @FFFF0000ЗАБЛОКИРОВАНА. @FFFF1493В техподдержке @FFFF0000ОТКАЗАНО.'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 29574 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 29574 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 29574 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:24:14 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 13235 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:24:14 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 13267 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:14 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 13272 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:14 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 13272 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:14 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 13272 prototype = 'Ural02'
+I             util.cpp[0423]25/08 21:24:23 Maximum joint count reached: 23
+I             util.cpp[0423]25/08 21:24:23 Maximum joint count reached: 24
+I             util.cpp[0423]25/08 21:24:23 Maximum joint count reached: 26
+E ComplexPhysicObj.cpp[1428]25/08 21:24:48 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 783311 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:48 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 783311 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:48 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 783311 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:24:48 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 29671 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:24:48 Error: attempt to apply affix 'excellent_gun' for property 'Accuracy' of RocketLauncher id = 29671 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:48 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 29616 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:24:48 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 29701 prototype = 'Fighter02'
+I        FadingMsg.cpp[0199]25/08 21:24:59 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+E ComplexPhysicObj.cpp[1428]25/08 21:25:17 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 340928 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:25:17 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 127981 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:25:17 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127981 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:25:17 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127981 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:25:17 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 521242 prototype = 'Ural01'
+I           m3dapp.cpp[1336]25/08 21:25:58 d3d: Device reset ok
+E ComplexPhysicObj.cpp[1428]25/08 21:26:08 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 62487 prototype = 'Fighter02'
+E            Affix.cpp[0075]25/08 21:26:08 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 701389 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 127989 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127989 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127989 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 816179 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 816083 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 46206 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 78820 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 78820 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:50 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 78820 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 62636 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 832467 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 46312 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 144373 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 78852 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 46233 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 62542 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 62542 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 62542 prototype = 'Ural02'
+E            Affix.cpp[0075]25/08 21:26:59 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of Mortar id = 95147 prototype = 'bumblebee01'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 848929 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 848929 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:26:59 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 848929 prototype = 'Ural02'
+I blockMusicManager.cpp[0185]25/08 21:27:07 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:27:07 Fading message: 'Умриииии!!'
+I             util.cpp[0423]25/08 21:27:09 Maximum joint count reached: 27
+I blockMusicManager.cpp[0199]25/08 21:27:09 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:27:09 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+I        FadingMsg.cpp[0199]25/08 21:27:10 Fading message: 'Тысяча чертей!'
+I        FadingMsg.cpp[0199]25/08 21:27:13 Fading message: 'Увидимся в аду!'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 930802 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 930802 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 930802 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:27:20 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 243034 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 78978 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 127959 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127959 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127959 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 79020 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 30044 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:27:20 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 29974 prototype = 'Fighter02'
+I blockMusicManager.cpp[0185]25/08 21:27:27 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:27:29 Fading message: 'Похоже, мы не одни.'
+I blockMusicManager.cpp[0199]25/08 21:27:31 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:27:31 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+I        FadingMsg.cpp[0199]25/08 21:27:32 Fading message: 'Так будет с каждым!'
+I           m3dapp.cpp[1336]25/08 21:27:52 d3d: Device reset ok
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 275903 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 275903 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 275903 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:28:13 Error: attempt to apply affix 'excellent_gun' for property 'Accuracy' of RocketLauncher id = 128115 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 160778 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 160778 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 160778 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 95430 prototype = 'Fighter02'
+E            Affix.cpp[0075]25/08 21:28:13 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 521256 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 259417 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 30104 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 46345 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 46345 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:13 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 46345 prototype = 'Ural02'
+I blockMusicManager.cpp[0185]25/08 21:28:17 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:28:17 Fading message: 'Умриииии!!'
+I blockMusicManager.cpp[0185]25/08 21:28:19 BlockMusicManager: start playing new music: blockNum = 17, musicType = 2, name = 'r8_1_battle'
+I        FadingMsg.cpp[0199]25/08 21:28:20 Fading message: 'Тысяча чертей!'
+I        FadingMsg.cpp[0199]25/08 21:28:24 Fading message: 'За что?'
+I blockMusicManager.cpp[0199]25/08 21:28:26 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:28:26 BlockMusicManager: start playing new music: blockNum = 15, musicType = 0, name = 'r8_1_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:32 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 603608 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:32 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 1308032 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:32 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1308032 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:32 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1308032 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:32 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 439794 prototype = 'Fighter02'
+E            Affix.cpp[0075]25/08 21:28:32 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 111819 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:32 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 95471 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:28:32 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 996750 prototype = 'Fighter02'
+I        FadingMsg.cpp[0199]25/08 21:28:53 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]25/08 21:28:54 TownMusicManager: start playing new music: 'Donb_town_g4'
+I blockMusicManager.cpp[0199]25/08 21:29:09 BlockMusicManager: resetting
+I        FadingMsg.cpp[0199]25/08 21:29:09 Fading message: 'Начался тяжелый трудовой день.'
+I blockMusicManager.cpp[0185]25/08 21:29:09 BlockMusicManager: start playing new music: blockNum = 16, musicType = 0, name = 'r8_2_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 587152 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 62921 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 95546 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 95491 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 95491 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 95491 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 2077649 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 2077649 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:29:10 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 2077649 prototype = 'Ural02'
+I             util.cpp[0423]25/08 21:29:22 Maximum joint count reached: 28
+I           m3dapp.cpp[1350]25/08 21:29:28 input: CInput_di8::GetLastKbdEvent() error - cannot translate key wit virtual key code 44
+I           m3dapp.cpp[1350]25/08 21:29:28 input: CInput_di8::GetLastKbdEvent() error - cannot translate key wit virtual key code 44
+I           m3dapp.cpp[1336]25/08 21:30:58 d3d: Device reset ok
+I           m3dapp.cpp[1336]25/08 21:31:16 d3d: Device reset ok
+I        FadingMsg.cpp[0199]25/08 21:31:23 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 1061843 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1061843 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1061843 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 2094033 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 308731 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 308731 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 308731 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 193559 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 243189 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 308559 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 308559 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 308559 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:31:25 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 226263 prototype = 'Fighter02'
+I        FadingMsg.cpp[0199]25/08 21:32:15 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]25/08 21:32:19 TownMusicManager: start playing new music: 'techno_town1'
+I blockMusicManager.cpp[0199]25/08 21:32:28 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:32:28 BlockMusicManager: start playing new music: blockNum = 16, musicType = 0, name = 'r8_2_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:32:58 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 276104 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:32:58 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 620033 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:32:58 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 620033 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:32:58 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 620033 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:32:58 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 292502 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:32:58 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 292502 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:32:58 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 292502 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:19 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 79465 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:19 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 685187 prototype = 'Fighter02'
+E            Affix.cpp[0075]25/08 21:33:19 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 963536 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 1176782 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:20 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1046082 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:20 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 112023 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:20 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 112023 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:20 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 112023 prototype = 'Ural02'
+I blockMusicManager.cpp[0185]25/08 21:33:23 BlockMusicManager: start playing new music: blockNum = 16, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:33:25 Fading message: 'Умриииии!!'
+I        FadingMsg.cpp[0199]25/08 21:33:28 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I blockMusicManager.cpp[0199]25/08 21:33:28 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:33:28 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+I             util.cpp[0423]25/08 21:33:28 Maximum joint count reached: 34
+I             util.cpp[0423]25/08 21:33:29 Maximum joint count reached: 44
+I             util.cpp[0423]25/08 21:33:29 Maximum joint count reached: 49
+I blockMusicManager.cpp[0185]25/08 21:33:30 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:33:32 Fading message: 'Тысяча чертей!'
+I        FadingMsg.cpp[0199]25/08 21:33:37 Fading message: 'Ах ты, гадина!'
+I blockMusicManager.cpp[0199]25/08 21:33:39 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:33:39 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 504798 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 504798 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 504798 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 521488 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 521488 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 521488 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 980113 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 980113 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 980113 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:33:40 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 374105 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:33:40 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 652730 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:33:40 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 652730 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:33:40 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 652730 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 914876 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 160921 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 160921 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 160921 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:33:40 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 783236 prototype = 'Fighter02'
+I        FadingMsg.cpp[0199]25/08 21:33:44 Fading message: 'Нажмите (%1m), чтобы поднять груз'
+I        FadingMsg.cpp[0199]25/08 21:33:44 Fading message: 'Вы подняли предмет: %1s'
+I        FadingMsg.cpp[0199]25/08 21:33:44 Fading message: 'Вы подняли предмет: %1s'
+I        FadingMsg.cpp[0199]25/08 21:33:55 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I blockMusicManager.cpp[0185]25/08 21:33:56 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I townMusicManager.cpp[0096]25/08 21:33:56 TownMusicManager: start playing new music: 'Donb_town_g3'
+I blockMusicManager.cpp[0199]25/08 21:33:59 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:33:59 BlockMusicManager: start playing new music: blockNum = 16, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:34:02 Fading message: 'Смерть бандитам!'
+I blockMusicManager.cpp[0185]25/08 21:34:02 BlockMusicManager: start playing new music: blockNum = 16, musicType = 2, name = 'r8_1_battle'
+I        FadingMsg.cpp[0199]25/08 21:34:07 Fading message: 'Проклятье!'
+I        FadingMsg.cpp[0199]25/08 21:34:11 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I        FadingMsg.cpp[0199]25/08 21:34:17 Fading message: 'Должен остаться только один!'
+I        FadingMsg.cpp[0199]25/08 21:34:21 Fading message: 'Умриииии!!'
+I        FadingMsg.cpp[0199]25/08 21:34:22 Fading message: 'Нажмите (%1m), чтобы поднять груз'
+E ComplexPhysicObj.cpp[1428]25/08 21:34:23 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 734477 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:34:23 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 206877 prototype = 'Fighter02'
+E            Affix.cpp[0075]25/08 21:34:23 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 374297 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:34:23 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 374297 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:34:23 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 374297 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:34:23 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 79503 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:34:23 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 1340834 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:34:23 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 1095014 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:34:23 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 276126 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:34:23 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 112230 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:34:23 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 112230 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:34:23 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 112230 prototype = 'Ural02'
+I        FadingMsg.cpp[0199]25/08 21:34:24 Fading message: 'Проклятье!'
+I blockMusicManager.cpp[0199]25/08 21:34:29 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:34:29 BlockMusicManager: start playing new music: blockNum = 16, musicType = 0, name = 'r8_2_driving'
+I blockMusicManager.cpp[0185]25/08 21:34:49 BlockMusicManager: start playing new music: blockNum = 16, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:34:50 Fading message: 'Умриииии!!'
+I blockMusicManager.cpp[0185]25/08 21:34:51 BlockMusicManager: start playing new music: blockNum = 16, musicType = 2, name = 'r8_1_battle'
+I        FadingMsg.cpp[0199]25/08 21:34:54 Fading message: 'Проклятье!'
+I        FadingMsg.cpp[0199]25/08 21:34:56 Fading message: 'ААААААААА!'
+I        FadingMsg.cpp[0199]25/08 21:34:56 Fading message: 'Нажмите (%1m), чтобы поднять груз'
+I        FadingMsg.cpp[0199]25/08 21:34:59 Fading message: 'Вы подняли предмет: %1s'
+I     DynamicQuest.cpp[0279]25/08 21:35:02 Dynamic quest id 13177 status changed to FORGOTTEN
+I     DynamicQuest.cpp[0324]25/08 21:35:02 Dynamic quest id 13177 removed
+I DynamicQuestManager.cpp[0089]25/08 21:35:02 DynamicQuestReach id = 210461 prototype = 'dynamicQuestReach' created
+I DynamicQuestManager.cpp[0090]25/08 21:35:02 targetName = 'Berdanskoe_Village', hirerName = 'Makedonovka_Village', reward = 3255
+E ComplexPhysicObj.cpp[1428]25/08 21:35:05 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 223308 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:05 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 223308 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:05 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 223308 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:05 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 357442 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:06 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 701539 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:06 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 176565 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:06 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 63292 prototype = 'Fighter02'
+I blockMusicManager.cpp[0185]25/08 21:35:13 BlockMusicManager: start playing new music: blockNum = 16, musicType = 1, name = 'r8_1_alarm'
+I blockMusicManager.cpp[0185]25/08 21:35:14 BlockMusicManager: start playing new music: blockNum = 16, musicType = 2, name = 'r8_1_battle'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 1373058 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1373058 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1373058 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:35:19 Error: attempt to apply affix 'with_laser_sight_gun' for property 'Accuracy' of RocketLauncher id = 1586595 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 63245 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 63245 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 63245 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:35:19 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 931319 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:35:19 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 931319 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:35:19 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 586860 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 308317 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 79604 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 79604 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 79604 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 124474 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 124474 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:19 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 124474 prototype = 'Ural02'
+I blockMusicManager.cpp[0199]25/08 21:35:22 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:35:22 BlockMusicManager: start playing new music: blockNum = 15, musicType = 0, name = 'r8_1_driving'
+I        FadingMsg.cpp[0199]25/08 21:35:22 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]25/08 21:35:25 TownMusicManager: start playing new music: ''
+E           m3dapp.cpp[3625]25/08 21:35:25 Error: invalid music name: ''
+I blockMusicManager.cpp[0199]25/08 21:35:28 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:35:28 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 406530 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 406530 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 406530 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 194165 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 210183 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 96006 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 96006 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:35:36 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 96006 prototype = 'Ural02'
+I        FadingMsg.cpp[0199]25/08 21:35:43 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I blockMusicManager.cpp[0185]25/08 21:36:04 BlockMusicManager: start playing new music: blockNum = 17, musicType = 2, name = 'r8_1_battle'
+I        FadingMsg.cpp[0199]25/08 21:36:06 Fading message: 'Тысяча чертей!'
+I        FadingMsg.cpp[0199]25/08 21:36:12 Fading message: 'Первое орудие, пли!'
+I blockMusicManager.cpp[0185]25/08 21:36:20 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:36:22 Fading message: 'Тысяча чертей!'
+I blockMusicManager.cpp[0199]25/08 21:36:24 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:36:24 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+I        FadingMsg.cpp[0199]25/08 21:36:27 Fading message: 'Нажмите (%1m), чтобы поднять груз'
+I        FadingMsg.cpp[0199]25/08 21:36:28 Fading message: 'Вы подняли предмет: %1s'
+I        FadingMsg.cpp[0199]25/08 21:36:28 Fading message: 'Не хватает места в кузове. Для вызова окна снаряжения нажмите %1m'
+I        FadingMsg.cpp[0199]25/08 21:36:40 Fading message: 'Похоже, мы не одни.'
+I        FadingMsg.cpp[0199]25/08 21:36:40 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]25/08 21:36:42 TownMusicManager: start playing new music: 'Donb_town1'
+I blockMusicManager.cpp[0199]25/08 21:37:03 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:37:03 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 127823 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127823 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 127823 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:37:04 Error: attempt to apply affix 'with_laser_sight_gun' for property 'Accuracy' of RocketLauncher id = 1078212 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:37:04 Error: attempt to apply affix 'excellent_gun' for property 'Accuracy' of RocketLauncher id = 1078212 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 1668685 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1668685 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1668685 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 783383 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:04 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 341660 prototype = 'Fighter02'
+I blockMusicManager.cpp[0185]25/08 21:37:04 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:37:06 Fading message: 'Тысяча чертей!'
+I blockMusicManager.cpp[0199]25/08 21:37:06 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:37:06 BlockMusicManager: start playing new music: blockNum = 16, musicType = 0, name = 'r8_2_driving'
+I        FadingMsg.cpp[0199]25/08 21:37:09 Fading message: 'ААААААААА!'
+I        FadingMsg.cpp[0199]25/08 21:37:25 Fading message: 'Нажмите (%1m), чтобы поднять груз'
+I        FadingMsg.cpp[0199]25/08 21:37:26 Fading message: 'Вы подняли предмет: %1s'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 439971 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 439971 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 439971 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:37:34 Error: attempt to apply affix 'excellent_gun' for property 'Accuracy' of RocketLauncher id = 177863 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1488434 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 898484 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 538107 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 538107 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 538107 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:37:34 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 423171 prototype = 'Fighter02'
+I blockMusicManager.cpp[0185]25/08 21:37:36 BlockMusicManager: start playing new music: blockNum = 16, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:37:37 Fading message: 'Зацепило!'
+I        FadingMsg.cpp[0199]25/08 21:37:39 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I blockMusicManager.cpp[0199]25/08 21:37:42 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:37:42 BlockMusicManager: start playing new music: blockNum = 17, musicType = 0, name = 'r8_3_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 419923 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 1569666 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1569666 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1569666 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 816349 prototype = 'Fighter02'
+E            Affix.cpp[0075]25/08 21:38:03 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 243407 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 374553 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 1322612 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1225685 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:03 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1668515 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 764008 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 764008 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 764008 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 259785 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 259785 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:14 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 259785 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:38:14 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 1553773 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:38:14 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 145195 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:14 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1060469 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:38:42 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1865431 prototype = 'Fighter02'
+I blockMusicManager.cpp[0185]25/08 21:38:46 BlockMusicManager: start playing new music: blockNum = 17, musicType = 1, name = 'r8_1_alarm'
+I        FadingMsg.cpp[0199]25/08 21:38:46 Fading message: 'Умриииии!!'
+I        FadingMsg.cpp[0199]25/08 21:38:52 Fading message: 'Зацепило!'
+I blockMusicManager.cpp[0199]25/08 21:38:52 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:38:52 BlockMusicManager: start playing new music: blockNum = 15, musicType = 0, name = 'r8_1_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1455889 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 554424 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 554424 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 554424 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:39:07 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 865501 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:39:07 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 865501 prototype = 'hunterLauncher'
+E          Vehicle.cpp[5160]25/08 21:39:07 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 210748 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 3012029 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 3012029 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 3012029 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1275358 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 92235 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 92235 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 92235 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:39:07 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 1553352 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 1701168 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1701168 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:39:07 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 1701168 prototype = 'Hunter02'
+I blockMusicManager.cpp[0185]25/08 21:39:18 BlockMusicManager: start playing new music: blockNum = 15, musicType = 1, name = 'r8_1_alarm'
+I blockMusicManager.cpp[0199]25/08 21:39:22 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:39:22 BlockMusicManager: start playing new music: blockNum = 16, musicType = 0, name = 'r8_2_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 341734 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 1898000 prototype = 'Fighter02'
+E          Vehicle.cpp[5160]25/08 21:40:24 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E          Vehicle.cpp[5160]25/08 21:40:24 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 505550 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 505550 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 505550 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 406779 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 406779 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 406779 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 3028413 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 652886 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 652886 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 307637 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 307637 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:40:24 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 307637 prototype = 'Hunter02'
+I     ObjContainer.cpp[1278]25/08 21:40:59 Passing to map 'r4m0', location 'FromR8M1', angle = -1, immediate = 0
+I        PhysicObj.cpp[0313]25/08 21:41:01 Vehicle 'PlayerVehicle_0_0' id=29609 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is NOT visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29596 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29594 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29592 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29590 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29588 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29586 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29584 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:41:01 Wheel '' id=29582 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:41:01 Object is  visible in SetPassed...
+I        SplashWnd.cpp[0244]25/08 21:41:01 Start splashing 11
+I   TruxxUiManager.cpp[1422]25/08 21:41:01 Game mode changed. Old mode = 0, new mode = 0
+I    GameUiManager.cpp[0405]25/08 21:41:02 Interface: is clearing...
+I    GameUiManager.cpp[0495]25/08 21:41:02 Interface: is cleared successfully
+I           view32.cpp[1048]25/08 21:41:02 -- Loading Level: data\maps\r4m0.ssl --
+I            world.cpp[0132]25/08 21:41:02 ----------------------- World Loading
+F        landscape.cpp[1674]25/08 21:41:02  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]25/08 21:41:02  |  ----------------------- Normal map loaded in: 26
+I        landscape.cpp[1920]25/08 21:41:02  |  ----------------------- Tiles loaded in: 25
+I        landscape.cpp[1944]25/08 21:41:03  |  ----------------------- ShoreLine loaded in: 1
+F        landscape.cpp[1944]25/08 21:41:03  +- Exit function: Landscape::Load()
+I            world.cpp[0169]25/08 21:41:03 ----------------------- Landscape loaded in: 124
+I       DataServer.cpp[0587]25/08 21:41:03 Loading Servers: data\maps\r4m0\servers.xml
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = barrel1_dyn
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = barrel3_dyn
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = brick_dot1gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = brick_dot2gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\Ammo\plasma01.gam
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\ammo\shell_big_gun01.gam
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\ammo\shell_big_gun02.gam
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\ammo\shell_sml_pulemet01.gam
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\buildings\region1\brick_debris1.gam
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = data\models\buildings\region1\wood_debris1.gam
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = dungeon_1
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = dungeon_1_dead
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot1gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot2gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot3gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = heavy_dot4gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = sack_dot1gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = sack_dot2gun
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = shell
+E serverAnimatedModel.cpp[0627]25/08 21:41:03 ServerAnimatedModels: cannot read file: file:data\models\AnimModels.xml id = tankSusp01
+I serverAnimatedModel.cpp[0630]25/08 21:41:03 ### Total time: 188, GAM time: 78
+E      serverSound.cpp[0293]25/08 21:41:03 MusicServer: cannot read file: data\sounds\sounds.xml id = 'Fake_Sound_Do_Not_Use_It'
+I       DataServer.cpp[0587]25/08 21:41:03 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]25/08 21:41:03 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]25/08 21:41:03 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]25/08 21:41:03 ----------------------- Servers loaded in: 419
+I            world.cpp[0338]25/08 21:41:03 LoadWorld begin...
+I            world.cpp[0350]25/08 21:41:03 %%%% read/parse xml: 18
+I            world.cpp[0362]25/08 21:41:03 %%%% read from xml: 1
+I            world.cpp[0444]25/08 21:41:03 %%%% link nodes: 25
+I            world.cpp[0220]25/08 21:41:03 ----------------------- Nodes loaded in: 45
+I            world.cpp[0228]25/08 21:41:03 ----------------------- Prefabs loaded in: 0
+I            world.cpp[0247]25/08 21:41:03 ----------------------- World loaded in: 847
+E        GamParser.cpp[0399]25/08 21:41:03 AnimatedModel::LoadGAM -- cannot open file data\models\roads\road_small_highway\small_highway_end.gam-
+I      roadManager.cpp[0139]25/08 21:41:03 RoadManager error( model not loaded ): data\models\roads\road_small_highway\small_highway_end.gam-
+I            world.cpp[0278]25/08 21:41:03 ----------------------- Roads loaded in: 88
+I           view32.cpp[1078]25/08 21:41:03 Load Server begin...
+I    GameUiManager.cpp[1603]25/08 21:41:03 Interface: loading resources ...
+I   TruxxUiManager.cpp[0974]25/08 21:41:03 Interface: is loaded successfully
+I           server.cpp[0789]25/08 21:41:03 AI: Loading Server...
+I           server.cpp[0801]25/08 21:41:03 	AI: Loading SoilProps
+I           server.cpp[0804]25/08 21:41:03 	AI: Loading ExternalPaths
+I           server.cpp[0807]25/08 21:41:03 	AI: Loading PlayerPassMap
+I           server.cpp[0820]25/08 21:41:03 	AI: Refreshing GameObjects
+E      VehiclePart.cpp[0138]25/08 21:41:03 Error: collision geom in vehicle part name = 'heavy_dot1' is not BOX
+I           server.cpp[0824]25/08 21:41:03 	AI: Loading QuestStates
+I           server.cpp[0826]25/08 21:41:03 	AI: QuestStates loaded
+I           server.cpp[0828]25/08 21:41:03 	AI: Loading DynamicScene
+I     DynamicScene.cpp[1470]25/08 21:41:03 		 Scene loading begin
+E     DynamicScene.cpp[1589]25/08 21:41:03 Attempting to load object Player1 of prototype player, but an object with this name already exists!
+I      PassageData.cpp[0063]25/08 21:41:03 New position is set to passed vehicle: 1599.109 287.028 3790.769
+I     DynamicScene.cpp[1472]25/08 21:41:03 		 Scene loading end
+I           server.cpp[0837]25/08 21:41:03 	AI: DynamicScene loaded
+I           server.cpp[0852]25/08 21:41:03 	AI: Loading Triggers
+I           server.cpp[0855]25/08 21:41:03 	AI: Triggers loaded
+I           server.cpp[0857]25/08 21:41:03 	AI: Loading Object Names
+I           server.cpp[0868]25/08 21:41:03 	AI: Initing Player
+I           server.cpp[0888]25/08 21:41:03 		Before first Update
+I DynamicQuestManager.cpp[0089]25/08 21:41:03 DynamicQuestHunt id = 120 prototype = 'dynamicQuestHunt' created
+I DynamicQuestManager.cpp[0090]25/08 21:41:03 targetName = 'PlayerVehicle_0_0', hirerName = 'CrazyDeadDesert_Village', reward = 1141
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 121 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 122 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 123 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 124 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 125 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 126 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 127 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 128 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 129 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 130 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 131 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'minoYkladchiKGun'
+E              Gun.cpp[0866]25/08 21:41:03 Error: LoadPoint not found: LP_GUN for MinePusher id = 132 prototype = 'minePusher', modelName = minoYkladchiK
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'Paris'
+E           client.cpp[0082]25/08 21:41:03 Error: Cant find server item for name: 'boss04chassis'
+I       MsgManager.cpp[0483]25/08 21:41:03 MsgManager::ShowMsgBox error - MsgInfo for msg with id 8801 not found
+I           server.cpp[0909]25/08 21:41:03 		After first Update
+I           server.cpp[0911]25/08 21:41:03 AI: Finished Loading Server
+I           view32.cpp[1106]25/08 21:41:03 Load server end
+I    GameUiManager.cpp[0303]25/08 21:41:04 Interface: is initializing...
+I    GameUiManager.cpp[0395]25/08 21:41:04 Interface: is inited successfully
+I blockMusicManager.cpp[0199]25/08 21:41:04 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:41:04 BlockMusicManager: start playing new music: blockNum = 9, musicType = 0, name = 'r4_0_driving'
+E              Gun.cpp[0866]25/08 21:42:59 Error: LoadPoint not found: LP_GUN for ThunderboltLauncher id = 16513 prototype = 'zeus01L' name = 'BASKET_SIDE_GUN_L', modelName = zeus01L
+E              Gun.cpp[0866]25/08 21:42:59 Error: LoadPoint not found: LP_GUN for ThunderboltLauncher id = 16511 prototype = 'zeus01R' name = 'BASKET_SIDE_GUN_R', modelName = zeus01R
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 144 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 158 prototype = 'Fighter02'
+E            Affix.cpp[0075]25/08 21:43:08 Error: attempt to apply affix 'with_laser_sight_gun' for property 'Accuracy' of RocketLauncher id = 188 prototype = 'hunterLauncher'
+E          Vehicle.cpp[5160]25/08 21:43:08 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 208 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 208 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 208 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:43:08 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 220 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:43:08 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 220 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:43:08 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 220 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 222 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 222 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 222 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:43:08 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 247 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 262 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 279 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 319 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 319 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 333 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 333 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 347 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 347 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 374 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 374 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 374 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 388 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 388 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 402 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 402 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 402 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 416 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 416 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 416 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:43:08 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 428 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:43:08 Error: LoadPoint not found! Model = 'belazCab05', lp = LP_SML01 for Vehicle id = 430 prototype = 'Belaz01'
+I blockMusicManager.cpp[0185]25/08 21:43:21 BlockMusicManager: start playing new music: blockNum = 9, musicType = 2, name = 'r4_1_battle'
+I blockMusicManager.cpp[0199]25/08 21:43:32 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:43:32 BlockMusicManager: start playing new music: blockNum = 9, musicType = 0, name = 'r4_0_driving'
+I        FadingMsg.cpp[0199]25/08 21:43:45 Fading message: 'Нажмите гудок (%1m) для въезда в город'
+I townMusicManager.cpp[0096]25/08 21:43:46 TownMusicManager: start playing new music: 'Bio07unloop'
+I     DynamicQuest.cpp[0279]25/08 21:43:57 Dynamic quest id 120 status changed to PROCESSING
+I blockMusicManager.cpp[0199]25/08 21:44:03 BlockMusicManager: resetting
+I        FadingMsg.cpp[0199]25/08 21:44:03 Fading message: 'Наступила ночь.'
+I blockMusicManager.cpp[0185]25/08 21:44:03 BlockMusicManager: start playing new music: blockNum = 9, musicType = 0, name = 'r4_0_driving'
+E            Affix.cpp[0075]25/08 21:44:23 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 16656 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 16653 prototype = 'Fighter02'
+E          Vehicle.cpp[5160]25/08 21:44:23 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E          Vehicle.cpp[5160]25/08 21:44:23 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E          Vehicle.cpp[5160]25/08 21:44:23 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 33203 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 16573 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 16552 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 16552 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 16535 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 16535 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 16788 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 16788 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 16788 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 16748 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 16748 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:44:23 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 16748 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 164140 prototype = 'Fighter02'
+E          Vehicle.cpp[5160]25/08 21:45:12 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 32991 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 32991 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 32991 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:45:12 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 33064 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:45:12 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 33064 prototype = 'hunterLauncher'
+E          Vehicle.cpp[5160]25/08 21:45:12 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 32968 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 33000 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 33000 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 33000 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 82055 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 49577 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 49513 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 49513 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 49494 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 49494 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 33091 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 33091 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 33059 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 33059 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:45:12 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 33059 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:46:43 Error: attempt to apply affix 'with_laser_sight_gun' for property 'Accuracy' of Mortar id = 49415 prototype = 'bumblebee01'
+E          Vehicle.cpp[5160]25/08 21:46:43 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 65949 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 65949 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 65949 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:46:43 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 49324 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:46:43 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 49324 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 49381 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 49381 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 49381 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:46:43 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 49515 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:46:43 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 49515 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 49389 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 65916 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 98750 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 49450 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 49450 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 49450 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 49544 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 49544 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 65864 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 180524 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 180524 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 49431 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 49431 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 49431 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 49314 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 49314 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'belazCab05', lp = LP_SML01 for Vehicle id = 65952 prototype = 'Belaz01'
+E            Affix.cpp[0075]25/08 21:46:43 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 49386 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 49353 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 49353 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:46:43 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 49353 prototype = 'Hunter02'
+I blockMusicManager.cpp[0185]25/08 21:47:01 BlockMusicManager: start playing new music: blockNum = 9, musicType = 1, name = 'r4_1_alarm'
+I     DynamicQuest.cpp[0279]25/08 21:47:04 Dynamic quest id 120 status changed to COMPLETE
+I        FadingMsg.cpp[0199]25/08 21:47:04 Fading message: 'Охота завершена. Каждый уничтоженный грузовик был оплачен.'
+I DynamicQuestManager.cpp[0089]25/08 21:47:04 DynamicQuestHunt id = 442544 prototype = 'dynamicQuestHunt' created
+I DynamicQuestManager.cpp[0090]25/08 21:47:04 targetName = 'PlayerVehicle_0_0', hirerName = 'CrazyDeadDesert_Village', reward = 1549
+I blockMusicManager.cpp[0185]25/08 21:47:05 BlockMusicManager: start playing new music: blockNum = 9, musicType = 2, name = 'r4_1_battle'
+I blockMusicManager.cpp[0199]25/08 21:47:23 BlockMusicManager: resetting
+I blockMusicManager.cpp[0185]25/08 21:47:23 BlockMusicManager: start playing new music: blockNum = 9, musicType = 0, name = 'r4_0_driving'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 33298 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 82214 prototype = 'Fighter02'
+E          Vehicle.cpp[5160]25/08 21:48:15 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E          Vehicle.cpp[5160]25/08 21:48:15 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 16902 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 16869 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 16869 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 16869 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 180685 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 180685 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 180685 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 98623 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 82125 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 82125 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 98704 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 98704 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 98556 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 98556 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:48:15 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 98556 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:48:15 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 98724 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:48:15 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 98724 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:03 Error: attempt to apply affix 'excellent_gun' for property 'Accuracy' of Mortar id = 33256 prototype = 'bumblebee01'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 33258 prototype = 'Fighter02'
+E          Vehicle.cpp[5160]25/08 21:49:03 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 98691 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 98691 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 98691 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:49:03 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 98531 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:03 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 98531 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 98711 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 131537 prototype = 'Ural01'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 98591 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 98591 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG02 for Vehicle id = 98591 prototype = 'Ural02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 115007 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 115007 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 33288 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 33288 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 33288 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 33305 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 33305 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:03 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 33305 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:49:03 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 344337 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'excellent_gun' for property 'Accuracy' of RocketLauncher id = 180648 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'with_laser_sight_gun' for property 'Accuracy' of RocketLauncher id = 180648 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 180648 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'with_laser_sight_gun' for property 'Accuracy' of RocketLauncher id = 180349 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 180349 prototype = 'hunterLauncher'
+E          Vehicle.cpp[5160]25/08 21:49:22 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E          Vehicle.cpp[5160]25/08 21:49:22 Error: LoadPoint not found: LP_SSP03L for model 'dozerChassis'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'uralCab01', lp = LP_BIG01 for Vehicle id = 49672 prototype = 'Ural01'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 114975 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'without_sight_gun' for property 'Accuracy' of RocketLauncher id = 114975 prototype = 'hunterLauncher'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 114975 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'fighterCab01', lp = LP_BIG01 for Vehicle id = 131427 prototype = 'Fighter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'molokovozCab01', lp = LP_SML01 for Vehicle id = 49629 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'molokovozCargo01', lp = LP_BIG01 for Vehicle id = 49629 prototype = 'Molokovoz02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 114914 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 114914 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 114914 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'rusty_gun' for property 'Accuracy' of RocketLauncher id = 147782 prototype = 'hunterLauncher'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_BIG01 for Vehicle id = 147735 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 147735 prototype = 'Hunter02'
+E ComplexPhysicObj.cpp[1428]25/08 21:49:22 Error: LoadPoint not found! Model = 'hunterCab01', lp = LP_SML01 for Vehicle id = 147735 prototype = 'Hunter02'
+E            Affix.cpp[0075]25/08 21:49:22 Error: attempt to apply affix 'useless_gun' for property 'Accuracy' of RocketLauncher id = 245898 prototype = 'hunterLauncher'
+I     ObjContainer.cpp[1278]25/08 21:49:35 Passing to map 'r4m1', location 'FromR4M0', angle = -1, immediate = 0
+I     DynamicQuest.cpp[0279]25/08 21:49:37 Dynamic quest id 442544 status changed to FORGOTTEN
+I     DynamicQuest.cpp[0324]25/08 21:49:37 Dynamic quest id 442544 removed
+I        PhysicObj.cpp[0313]25/08 21:49:37 Vehicle 'PlayerVehicle_0_0' id=29609 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is NOT visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29596 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29594 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29592 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29590 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29588 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29586 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29584 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        PhysicObj.cpp[0313]25/08 21:49:37 Wheel '' id=29582 passes to another map
+I       PhysicBody.cpp[1171]25/08 21:49:37 Object is  visible in SetPassed...
+I        SplashWnd.cpp[0244]25/08 21:49:37 Start splashing 11
+I   TruxxUiManager.cpp[1422]25/08 21:49:37 Game mode changed. Old mode = 0, new mode = 0
+I    GameUiManager.cpp[0405]25/08 21:49:37 Interface: is clearing...
+I    GameUiManager.cpp[0495]25/08 21:49:37 Interface: is cleared successfully
+I           view32.cpp[1048]25/08 21:49:37 -- Loading Level: data\maps\r4m1.ssl --
+I            world.cpp[0132]25/08 21:49:37 ----------------------- World Loading
+F        landscape.cpp[1674]25/08 21:49:37  +- Enter function: Landscape::Load()
+I        landscape.cpp[1911]25/08 21:49:37  |  ----------------------- Normal map loaded in: 32
+I        landscape.cpp[1920]25/08 21:49:37  |  ----------------------- Tiles loaded in: 93
+I        landscape.cpp[1944]25/08 21:49:37  |  ----------------------- ShoreLine loaded in: 45
+F        landscape.cpp[1944]25/08 21:49:38  +- Exit function: Landscape::Load()
+I            world.cpp[0169]25/08 21:49:38 ----------------------- Landscape loaded in: 393
+I       DataServer.cpp[0587]25/08 21:49:38 Loading Servers: data\maps\r4m1\servers.xml
+I serverAnimatedModel.cpp[0630]25/08 21:49:38 ### Total time: 375, GAM time: 265
+I       DataServer.cpp[0587]25/08 21:49:38 Loading Servers: data\models\commonservers.xml
+E      serverMusic.cpp[0216]25/08 21:49:38 MusicServer: cannot read file: data\music\music.xml id = 'LaBelleTown'
+E      serverMusic.cpp[0216]25/08 21:49:38 MusicServer: cannot read file: data\music\music.xml id = 'block6_driving2'
+I            world.cpp[0210]25/08 21:49:38 ----------------------- Servers loaded in: 592
+I            world.cpp[0338]25/08 21:49:38 LoadWorld begin...
+I            world.cpp[0350]25/08 21:49:38 %%%% read/parse xml: 42
+I            world.cpp[0362]25/08 21:49:38 %%%% read from xml: 15
+I            world.cpp[0444]25/08 21:49:38 %%%% link nodes: 202
+I            world.cpp[0220]25/08 21:49:38 ----------------------- Nodes loaded in: 260
+I            world.cpp[0228]25/08 21:49:38 ----------------------- Prefabs loaded in: 0
+I            world.cpp[0247]25/08 21:49:39 ----------------------- World loaded in: 1381
