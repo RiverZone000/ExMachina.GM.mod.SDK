@@ -160,7 +160,7 @@
 			Id="PP_HELP_ID_GLOBAL_MAP">
 			<Value
 				GAIParam_Type="AIPARAM_ID"
-				GAIParam_Value="0" />
+				GAIParam_Value="1" />
 		</Param>
 
 		<Param

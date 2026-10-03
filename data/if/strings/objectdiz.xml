@@ -169,8 +169,8 @@
 		value="Дорога на Фатерлянд" />
 
 	<string
-		id="r1m1_ToR4M1_diz"
-		value="Дорога в Вахат" />
+		id="r1m1_ToR4M0_diz"
+		value="Дорога в Пустыню Смерти" />
 
 	<string
 		id="r1m1_ToR1M2_diz"
@@ -233,8 +233,8 @@
 		value="Выезд в Рощу друидов" />
 
 	<string
-		id="r4m1_ToR1M1_diz"
-		value="Выезд на Край" />
+		id="r4m1_ToR4M0_diz"
+		value="Выезд в Пустыню Смерти" />
 
 	<string
 		id="r4m1_ToR2M2_diz"

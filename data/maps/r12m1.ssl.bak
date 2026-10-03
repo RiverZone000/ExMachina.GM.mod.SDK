@@ -9,7 +9,7 @@
 			name="WEATHERTYPE">r1m1_clear01</Key>
 
 		<Key
-			name="CURRENTDAYTIME">3</Key>
+			name="CURRENTDAYTIME">1</Key>
 
 		<Key
 			name="PATH">data\maps\r12m1</Key>
@@ -213,19 +213,19 @@
 	<Section
 		name="CAMERA">
 		<Key
-			name="X">1171.762</Key>
+			name="X">948.897</Key>
 
 		<Key
-			name="Y">294.625</Key>
+			name="Y">302.943</Key>
 
 		<Key
-			name="Z">310.579</Key>
+			name="Z">229.361</Key>
 
 		<Key
-			name="A">-22.474</Key>
+			name="A">-25.281</Key>
 
 		<Key
-			name="B">-0.004</Key>
+			name="B">-0.154</Key>
 
 		<Key
 			name="G">0.000</Key>

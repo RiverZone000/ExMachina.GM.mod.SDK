@@ -375,6 +375,10 @@
 	<Object
 		Name="ToR1M3"
 		FullName="Дорога на Фатерлянд" />
+		
+	<Object
+		Name="ToR11M1"
+		FullName="Причал в Кайо-Перико" />
 
 	<Object
 		Name="u1"

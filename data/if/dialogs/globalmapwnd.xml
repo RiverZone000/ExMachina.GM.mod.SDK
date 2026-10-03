@@ -406,6 +406,29 @@
 			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
 			<Animations />
 		</Node>
+		
+		<Node
+			name="r4m0_ico"
+			class="ImageWnd"
+			org="615.000 367.000 12.000 12.000"
+			style="512"
+			order="13"
+			id="300000"
+			caption="Control"
+			tip=""
+			backimage=""
+			paneName="defaultWnd"
+			scrollPaneName="Scroll1"
+			paneFlags="0"
+			wrap="2"
+			format="1"
+			font="0"
+			clientEdges="0.000 0.000 0.000 0.000"
+			wndColor="00000000"
+			textColor="ffffffff"
+			image="data\if\ico\GlobalMap\Gmap_Ico_2.dds">
+			<Animations />
+		</Node>
 
 		<Node
 			name="lnHorz0"
