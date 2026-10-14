@@ -1,0 +1,12 @@
+---------------------------------------------- Log begins on Wed Oct 14 21:30:31 2026 ----------------------------------------------
+I          CeReply.cpp[0652]14/10 21:30:54 Replies were loaded successfully from file B:\ExMachina.GM.mod.SDK_\data\if\diz\dialogsglobal.xml
+I          CeQuest.cpp[0658]14/10 21:31:27 QuestManager::LoadFromXmlFile error - cannot find root node "quests"
+I      CeQuestInfo.cpp[0740]14/10 21:31:30 CeQuestInfoManager::LoadFromFile error - cannot find root node "QuestInfoResource"
+I          CeQuest.cpp[0658]14/10 21:31:51 QuestManager::LoadFromXmlFile error - cannot find root node "quests"
+I      CeQuestInfo.cpp[0764]14/10 21:31:52 Quest infos were loaded successfully from file B:\ExMachina.GM.mod.SDK_\data\if\diz\questinfoglobal.xml
+I          CeQuest.cpp[0658]14/10 21:32:48 QuestManager::LoadFromXmlFile error - cannot find root node "quests"
+----------------------------------------------- Log ends on Wed Oct 14 21:32:50 2026 -----------------------------------------------
+
+
+
+

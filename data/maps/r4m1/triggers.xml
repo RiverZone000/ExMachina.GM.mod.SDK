@@ -20,7 +20,7 @@
 	</trigger>
 <!--
 **************************************************************************************************
-** ‘î¦¥â
+** ï¿½î¦¥ï¿½
 **************************************************************************************************
 -->
 	<trigger	Name="trStartMap"	active="1">
@@ -212,7 +212,7 @@
 
 <!--
 **************************************************************************************************
-**  ¢ ªã æ¨ï ¢ ¯®àâ
+**  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½
 **************************************************************************************************
 -->
 	<trigger Name="trCreateBuharers" active="0">
@@ -389,7 +389,7 @@
 
 <!--
 **************************************************************************************************
-**  ‚§àë¢ë ¡®ç¥ª
+**  ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ç¥ª
 **************************************************************************************************
 -->
 	<trigger	Name="trBabah"	active="1">
@@ -453,8 +453,8 @@
  		</script>
 	</trigger>
 
-	<trigger Name="trExitToR1M1" active="1">
-		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="ExitFromMapToR1M1_loc" />
+	<trigger Name="trExitToR4M0" active="1">
+		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="ExitFromMapToR4M0_loc" />
 		<script>
 			GetPlayerVehicle():SetThrottle( 0 )
 			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
@@ -471,7 +471,7 @@
 
 					TDeactivate("trEngineerFree")
 
-					PassToMap("r1m1", "FromR4M1", -1)
+					PassToMap("r4m0", "FromR4M1", -1)
 				else
 --					println ( "No" )
 					TActivate("cinExit11ReturnFirst")

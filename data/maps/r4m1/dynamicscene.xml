@@ -2336,7 +2336,7 @@
 
 	<Object
 		Flags="21"
-		Name="ExitFromMapToR1M1_loc"
+		Name="ExitFromMapToR4M0_loc"
 		Belong="1100"
 		Prototype="genericLocation"
 		Pos="3003.475 278.972 7612.521"
